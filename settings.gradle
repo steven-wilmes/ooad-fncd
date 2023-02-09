@@ -1,0 +1,2 @@
+rootProject.name = 'ooad-fncd'
+include('ooad-fncd')

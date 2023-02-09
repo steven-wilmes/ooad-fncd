@@ -1,0 +1,8 @@
+/.idea
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+**/.gradle
+**/build
