@@ -1,4 +1,4 @@
-package staff;
+package classes.staff;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -38,21 +38,25 @@ public abstract class Staff {
     Random rng;
     
     /**
-     * Superclass constructor, chooses {@link #name} and creates {@link #rng}
+     * Superclass constructor, chooses {@link #name} and creates {@link #rng}. Sets cumulative values to 0.
      */
     public Staff() {
         rng = new Random();
         name = names.get(rng.nextInt(names.size()));
+        totalSalary = 0;
+        bonusEarned = 0;
+        daysWorked = 0;
+        employed = true;
     }
     
     /**
      * Increases {@link #bonusEarned}
      *
-     * @param bonus amount to add
+     * @param bonus_ amount to add
      */
-    public void giveBonus(double bonus) {
-        if (bonus >= 0) {
-            bonusEarned += bonus;
+    public void giveBonus(double bonus_) {
+        if (bonus_ >= 0) {
+            bonusEarned += bonus_;
         }
     }
     

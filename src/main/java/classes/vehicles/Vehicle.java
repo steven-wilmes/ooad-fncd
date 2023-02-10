@@ -1,4 +1,4 @@
-package vehicles;
+package classes.vehicles;
 
 public abstract class Vehicle {
     int cost;
