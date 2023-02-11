@@ -1,6 +1,6 @@
 package enums;
 
-public enum Clenliness {
+public enum Cleanliness {
     DIRTY,
     CLEAN,
     SPARKLING
