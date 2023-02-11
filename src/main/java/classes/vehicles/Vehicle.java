@@ -16,7 +16,7 @@ public abstract class Vehicle {
     /**
      * cost of the vehicle to the dealership
      */
-    double cost;
+    public double cost;
     
      /**
      * sales price of the vehicle to a buyer

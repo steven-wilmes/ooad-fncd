@@ -39,14 +39,14 @@ public class Dealership {
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
     public Dealership() {
-        staffMembers = new ArrayList<>();
+        staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
             staffMembers.add(new Salesperson());
             staffMembers.add(new Mechanic());
             staffMembers.add(new Intern());
         }
-        vehicleInventory = new ArrayList<>();
-        soldVehicles = new ArrayList<>();
+        vehicleInventory = new ArrayList<Vehicle>();
+        soldVehicles = new ArrayList<Vehicle>();
         budget = 500000;
         totalLoan = 0;
         dailySales = 0;
@@ -62,18 +62,20 @@ public class Dealership {
      * @param type_ type of car to buy
      */
     public void buyCar(VehicleType type_){
+        Vehicle newCar;
         switch (type_){
             case PERFORMANCE_CAR:
-                vehicleInventory.add(new PerformanceCar());
+                newCar = new PerformanceCar();
                 break;
             case REGULAR_CAR:
-                vehicleInventory.add(new RegularCar());
+                newCar = new RegularCar();
                 break;
             case PICKUP:
-                vehicleInventory.add(new Pickup());
+                newCar = new Pickup();
                 break;
         }
-        // TODO add budget dec
+        vehicleInventory.add(newCar);
+        budget -= newCar.cost;
     }
     
     /**
