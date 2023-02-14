@@ -6,3 +6,4 @@
 *.synctex(busy)
 **/.gradle
 **/build
+logs/*.txt

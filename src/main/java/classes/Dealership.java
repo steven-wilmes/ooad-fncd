@@ -73,9 +73,11 @@ public class Dealership {
             case PICKUP:
                 newCar = new Pickup();
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + type_);
         }
         vehicleInventory.add(newCar);
-        budget -= newCar.cost;
+        budget -= newCar.getCost();
     }
     
     /**
