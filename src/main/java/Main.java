@@ -32,21 +32,10 @@ public class Main {
         
         // initialize dealership
         Dealership FNCD = new Dealership();
-        String[] days = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         
         // daily loop
         for (int day=0; day < 30; day++){
-            log(String.format("It is %s.", days[day%7]));
-            if (day%7==6){ // sunday
-                log("The FNCD is closed.");
-            }else{
-                // open day
-                FNCD.open();
-                FNCD.wash();
-                FNCD.repair();
-                FNCD.sell();
-                FNCD.end();
-            }
+            FNCD.day(day);
         }
     }
 }
