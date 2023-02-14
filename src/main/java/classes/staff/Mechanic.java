@@ -1,6 +1,8 @@
 package classes.staff;
 
 import classes.vehicles.Vehicle;
+import enums.Condition;
+import enums.VehicleType;
 
 public class Mechanic extends Staff {
     /**
@@ -25,8 +27,16 @@ public class Mechanic extends Staff {
      * @param vehicle_ vehicle to be repaired
      */
     public void repair(Vehicle vehicle_){
+        Condition prevCondition = vehicle_.getCondition();
         if(vehicle_.repair()){ // if repaired
             this.giveBonus(vehicle_.getBonusAmount());
+            main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned %d bonus).",
+                    this.name,
+                    prevCondition,
+                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getVehicleNo(),
+                    vehicle_.getCondition(),
+                    vehicle_.getBonusAmount()));
         }
     }
 }

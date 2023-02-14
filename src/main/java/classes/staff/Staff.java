@@ -1,5 +1,7 @@
 package classes.staff;
 
+import main.Main;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -71,6 +73,7 @@ public abstract class Staff {
         totalSalary += dailyPay;
         if (rng.nextInt(10) == 0) { // 10% chance
             employed = false; // quit
+            Main.log(String.format("%s %s has quit the FNCD.", this.getClass().getName(), this.name));
         }
     }
     

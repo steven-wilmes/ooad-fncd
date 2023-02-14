@@ -4,6 +4,8 @@ import classes.vehicles.Vehicle;
 import classes.Buyer;
 import enums.Cleanliness;
 import enums.Condition;
+import enums.VehicleType;
+import main.Main;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -67,6 +69,14 @@ public class Salesperson extends Staff {
         // attempt sale
         if (rng.nextDouble() <= saleChance){ // random double between 0 and 1, if it's below the sale chance the sale succeeds
             this.giveBonus(toSell.getBonusAmount());
+            Main.log(String.format("Salesperson %s sold %s %s %s %d to Buyer for $%f (earned $%d bonus)",
+                    this.name,
+                    toSell.getCleanliness().getStr(),
+                    toSell.getCondition().getStr(),
+                    VehicleType.match(toSell.getClass()).getStr(),
+                    toSell.getVehicleNo(),
+                    toSell.getSalesPrice(),
+                    toSell.getBonusAmount()));
             return toSell;
         }else{
             return null;
