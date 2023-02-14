@@ -13,8 +13,8 @@ public class Main {
     public static void log(String text){
         System.out.println(text);
         try {
-            FileWriter writer = new FileWriter(flName);
-            writer.write(text);
+            FileWriter writer = new FileWriter(flName, true);
+            writer.write(text+'\n');
             writer.close();
         } catch (IOException e){
             System.out.println("File write failed");
@@ -36,10 +36,11 @@ public class Main {
         
         // daily loop
         for (int day=0; day < 30; day++){
-            log(String.format("It is %s", days[day%7]));
+            log(String.format("It is %s.", days[day%7]));
             if (day%7==6){ // sunday
                 log("The FNCD is closed.");
             }else{
+                // open day
                 FNCD.open();
                 FNCD.wash();
                 FNCD.repair();
