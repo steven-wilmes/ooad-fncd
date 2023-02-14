@@ -1,6 +1,7 @@
 package classes.staff;
 
 import classes.vehicles.Vehicle;
+import enums.Cleanliness;
 import enums.VehicleType;
 import main.Main;
 
@@ -34,7 +35,6 @@ public class Intern extends Staff {
                     vehicle_.getVehicleNo(),
                     vehicle_.getCleanliness().getStr()));
         }
-        
     }
     
     /**

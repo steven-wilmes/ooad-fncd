@@ -3,15 +3,25 @@ package classes;
 import classes.staff.*;
 import classes.vehicles.*;
 import enums.*;
+import main.Main;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Random;
 
 public class Dealership {
     /**
-     * all staff members, current and former
+     * list of days
+     */
+    static String[] days = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+    /**
+     * all staff members, current
      */
     ArrayList<Staff> staffMembers;
+    /**
+     * former staff members
+     */
+    ArrayList<Staff> formerStaff;
     /**
      * vehicles currently in stock
      */
@@ -53,15 +63,48 @@ public class Dealership {
         rng = new Random();
     }
     
-    public void open(){
+    public void day(int day_){
+        Main.log(String.format("It is %s.", days[day_%7]));
+        if (day_%7==6){ // sunday
+            Main.log("The FNCD is closed.");
+        }else{
+            // open day
+            open();
+            work((day_%7==4) || (day_%7==5));
+            end();
+        }
+    }
     
+    public void open(){
+        Main.log("Opening...");
+        while (staffMembers.size() < 9){
+            hire();
+        }
+        
+        restock(VehicleType.PERFORMANCE_CAR);
+        restock(VehicleType.REGULAR_CAR);
+        restock(VehicleType.PICKUP);
+    }
+    
+    private void restock(VehicleType type_){
+        int numVe = 0;
+        for (Vehicle v_ : vehicleInventory){
+            if (v_.getClass() == type_.getClassType()){
+                numVe++;
+            }
+        }
+        
+        while (numVe < 4){
+            buyCar(type_);
+            numVe++;
+        }
     }
     
     /**
      * buy a new car and decrement the budget
      * @param type_ type of car to buy
      */
-    public void buyCar(VehicleType type_){
+    private void buyCar(VehicleType type_){
         Vehicle newCar;
         switch (type_){
             case PERFORMANCE_CAR:
@@ -87,17 +130,64 @@ public class Dealership {
         staffMembers.add(new Intern());
     }
     
-    public void wash(){
-    
+    public void work(boolean extraBuyers_){
+        ArrayList<Salesperson> salespeople = new ArrayList<>();
+        ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
+        ArrayList<Vehicle> cleanVehicleList = new ArrayList<>();
+        for (Vehicle v_ : vehicleInventory){
+            if (v_.getCleanliness() == Cleanliness.DIRTY){
+                dirtyVehicleList.add(v_);
+            }else if (v_.getCleanliness() == Cleanliness.CLEAN){
+                cleanVehicleList.add(v_);
+            }
+        }
+        Vehicle toWash;
+        for (int sIndex=0; sIndex < staffMembers.size()*2; sIndex++){
+            Staff s_ = staffMembers.get(sIndex%staffMembers.size());
+            if (s_.getClass() == Intern.class){
+                if (dirtyVehicleList.size() > 0) {
+                    toWash = dirtyVehicleList.get(rng.nextInt(dirtyVehicleList.size()));
+                    ((Intern) s_).wash(toWash);
+                    switch (toWash.getCleanliness()){
+                        case DIRTY:
+                            // do nothing
+                            break;
+                        case CLEAN:
+                            dirtyVehicleList.remove(toWash);
+                            cleanVehicleList.add(toWash);
+                            break;
+                        case SPARKLING:
+                            dirtyVehicleList.remove(toWash);
+                            break;
+                    }
+                }else{
+                    toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
+                    ((Intern) s_).wash(toWash);
+                    switch (toWash.getCleanliness()) {
+                        case DIRTY:
+                            cleanVehicleList.remove(toWash);
+                            dirtyVehicleList.add(toWash);
+                            break;
+                        case CLEAN:
+                            // do nothing
+                            break;
+                        case SPARKLING:
+                            cleanVehicleList.remove(toWash);
+                            break;
+                    }
+                }
+                
+            }else if (s_.getClass() == Mechanic.class){
+                ((Mechanic) s_).repair();
+            }else{
+                salespeople.add(((Salesperson)s_));
+            }
+        }
+        
+        
+        
     }
     
-    public void repair(){
-    
-    }
-    
-    public void sell(){
-    
-    }
     
     public void end(){
     
