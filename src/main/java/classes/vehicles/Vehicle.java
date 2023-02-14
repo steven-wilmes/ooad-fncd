@@ -16,7 +16,7 @@ public abstract class Vehicle {
     /**
      * cost of the vehicle to the dealership
      */
-    public double cost;
+    double cost;
     
      /**
      * sales price of the vehicle to a buyer
@@ -83,7 +83,7 @@ public abstract class Vehicle {
      *  wash method to be used by Interns
      * Boolean return value will indicate whether the vehicle is SPARKLING or not for intern bonus
      */
-    Boolean wash(){
+    public Boolean wash(){
         switch(this.cleanliness){
             case SPARKLING:
                 System.out.println("Error: tried to wash an already SPARKLING vehicle");
@@ -114,7 +114,7 @@ public abstract class Vehicle {
      * repair method to be used by mechanics
      * Boolean return value indicates whether vehicle was repaired or not for mechanic bonus
      */
-    Boolean repair(){
+    public Boolean repair(){
         //whether fixed or not, any vehicle worked on will go down on class of cleanliness if not already DIRTY
         switch(this.cleanliness){
             case SPARKLING:
@@ -145,7 +145,7 @@ public abstract class Vehicle {
         }
     }
     
-    void sell(){
+    public void sell(){
         //TODO
     }
     
@@ -154,7 +154,7 @@ public abstract class Vehicle {
      *
      * @return {@link #cost}
      */
-    double getCost(){
+    public double getCost(){
         return this.cost;
     }
 
@@ -163,7 +163,7 @@ public abstract class Vehicle {
      *
      * @return {@link #bonusAmount}
      */
-    int getBonusAmount(){
+    public int getBonusAmount(){
         return this.bonusAmount;
     }
     /**
@@ -171,8 +171,24 @@ public abstract class Vehicle {
      *
      * @return {@link #salesPrice}
      */
-    double getSalesPrice(){
+    public double getSalesPrice(){
         return this.salesPrice;
+    }
+    
+    /**
+     * Gets the cleanliness of the vehicle
+     * @return {@link #cleanliness}
+     */
+    public Cleanliness getCleanliness(){
+        return this.cleanliness;
+    }
+    
+    /**
+     * Gets the condition of the vehicle
+     * @return {@link #condition}
+     */
+    public Condition getCondition(){
+        return this.condition;
     }
             
 }

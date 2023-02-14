@@ -21,10 +21,12 @@ public class Mechanic extends Staff {
     }
     
     /**
-     * repairs a vehicle
+     * repairs a vehicle, gives the mechanic a bonus if necessary
      * @param vehicle_ vehicle to be repaired
      */
     public void repair(Vehicle vehicle_){
-        // TODO implement
+        if(vehicle_.repair()){ // if repaired
+            this.giveBonus(vehicle_.getBonusAmount());
+        }
     }
 }

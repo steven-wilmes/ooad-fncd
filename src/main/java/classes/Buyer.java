@@ -36,11 +36,11 @@ public class Buyer {
         }
     }
     
-    double getBuyingChance(){
+    public double getBuyingChance(){
         return this.buyingChance;
     }
     
-    VehicleType getVehicleType(){
+    public VehicleType getVehicleType(){
         return this.vehicleType;
     }
 }
