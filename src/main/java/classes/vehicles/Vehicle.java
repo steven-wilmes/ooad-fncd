@@ -1,5 +1,6 @@
 package classes.vehicles;
 import java.util.Random;
+import main.Main;
 import enums.*;
 
 public abstract class Vehicle {
@@ -86,7 +87,7 @@ public abstract class Vehicle {
     public Boolean wash(){
         switch(this.cleanliness){
             case SPARKLING:
-                System.out.println("Error: tried to wash an already SPARKLING vehicle");
+                Main.log("Error: tried to wash an already SPARKLING vehicle");
                 break;
             case CLEAN:
                 if(rng.nextInt(100) < 5){ //5% chance
@@ -138,15 +139,11 @@ public abstract class Vehicle {
                     this.salesPrice *= 1.25; //sales price increased by 25% when it becomes LIKE_NEW
                     break;
                 case LIKE_NEW:
-                    System.out.println("Error: tried to repair LIKE_NEW vehicle");
+                    Main.log("Error: tried to repair LIKE_NEW vehicle");
                     break;
             }
             return true; 
         }
-    }
-    
-    public void sell(){
-        //TODO
     }
     
     /**
@@ -189,6 +186,10 @@ public abstract class Vehicle {
      */
     public Condition getCondition(){
         return this.condition;
+    }
+    
+    public int getVehicleNo(){
+        return vehicleNo;
     }
             
 }
