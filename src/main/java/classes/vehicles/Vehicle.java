@@ -145,10 +145,6 @@ public abstract class Vehicle {
         }
     }
     
-    public void sell(){
-        //TODO
-    }
-    
     /**
      * Gets cost of vehicle
      *
