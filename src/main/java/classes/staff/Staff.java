@@ -68,13 +68,10 @@ public abstract class Staff {
      * Increments {@link #daysWorked}, increments {@link #totalSalary} by one {@link #dailyPay}, decides whether to
      * quit
      */
-    public void workDay() {
+    public double workDay() {
         daysWorked++;
         totalSalary += dailyPay;
-        if (rng.nextInt(10) == 0) { // 10% chance
-            employed = false; // quit
-            Main.log(String.format("%s %s has quit the FNCD.", this.getClass().getName(), this.name));
-        }
+        return dailyPay;
     }
     
     /**
@@ -121,4 +118,6 @@ public abstract class Staff {
     public String getName() {
         return name;
     }
+
+    public abstract String getPosition();
 }

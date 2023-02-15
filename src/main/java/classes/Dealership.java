@@ -147,6 +147,7 @@ public class Dealership {
                 cleanVehicleList.add(v_);
             }
         }
+
         Vehicle toWash;
         for (int sIndex=0; sIndex < staffMembers.size()*2; sIndex++){
             Staff s_ = staffMembers.get(sIndex%staffMembers.size());
@@ -214,8 +215,8 @@ public class Dealership {
                 salespersons.add((Salesperson) s_);
             }
         }
-        Main.log(String.format("Daily Sales: %d", dailySales));
-        Main.log(String.format("Current Budget: %d", budget));
+        Main.log(String.format("Daily Sales: $%.2f", dailySales));
+        Main.log(String.format("Current Budget: $%.2f", budget));
 
         Boolean internQuit = (rng.nextInt(10) == 0); // 10% chance of each type quitting
         Boolean mechanicQuit = (rng.nextInt(10) == 0);
@@ -232,7 +233,6 @@ public class Dealership {
 
         if(mechanicQuit){
             Staff quitter = mechanics.get(rng.nextInt(interns.size()));
-            mechanics.remove(quitter);
             staffMembers.remove(quitter);
             formerStaff.add(quitter);
             Main.log(String.format("Mechanic %s has quit the FNCD.",quitter.getName()));
@@ -244,8 +244,7 @@ public class Dealership {
         }
 
         if(salespersonQuit){
-            Staff quitter = interns.get(rng.nextInt(interns.size()));
-            interns.remove(quitter);
+            Staff quitter = salespersons.get(rng.nextInt(interns.size()));
             staffMembers.remove(quitter);
             formerStaff.add(quitter);
             Main.log(String.format("Salesperson %s has quit the FNCD.", quitter.getName()));
@@ -261,22 +260,36 @@ public class Dealership {
         Main.log("\nGenerating Report...");
 
         Main.log("\nCurrent Staff Members:");
+        Main.log(String.format("%12s | %-10s | %4s | %10s | %10s ",
+                "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for(Staff s_ : staffMembers){
-            Main.log(String.format("%s %s : %d Days worked, %d Total Normal Pay, %d Total Bonus Pay",
-                    s_.getClass(), s_.getName(), s_.getTotalSalary(), s_.getBonusEarned()));
+            Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
+                    s_.getPosition(),
+                    s_.getName(),
+                    s_.getDaysWorked(),
+                    s_.getTotalSalary(),
+                    s_.getBonusEarned()));
         }
 
         Main.log("\nFormer Staff Members:");
+        Main.log(String.format("%12s | %-10s | %4s | %10s | %10s ",
+                "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for(Staff s_ : formerStaff){
-            Main.log(String.format("%s %s : %d Days worked, %d Total Normal Pay, %d Total Bonus Pay",
-                    s_.getClass(), s_.getName(), s_.getTotalSalary(), s_.getBonusEarned()));
+                Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
+                    s_.getPosition(),
+                    s_.getName(),
+                    s_.getDaysWorked(),
+                    s_.getTotalSalary(),
+                    s_.getBonusEarned()));
         }
 
         Main.log("\nCurrent Vehicles in Stock:");
+        Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
+                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
         for(Vehicle v_ : vehicleInventory){
-            Main.log(String.format("%s %s : Cost %d, Sales Price %d, Condition %s, Cleanliness %s",
-                    VehicleType.match(v_.getClass()).getStr(),
+            Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
                     v_.getVehicleNo(),
+                    VehicleType.match(v_.getClass()).getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),
@@ -284,17 +297,19 @@ public class Dealership {
         }
 
         Main.log("\nSold Vehicles:");
+        Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
+                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
         for(Vehicle v_ : soldVehicles){
-            Main.log(String.format("%s %s : Cost %d, Sales Price %d, Condition %s, Cleanliness %s",
-                    VehicleType.match(v_.getClass()).getStr(),
+            Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
                     v_.getVehicleNo(),
+                    VehicleType.match(v_.getClass()).getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),
                     v_.getCleanliness().getStr()));
         }
 
-        Main.log(String.format("Operating Budget: $%d", this.budget));
+        Main.log(String.format("Operating Budget: $%.2f", this.budget));
     }
     public void setBudget(){
     

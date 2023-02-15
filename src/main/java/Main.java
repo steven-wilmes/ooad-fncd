@@ -36,6 +36,9 @@ public class Main {
         // daily loop
         for (int day=0; day < 30; day++){
             FNCD.day(day);
+
         }
+        FNCD.report();
+
     }
 }

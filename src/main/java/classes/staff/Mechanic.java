@@ -21,7 +21,11 @@ public class Mechanic extends Staff {
         this();
         name = name_;
     }
-    
+
+    public String getPosition(){
+        return "Mechanic";
+    }
+
     /**
      * repairs a vehicle, gives the mechanic a bonus if necessary
      * @param vehicle_ vehicle to be repaired

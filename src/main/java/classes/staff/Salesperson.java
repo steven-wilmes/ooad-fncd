@@ -27,7 +27,11 @@ public class Salesperson extends Staff {
         this();
         name = name_;
     }
-    
+
+    public String getPosition(){
+        return "Salesperson";
+    }
+
     /**
      * sells a vehicle from the inventory
      * @param buyer_ the buyer to sell to

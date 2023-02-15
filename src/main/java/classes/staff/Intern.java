@@ -13,6 +13,10 @@ public class Intern extends Staff {
         super();
         dailyPay = 12; // TODO pick pay amounts
     }
+
+    public String getPosition(){
+        return "Intern";
+    }
     
     /**
      * Washes a vehicle, and gives the intern a bonus if the vehicle becomes sparkling
