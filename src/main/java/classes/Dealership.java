@@ -55,6 +55,7 @@ public class Dealership {
             staffMembers.add(new Mechanic());
             staffMembers.add(new Intern());
         }
+        formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
         soldVehicles = new ArrayList<Vehicle>();
         budget = 500000;
@@ -76,7 +77,8 @@ public class Dealership {
     }
     
     public void open(){
-        Main.log("Opening...");
+        dailySales = 0;
+        Main.log("\nOpening...");
         while (staffMembers.size() < 9){
             hire();
         }
@@ -119,6 +121,8 @@ public class Dealership {
             default:
                 throw new IllegalStateException("Unexpected value: " + type_);
         }
+        Main.log(String.format("Bought a %s %s %s, assigned Vehicle Number %s",
+                newCar.getCleanliness().getStr(), newCar.getCondition().getStr(),type_.getStr(), newCar.getVehicleNo()));
         vehicleInventory.add(newCar);
         budget -= newCar.getCost();
     }
@@ -127,7 +131,9 @@ public class Dealership {
      * hire a new intern
      */
     public void hire(){
-        staffMembers.add(new Intern());
+        Intern hiree = new Intern();
+        Main.log(String.format("Hired %s as a new intern.", hiree.getName()));
+        staffMembers.add(hiree);
     }
     
     public void work(boolean extraBuyers_){
@@ -178,7 +184,7 @@ public class Dealership {
                 }
                 
             }else if (s_.getClass() == Mechanic.class){
-                ((Mechanic) s_).repair();
+                //((Mechanic) s_).repair();
             }else{
                 salespeople.add(((Salesperson)s_));
             }
@@ -190,9 +196,106 @@ public class Dealership {
     
     
     public void end(){
-    
+
+        ArrayList<Intern> interns = new ArrayList<Intern>();
+        ArrayList<Mechanic> mechanics = new ArrayList<Mechanic>();
+        ArrayList<Salesperson> salespersons = new ArrayList<Salesperson>();
+
+        Main.log("Paying workers");
+        for(Staff s_ : staffMembers){
+            //Pay all the workers
+            budget -= s_.workDay();
+            //separate out worker types into arrays
+            if(s_.getClass() == Intern.class){
+                interns.add((Intern) s_);
+            } else if(s_.getClass() == Mechanic.class){
+                mechanics.add((Mechanic) s_);
+            } else if(s_.getClass() == Salesperson.class) {
+                salespersons.add((Salesperson) s_);
+            }
+        }
+        Main.log(String.format("Daily Sales: %d", dailySales));
+        Main.log(String.format("Current Budget: %d", budget));
+
+        Boolean internQuit = (rng.nextInt(10) == 0); // 10% chance of each type quitting
+        Boolean mechanicQuit = (rng.nextInt(10) == 0);
+        Boolean salespersonQuit = (rng.nextInt(10) == 0);
+
+
+        if(internQuit){
+            Staff quitter = interns.get(rng.nextInt(interns.size()));
+            interns.remove(quitter);
+            staffMembers.remove(quitter);
+            formerStaff.add(quitter);
+            Main.log(String.format("Intern %s has quit the FNCD.",quitter.getName()));
+        }
+
+        if(mechanicQuit){
+            Staff quitter = mechanics.get(rng.nextInt(interns.size()));
+            mechanics.remove(quitter);
+            staffMembers.remove(quitter);
+            formerStaff.add(quitter);
+            Main.log(String.format("Mechanic %s has quit the FNCD.",quitter.getName()));
+
+            Intern promotee = interns.get(rng.nextInt(interns.size()));
+            interns.remove(promotee);
+            staffMembers.remove(promotee);
+            staffMembers.add(promotee.promote(true));
+        }
+
+        if(salespersonQuit){
+            Staff quitter = interns.get(rng.nextInt(interns.size()));
+            interns.remove(quitter);
+            staffMembers.remove(quitter);
+            formerStaff.add(quitter);
+            Main.log(String.format("Salesperson %s has quit the FNCD.", quitter.getName()));
+
+            Intern promotee = interns.get(rng.nextInt(interns.size()));
+            interns.remove(promotee);
+            staffMembers.remove(promotee);
+            staffMembers.add(promotee.promote(false));
+        }
     }
-    
+
+    public void report(){
+        Main.log("\nGenerating Report...");
+
+        Main.log("\nCurrent Staff Members:");
+        for(Staff s_ : staffMembers){
+            Main.log(String.format("%s %s : %d Days worked, %d Total Normal Pay, %d Total Bonus Pay",
+                    s_.getClass(), s_.getName(), s_.getTotalSalary(), s_.getBonusEarned()));
+        }
+
+        Main.log("\nFormer Staff Members:");
+        for(Staff s_ : formerStaff){
+            Main.log(String.format("%s %s : %d Days worked, %d Total Normal Pay, %d Total Bonus Pay",
+                    s_.getClass(), s_.getName(), s_.getTotalSalary(), s_.getBonusEarned()));
+        }
+
+        Main.log("\nCurrent Vehicles in Stock:");
+        for(Vehicle v_ : vehicleInventory){
+            Main.log(String.format("%s %s : Cost %d, Sales Price %d, Condition %s, Cleanliness %s",
+                    VehicleType.match(v_.getClass()).getStr(),
+                    v_.getVehicleNo(),
+                    v_.getCost(),
+                    v_.getSalesPrice(),
+                    v_.getCondition().getStr(),
+                    v_.getCleanliness().getStr()));
+        }
+
+        Main.log("\nSold Vehicles:");
+        for(Vehicle v_ : soldVehicles){
+            Main.log(String.format("%s %s : Cost %d, Sales Price %d, Condition %s, Cleanliness %s",
+                    VehicleType.match(v_.getClass()).getStr(),
+                    v_.getVehicleNo(),
+                    v_.getCost(),
+                    v_.getSalesPrice(),
+                    v_.getCondition().getStr(),
+                    v_.getCleanliness().getStr()));
+        }
+
+        Main.log(String.format("Operating Budget: $%d", this.budget));
+    }
     public void setBudget(){
     
     }
