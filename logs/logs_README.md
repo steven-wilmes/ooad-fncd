@@ -1,2 +1,2 @@
 # Logs
-This folder contains logs from the FNCD
+This folder contains old logs from the FNCD
