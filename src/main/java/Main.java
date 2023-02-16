@@ -24,7 +24,10 @@ public class Main {
     
     public static void main(String[] args) {
         // initialize logger
-        flName = String.format("%s%sooad-fncd%slogs%sFNCD_%d.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator, File.separator, Instant.now().toEpochMilli());
+        String flRename = String.format("%s%sooad-fncd%slogs%sFNCD_%d.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator, File.separator, Instant.now().toEpochMilli());
+        flName = String.format("%s%sooad-fncd%slogs%sSimResults.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator, File.separator);
+        File oldFl = new File(flName);
+        oldFl.renameTo(new File(flRename));
         File fl = new File(flName);
         try {
             fl.createNewFile();
