@@ -6,6 +6,12 @@ public enum Condition {
     LIKE_NEW("Like New");
     
     private String str;
-    Condition (String str_){ str = str_; }
-    public String getStr(){return str;}
+    
+    Condition(String str_) {
+        str = str_;
+    }
+    
+    public String getStr() {
+        return str;
+    }
 }

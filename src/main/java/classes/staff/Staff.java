@@ -70,6 +70,7 @@ public abstract class Staff {
      * <p>
      * Increments {@link #daysWorked}, increments {@link #totalSalary} by one {@link #dailyPay}, decides whether to
      * quit
+     *
      * @return the total amount paid to the staff member today
      */
     public double workDay() {
@@ -77,7 +78,7 @@ public abstract class Staff {
         totalSalary += dailyPay;
         totalBonusEarned += dailyBonusEarned;
         dailyBonusEarned = 0;
-        return dailyPay+dailyBonusEarned;
+        return dailyPay + dailyBonusEarned;
     }
     
     /**
@@ -133,6 +134,6 @@ public abstract class Staff {
     public String getName() {
         return name;
     }
-
+    
     public abstract String getPosition();
 }

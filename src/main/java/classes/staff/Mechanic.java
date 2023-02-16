@@ -8,31 +8,33 @@ public class Mechanic extends Staff {
     /**
      * creates a new mechanic with a random name
      */
-    public Mechanic(){
+    public Mechanic() {
         super();
         dailyPay = 20; // TODO pick pay amounts
     }
     
     /**
      * creates a new mechanic with a specific name
+     *
      * @param name_ name for mechanic
      */
-    public Mechanic(String name_){
+    public Mechanic(String name_) {
         this();
         name = name_;
     }
-
-    public String getPosition(){
+    
+    public String getPosition() {
         return "Mechanic";
     }
-
+    
     /**
      * repairs a vehicle, gives the mechanic a bonus if necessary
+     *
      * @param vehicle_ vehicle to be repaired
      */
-    public void repair(Vehicle vehicle_){
+    public void repair(Vehicle vehicle_) {
         Condition prevCondition = vehicle_.getCondition();
-        if(vehicle_.repair()){ // if repaired
+        if (vehicle_.repair()) { // if repaired
             this.giveBonus(vehicle_.getBonusAmount());
             main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned %d bonus).",
                     this.name,

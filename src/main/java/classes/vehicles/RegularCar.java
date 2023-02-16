@@ -2,11 +2,11 @@ package classes.vehicles;
 
 public class RegularCar extends Vehicle {
     
-        public RegularCar(){
+    public RegularCar() {
         super();
         this.bonusAmount = 100;
         int initialCost = rng.nextInt(10000) + 10000; //generated cost between $10000 and $20000
-        switch(condition){
+        switch (condition) {
             case LIKE_NEW:
                 cost = initialCost;
                 break;

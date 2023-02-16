@@ -6,6 +6,12 @@ public enum Cleanliness {
     SPARKLING("Sparkling");
     
     private String str;
-    Cleanliness (String str_){ str = str_; }
-    public String getStr(){return str;}
+    
+    Cleanliness(String str_) {
+        str = str_;
+    }
+    
+    public String getStr() {
+        return str;
+    }
 }

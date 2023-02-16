@@ -1,6 +1,8 @@
 package classes;
+
+import enums.VehicleType;
+
 import java.util.Random;
-import enums.*;
 
 public class Buyer {
     double buyingChance;
@@ -8,39 +10,39 @@ public class Buyer {
     
     Random rng = new Random();
     
-    public Buyer(){
+    public Buyer() {
         int buyingTypeChance = rng.nextInt(3);
-        switch(buyingTypeChance){
-            case 0: 
+        switch (buyingTypeChance) {
+            case 0:
                 this.buyingChance = 0.1; //Just Looking
                 break;
-            case 1: 
+            case 1:
                 this.buyingChance = 0.4; //Wants One
                 break;
-            case 2: 
+            case 2:
                 this.buyingChance = 0.7; //Needs One
                 break;
         }
         
         int vehicleTypeChance = rng.nextInt(3);
-        switch(buyingTypeChance){
-            case 0: 
+        switch (buyingTypeChance) {
+            case 0:
                 this.vehicleType = VehicleType.PERFORMANCE_CAR;
                 break;
-            case 1: 
+            case 1:
                 this.vehicleType = VehicleType.REGULAR_CAR;
                 break;
-            case 2: 
+            case 2:
                 this.vehicleType = VehicleType.PICKUP;
                 break;
         }
     }
     
-    public double getBuyingChance(){
+    public double getBuyingChance() {
         return this.buyingChance;
     }
     
-    public VehicleType getVehicleType(){
+    public VehicleType getVehicleType() {
         return this.vehicleType;
     }
 }
