@@ -246,9 +246,12 @@ public class Dealership {
         ArrayList<Salesperson> salespersons = new ArrayList<Salesperson>();
         
         Main.log("\nPaying workers...");
+        double totalPaid = 0;
         for (Staff s_ : staffMembers) {
             //Pay all the workers
-            modifyBudget(-1 * s_.workDay());
+            double amtPaid = s_.workDay();
+            modifyBudget(-1 * amtPaid);
+            totalPaid += amtPaid;
             //separate out worker types into arrays
             if (s_.getClass() == Intern.class) {
                 interns.add((Intern) s_);
@@ -258,8 +261,9 @@ public class Dealership {
                 salespersons.add((Salesperson) s_);
             }
         }
-        Main.log(String.format("Daily Sales: $%.2f", dailySales));
-        Main.log(String.format("Current Budget: $%.2f", budget));
+        Main.log(String.format("Daily pay:      $%10.2f", totalPaid));
+        Main.log(String.format("Daily Sales:    $%10.2f", dailySales));
+        Main.log(String.format("Current Budget: $%10.2f", budget));
         
         Boolean internQuit = (rng.nextInt(10) == 0); // 10% chance of each type quitting
         Boolean mechanicQuit = (rng.nextInt(10) == 0);
@@ -303,10 +307,10 @@ public class Dealership {
         Main.log("\nGenerating Report...");
         
         Main.log("\nCurrent Staff Members:");
-        Main.log(String.format("%12s | %-10s | %4s | %11s | %10s ",
+        Main.log(String.format("%12s | %-11s | %4s | %11s | %10s ",
                 "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for (Staff s_ : staffMembers) {
-            Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
+            Main.log(String.format("%12s | %-11s | %4d | $%10.2f | $%10.2f",
                     s_.getPosition(),
                     s_.getName(),
                     s_.getDaysWorked(),
@@ -315,10 +319,10 @@ public class Dealership {
         }
         
         Main.log("\nFormer Staff Members:");
-        Main.log(String.format("%12s | %-10s | %4s | %11s | %10s ",
+        Main.log(String.format("%12s | %-11s | %4s | %11s | %10s ",
                 "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for (Staff s_ : formerStaff) {
-            Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
+            Main.log(String.format("%12s | %-11s | %4d | $%10.2f | $%10.2f",
                     s_.getPosition(),
                     s_.getName(),
                     s_.getDaysWorked(),

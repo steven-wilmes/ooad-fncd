@@ -73,8 +73,9 @@ public abstract class Staff {
         daysWorked++;
         totalSalary += dailyPay;
         totalBonusEarned += dailyBonusEarned;
-        dailyBonusEarned = 0;
-        return dailyPay + dailyBonusEarned;
+        double totalPaid = dailyPay + dailyBonusEarned;
+        dailyBonusEarned= 0;
+        return totalPaid;
     }
     
     /**
