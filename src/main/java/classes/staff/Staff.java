@@ -31,10 +31,6 @@ public abstract class Staff {
      * total days worked
      */
     int daysWorked;
-    /**
-     * currently employed
-     */
-    boolean employed;
     
     /**
      * random seed for the class
@@ -52,7 +48,6 @@ public abstract class Staff {
         totalBonusEarned = 0;
         dailyBonusEarned = 0;
         daysWorked = 0;
-        employed = true;
     }
     
     /**
@@ -92,30 +87,12 @@ public abstract class Staff {
     }
     
     /**
-     * Gets amount of pay per day
-     *
-     * @return {@link #dailyPay}
-     */
-    public double getDailyPay() {
-        return dailyPay;
-    }
-    
-    /**
      * Gets cumulative bonuses
      *
      * @return {@link #totalBonusEarned}
      */
     public double getTotalBonusEarned() {
         return totalBonusEarned;
-    }
-    
-    /**
-     * Gets daily bonuses
-     *
-     * @return {@link #dailyBonusEarned}
-     */
-    public double getDailyBonusEarned() {
-        return dailyBonusEarned;
     }
     
     /**

@@ -16,7 +16,7 @@ public class Salesperson extends Staff {
      */
     public Salesperson() {
         super();
-        dailyPay = rng.nextInt(45)+200;
+        dailyPay = rng.nextInt(45)+400;
     }
     
     /**
@@ -76,7 +76,7 @@ public class Salesperson extends Staff {
         // attempt sale
         if (rng.nextDouble() <= saleChance) { // random double between 0 and 1, if it's below the sale chance the sale succeeds
             this.giveBonus(toSell.getBonusAmount());
-            Main.log(String.format("Salesperson %s sold %s %s %s %d to Buyer for $%.2f (earned $%f bonus)",
+            Main.log(String.format("Salesperson %s sold %s %s %s %d to Buyer for $%.2f (earned $%.2f bonus)",
                     this.name,
                     toSell.getCleanliness().getStr(),
                     toSell.getCondition().getStr(),

@@ -10,7 +10,7 @@ public class Mechanic extends Staff {
      */
     public Mechanic() {
         super();
-        dailyPay = rng.nextInt(45)+160;
+        dailyPay = rng.nextInt(45)+320;
     }
     
     /**
@@ -36,7 +36,7 @@ public class Mechanic extends Staff {
         Condition prevCondition = vehicle_.getCondition();
         if (vehicle_.repair()) { // if repaired
             this.giveBonus(vehicle_.getBonusAmount());
-            main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%f bonus).",
+            main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%.2f bonus).",
                     this.name,
                     prevCondition.getStr(),
                     VehicleType.match(vehicle_.getClass()).getStr(),

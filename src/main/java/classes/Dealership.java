@@ -367,28 +367,4 @@ public class Dealership {
             Main.log(String.format("The FNCD has run out of money. Loan of $250000 added to the budget. Current budget: $%f", budget));
         }
     }
-    
-    private ArrayList<Staff> getStaffMembers() {
-        return staffMembers;
-    }
-    
-    private ArrayList<Vehicle> getVehicleInventory() {
-        return vehicleInventory;
-    }
-    
-    private ArrayList<Vehicle> getSoldVehicles() {
-        return soldVehicles;
-    }
-    
-    private double getBudget() {
-        return budget;
-    }
-    
-    private double getTotalLoan() {
-        return totalLoan;
-    }
-    
-    private double getDailySales() {
-        return dailySales;
-    }
 }

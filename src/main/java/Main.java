@@ -13,18 +13,18 @@ public class Main {
     
     public static void log(String text) {
         System.out.println(text);
-        /* try {
+        try {
             FileWriter writer = new FileWriter(flName, true);
             writer.write(text + '\n');
             writer.close();
         } catch (IOException e) {
-            System.out.println("File write failed");
-        } */
+            System.out.println("");
+        }
     }
     
     public static void main(String[] args) {
         // initialize logger
-        /* String flRename = String.format("%s%sooad-fncd%slogs%sFNCD_%d.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator, File.separator, Instant.now().toEpochMilli());
+        String flRename = String.format("%s%sooad-fncd%slogs%sFNCD_%d.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator, File.separator, Instant.now().toEpochMilli());
         flName = String.format("%s%sooad-fncd%sSimResults.txt", Paths.get("").toAbsolutePath().toString(), File.separator, File.separator);
         File oldFl = new File(flName);
         oldFl.renameTo(new File(flRename));
@@ -33,7 +33,7 @@ public class Main {
             fl.createNewFile();
         } catch (IOException e) {
             System.out.println("File creation failed.");
-        } */
+        }
         
         // initialize dealership
         Dealership FNCD = new Dealership();
