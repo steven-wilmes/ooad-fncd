@@ -5,6 +5,7 @@ Spring 2023 Friendly Neighborhood Car Dealership project
 [put image here]
 
 #### Changes from 2.1
+We changed quite a lot on the UML Class Diagram between Project 2.1 and 2.2. We changed how we were tracking which staff members were employed or quit in an array instead of an attribute of the staff member. We consolidated the wash, repair, and sell function in the dealership class into one 'work()' function. We added a report function, and ended up removing a lot of the getters since the attributes are only used internally. For both staff and vehicles we changed the attributes a bit to better match what we were doing. We also added Vehicle ID numbers to the vehicle class, which we had forgotten to include at all in our first draft.
 
 ## File Structure
 ```
