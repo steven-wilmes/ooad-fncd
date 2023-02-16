@@ -139,15 +139,22 @@ public class Dealership {
         ArrayList<Salesperson> salespeople = new ArrayList<>();
         ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
         ArrayList<Vehicle> cleanVehicleList = new ArrayList<>();
+        ArrayList<Vehicle> unFixedVehicleList = new ArrayList<>();
         for (Vehicle v_ : vehicleInventory){
             if (v_.getCleanliness() == Cleanliness.DIRTY){
                 dirtyVehicleList.add(v_);
             }else if (v_.getCleanliness() == Cleanliness.CLEAN){
                 cleanVehicleList.add(v_);
             }
+            if  (v_.getCondition() != Condition.LIKE_NEW){
+                // vehicle can be fixed
+                unFixedVehicleList.add(v_);
+            }
         }
 
         Vehicle toWash;
+        Vehicle toFix;
+        Main.log("Working...");
         for (int sIndex=0; sIndex < staffMembers.size()*2; sIndex++){
             Staff s_ = staffMembers.get(sIndex%staffMembers.size());
             if (s_.getClass() == Intern.class){
@@ -184,14 +191,31 @@ public class Dealership {
                 }
                 
             }else if (s_.getClass() == Mechanic.class){
-                //((Mechanic) s_).repair();
+                toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
+                ((Mechanic) s_).repair(toFix);
+                if (toFix.getCondition() == Condition.LIKE_NEW){
+                    unFixedVehicleList.remove(toFix);
+                }
             }else{
-                salespeople.add(((Salesperson)s_));
+                if (!salespeople.contains(s_)) {
+                    salespeople.add(((Salesperson) s_));
+                }
             }
         }
         
-        
-        
+        // create buyers
+        int numBuyers = (extraBuyers_ ? rng.nextInt(7)+2 : rng.nextInt(6));
+        for (int i=0; i<numBuyers; i++){
+            Buyer buyer = new Buyer();
+            Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));
+            Vehicle sold = seller.sell(buyer, vehicleInventory);
+             if (sold != null){
+                 // vehicle successfully sold
+                 modifyBudget(sold.getSalesPrice());
+                 vehicleInventory.remove(sold);
+                 soldVehicles.add(sold);
+             }
+        }
     }
     
     
