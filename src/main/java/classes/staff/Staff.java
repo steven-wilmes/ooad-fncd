@@ -1,7 +1,5 @@
 package classes.staff;
 
-import main.Main;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -24,7 +22,11 @@ public abstract class Staff {
     /**
      * cumulative bonuses earned
      */
-    double bonusEarned;
+    double totalBonusEarned;
+    /**
+     * bonus earned today
+     */
+    double dailyBonusEarned;
     /**
      * total days worked
      */
@@ -46,19 +48,20 @@ public abstract class Staff {
         rng = new Random();
         name = names.get(rng.nextInt(names.size()));
         totalSalary = 0;
-        bonusEarned = 0;
+        totalBonusEarned = 0;
+        dailyBonusEarned = 0;
         daysWorked = 0;
         employed = true;
     }
     
     /**
-     * Increases {@link #bonusEarned}
+     * Increases {@link #totalBonusEarned}
      *
      * @param bonus_ amount to add
      */
     public void giveBonus(double bonus_) {
         if (bonus_ >= 0) {
-            bonusEarned += bonus_;
+            dailyBonusEarned += bonus_;
         }
     }
     
@@ -67,11 +70,14 @@ public abstract class Staff {
      * <p>
      * Increments {@link #daysWorked}, increments {@link #totalSalary} by one {@link #dailyPay}, decides whether to
      * quit
+     * @return the total amount paid to the staff member today
      */
     public double workDay() {
         daysWorked++;
         totalSalary += dailyPay;
-        return dailyPay;
+        totalBonusEarned += dailyBonusEarned;
+        dailyBonusEarned = 0;
+        return dailyPay+dailyBonusEarned;
     }
     
     /**
@@ -95,10 +101,19 @@ public abstract class Staff {
     /**
      * Gets cumulative bonuses
      *
-     * @return {@link #bonusEarned}
+     * @return {@link #totalBonusEarned}
      */
-    public double getBonusEarned() {
-        return bonusEarned;
+    public double getTotalBonusEarned() {
+        return totalBonusEarned;
+    }
+    
+    /**
+     * Gets daily bonuses
+     *
+     * @return {@link #dailyBonusEarned}
+     */
+    public double getDailyBonusEarned() {
+        return dailyBonusEarned;
     }
     
     /**

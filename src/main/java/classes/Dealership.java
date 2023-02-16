@@ -6,7 +6,6 @@ import enums.*;
 import main.Main;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Random;
 
 public class Dealership {
@@ -124,7 +123,7 @@ public class Dealership {
         Main.log(String.format("Bought a %s %s %s, assigned Vehicle Number %s",
                 newCar.getCleanliness().getStr(), newCar.getCondition().getStr(),type_.getStr(), newCar.getVehicleNo()));
         vehicleInventory.add(newCar);
-        budget -= newCar.getCost();
+        modifyBudget(-1*newCar.getCost());
     }
     
     /**
@@ -205,7 +204,7 @@ public class Dealership {
         Main.log("Paying workers");
         for(Staff s_ : staffMembers){
             //Pay all the workers
-            budget -= s_.workDay();
+            modifyBudget(-1*s_.workDay());
             //separate out worker types into arrays
             if(s_.getClass() == Intern.class){
                 interns.add((Intern) s_);
@@ -268,7 +267,7 @@ public class Dealership {
                     s_.getName(),
                     s_.getDaysWorked(),
                     s_.getTotalSalary(),
-                    s_.getBonusEarned()));
+                    s_.getTotalBonusEarned()));
         }
 
         Main.log("\nFormer Staff Members:");
@@ -280,7 +279,7 @@ public class Dealership {
                     s_.getName(),
                     s_.getDaysWorked(),
                     s_.getTotalSalary(),
-                    s_.getBonusEarned()));
+                    s_.getTotalBonusEarned()));
         }
 
         Main.log("\nCurrent Vehicles in Stock:");
@@ -311,8 +310,14 @@ public class Dealership {
 
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
     }
-    public void setBudget(){
-    
+    public void modifyBudget(double budgetChange_){
+        budget += budgetChange_;
+        if (budget <= 0){
+            // out of money
+            totalLoan += 250000;
+            budget += 250000;
+            Main.log(String.format("The FNCD has run out of money. Loan of $250000 added to the budget. Current budget: $%f", budget));
+        }
     }
     
     public ArrayList<Staff> getStaffMembers(){
