@@ -34,7 +34,7 @@ public class Intern extends Staff {
         } else {
             Main.log(String.format("Intern %s washed %s %s %d and made it %s.",
                     this.name,
-                    vehicle_.getCondition().getStr(),
+                    vehicle_.getCleanliness().getStr(),
                     VehicleType.match(vehicle_.getClass()).getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getCleanliness().getStr()));
