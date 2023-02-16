@@ -25,7 +25,7 @@ public class Intern extends Staff {
     public void wash(Vehicle vehicle_) {
         if (vehicle_.wash()) { // if the vehicle becomes sparkling
             this.giveBonus(vehicle_.getBonusAmount());
-            Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned %d bonus).",
+            Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned $%d bonus).",
                     this.name,
                     vehicle_.getCondition().getStr(),
                     VehicleType.match(vehicle_.getClass()).getStr(),

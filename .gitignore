@@ -6,4 +6,4 @@
 *.synctex(busy)
 **/.gradle
 **/build
-logs/*.txt
+logs/FNCD_*.txt

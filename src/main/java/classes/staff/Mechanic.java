@@ -36,12 +36,12 @@ public class Mechanic extends Staff {
         Condition prevCondition = vehicle_.getCondition();
         if (vehicle_.repair()) { // if repaired
             this.giveBonus(vehicle_.getBonusAmount());
-            main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned %d bonus).",
+            main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%d bonus).",
                     this.name,
-                    prevCondition,
+                    prevCondition.getStr(),
                     VehicleType.match(vehicle_.getClass()).getStr(),
                     vehicle_.getVehicleNo(),
-                    vehicle_.getCondition(),
+                    vehicle_.getCondition().getStr(),
                     vehicle_.getBonusAmount()));
         }
     }

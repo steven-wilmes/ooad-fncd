@@ -14,6 +14,8 @@ import enums.VehicleType;
 import main.Main;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Objects;
 import java.util.Random;
 
 public class Dealership {
@@ -59,8 +61,11 @@ public class Dealership {
         staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
             staffMembers.add(new Salesperson());
+            Main.log(String.format("Hired %s as a new salesperson.", staffMembers.get(staffMembers.size()-1).getName()));
             staffMembers.add(new Mechanic());
+            Main.log(String.format("Hired %s as a new mechanic.", staffMembers.get(staffMembers.size()-1).getName()));
             staffMembers.add(new Intern());
+            Main.log(String.format("Hired %s as a new intern.", staffMembers.get(staffMembers.size()-1).getName()));
         }
         formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
@@ -72,7 +77,8 @@ public class Dealership {
     }
     
     public void day(int day_) {
-        Main.log(String.format("It is %s.", days[day_ % 7]));
+        Main.log("\n============================\n");
+        Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_+1));
         if (day_ % 7 == 6) { // sunday
             Main.log("The FNCD is closed.");
         } else {
@@ -163,7 +169,7 @@ public class Dealership {
         
         Vehicle toWash;
         Vehicle toFix;
-        Main.log("Working...");
+        Main.log("\nWorking...");
         for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) {
             Staff s_ = staffMembers.get(sIndex % staffMembers.size());
             if (s_.getClass() == Intern.class) {
@@ -182,7 +188,7 @@ public class Dealership {
                             dirtyVehicleList.remove(toWash);
                             break;
                     }
-                } else {
+                } else if (cleanVehicleList.size() >0){
                     toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
                     ((Intern) s_).wash(toWash);
                     switch (toWash.getCleanliness()) {
@@ -200,10 +206,12 @@ public class Dealership {
                 }
                 
             } else if (s_.getClass() == Mechanic.class) {
-                toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
-                ((Mechanic) s_).repair(toFix);
-                if (toFix.getCondition() == Condition.LIKE_NEW) {
-                    unFixedVehicleList.remove(toFix);
+                if (unFixedVehicleList.size() > 0) {
+                    toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
+                    ((Mechanic) s_).repair(toFix);
+                    if (toFix.getCondition() == Condition.LIKE_NEW) {
+                        unFixedVehicleList.remove(toFix);
+                    }
                 }
             } else {
                 if (!salespeople.contains(s_)) {
@@ -213,18 +221,21 @@ public class Dealership {
         }
         
         // create buyers
+        Main.log("\nSelling...");
         int numBuyers = (extraBuyers_ ? rng.nextInt(7) + 2 : rng.nextInt(6));
         for (int i = 0; i < numBuyers; i++) {
             Buyer buyer = new Buyer();
             Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));
             Vehicle sold = seller.sell(buyer, vehicleInventory);
-            if (sold != null) {
+            if (!Objects.isNull(sold)) {
                 // vehicle successfully sold
                 modifyBudget(sold.getSalesPrice());
+                dailySales += sold.getSalesPrice();
                 vehicleInventory.remove(sold);
                 soldVehicles.add(sold);
             }
         }
+        System.out.println("Done working");
     }
     
     
@@ -234,7 +245,7 @@ public class Dealership {
         ArrayList<Mechanic> mechanics = new ArrayList<Mechanic>();
         ArrayList<Salesperson> salespersons = new ArrayList<Salesperson>();
         
-        Main.log("Paying workers");
+        Main.log("\nPaying workers...");
         for (Staff s_ : staffMembers) {
             //Pay all the workers
             modifyBudget(-1 * s_.workDay());
@@ -292,7 +303,7 @@ public class Dealership {
         Main.log("\nGenerating Report...");
         
         Main.log("\nCurrent Staff Members:");
-        Main.log(String.format("%12s | %-10s | %4s | %10s | %10s ",
+        Main.log(String.format("%12s | %-10s | %4s | %11s | %10s ",
                 "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for (Staff s_ : staffMembers) {
             Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
@@ -304,7 +315,7 @@ public class Dealership {
         }
         
         Main.log("\nFormer Staff Members:");
-        Main.log(String.format("%12s | %-10s | %4s | %10s | %10s ",
+        Main.log(String.format("%12s | %-10s | %4s | %11s | %10s ",
                 "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for (Staff s_ : formerStaff) {
             Main.log(String.format("%12s | %-10s | %4d | $%10.2f | $%10.2f",
@@ -316,6 +327,7 @@ public class Dealership {
         }
         
         Main.log("\nCurrent Vehicles in Stock:");
+        vehicleInventory.sort(Comparator.comparing(Vehicle::getVehicleNo));
         Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
                 "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
         for (Vehicle v_ : vehicleInventory) {
@@ -329,6 +341,7 @@ public class Dealership {
         }
         
         Main.log("\nSold Vehicles:");
+        soldVehicles.sort(Comparator.comparing(Vehicle::getVehicleNo));
         Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
                 "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
         for (Vehicle v_ : soldVehicles) {
