@@ -25,7 +25,7 @@ public class Buyer {
         }
         
         int vehicleTypeChance = rng.nextInt(3);
-        switch (buyingTypeChance) {
+        switch (vehicleTypeChance) {
             case 0:
                 this.vehicleType = VehicleType.PERFORMANCE_CAR;
                 break;
