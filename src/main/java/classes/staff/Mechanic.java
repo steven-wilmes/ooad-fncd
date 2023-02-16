@@ -10,7 +10,7 @@ public class Mechanic extends Staff {
      */
     public Mechanic() {
         super();
-        dailyPay = 20; // TODO pick pay amounts
+        dailyPay = rng.nextInt(45)+160;
     }
     
     /**

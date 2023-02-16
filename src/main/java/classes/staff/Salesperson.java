@@ -16,7 +16,7 @@ public class Salesperson extends Staff {
      */
     public Salesperson() {
         super();
-        dailyPay = 25; // TODO pick pay amounts
+        dailyPay = rng.nextInt(45)+200;
     }
     
     /**

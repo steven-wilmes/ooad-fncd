@@ -10,7 +10,7 @@ public class Intern extends Staff {
      */
     public Intern() {
         super();
-        dailyPay = 12; // TODO pick pay amounts
+        dailyPay = rng.nextInt(45)+74; // random daily pay between $74 and $119
     }
     
     public String getPosition() {

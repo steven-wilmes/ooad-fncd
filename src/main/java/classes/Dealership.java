@@ -355,6 +355,7 @@ public class Dealership {
         }
         
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
+        Main.log(String.format("Loans taken: $%.2f", this.totalLoan));
     }
     
     private void modifyBudget(double budgetChange_) {
