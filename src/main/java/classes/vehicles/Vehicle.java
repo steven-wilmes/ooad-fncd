@@ -45,7 +45,7 @@ public abstract class Vehicle {
     /**
      * counter of vehicles to assign unique number identifiers
      */
-    static int inventoryNo = 0;
+    static int inventoryNo = 1;
     
     /**
      * Superclass constructor,  creates {@link #rng}. Other attributes handled in subclass
