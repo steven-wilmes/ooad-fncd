@@ -48,7 +48,7 @@ public class Salesperson extends Staff {
         for (Vehicle v_ : vehicleInventory_) { // check if each vehicle is of the desired class and not broken
             if (v_.getCondition() != Condition.BROKEN) {
                 sellableVehicles.add(v_); // broken vehicles cannot be sold
-            } else if (v_.getClass() == desiredType) { // TODO make sure this works
+            } else if (v_.getClass() == desiredType) {
                 desiredVehicleList.add(v_);
             }
         }

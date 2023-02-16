@@ -88,7 +88,7 @@ public abstract class Vehicle {
      * Boolean return value will indicate whether the vehicle is
      * SPARKLING or not for intern bonus
      */
-    public Boolean wash() {
+    public Boolean wash() { // OO ELEMENT: Abstraction. Other classes call this function without needing to know exactly what it does
         switch (this.cleanliness) {
             case SPARKLING:
                 Main.log("Error: tried to wash an already SPARKLING vehicle");

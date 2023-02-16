@@ -160,7 +160,7 @@ public class Dealership {
     /**
      * hire a new intern
      */
-    private void hire() {
+    private void hire() { // OO ELEMENT: Cohesion. The hire() function does one operation (hires an intern)
         Intern hiree = new Intern();
         Main.log(String.format("Hired %s as a new intern.", hiree.getName()));
         staffMembers.add(hiree);
@@ -171,7 +171,7 @@ public class Dealership {
         ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
         ArrayList<Vehicle> cleanVehicleList = new ArrayList<>();
         ArrayList<Vehicle> unFixedVehicleList = new ArrayList<>();
-        for (Vehicle v_ : vehicleInventory) {
+        for (Vehicle v_ : vehicleInventory) { // OO ELEMENT: Inheritance. Here we work with all elements in the vehicleInventory ArrayList as the superclass Vehicle
             if (v_.getCleanliness() == Cleanliness.DIRTY) {
                 dirtyVehicleList.add(v_);
             } else if (v_.getCleanliness() == Cleanliness.CLEAN) {
@@ -246,7 +246,7 @@ public class Dealership {
             if (!Objects.isNull(sold)) {
                 // vehicle successfully sold
                 modifyBudget(sold.getSalesPrice());
-                dailySales += sold.getSalesPrice();
+                dailySales += sold.getSalesPrice(); 
                 vehicleInventory.remove(sold);
                 soldVehicles.add(sold);
             }
@@ -346,7 +346,7 @@ public class Dealership {
                 "Position", "Name", "Days", "Total Pay", "Total Bonus"));
         for (Staff s_ : staffMembers) {
             Main.log(String.format("%12s | %-11s | %4d | $%10.2f | $%10.2f",
-                    s_.getPosition(),
+                    s_.getPosition(), // OO ELEMENT: Polymorphism. Here the getPosition() method is the subclass implementation, despite being called from a superclass object.
                     s_.getName(),
                     s_.getDaysWorked(),
                     s_.getTotalSalary(),
@@ -401,7 +401,7 @@ public class Dealership {
      * Adjusts the budget by the passed in amount
      * Takes out a loan if necessary
      */
-    private void modifyBudget(double budgetChange_) {
+    private void modifyBudget(double budgetChange_) { // OO ELEMENT: Encapsulation. The modifyBudget() method is private, so it cannot be modified by any other class
         budget += budgetChange_;
         if (budget <= 0) {
             // out of money
