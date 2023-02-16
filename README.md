@@ -8,7 +8,7 @@ Spring 2023 Friendly Neighborhood Car Dealership project.
 
 ## UML Diagram
 
-![](..\ooad-fncd\UMLDiagram.png)
+![](UMLDiagram.png)
 
 #### Changes from 2.1
 
