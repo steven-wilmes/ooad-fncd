@@ -221,8 +221,8 @@ public class Dealership {
         }
         
         // create buyers
-        Main.log("\nSelling...");
         int numBuyers = (extraBuyers_ ? rng.nextInt(7) + 2 : rng.nextInt(6));
+        Main.log(String.format("\nSelling to %d...", numBuyers));
         for (int i = 0; i < numBuyers; i++) {
             Buyer buyer = new Buyer();
             Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));

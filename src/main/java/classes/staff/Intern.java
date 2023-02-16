@@ -10,7 +10,7 @@ public class Intern extends Staff {
      */
     public Intern() {
         super();
-        dailyPay = rng.nextInt(45)+74; // random daily pay between $74 and $119
+        dailyPay = rng.nextInt(45)+74;
     }
     
     public String getPosition() {
@@ -25,7 +25,7 @@ public class Intern extends Staff {
     public void wash(Vehicle vehicle_) {
         if (vehicle_.wash()) { // if the vehicle becomes sparkling
             this.giveBonus(vehicle_.getBonusAmount());
-            Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned $%d bonus).",
+            Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned $%f bonus).",
                     this.name,
                     vehicle_.getCondition().getStr(),
                     VehicleType.match(vehicle_.getClass()).getStr(),

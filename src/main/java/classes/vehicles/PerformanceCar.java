@@ -4,7 +4,6 @@ public class PerformanceCar extends Vehicle {
     
     public PerformanceCar() {
         super();
-        this.bonusAmount = 500;
         int initialCost = rng.nextInt(20000) + 20000; //generated cost between $20000 and $40000
         switch (condition) {
             case LIKE_NEW:
@@ -18,5 +17,6 @@ public class PerformanceCar extends Vehicle {
                 break;
         }
         salesPrice = 2 * cost;
+        bonusAmount = salesPrice *.03;
     }
 }

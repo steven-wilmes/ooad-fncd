@@ -30,7 +30,7 @@ public abstract class Vehicle {
     /**
      * base bonus amount for selling, repairing, and washing
      */
-    int bonusAmount;
+    double bonusAmount;
     
     /**
      * random seed for this class
@@ -163,7 +163,7 @@ public abstract class Vehicle {
      *
      * @return {@link #bonusAmount}
      */
-    public int getBonusAmount() {
+    public double getBonusAmount() {
         return this.bonusAmount;
     }
     

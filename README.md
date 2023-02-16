@@ -1,5 +1,5 @@
 # ooad-fncd
-Spring 2023 Friendly Neighborhood Car classes.Dealership project
+Spring 2023 Friendly Neighborhood Car Dealership project
 
 ## UML Diagram
 [put image here]

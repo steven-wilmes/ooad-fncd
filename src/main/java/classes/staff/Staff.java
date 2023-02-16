@@ -47,6 +47,7 @@ public abstract class Staff {
     public Staff() {
         rng = new Random();
         name = names.get(rng.nextInt(names.size()));
+        names.remove(name);
         totalSalary = 0;
         totalBonusEarned = 0;
         dailyBonusEarned = 0;
