@@ -269,7 +269,13 @@ public class Dealership {
         Boolean mechanicQuit = (rng.nextInt(10) == 0);
         Boolean salespersonQuit = (rng.nextInt(10) == 0);
         
-        
+        /*
+         * This is an example of the OO principle of Identity
+         * When an intern quits, we want to make sure to remove him from the interns array here,
+         * because if a mechanic or salesperson also quits, we need to promote an intern, but it cannot
+         * be the intern that just quit. Each intern is a separate entity from the other interns, and has
+         * a separate identity
+         */
         if (internQuit) {
             Staff quitter = interns.get(rng.nextInt(interns.size()));
             interns.remove(quitter);
