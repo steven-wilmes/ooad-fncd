@@ -150,6 +150,90 @@ public class Dealership {
         staffMembers.add(hiree);
     }
     
+    /**
+     * wash a random vehicle (either dirty or clean) and update the lists accordingly
+     * @param dirtyVehicleList list of vehicles that are dirty
+     * @param cleanVehicleList list of vehicles that are clean
+     * @param intern the intern to do the cleaning
+     */
+    private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern){
+        Vehicle toWash;
+        if (dirtyVehicleList.size() > 0) {
+            toWash = dirtyVehicleList.get(rng.nextInt(dirtyVehicleList.size()));
+            intern.wash(toWash);
+            switch (toWash.getCleanliness()) {
+                case DIRTY:
+                    // do nothing
+                    break;
+                case CLEAN:
+                    dirtyVehicleList.remove(toWash);
+                    cleanVehicleList.add(toWash);
+                    break;
+                case SPARKLING:
+                    dirtyVehicleList.remove(toWash);
+                    break;
+            }
+        } else if (cleanVehicleList.size() >0){
+            toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
+            intern.wash(toWash);
+            switch (toWash.getCleanliness()) {
+                case DIRTY:
+                    cleanVehicleList.remove(toWash);
+                    dirtyVehicleList.add(toWash);
+                    break;
+                case CLEAN:
+                    // do nothing
+                    break;
+                case SPARKLING:
+                    cleanVehicleList.remove(toWash);
+                    break;
+            }
+        }
+    }
+    
+    /**
+     * repair a random vehicle and update the list accordingly
+     * @param unFixedVehicleList list of vehicles in need of repair
+     * @param mechanic mechanic to do the repairing
+     */
+    private void repair(ArrayList<Vehicle> unFixedVehicleList, Mechanic mechanic){
+        Vehicle toFix;
+        if (unFixedVehicleList.size() > 0) {
+            toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
+            mechanic.repair(toFix);
+            if (toFix.getCondition() == Condition.LIKE_NEW) {
+                unFixedVehicleList.remove(toFix);
+            }
+        }
+    }
+    
+    /**
+     * attempt to sell cars to buyers
+     * @param extraBuyers whether there are extra buyers today (Fri or Sat)
+     * @param salespeople the current salespeople
+     */
+    private void sell(boolean extraBuyers, ArrayList<Salesperson> salespeople){
+        // create buyers
+        int numBuyers = (extraBuyers ? rng.nextInt(7) + 2 : rng.nextInt(6));
+        Main.log(String.format("\nSelling to %d...", numBuyers));
+        for (int i = 0; i < numBuyers; i++) {
+            Buyer buyer = new Buyer();
+            Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));
+            Vehicle sold = seller.sell(buyer, vehicleInventory);
+            if (!Objects.isNull(sold)) {
+                // vehicle successfully sold
+                modifyBudget(sold.getSalesPrice());
+                dailySales += sold.getSalesPrice();
+                vehicleInventory.remove(sold);
+                soldVehicles.add(sold);
+            }
+        }
+    }
+    
+    /**
+     * clean, repair, and sell vehicles
+     * @param extraBuyers_ whether there are extra buyers today (Fri or Sat)
+     */
     private void work(boolean extraBuyers_) {
         ArrayList<Salesperson> salespeople = new ArrayList<>();
         ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
@@ -167,52 +251,14 @@ public class Dealership {
             }
         }
         
-        Vehicle toWash;
-        Vehicle toFix;
+        
         Main.log("\nWorking...");
-        for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) {
+        for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) { // loop through twice as each intern and mechanic can work on two vehicles
             Staff s_ = staffMembers.get(sIndex % staffMembers.size());
             if (s_.getClass() == Intern.class) {
-                if (dirtyVehicleList.size() > 0) {
-                    toWash = dirtyVehicleList.get(rng.nextInt(dirtyVehicleList.size()));
-                    ((Intern) s_).wash(toWash);
-                    switch (toWash.getCleanliness()) {
-                        case DIRTY:
-                            // do nothing
-                            break;
-                        case CLEAN:
-                            dirtyVehicleList.remove(toWash);
-                            cleanVehicleList.add(toWash);
-                            break;
-                        case SPARKLING:
-                            dirtyVehicleList.remove(toWash);
-                            break;
-                    }
-                } else if (cleanVehicleList.size() >0){
-                    toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
-                    ((Intern) s_).wash(toWash);
-                    switch (toWash.getCleanliness()) {
-                        case DIRTY:
-                            cleanVehicleList.remove(toWash);
-                            dirtyVehicleList.add(toWash);
-                            break;
-                        case CLEAN:
-                            // do nothing
-                            break;
-                        case SPARKLING:
-                            cleanVehicleList.remove(toWash);
-                            break;
-                    }
-                }
-                
+                wash(dirtyVehicleList, cleanVehicleList, (Intern) s_);
             } else if (s_.getClass() == Mechanic.class) {
-                if (unFixedVehicleList.size() > 0) {
-                    toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
-                    ((Mechanic) s_).repair(toFix);
-                    if (toFix.getCondition() == Condition.LIKE_NEW) {
-                        unFixedVehicleList.remove(toFix);
-                    }
-                }
+                repair(unFixedVehicleList, (Mechanic) s_);
             } else {
                 if (!salespeople.contains(s_)) {
                     salespeople.add(((Salesperson) s_));
@@ -220,21 +266,7 @@ public class Dealership {
             }
         }
         
-        // create buyers
-        int numBuyers = (extraBuyers_ ? rng.nextInt(7) + 2 : rng.nextInt(6));
-        Main.log(String.format("\nSelling to %d...", numBuyers));
-        for (int i = 0; i < numBuyers; i++) {
-            Buyer buyer = new Buyer();
-            Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));
-            Vehicle sold = seller.sell(buyer, vehicleInventory);
-            if (!Objects.isNull(sold)) {
-                // vehicle successfully sold
-                modifyBudget(sold.getSalesPrice());
-                dailySales += sold.getSalesPrice(); 
-                vehicleInventory.remove(sold);
-                soldVehicles.add(sold);
-            }
-        }
+        sell(extraBuyers_, salespeople);
         System.out.println("Done working");
     }
     

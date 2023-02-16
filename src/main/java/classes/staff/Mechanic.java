@@ -6,7 +6,7 @@ import enums.VehicleType;
 
 public class Mechanic extends Staff {
     /**
-     * creates a new mechanic with a random name
+     * creates a new mechanic with a random name and pay amount
      */
     public Mechanic() {
         super();

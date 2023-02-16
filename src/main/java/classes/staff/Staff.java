@@ -10,7 +10,6 @@ public abstract class Staff {
      * randomly chosen name
      */
     String name;
-    
     /**
      * cumulative salary earned
      */
@@ -31,19 +30,18 @@ public abstract class Staff {
      * total days worked
      */
     int daysWorked;
-    
     /**
-     * random seed for the class
+     * random number generator for the object
      */
     Random rng;
     
     /**
-     * Superclass constructor, chooses {@link #name} and creates {@link #rng}. Sets cumulative values to 0.
+     * Superclass constructor, chooses {@link #name} and creates {@link #rng}. Sets other values to 0.
      */
     public Staff() {
         rng = new Random();
         name = names.get(rng.nextInt(names.size()));
-        names.remove(name);
+        names.remove(name); // avoids duplicate names
         totalSalary = 0;
         totalBonusEarned = 0;
         dailyBonusEarned = 0;
@@ -51,7 +49,7 @@ public abstract class Staff {
     }
     
     /**
-     * Increases {@link #totalBonusEarned}
+     * Increases {@link #dailyBonusEarned}
      *
      * @param bonus_ amount to add
      */
@@ -64,8 +62,7 @@ public abstract class Staff {
     /**
      * Daily closeout method.
      * <p>
-     * Increments {@link #daysWorked}, increments {@link #totalSalary} by one {@link #dailyPay}, decides whether to
-     * quit
+     * Increments {@link #daysWorked}, calculates cumulative and daily pay
      *
      * @return the total amount paid to the staff member today
      */
@@ -114,5 +111,9 @@ public abstract class Staff {
         return name;
     }
     
+    /**
+     * Gets position name
+     * @return a string representation of the subclass name
+     */
     public abstract String getPosition();
 }

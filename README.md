@@ -1,5 +1,9 @@
 # ooad-fncd
-Spring 2023 Friendly Neighborhood Car Dealership project
+Spring 2023 Friendly Neighborhood Car Dealership project.
+
+**Authors**: Jocelyn McHugo, Steven Wilmes
+
+**Java Version**: 11
 
 ## UML Diagram
 ![](..\ooad-fncd\UMLDiagram.png)

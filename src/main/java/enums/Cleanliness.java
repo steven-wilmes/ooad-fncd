@@ -7,6 +7,9 @@ public enum Cleanliness {
     
     private String str;
     
+    /**
+     * @return the String representation of the Cleanliness
+     */
     Cleanliness(String str_) {
         str = str_;
     }

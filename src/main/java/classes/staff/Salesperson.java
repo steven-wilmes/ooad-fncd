@@ -12,7 +12,7 @@ import java.util.Comparator;
 
 public class Salesperson extends Staff {
     /**
-     * creates a new salesperson with a random name
+     * creates a new salesperson with a random name and pay amount
      */
     public Salesperson() {
         super();
@@ -49,18 +49,17 @@ public class Salesperson extends Staff {
             if (v_.getCondition() != Condition.BROKEN) {
                 sellableVehicles.add(v_); // broken vehicles cannot be sold
             } else if (v_.getClass() == desiredType) {
-                desiredVehicleList.add(v_);
+                desiredVehicleList.add(v_); // matches the desired type of car
             }
         }
         
         // determine vehicle to sell
         Vehicle toSell;
-        if (desiredVehicleList.size() == 0) {
+        if (desiredVehicleList.size() == 0) { // no desired vehicles, sell most expensive
             saleChance -= .2;
-            // no desired vehicles, sell most expensive
             toSell = sellableVehicles.stream().max(Comparator.comparing(v -> v.getSalesPrice())).get(); // max implementation from https://stackoverflow.com/questions/19338686/getting-max-value-from-an-arraylist-of-objects
         } else {
-            // desired vehicles, sell most expensive
+            // desired vehicles exist, sell most expensive
             toSell = desiredVehicleList.stream().max(Comparator.comparing(Vehicle::getSalesPrice)).get();
         }
         
