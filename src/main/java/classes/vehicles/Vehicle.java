@@ -84,8 +84,9 @@ public abstract class Vehicle {
     }
     
     /**
-     * wash method to be used by Interns Boolean return value will indicate whether the vehicle is SPARKLING or not for
-     * intern bonus
+     * wash method to be used by Interns
+     * Boolean return value will indicate whether the vehicle is
+     * SPARKLING or not for intern bonus
      */
     public Boolean wash() {
         switch (this.cleanliness) {
@@ -115,8 +116,9 @@ public abstract class Vehicle {
     }
     
     /**
-     * repair method to be used by mechanics Boolean return value indicates whether vehicle was repaired or not for
-     * mechanic bonus
+     * repair method to be used by mechanics
+     * Boolean return value indicates whether vehicle
+     * was repaired or not for mechanic bonus
      */
     public Boolean repair() {
         //whether fixed or not, any vehicle worked on will go down on class of cleanliness if not already DIRTY

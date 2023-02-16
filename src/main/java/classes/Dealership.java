@@ -75,7 +75,14 @@ public class Dealership {
         dailySales = 0;
         rng = new Random();
     }
-    
+
+    /**
+     * Will perform all the dealership's daily activitites:
+     * opening, working, and ending
+     *
+     * @param day_ handles the day of the week, on sunday FNCD is closed
+     *             and Friday/Saturday there will be more buyers than other days
+     */
     public void day(int day_) {
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_+1));
@@ -88,7 +95,10 @@ public class Dealership {
             end();
         }
     }
-    
+
+    /**
+     *  Hires new interns if necessary, and restocks vehicle inventory
+     */
     private void open() {
         dailySales = 0;
         Main.log("\nOpening...");
@@ -100,7 +110,13 @@ public class Dealership {
         restock(VehicleType.REGULAR_CAR);
         restock(VehicleType.PICKUP);
     }
-    
+
+    /**
+     *  Looks in the dealerships Vehicle inventory at the passed in vehicle type
+     *  If there are less than 4 vehicles of that type in inventory, buy until there are 4
+     *
+     * @param type_ this is the type of vehicle to check and restock
+     */
     private void restock(VehicleType type_) {
         int numVe = 0;
         for (Vehicle v_ : vehicleInventory) {
@@ -237,8 +253,12 @@ public class Dealership {
         }
         System.out.println("Done working");
     }
-    
-    
+
+    /**
+     * Closes the dealership for the day
+     * Pays all employees
+     * Handles any quitters, and promotes interns if necessary
+     */
     private void end() {
         
         ArrayList<Intern> interns = new ArrayList<Intern>();
@@ -276,14 +296,16 @@ public class Dealership {
          * be the intern that just quit. Each intern is a separate entity from the other interns, and has
          * a separate identity
          */
+        //handle intern quitting
         if (internQuit) {
             Staff quitter = interns.get(rng.nextInt(interns.size()));
-            interns.remove(quitter);
+            interns.remove(quitter); //make sure to remove them from here so they aren't promoted
             staffMembers.remove(quitter);
             formerStaff.add(quitter);
             Main.log(String.format("Intern %s has quit the FNCD.", quitter.getName()));
         }
-        
+
+        //handle mechanic quitting, promote intern
         if (mechanicQuit) {
             Staff quitter = mechanics.get(rng.nextInt(interns.size()));
             staffMembers.remove(quitter);
@@ -295,7 +317,8 @@ public class Dealership {
             staffMembers.remove(promotee);
             staffMembers.add(promotee.promote(true));
         }
-        
+
+        //handle salesperson quitting, promote intern
         if (salespersonQuit) {
             Staff quitter = salespersons.get(rng.nextInt(interns.size()));
             staffMembers.remove(quitter);
@@ -308,7 +331,13 @@ public class Dealership {
             staffMembers.add(promotee.promote(false));
         }
     }
-    
+
+    /**
+     * Produces report including:
+     * All current and formers staff members
+     * All current and sold Vehicles
+     * Budget and Loan amounts
+     */
     public void report() {
         Main.log("\nGenerating Report...");
         
@@ -367,7 +396,11 @@ public class Dealership {
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
         Main.log(String.format("Loans taken: $%.2f", this.totalLoan));
     }
-    
+
+    /**
+     * Adjusts the budget by the passed in amount
+     * Takes out a loan if necessary
+     */
     private void modifyBudget(double budgetChange_) {
         budget += budgetChange_;
         if (budget <= 0) {

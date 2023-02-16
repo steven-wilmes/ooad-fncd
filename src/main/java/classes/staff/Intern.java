@@ -8,6 +8,7 @@ import main.Main;
 public class Intern extends Staff {
     /**
      * creates a new intern with a random name
+     * and assigns their pay
      */
     public Intern() {
         super();
