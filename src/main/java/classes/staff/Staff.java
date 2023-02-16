@@ -71,7 +71,7 @@ public abstract class Staff {
         totalSalary += dailyPay;
         totalBonusEarned += dailyBonusEarned;
         double totalPaid = dailyPay + dailyBonusEarned;
-        dailyBonusEarned= 0;
+        dailyBonusEarned = 0;
         return totalPaid;
     }
     
@@ -113,6 +113,7 @@ public abstract class Staff {
     
     /**
      * Gets position name
+     *
      * @return a string representation of the subclass name
      */
     public abstract String getPosition();

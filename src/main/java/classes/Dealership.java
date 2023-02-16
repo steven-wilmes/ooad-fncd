@@ -61,11 +61,11 @@ public class Dealership {
         staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
             staffMembers.add(new Salesperson());
-            Main.log(String.format("Hired %s as a new salesperson.", staffMembers.get(staffMembers.size()-1).getName()));
+            Main.log(String.format("Hired %s as a new salesperson.", staffMembers.get(staffMembers.size() - 1).getName()));
             staffMembers.add(new Mechanic());
-            Main.log(String.format("Hired %s as a new mechanic.", staffMembers.get(staffMembers.size()-1).getName()));
+            Main.log(String.format("Hired %s as a new mechanic.", staffMembers.get(staffMembers.size() - 1).getName()));
             staffMembers.add(new Intern());
-            Main.log(String.format("Hired %s as a new intern.", staffMembers.get(staffMembers.size()-1).getName()));
+            Main.log(String.format("Hired %s as a new intern.", staffMembers.get(staffMembers.size() - 1).getName()));
         }
         formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
@@ -75,17 +75,16 @@ public class Dealership {
         dailySales = 0;
         rng = new Random();
     }
-
+    
     /**
-     * Will perform all the dealership's daily activitites:
-     * opening, working, and ending
+     * Will perform all the dealership's daily activitites: opening, working, and ending
      *
-     * @param day_ handles the day of the week, on sunday FNCD is closed
-     *             and Friday/Saturday there will be more buyers than other days
+     * @param day_ handles the day of the week, on sunday FNCD is closed and Friday/Saturday there will be more buyers
+     *             than other days
      */
     public void day(int day_) {
         Main.log("\n============================\n");
-        Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_+1));
+        Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));
         if (day_ % 7 == 6) { // sunday
             Main.log("The FNCD is closed.");
         } else {
@@ -95,9 +94,9 @@ public class Dealership {
             end();
         }
     }
-
+    
     /**
-     *  Hires new interns if necessary, and restocks vehicle inventory
+     * Hires new interns if necessary, and restocks vehicle inventory
      */
     private void open() {
         dailySales = 0;
@@ -110,10 +109,10 @@ public class Dealership {
         restock(VehicleType.REGULAR_CAR);
         restock(VehicleType.PICKUP);
     }
-
+    
     /**
-     *  Looks in the dealerships Vehicle inventory at the passed in vehicle type
-     *  If there are less than 4 vehicles of that type in inventory, buy until there are 4
+     * Looks in the dealerships Vehicle inventory at the passed in vehicle type If there are less than 4 vehicles of
+     * that type in inventory, buy until there are 4
      *
      * @param type_ this is the type of vehicle to check and restock
      */
@@ -168,11 +167,12 @@ public class Dealership {
     
     /**
      * wash a random vehicle (either dirty or clean) and update the lists accordingly
+     *
      * @param dirtyVehicleList list of vehicles that are dirty
      * @param cleanVehicleList list of vehicles that are clean
-     * @param intern the intern to do the cleaning
+     * @param intern           the intern to do the cleaning
      */
-    private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern){
+    private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern) {
         Vehicle toWash;
         if (dirtyVehicleList.size() > 0) {
             toWash = dirtyVehicleList.get(rng.nextInt(dirtyVehicleList.size()));
@@ -189,7 +189,7 @@ public class Dealership {
                     dirtyVehicleList.remove(toWash);
                     break;
             }
-        } else if (cleanVehicleList.size() >0){
+        } else if (cleanVehicleList.size() > 0) {
             toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
             intern.wash(toWash);
             switch (toWash.getCleanliness()) {
@@ -204,15 +204,18 @@ public class Dealership {
                     cleanVehicleList.remove(toWash);
                     break;
             }
+        } else {
+            Main.log(String.format("There are no cars for Intern %s to wash.", intern.getName()));
         }
     }
     
     /**
      * repair a random vehicle and update the list accordingly
+     *
      * @param unFixedVehicleList list of vehicles in need of repair
-     * @param mechanic mechanic to do the repairing
+     * @param mechanic           mechanic to do the repairing
      */
-    private void repair(ArrayList<Vehicle> unFixedVehicleList, Mechanic mechanic){
+    private void repair(ArrayList<Vehicle> unFixedVehicleList, Mechanic mechanic) {
         Vehicle toFix;
         if (unFixedVehicleList.size() > 0) {
             toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
@@ -220,15 +223,18 @@ public class Dealership {
             if (toFix.getCondition() == Condition.LIKE_NEW) {
                 unFixedVehicleList.remove(toFix);
             }
+        } else {
+            Main.log(String.format("There are no cars for Mechanic %s to fix.", mechanic.getName()));
         }
     }
     
     /**
      * attempt to sell cars to buyers
+     *
      * @param extraBuyers whether there are extra buyers today (Fri or Sat)
      * @param salespeople the current salespeople
      */
-    private void sell(boolean extraBuyers, ArrayList<Salesperson> salespeople){
+    private void sell(boolean extraBuyers, ArrayList<Salesperson> salespeople) {
         // create buyers
         int numBuyers = (extraBuyers ? rng.nextInt(7) + 2 : rng.nextInt(6));
         Main.log(String.format("\nSelling to %d...", numBuyers));
@@ -248,6 +254,7 @@ public class Dealership {
     
     /**
      * clean, repair, and sell vehicles
+     *
      * @param extraBuyers_ whether there are extra buyers today (Fri or Sat)
      */
     private void work(boolean extraBuyers_) {
@@ -285,11 +292,9 @@ public class Dealership {
         sell(extraBuyers_, salespeople);
         System.out.println("Done working");
     }
-
+    
     /**
-     * Closes the dealership for the day
-     * Pays all employees
-     * Handles any quitters, and promotes interns if necessary
+     * Closes the dealership for the day Pays all employees Handles any quitters, and promotes interns if necessary
      */
     private void end() {
         
@@ -336,7 +341,7 @@ public class Dealership {
             formerStaff.add(quitter);
             Main.log(String.format("Intern %s has quit the FNCD.", quitter.getName()));
         }
-
+        
         //handle mechanic quitting, promote intern
         if (mechanicQuit) {
             Staff quitter = mechanics.get(rng.nextInt(interns.size()));
@@ -349,7 +354,7 @@ public class Dealership {
             staffMembers.remove(promotee);
             staffMembers.add(promotee.promote(true));
         }
-
+        
         //handle salesperson quitting, promote intern
         if (salespersonQuit) {
             Staff quitter = salespersons.get(rng.nextInt(interns.size()));
@@ -363,12 +368,10 @@ public class Dealership {
             staffMembers.add(promotee.promote(false));
         }
     }
-
+    
     /**
-     * Produces report including:
-     * All current and formers staff members
-     * All current and sold Vehicles
-     * Budget and Loan amounts
+     * Produces report including: All current and formers staff members All current and sold Vehicles Budget and Loan
+     * amounts
      */
     public void report() {
         Main.log("\nGenerating Report...");
@@ -428,10 +431,9 @@ public class Dealership {
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
         Main.log(String.format("Loans taken: $%.2f", this.totalLoan));
     }
-
+    
     /**
-     * Adjusts the budget by the passed in amount
-     * Takes out a loan if necessary
+     * Adjusts the budget by the passed in amount Takes out a loan if necessary
      */
     private void modifyBudget(double budgetChange_) { // OO ELEMENT: Encapsulation. The modifyBudget() method is private, so it cannot be modified by any other class
         budget += budgetChange_;

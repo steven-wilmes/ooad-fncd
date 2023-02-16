@@ -16,7 +16,7 @@ public class Salesperson extends Staff {
      */
     public Salesperson() {
         super();
-        dailyPay = rng.nextInt(45)+400;
+        dailyPay = rng.nextInt(45) + 400;
     }
     
     /**
@@ -85,6 +85,13 @@ public class Salesperson extends Staff {
                     toSell.getBonusAmount()));
             return toSell;
         } else {
+            Main.log(String.format("Salesperson %s attempted to sell %s %s %s %d to Buyer for $%.2f and did not succeed.",
+                    this.name,
+                    toSell.getCleanliness().getStr(),
+                    toSell.getCondition().getStr(),
+                    VehicleType.match(toSell.getClass()).getStr(),
+                    toSell.getVehicleNo(),
+                    toSell.getSalesPrice()));
             return null;
         }
         

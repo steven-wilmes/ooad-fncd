@@ -17,6 +17,6 @@ public class Pickup extends Vehicle {
                 break;
         }
         salesPrice = 2 * cost;
-        bonusAmount = salesPrice *.05;
+        bonusAmount = salesPrice * .05;
     }
 }

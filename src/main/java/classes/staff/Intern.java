@@ -7,12 +7,11 @@ import main.Main;
 
 public class Intern extends Staff {
     /**
-     * creates a new intern with a random name
-     * and assigns their pay
+     * creates a new intern with a random name and assigns their pay
      */
     public Intern() {
         super();
-        dailyPay = rng.nextInt(45)+148;
+        dailyPay = rng.nextInt(45) + 148;
     }
     
     public String getPosition() {

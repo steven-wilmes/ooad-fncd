@@ -37,6 +37,7 @@ public enum VehicleType {
     
     /**
      * Matches a {@link Vehicle} subclass with the associated VehicleType
+     *
      * @param class_ the class to match
      * @return the VehicleType
      */

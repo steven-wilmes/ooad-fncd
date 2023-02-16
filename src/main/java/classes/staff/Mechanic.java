@@ -6,12 +6,11 @@ import enums.VehicleType;
 
 public class Mechanic extends Staff {
     /**
-     * creates a new mechanic with a random name
-     * and assigns their pay
+     * creates a new mechanic with a random name and assigns their pay
      */
     public Mechanic() {
         super();
-        dailyPay = rng.nextInt(45)+320;
+        dailyPay = rng.nextInt(45) + 320;
     }
     
     /**
@@ -44,6 +43,12 @@ public class Mechanic extends Staff {
                     vehicle_.getVehicleNo(),
                     vehicle_.getCondition().getStr(),
                     vehicle_.getBonusAmount()));
+        } else {
+            main.Main.log(String.format("Mechanic %s tried to fix %s %s %d and did not succeed.",
+                    this.name,
+                    prevCondition.getStr(),
+                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getVehicleNo()));
         }
     }
 }
