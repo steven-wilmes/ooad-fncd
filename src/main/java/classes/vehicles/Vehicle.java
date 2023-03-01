@@ -91,31 +91,8 @@ public abstract class Vehicle {
      * wash method to be used by Interns Boolean return value will indicate whether the vehicle is SPARKLING or not for
      * intern bonus
      */
-    public Boolean wash() { // OO ELEMENT: Abstraction. Other classes call this function without needing to know exactly what it does
-        switch (this.cleanliness) {
-            case SPARKLING:
-                Main.log("Error: tried to wash an already SPARKLING vehicle");
-                break;
-            case CLEAN:
-                if (rng.nextInt(100) < 5) { //5% chance
-                    this.cleanliness = Cleanliness.DIRTY;
-                } else if (rng.nextInt(100) < 30) { //30% chance
-                    this.cleanliness = Cleanliness.SPARKLING;
-                }
-                break;
-            case DIRTY:
-                if (rng.nextInt(100) < 80) { //80% chance
-                    this.cleanliness = Cleanliness.CLEAN;
-                } else if (rng.nextInt(100) < 10) { //10% chance
-                    this.cleanliness = Cleanliness.SPARKLING;
-                }
-                break;
-        }
-        
-        if (this.cleanliness == Cleanliness.SPARKLING) {
-            return true;
-        }
-        return false;
+    public void wash(Cleanliness c_) {
+        this.cleanliness = c_;
     }
     
     /**
@@ -220,10 +197,21 @@ public abstract class Vehicle {
     public Condition getCondition() {
         return this.condition;
     }
+
+    /**
+     * Sets the condition of the vehicle
+     *
+     * @param {@link #condition}
+     */
+    public void setCondition(Condition c_) {
+        this.condition = c_;
+    }
     
     public int getVehicleNo() {
         return vehicleNo;
     }
+
+    public int getWins() {return this.wins;}
     
     /**
      * Gets type name

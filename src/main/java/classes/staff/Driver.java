@@ -16,7 +16,7 @@ public class Driver extends Staff {
     }
 
     public void race(int position){
-        double bonus = 500;
+        double bonus = 1500;
         switch(position){
             case 1:
             case 2:
@@ -39,7 +39,7 @@ public class Driver extends Staff {
                             this.name,
                             position));
                 } else {
-                    main.Main.log(String.format("Driver %s placed %d in the race!",
+                    main.Main.log(String.format("Driver %s placed %d in the race.",
                             this.name,
                             position));
                 }

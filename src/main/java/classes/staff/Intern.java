@@ -1,16 +1,31 @@
 package classes.staff;
 
+import classes.staff.WashBehavior.*;
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
 import main.Main;
 
 public class Intern extends Staff {
+    WashBehavior washBehavior;
     /**
      * creates a new intern with a random name and assigns their pay
      */
     public Intern() {
         super();
         dailyPay = rng.nextInt(45) + 148;
+
+        // OO Patterns: Strategy Pattern
+        switch(rng.nextInt(3)){
+            case 0:
+                this.washBehavior = new ChemicalWash();
+                break;
+            case 1:
+                this.washBehavior = new ElbowGrease();
+                break;
+            case 2:
+                this.washBehavior = new DetailedWash();
+                break;
+        }
     }
     
     public String getPosition() {
@@ -24,21 +39,27 @@ public class Intern extends Staff {
      */
     public void wash(Vehicle vehicle_) {
         Cleanliness beforeWash = vehicle_.getCleanliness();
-        if (vehicle_.wash()) { // if the vehicle becomes sparkling
+        String specialString = washBehavior.wash(vehicle_);
+        if (vehicle_.getCleanliness() == Cleanliness.SPARKLING) { // if the vehicle becomes sparkling
             this.giveBonus(vehicle_.getBonusAmount());
-            Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned $%.2f bonus).",
+            main.Main.log(String.format("Intern %s %s %s %s %d and made it Sparkling (earned $%.2f bonus).",
                     this.name,
+                    this.washBehavior.getStr(),
                     beforeWash.getStr(),
                     vehicle_.getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getBonusAmount()));
         } else {
-            Main.log(String.format("Intern %s washed %s %s %d and made it %s.",
+            main.Main.log(String.format("Intern %s %s %s %s %d and made it %s.",
                     this.name,
+                    this.washBehavior.getStr(),
                     beforeWash.getStr(),
                     vehicle_.getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getCleanliness().getStr()));
+        }
+        if(specialString != "") {
+            main.Main.log(specialString);
         }
     }
     

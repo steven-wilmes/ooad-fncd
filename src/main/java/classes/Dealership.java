@@ -81,7 +81,7 @@ public class Dealership {
     public void day(int day_) {
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));
-        if (day_ % 7 == 6) { // sunday
+        if (day_ % 7 == 6) { // sunday - no sales, but there is a rac
                 Main.log("\nSUNDAY SUNDAY SUNDAY RACE DAY!\n");
             this.race();
         } else {
@@ -284,24 +284,34 @@ public class Dealership {
             } else if (v_.getCleanliness() == Cleanliness.CLEAN) {
                 cleanVehicleList.add(v_);
             }
+        }
+        
+        
+        Main.log("\nWorking...");
+        Main.log("\nWashing...");
+        for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) { // loop through twice as each intern can work on two vehicles
+            Staff s_ = staffMembers.get(sIndex % staffMembers.size());
+            if (s_.getClass() == Intern.class) {
+                wash(dirtyVehicleList, cleanVehicleList, (Intern) s_);
+            } else if (s_.getClass() == Salesperson.class){
+                if (!salespeople.contains(s_)) {
+                    salespeople.add(((Salesperson) s_));
+                }
+            }
+        }
+
+        for (Vehicle v_ : vehicleInventory) {
             if (v_.getCondition() != Condition.LIKE_NEW) {
                 // vehicle can be fixed
                 unFixedVehicleList.add(v_);
             }
         }
-        
-        
-        Main.log("\nWorking...");
-        for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) { // loop through twice as each intern and mechanic can work on two vehicles
+
+        Main.log("\nRepairing...");
+        for (int sIndex = 0; sIndex < staffMembers.size() * 2; sIndex++) { // loop through twice as each mechanic can work on two vehicles
             Staff s_ = staffMembers.get(sIndex % staffMembers.size());
-            if (s_.getClass() == Intern.class) {
-                wash(dirtyVehicleList, cleanVehicleList, (Intern) s_);
-            } else if (s_.getClass() == Mechanic.class) {
+            if (s_.getClass() == Mechanic.class) {
                 repair(unFixedVehicleList, (Mechanic) s_);
-            } else if (s_.getClass() == Salesperson.class){
-                if (!salespeople.contains(s_)) {
-                    salespeople.add(((Salesperson) s_));
-                }
             }
         }
         
@@ -418,30 +428,32 @@ public class Dealership {
         
         Main.log("\nCurrent Vehicles in Stock:");
         vehicleInventory.sort(Comparator.comparing(Vehicle::getVehicleNo));
-        Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
-                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
+        Main.log(String.format("%3s | %15s | %9s | %10s | %9s | %11s | %s",
+                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness", "Race Wins"));
         for (Vehicle v_ : vehicleInventory) {
-            Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
+            Main.log(String.format("%3d | %15s | $%8.2f | $%9.2f | %9s | %11s | %d",
                     v_.getVehicleNo(),
                     v_.getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),
-                    v_.getCleanliness().getStr()));
+                    v_.getCleanliness().getStr(),
+                    v_.getWins()));
         }
         
         Main.log("\nSold Vehicles:");
         soldVehicles.sort(Comparator.comparing(Vehicle::getVehicleNo));
-        Main.log(String.format("%3s | %15s | %9s | %9s | %9s | %11s",
-                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness"));
+        Main.log(String.format("%3s | %15s | %9s | %10s | %9s | %11s | %s",
+                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness", "Race Wins"));
         for (Vehicle v_ : soldVehicles) {
-            Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
+            Main.log(String.format("%3d | %15s | $%8.2f | $%9.2f | %9s | %11s | %d",
                     v_.getVehicleNo(),
                     v_.getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),
-                    v_.getCleanliness().getStr()));
+                    v_.getCleanliness().getStr(),
+                    v_.getWins()));
         }
         
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
