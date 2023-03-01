@@ -1,12 +1,12 @@
 package classes;
 
-import enums.VehicleType;
+import classes.vehicles.*;
 
 import java.util.Random;
 
 public class Buyer {
     double buyingChance;
-    VehicleType vehicleType;
+    Class<? extends Vehicle> vehicleType;
     
     Random rng = new Random();
     
@@ -27,13 +27,13 @@ public class Buyer {
         int vehicleTypeChance = rng.nextInt(3);
         switch (vehicleTypeChance) {
             case 0:
-                this.vehicleType = VehicleType.PERFORMANCE_CAR;
+                this.vehicleType = PerformanceCar.class;
                 break;
             case 1:
-                this.vehicleType = VehicleType.REGULAR_CAR;
+                this.vehicleType = RegularCar.class;
                 break;
             case 2:
-                this.vehicleType = VehicleType.PICKUP;
+                this.vehicleType = Pickup.class;
                 break;
         }
     }
@@ -42,7 +42,7 @@ public class Buyer {
         return this.buyingChance;
     }
     
-    public VehicleType getVehicleType() {
+    public Class<? extends Vehicle> getVehicleType() {
         return this.vehicleType;
     }
 }

@@ -2,7 +2,6 @@ package classes.staff;
 
 import classes.vehicles.Vehicle;
 import enums.Condition;
-import enums.VehicleType;
 
 public class Mechanic extends Staff {
     /**
@@ -39,7 +38,7 @@ public class Mechanic extends Staff {
             main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%.2f bonus).",
                     this.name,
                     prevCondition.getStr(),
-                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getCondition().getStr(),
                     vehicle_.getBonusAmount()));
@@ -47,7 +46,7 @@ public class Mechanic extends Staff {
             main.Main.log(String.format("Mechanic %s tried to fix %s %s %d and did not succeed.",
                     this.name,
                     prevCondition.getStr(),
-                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getStr(),
                     vehicle_.getVehicleNo()));
         }
     }

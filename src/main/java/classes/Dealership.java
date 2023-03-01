@@ -10,7 +10,6 @@ import classes.vehicles.RegularCar;
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;
-import enums.VehicleType;
 import main.Main;
 
 import java.util.ArrayList;
@@ -105,9 +104,9 @@ public class Dealership {
             hire();
         }
         
-        restock(VehicleType.PERFORMANCE_CAR);
-        restock(VehicleType.REGULAR_CAR);
-        restock(VehicleType.PICKUP);
+        restock(PerformanceCar.class);
+        restock(RegularCar.class);
+        restock(Pickup.class);
     }
     
     /**
@@ -116,10 +115,10 @@ public class Dealership {
      *
      * @param type_ this is the type of vehicle to check and restock
      */
-    private void restock(VehicleType type_) {
+    private void restock(Class<? extends Vehicle> type_) {
         int numVe = 0;
         for (Vehicle v_ : vehicleInventory) {
-            if (v_.getClass() == type_.getClassType()) {
+            if (v_.getClass() == type_) {
                 numVe++;
             }
         }
@@ -135,23 +134,15 @@ public class Dealership {
      *
      * @param type_ type of car to buy
      */
-    private void buyCar(VehicleType type_) {
-        Vehicle newCar;
-        switch (type_) {
-            case PERFORMANCE_CAR:
-                newCar = new PerformanceCar();
-                break;
-            case REGULAR_CAR:
-                newCar = new RegularCar();
-                break;
-            case PICKUP:
-                newCar = new Pickup();
-                break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + type_);
+    private void buyCar(Class<? extends Vehicle> type_) {
+        Vehicle newCar = null;
+        try {
+            newCar = (Vehicle) type_.getDeclaredConstructors()[0].newInstance(); // https://stackoverflow.com/questions/712371/can-i-instantiate-a-class-using-the-class-object-what-about-constructors
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         Main.log(String.format("Bought a %s %s %s, assigned Vehicle Number %s",
-                newCar.getCleanliness().getStr(), newCar.getCondition().getStr(), type_.getStr(), newCar.getVehicleNo()));
+                newCar.getCleanliness().getStr(), newCar.getCondition().getStr(), newCar.getStr(), newCar.getVehicleNo()));
         vehicleInventory.add(newCar);
         modifyBudget(-1 * newCar.getCost());
     }
@@ -407,7 +398,7 @@ public class Dealership {
         for (Vehicle v_ : vehicleInventory) {
             Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
                     v_.getVehicleNo(),
-                    VehicleType.match(v_.getClass()).getStr(),
+                    v_.getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),
@@ -421,7 +412,7 @@ public class Dealership {
         for (Vehicle v_ : soldVehicles) {
             Main.log(String.format("%3d | %15s | $%8.2f | $%8.2f | %9s | %11s",
                     v_.getVehicleNo(),
-                    VehicleType.match(v_.getClass()).getStr(),
+                    v_.getStr(),
                     v_.getCost(),
                     v_.getSalesPrice(),
                     v_.getCondition().getStr(),

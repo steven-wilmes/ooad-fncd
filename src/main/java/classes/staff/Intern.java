@@ -2,7 +2,6 @@ package classes.staff;
 
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
-import enums.VehicleType;
 import main.Main;
 
 public class Intern extends Staff {
@@ -30,14 +29,14 @@ public class Intern extends Staff {
             Main.log(String.format("Intern %s washed %s %s %d and made it Sparkling (earned $%.2f bonus).",
                     this.name,
                     beforeWash.getStr(),
-                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getBonusAmount()));
         } else {
             Main.log(String.format("Intern %s washed %s %s %d and made it %s.",
                     this.name,
                     beforeWash.getStr(),
-                    VehicleType.match(vehicle_.getClass()).getStr(),
+                    vehicle_.getStr(),
                     vehicle_.getVehicleNo(),
                     vehicle_.getCleanliness().getStr()));
         }

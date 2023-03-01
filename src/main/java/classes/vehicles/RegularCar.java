@@ -19,4 +19,9 @@ public class RegularCar extends Vehicle {
         salesPrice = 2 * cost;
         bonusAmount = salesPrice * .05;
     }
+    
+    @Override
+    public String getStr() {
+        return "Regular Car";
+    }
 }

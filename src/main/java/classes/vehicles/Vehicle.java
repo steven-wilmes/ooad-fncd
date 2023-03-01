@@ -198,4 +198,11 @@ public abstract class Vehicle {
         return vehicleNo;
     }
     
+    /**
+     * Gets type name
+     *
+     * @return a string representation of the subclass name
+     */
+    public abstract String getStr();
+    
 }

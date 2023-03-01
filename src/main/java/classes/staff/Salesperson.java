@@ -4,7 +4,6 @@ import classes.Buyer;
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;
-import enums.VehicleType;
 import main.Main;
 
 import java.util.ArrayList;
@@ -44,7 +43,7 @@ public class Salesperson extends Staff {
         ArrayList<Vehicle> desiredVehicleList = new ArrayList<>();
         ArrayList<Vehicle> sellableVehicles = new ArrayList<>();
         double saleChance = buyer_.getBuyingChance();
-        Class<? extends Vehicle> desiredType = buyer_.getVehicleType().getClassType(); // get the desired class
+        Class<? extends Vehicle> desiredType = buyer_.getVehicleType(); // get the desired class
         for (Vehicle v_ : vehicleInventory_) { // check if each vehicle is of the desired class and not broken
             if (v_.getCondition() != Condition.BROKEN) {
                 sellableVehicles.add(v_); // broken vehicles cannot be sold
@@ -79,7 +78,7 @@ public class Salesperson extends Staff {
                     this.name,
                     toSell.getCleanliness().getStr(),
                     toSell.getCondition().getStr(),
-                    VehicleType.match(toSell.getClass()).getStr(),
+                    toSell.getStr(),
                     toSell.getVehicleNo(),
                     toSell.getSalesPrice(),
                     toSell.getBonusAmount()));
@@ -89,7 +88,7 @@ public class Salesperson extends Staff {
                     this.name,
                     toSell.getCleanliness().getStr(),
                     toSell.getCondition().getStr(),
-                    VehicleType.match(toSell.getClass()).getStr(),
+                    toSell.getStr(),
                     toSell.getVehicleNo(),
                     toSell.getSalesPrice()));
             return null;
