@@ -46,6 +46,8 @@ public abstract class Vehicle {
      * counter of vehicles to assign unique number identifiers
      */
     static int inventoryNo = 1;
+
+    int wins;
     
     /**
      * Superclass constructor,  creates {@link #rng}. Other attributes handled in subclass
@@ -56,6 +58,8 @@ public abstract class Vehicle {
         //assign vehicle number and increment inventory counter
         this.vehicleNo = inventoryNo;
         inventoryNo++;
+
+        this.wins = 0;
         
         //randomly determine initial vehicle cleanliness
         int cleanlinessChance = rng.nextInt(100);
@@ -146,6 +150,29 @@ public abstract class Vehicle {
                     break;
             }
             return true;
+        }
+    }
+
+    public void race(int position){
+        switch(position){
+            case 1:
+            case 2:
+            case 3:
+                this.wins+=1; //winner winner chicken dinner
+                this.salesPrice *= 1.1; //winning cars worth 10% more
+                break;
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+            case 20:
+                this.condition = Condition.BROKEN;
+                main.Main.log(String.format("%s %d became damaged!",
+                        this.getStr(),
+                        this.getVehicleNo()));
+                break;
+            default:
+                break;
         }
     }
     

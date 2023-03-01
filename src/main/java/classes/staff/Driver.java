@@ -38,6 +38,10 @@ public class Driver extends Staff {
                     main.Main.log(String.format("Driver %s placed %d in the race and got injured!",
                             this.name,
                             position));
+                } else {
+                    main.Main.log(String.format("Driver %s placed %d in the race!",
+                            this.name,
+                            position));
                 }
                 break;
             default:

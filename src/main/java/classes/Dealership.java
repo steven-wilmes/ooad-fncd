@@ -60,6 +60,8 @@ public class Dealership {
             Main.log(String.format("Hired %s as a new mechanic.", staffMembers.get(staffMembers.size() - 1).getName()));
             staffMembers.add(new Intern());
             Main.log(String.format("Hired %s as a new intern.", staffMembers.get(staffMembers.size() - 1).getName()));
+            staffMembers.add(new Driver());
+            Main.log(String.format("Hired %s as a new driver.", staffMembers.get(staffMembers.size() - 1).getName()));
         }
         formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
@@ -80,11 +82,16 @@ public class Dealership {
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));
         if (day_ % 7 == 6) { // sunday
-            Main.log("The FNCD is closed.");
+                Main.log("\nSUNDAY SUNDAY SUNDAY RACE DAY!\n");
+            this.race();
         } else {
             // open day
             open();
             work((day_ % 7 == 4) || (day_ % 7 == 5));
+            if(day_ % 7 == 2) {
+                Main.log("\nWEDNESDAY RACE NIGHT!\n");
+                this.race();
+            }
             end();
         }
     }
@@ -96,18 +103,7 @@ public class Dealership {
         dailySales = 0;
         Main.log("\nOpening...");
 
-        //replace any injured drivers (separate from hiring interns)
-        for(Staff s_ : staffMembers){
-            if(s_.getClass() == Driver.class){
-                Driver driver = (Driver) s_;
-                if(driver.isInjured){
-                    this.staffMembers.remove(driver);
-                    this.formerStaff.add(driver);
-                    this.staffMembers.add(new Driver());
-                }
-            }
-        }
-
+        this.handleInjuries();
         //hire interns
         while (staffMembers.size() < 12) {
             hire();
@@ -167,7 +163,24 @@ public class Dealership {
         Main.log(String.format("Hired %s as a new intern.", hiree.getName()));
         staffMembers.add(hiree);
     }
-    
+
+    private void handleInjuries(){
+
+        ArrayList<Driver> injuredDrivers = new ArrayList<>();
+        for(Staff s_ : this.staffMembers){
+            if(s_.getClass() == Driver.class){
+                Driver driver = (Driver) s_;
+                if(driver.isInjured){
+                    injuredDrivers.add(driver);
+                }
+            }
+        }
+        for(Driver d_ : injuredDrivers){
+            this.staffMembers.remove(d_);
+            this.staffMembers.add(new Driver());
+            this.formerStaff.add(d_);
+        }
+    }
     /**
      * wash a random vehicle (either dirty or clean) and update the lists accordingly
      *
@@ -285,7 +298,7 @@ public class Dealership {
                 wash(dirtyVehicleList, cleanVehicleList, (Intern) s_);
             } else if (s_.getClass() == Mechanic.class) {
                 repair(unFixedVehicleList, (Mechanic) s_);
-            } else {
+            } else if (s_.getClass() == Salesperson.class){
                 if (!salespeople.contains(s_)) {
                     salespeople.add(((Salesperson) s_));
                 }
@@ -452,7 +465,7 @@ public class Dealership {
         String types[] = {"Performance Car", "Pickup", "Motorcycle", "Monster Truck"};
 
         String raceType = types[rng.nextInt(types.length)];
-        Main.log(String.format("Today we will be having a %s race!", raceType));
+        Main.log(String.format("Today we will be having a %s race!\n", raceType));
 
         ArrayList<Driver> drivers = new ArrayList<>();
         ArrayList<Vehicle> racingVehicles = new ArrayList<>();
@@ -481,8 +494,29 @@ public class Dealership {
         }
         Collections.shuffle(places);
 
+        //Announce racers
+        for(int i = 0; i < racingVehicles.size(); i++){
+            Driver d = drivers.get(i);
+            Vehicle v = racingVehicles.get(i);
+            if(raceType == "Monster Truck"){
+                MonsterTruck mt = (MonsterTruck) v;
+                Main.log(String.format("Driver %s is driving %s (%s %d) in the race",
+                        d.getName(),
+                        mt.getStageName(),
+                        mt.getStr(),
+                        mt.getVehicleNo()));
+            } else {
+                Main.log(String.format("Driver %s is driving %s %d in the race",
+                        d.getName(),
+                        v.getStr(),
+                        v.getVehicleNo()));
+            }
+        }
+        Main.log("\nRace Results:");
+        //handle race results
         for(int i = 0; i < racingVehicles.size(); i++){
             drivers.get(i).race(places.get(i));
+            racingVehicles.get(i).race(places.get(i));
 
         }
     }

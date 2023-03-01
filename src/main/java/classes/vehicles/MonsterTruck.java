@@ -79,4 +79,6 @@ public class MonsterTruck extends Vehicle {
     public String getStr() {
         return "Monster Truck";
     }
+
+    public String getStageName() {return this.stageName;}
 }
