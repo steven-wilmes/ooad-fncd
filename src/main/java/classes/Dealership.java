@@ -4,10 +4,7 @@ import classes.staff.Intern;
 import classes.staff.Mechanic;
 import classes.staff.Salesperson;
 import classes.staff.Staff;
-import classes.vehicles.PerformanceCar;
-import classes.vehicles.Pickup;
-import classes.vehicles.RegularCar;
-import classes.vehicles.Vehicle;
+import classes.vehicles.*;
 import enums.Cleanliness;
 import enums.Condition;
 import main.Main;
@@ -107,6 +104,9 @@ public class Dealership {
         restock(PerformanceCar.class);
         restock(RegularCar.class);
         restock(Pickup.class);
+        restock(ElectricCar.class);
+        restock(MonsterTruck.class);
+        restock(Motorcycle.class);
     }
     
     /**
