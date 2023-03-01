@@ -3,6 +3,7 @@ package classes;
 import classes.staff.Intern;
 import classes.staff.Mechanic;
 import classes.staff.Salesperson;
+import classes.staff.Driver;
 import classes.staff.Staff;
 import classes.vehicles.PerformanceCar;
 import classes.vehicles.Pickup;
@@ -12,10 +13,7 @@ import enums.Cleanliness;
 import enums.Condition;
 import main.Main;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Objects;
-import java.util.Random;
+import java.util.*;
 
 public class Dealership {
     /**
@@ -100,7 +98,21 @@ public class Dealership {
     private void open() {
         dailySales = 0;
         Main.log("\nOpening...");
-        while (staffMembers.size() < 9) {
+
+        //replace any injured drivers (separate from hiring interns)
+        for(Staff s_ : staffMembers){
+            if(s_.getClass() == Driver.class){
+                Driver driver = (Driver) s_;
+                if(driver.isInjured){
+                    this.staffMembers.remove(driver);
+                    this.formerStaff.add(driver);
+                    this.staffMembers.add(new Driver());
+                }
+            }
+        }
+
+        //hire interns
+        while (staffMembers.size() < 12) {
             hire();
         }
         
@@ -433,6 +445,45 @@ public class Dealership {
             totalLoan += 250000;
             budget += 250000;
             Main.log(String.format("The FNCD has run out of money. Loan of $250000 added to the budget. Current budget: $%f", budget));
+        }
+    }
+
+    private void race(){
+        String types[] = {"Performance Car", "Pickup", "Motorcycle", "Monster Truck"};
+
+        String raceType = types[rng.nextInt(types.length)];
+        Main.log(String.format("Today we will be having a %s race!", raceType));
+
+        ArrayList<Driver> drivers = new ArrayList<>();
+        ArrayList<Vehicle> racingVehicles = new ArrayList<>();
+
+        //get our drivers for the race
+        for(Staff s_ : this.staffMembers){
+            if(s_.getClass() == Driver.class){
+                drivers.add((Driver) s_);
+            }
+        }
+
+        //get our vehicles for the race
+        for(Vehicle v_ : vehicleInventory){
+            if(v_.getStr() == raceType && racingVehicles.size() < 3 && v_.getCondition() != Condition.BROKEN){
+                racingVehicles.add(v_);
+            }
+        }
+
+        //do the race
+        //numbers 1-20 randomly shuffled gets our place order
+        //places for our drivers will be taken from the front of the list
+        //for example the first driver got places[0] place, second driver got places[1] place and so on
+        ArrayList<Integer> places = new ArrayList<>();
+        for(int i = 1; i <=20; i++){
+            places.add(i);
+        }
+        Collections.shuffle(places);
+
+        for(int i = 0; i < racingVehicles.size(); i++){
+            drivers.get(i).race(places.get(i));
+
         }
     }
 }
