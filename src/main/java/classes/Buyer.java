@@ -24,7 +24,7 @@ public class Buyer {
                 break;
         }
         
-        int vehicleTypeChance = rng.nextInt(3);
+        int vehicleTypeChance = rng.nextInt(6);
         switch (vehicleTypeChance) {
             case 0:
                 this.vehicleType = PerformanceCar.class;
@@ -34,6 +34,15 @@ public class Buyer {
                 break;
             case 2:
                 this.vehicleType = Pickup.class;
+                break;
+            case 3:
+                this.vehicleType = ElectricCar.class;
+                break;
+            case 4:
+                this.vehicleType = MonsterTruck.class;
+                break;
+            case 5:
+                this.vehicleType = Motorcycle.class;
                 break;
         }
     }

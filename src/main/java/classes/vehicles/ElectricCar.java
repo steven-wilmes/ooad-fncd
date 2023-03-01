@@ -2,14 +2,18 @@ package classes.vehicles;
 
 import enums.Condition;
 
-public class PerformanceCar extends Vehicle {
+public class ElectricCar extends Vehicle{
     
-    public PerformanceCar() {
+    int range;
+    
+    public ElectricCar(){
         super();
         int initialCost = rng.nextInt(20000) + 20000; //generated cost between $20000 and $40000
+        range = rng.nextInt(340)+60;
         switch (condition) {
             case LIKE_NEW:
                 cost = initialCost;
+                range += 100;
                 break;
             case USED:
                 cost = initialCost * 0.8; //if USED, initial cost is reduced by 20%
@@ -20,10 +24,24 @@ public class PerformanceCar extends Vehicle {
         }
         salesPrice = 2 * cost;
         bonusAmount = salesPrice * .05;
+        
+    }
+    
+    @Override
+    public Boolean repair(){
+        Boolean superRepair = super.repair(); // TODO 99% sure this is how this works
+        if (condition == Condition.LIKE_NEW){
+            this.range += 100;
+        }
+        return superRepair;
     }
     
     @Override
     public String getStr() {
-        return "Performance Car";
+        return "Electric Car";
+    }
+    
+    public int getRange(){
+        return range;
     }
 }
