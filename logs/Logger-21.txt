@@ -1,0 +1,10 @@
+Intern John washed and detailed Clean Pickup 10 and made it Sparkling (earned $802.56 bonus).
+Intern Elijah chemically washed Clean Performance Car 3 and made it Clean.
+Intern Wiley used some elbow grease on Clean Monster Truck 37 and made it Dirty.
+Intern John washed and detailed Dirty Monster Truck 37 and made it Dirty.
+Intern Elijah chemically washed Dirty Monster Truck 37 and made it Clean.
+Monster Truck 37 became BROKEN from the chemical wash.
+Intern Wiley used some elbow grease on Clean Pickup 11 and made it Sparkling (earned $3056.30 bonus).
+Mechanic Clifford tried to fix Broken Monster Truck 37 and did not succeed.
+Mechanic Raymond fixed Broken Monster Truck 37 and made it Used (earned $3302.30 bonus).
+Mechanic Percy fixed Used Monster Truck 37 and made it Like New (earned $3302.30 bonus).

@@ -1,0 +1,14 @@
+Intern John washed and detailed Clean Monster Truck 18 and made it Clean.
+Intern Roy chemically washed Clean Performance Car 3 and made it Clean.
+Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
+Intern John washed and detailed Clean Performance Car 1 and made it Clean.
+Intern Roy chemically washed Clean Regular Car 5 and made it Clean.
+Intern Elijah chemically washed Clean Motorcycle 21 and made it Clean.
+Mechanic Clifford fixed Broken Pickup 10 and made it Used (earned $802.56 bonus).
+Mechanic Raymond tried to fix Used Pickup 10 and did not succeed.
+Mechanic Percy tried to fix Used Pickup 10 and did not succeed.
+Mechanic Clifford fixed Used Pickup 10 and made it Like New (earned $802.56 bonus).
+Salesperson Carl attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
+Salesperson Owen attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
+Salesperson Owen sold Sparkling Like New Monster Truck, extended warranty, undercoating 42 to Buyer for $108252.11 (earned $0.00 bonus)
+Salesperson Alexander attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.

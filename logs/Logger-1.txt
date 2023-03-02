@@ -1,1 +1,17 @@
 abcd
+Intern John washed and detailed Dirty Pickup 11 and made it Dirty.
+Intern Nicholas washed and detailed Dirty Regular Car 8 and made it Clean.
+Intern Sidney chemically washed Dirty Monster Truck 20 and made it Clean.
+Intern John washed and detailed Dirty Regular Car 7 and made it Sparkling (earned $773.65 bonus).
+Intern Nicholas washed and detailed Dirty Performance Car 3 and made it Clean.
+Intern Sidney chemically washed Dirty Monster Truck 19 and made it Clean.
+Mechanic Clifford fixed Used Monster Truck 20 and made it Like New (earned $2440.64 bonus).
+Mechanic Raymond fixed Broken Monster Truck 18 and made it Used (earned $2291.05 bonus).
+Mechanic Percy fixed Used Electric Car 15 and made it Like New (earned $2232.40 bonus).
+Mechanic Clifford fixed Used Pickup 10 and made it Like New (earned $802.56 bonus).
+Mechanic Raymond tried to fix Used Monster Truck 18 and did not succeed.
+Mechanic Percy fixed Broken Electric Car 14 and made it Used (earned $3818.80 bonus).
+Salesperson Alexander sold Dirty Like New Electric Car, satellite radio 27 to Buyer for $120292.20 (earned $0.00 bonus)
+Salesperson Carl sold Dirty Used Electric Car 14 to Buyer for $114564.00 (earned $3818.80 bonus)
+Salesperson Alexander attempted to sell Clean Used Monster Truck 19 to Buyer for $72152.00 and did not succeed.
+Salesperson Alexander attempted to sell Clean Used Monster Truck 19 to Buyer for $72152.00 and did not succeed.

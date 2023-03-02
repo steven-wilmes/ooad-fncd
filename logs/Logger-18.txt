@@ -1,0 +1,9 @@
+Intern John washed and detailed Dirty Pickup 10 and made it Clean.
+Intern Roy chemically washed Clean Regular Car 8 and made it Clean.
+Intern Elijah chemically washed Clean Monster Truck 18 and made it Dirty.
+Intern John washed and detailed Dirty Monster Truck 18 and made it Dirty.
+Intern Roy chemically washed Dirty Monster Truck 18 and made it Clean.
+Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
+Salesperson Alexander sold Clean Like New Monster Truck 18 to Buyer for $85914.38 (earned $2291.05 bonus)
+Salesperson Owen attempted to sell Clean Like New Electric Car 16 to Buyer for $71444.00 and did not succeed.
+Salesperson Owen attempted to sell Clean Like New Electric Car 16 to Buyer for $71444.00 and did not succeed.

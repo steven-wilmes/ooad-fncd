@@ -1,0 +1,18 @@
+Intern John washed and detailed Dirty Motorcycle 23 and made it Clean.
+Intern Nicholas washed and detailed Dirty Electric Car 28 and made it Clean.
+Intern George used some elbow grease on Dirty Pickup 10 and made it Clean.
+Intern John washed and detailed Dirty Monster Truck 20 and made it Clean.
+Intern Nicholas washed and detailed Dirty Regular Car 5 and made it Dirty.
+Intern George used some elbow grease on Dirty Performance Car 2 and made it Clean.
+Mechanic Clifford fixed Used Monster Truck 19 and made it Like New (earned $3607.60 bonus).
+Mechanic Raymond fixed Used Monster Truck 17 and made it Like New (earned $3258.88 bonus).
+Mechanic Percy fixed Used Electric Car 28 and made it Like New (earned $2720.64 bonus).
+Mechanic Clifford fixed Used Monster Truck 18 and made it Like New (earned $2291.05 bonus).
+Mechanic Raymond tried to fix Used Performance Car 1 and did not succeed.
+Mechanic Percy fixed Broken Motorcycle 26 and made it Used (earned $689.00 bonus).
+Driver Howard is driving Monster Truck 17 in the race
+Driver Allen is driving Monster Truck 18 in the race
+Driver Walter is driving Monster Truck 19 in the race
+Monster Truck 17 became damaged!
+Driver Allen placed 4 in the race.
+Driver Walter placed 11 in the race.
