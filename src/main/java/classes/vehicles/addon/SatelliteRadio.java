@@ -20,4 +20,8 @@ public class SatelliteRadio extends AddOnDecorator {
     public double getCost() {
         return this.v.getCost();
     }
+
+    public double getBonusAmount() {
+        return this.v.getBonusAmount();
+    }
 }
