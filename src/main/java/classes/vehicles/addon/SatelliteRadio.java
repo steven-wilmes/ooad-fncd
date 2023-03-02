@@ -15,4 +15,6 @@ public class SatelliteRadio extends AddOnDecorator{
     public double getSalesPrice(){
         return (this.v.getSalesPrice() * 1.05);
     }
+
+    public double getCost() {return this.v.getCost();}
 }

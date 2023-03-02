@@ -15,4 +15,6 @@ public class RoadRescueCoverage extends AddOnDecorator{
     public double getSalesPrice(){
         return (this.v.getSalesPrice() * 1.02);
     }
+
+    public double getCost() {return this.v.getCost();}
 }

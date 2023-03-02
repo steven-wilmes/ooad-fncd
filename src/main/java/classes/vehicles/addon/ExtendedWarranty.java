@@ -15,4 +15,6 @@ public class ExtendedWarranty extends AddOnDecorator {
         return (this.v.getSalesPrice() * 1.2);
     }
 
+    public double getCost() {return this.v.getCost();}
+
 }
