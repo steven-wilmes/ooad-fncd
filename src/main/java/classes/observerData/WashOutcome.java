@@ -1,7 +1,5 @@
 package classes.observerData;
 
-import classes.staff.Intern;
-import classes.vehicles.Vehicle;
 import enums.Cleanliness;
 
 public class WashOutcome {
@@ -15,7 +13,7 @@ public class WashOutcome {
     double bonusAmt;
     String extraMsg;
     
-    public WashOutcome(Boolean washed_, String internName_, String washType_, Cleanliness initCleanliness_, Cleanliness resultCleanliness_, String vehicleType_, int vehicleNum_, double bonusAmt_, String extraMsg_){
+    public WashOutcome(Boolean washed_, String internName_, String washType_, Cleanliness initCleanliness_, Cleanliness resultCleanliness_, String vehicleType_, int vehicleNum_, double bonusAmt_, String extraMsg_) {
         washed = washed_;
         internName = internName_;
         washType = washType_;
@@ -27,7 +25,7 @@ public class WashOutcome {
         extraMsg = extraMsg_;
     }
     
-    public Boolean getWashed(){
+    public Boolean getWashed() {
         return washed;
     }
     

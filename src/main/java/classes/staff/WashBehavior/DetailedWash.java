@@ -2,11 +2,13 @@ package classes.staff.WashBehavior;
 
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
-import enums.Condition;
 
 public class DetailedWash extends WashBehavior {
-    public String getStr() {return "washed and detailed";}
-    public String wash(Vehicle vehicle_){
+    public String getStr() {
+        return "washed and detailed";
+    }
+    
+    public String wash(Vehicle vehicle_) {
         String specialString = "";
         switch (vehicle_.getCleanliness()) {
             case SPARKLING:

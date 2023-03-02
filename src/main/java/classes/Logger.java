@@ -165,15 +165,15 @@ public class Logger implements PropertyChangeListener {
                     }
                 }
             }
-        } else if (propName.equals("newStaff")){
-            if (evt.getNewValue().getClass() != Tuple.class){
+        } else if (propName.equals("newStaff")) {
+            if (evt.getNewValue().getClass() != Tuple.class) {
                 main.Main.log("Invalid new staff update");
-            }else{
-                String name = (String)((Tuple) evt.getNewValue()).getX();
-                String role = (String)((Tuple) evt.getNewValue()).getY();
-                if (role.equals("Intern")){
+            } else {
+                String name = (String) ((Tuple) evt.getNewValue()).getX();
+                String role = (String) ((Tuple) evt.getNewValue()).getY();
+                if (role.equals("Intern")) {
                     log(String.format("Hired %s as a new Intern.", name));
-                }else{
+                } else {
                     log(String.format("Promoted %s from Intern to %s.", name, role));
                 }
             }

@@ -33,7 +33,7 @@ public class Motorcycle extends Vehicle {
         return "Motorcycle";
     }
     
-    public double getEngSizeRating(){
+    public double getEngSizeRating() {
         return engSizeRating;
     }
 }

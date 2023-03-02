@@ -3,7 +3,10 @@ package classes.staff;
 import classes.Buyer;
 import classes.observerData.Tuple;
 import classes.vehicles.Vehicle;
-import classes.vehicles.addon.*;
+import classes.vehicles.addon.ExtendedWarranty;
+import classes.vehicles.addon.RoadRescueCoverage;
+import classes.vehicles.addon.SatelliteRadio;
+import classes.vehicles.addon.Undercoating;
 import enums.Cleanliness;
 import enums.Condition;
 import main.Main;
@@ -77,10 +80,18 @@ public class Salesperson extends Staff {
         if (rng.nextDouble() <= saleChance) { // random double between 0 and 1, if it's below the sale chance the sale succeeds
             //try to upsell them baby
             //fixme should these be logged?
-            if(rng.nextInt(100) < 25) {toSell = new ExtendedWarranty(toSell);}
-            if(rng.nextInt(100) < 10) {toSell = new Undercoating(toSell);}
-            if(rng.nextInt(100) < 2) {toSell = new RoadRescueCoverage(toSell);}
-            if(rng.nextInt(100) < 40) {toSell = new SatelliteRadio(toSell);}
+            if (rng.nextInt(100) < 25) {
+                toSell = new ExtendedWarranty(toSell);
+            }
+            if (rng.nextInt(100) < 10) {
+                toSell = new Undercoating(toSell);
+            }
+            if (rng.nextInt(100) < 2) {
+                toSell = new RoadRescueCoverage(toSell);
+            }
+            if (rng.nextInt(100) < 40) {
+                toSell = new SatelliteRadio(toSell);
+            }
             this.giveBonus(toSell.getBonusAmount());
             Main.log(String.format("Salesperson %s sold %s %s %s (VIN #%d) to Buyer for $%.2f (earned $%.2f bonus)",
                     this.name,

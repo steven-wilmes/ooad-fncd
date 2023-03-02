@@ -1,6 +1,5 @@
 package classes.observerData;
 
-import enums.Cleanliness;
 import enums.Condition;
 
 public class RepairOutcome {

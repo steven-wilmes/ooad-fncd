@@ -1,22 +1,25 @@
 package classes.staff;
 
 import classes.observerData.WashOutcome;
-import classes.staff.WashBehavior.*;
+import classes.staff.WashBehavior.ChemicalWash;
+import classes.staff.WashBehavior.DetailedWash;
+import classes.staff.WashBehavior.ElbowGrease;
+import classes.staff.WashBehavior.WashBehavior;
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
-import main.Main;
 
 public class Intern extends Staff {
     WashBehavior washBehavior;
+    
     /**
      * creates a new intern with a random name and assigns their pay
      */
     public Intern() {
         super();
         dailyPay = rng.nextInt(45) + 148;
-
+        
         // OO Patterns: Strategy Pattern
-        switch(rng.nextInt(3)){
+        switch (rng.nextInt(3)) {
             case 0:
                 this.washBehavior = new ChemicalWash();
                 break;
@@ -59,7 +62,7 @@ public class Intern extends Staff {
                     vehicle_.getVehicleNo(),
                     vehicle_.getCleanliness().getStr()));
         }
-        if(specialString != "") {
+        if (specialString != "") {
             main.Main.log(specialString);
         }
         return new WashOutcome((vehicle_.getCleanliness() == Cleanliness.SPARKLING), this.name, this.washBehavior.getStr(), beforeWash, vehicle_.getCleanliness(), vehicle_.getStr(), vehicle_.getVehicleNo(), vehicle_.getBonusAmount(), specialString);

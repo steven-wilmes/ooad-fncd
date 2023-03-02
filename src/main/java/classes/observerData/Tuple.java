@@ -3,7 +3,8 @@ package classes.observerData;
 public class Tuple {
     Object X;
     Object Y;
-    public Tuple(Object x_, Object y_){
+    
+    public Tuple(Object x_, Object y_) {
         X = x_;
         Y = y_;
     }

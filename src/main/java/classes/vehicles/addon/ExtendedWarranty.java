@@ -1,20 +1,24 @@
 package classes.vehicles.addon;
-import classes.vehicles.*;
+
+import classes.vehicles.Vehicle;
 
 public class ExtendedWarranty extends AddOnDecorator {
     Vehicle v;
-
-    public ExtendedWarranty(Vehicle v_){
+    
+    public ExtendedWarranty(Vehicle v_) {
         this.v = v_;
     }
-    public String getStr(){
+    
+    public String getStr() {
         return this.v.getStr() + ", extended warranty";
     }
-
-    public double getSalesPrice(){
+    
+    public double getSalesPrice() {
         return (this.v.getSalesPrice() * 1.2);
     }
-
-    public double getCost() {return this.v.getCost();}
-
+    
+    public double getCost() {
+        return this.v.getCost();
+    }
+    
 }

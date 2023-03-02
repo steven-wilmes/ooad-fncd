@@ -1,10 +1,5 @@
 package classes.observerData;
 
-import classes.staff.Driver;
-import classes.vehicles.Vehicle;
-
-import java.util.ArrayList;
-
 public class RaceOutcome {
     
     int place;
@@ -24,7 +19,7 @@ public class RaceOutcome {
         driverInjured = driverInjured_;
     }
     
-    public void addMTStageName(String mtStageName_){
+    public void addMTStageName(String mtStageName_) {
         mtStageName = mtStageName_;
     }
     
@@ -39,7 +34,7 @@ public class RaceOutcome {
     public String getMtStageName() {
         if (mtStageName != null) {
             return mtStageName;
-        }else{
+        } else {
             return "No";
         }
     }

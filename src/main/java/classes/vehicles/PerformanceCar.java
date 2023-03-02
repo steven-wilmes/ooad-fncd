@@ -1,7 +1,5 @@
 package classes.vehicles;
 
-import enums.Condition;
-
 public class PerformanceCar extends Vehicle {
     
     public PerformanceCar() {

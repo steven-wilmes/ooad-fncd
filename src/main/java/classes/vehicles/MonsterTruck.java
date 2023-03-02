@@ -71,7 +71,7 @@ public class MonsterTruck extends Vehicle {
         if (timesUsed > 0) { // avoid duplicates
             // name already used
             this.stageName = stageName_.concat(" ").concat(Integer.toString(timesUsed));
-            truckNames.replace(stageName_, timesUsed+1);
+            truckNames.replace(stageName_, timesUsed + 1);
         }
     }
     
@@ -79,6 +79,8 @@ public class MonsterTruck extends Vehicle {
     public String getStr() {
         return "Monster Truck";
     }
-
-    public String getStageName() {return this.stageName;}
+    
+    public String getStageName() {
+        return this.stageName;
+    }
 }
