@@ -1,10 +1,15 @@
-Intern John washed and detailed Dirty Monster Truck 52 and made it Clean.
-Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
-Intern Wiley used some elbow grease on Clean Regular Car 5 and made it Sparkling (earned $730.35 bonus).
-Intern John washed and detailed Clean Monster Truck 52 and made it Sparkling (earned $3629.92 bonus).
-Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
-Intern Wiley used some elbow grease on Clean Performance Car 1 and made it Clean.
-Mechanic Clifford tried to fix Used Monster Truck 52 and did not succeed.
-Mechanic Raymond fixed Used Monster Truck 52 and made it Like New (earned $3629.92 bonus).
-Mechanic Percy fixed Broken Performance Car 3 and made it Used (earned $2718.88 bonus).
-Mechanic Clifford fixed Used Performance Car 3 and made it Like New (earned $2718.88 bonus).
+Hired Emil as a new Driver.
+Hired Horace as a new Intern.
+Intern Guy used some elbow grease on Clean Monster Truck 39 and made it Dirty.
+Intern Cornelius washed and detailed Dirty Monster Truck 39 and made it Clean.
+Intern Horace chemically washed Clean Monster Truck 51 and made it Clean.
+Intern Guy used some elbow grease on Clean Electric Car 14 and made it Sparkling (earned $2663.80 bonus).
+Intern Cornelius washed and detailed Clean Monster Truck 51 and made it Clean.
+Intern Horace chemically washed Clean Performance Car 1 and made it Clean.
+Mechanic Henry fixed Broken Pickup 11 and made it Used (earned $1007.52 bonus).
+Mechanic Louis fixed Used Pickup 11 and made it Like New (earned $1007.52 bonus).
+Salesperson Abraham attempted to sell Clean Like New Monster Truck 39 to Buyer for $345065.63 and did not succeed.
+Salesperson William sold Dirty Broken Monster Truck, satellite radio 57 to Buyer for $362318.91 (earned $0.00 bonus)
+Salesperson Elmer attempted to sell Clean Like New Monster Truck 39 to Buyer for $345065.63 and did not succeed.
+Paid staff $7467.84
+The FNCD made $362318.91

@@ -1,10 +1,15 @@
-Intern John washed and detailed Clean Pickup 10 and made it Sparkling (earned $802.56 bonus).
-Intern Elijah chemically washed Clean Performance Car 3 and made it Clean.
-Intern Wiley used some elbow grease on Clean Monster Truck 37 and made it Dirty.
-Intern John washed and detailed Dirty Monster Truck 37 and made it Dirty.
-Intern Elijah chemically washed Dirty Monster Truck 37 and made it Clean.
-Monster Truck 37 became BROKEN from the chemical wash.
-Intern Wiley used some elbow grease on Clean Pickup 11 and made it Sparkling (earned $3056.30 bonus).
-Mechanic Clifford tried to fix Broken Monster Truck 37 and did not succeed.
-Mechanic Raymond fixed Broken Monster Truck 37 and made it Used (earned $3302.30 bonus).
-Mechanic Percy fixed Used Monster Truck 37 and made it Like New (earned $3302.30 bonus).
+Hired Sylvester as a new Driver.
+Intern Guy used some elbow grease on Dirty Performance Car 47 and made it Clean.
+Intern William chemically washed Clean Performance Car 1 and made it Clean.
+Intern Earl washed and detailed Clean Monster Truck 18 and made it Sparkling (earned $2567.28 bonus).
+Intern Guy used some elbow grease on Clean Motorcycle 23 and made it Clean.
+Intern William chemically washed Clean Monster Truck 39 and made it Clean.
+Monster Truck 39 became BROKEN from the chemical wash.
+Intern Earl washed and detailed Clean Motorcycle 24 and made it Clean.
+Mechanic Henry fixed Broken Monster Truck 39 and made it Used (earned $3926.08 bonus).
+Mechanic Fredrick fixed Broken Monster Truck 40 and made it Used (earned $3728.32 bonus).
+Mechanic Louis tried to fix Used Monster Truck 40 and did not succeed.
+Mechanic Henry fixed Used Monster Truck 40 and made it Like New (earned $3728.32 bonus).
+Mechanic Fredrick fixed Used Monster Truck 39 and made it Like New (earned $3926.08 bonus).
+Paid staff $20663.08
+The FNCD made $0.00

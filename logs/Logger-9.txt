@@ -1,12 +1,19 @@
-Intern John washed and detailed Clean Electric Car 16 and made it Clean.
-Intern George used some elbow grease on Clean Regular Car 7 and made it Clean.
-Intern Roy chemically washed Clean Electric Car 13 and made it Clean.
-Intern John washed and detailed Clean Motorcycle 26 and made it Sparkling (earned $689.00 bonus).
-Intern George used some elbow grease on Clean Monster Truck 19 and made it Clean.
-Intern Roy chemically washed Clean Regular Car 8 and made it Clean.
-Driver Allen is driving Motorcycle 21 in the race
-Driver Walter is driving Motorcycle 23 in the race
-Driver Otto is driving Motorcycle 24 in the race
-Driver Allen placed 10 in the race.
-Driver Walter placed 14 in the race.
-Motorcycle 24 became damaged!
+Intern Guy used some elbow grease on Clean Motorcycle 24 and made it Clean.
+Intern William chemically washed Clean Regular Car 5 and made it Clean.
+Intern Abraham used some elbow grease on Clean Regular Car 5 and made it Dirty.
+Intern Guy used some elbow grease on Dirty Regular Car 5 and made it Clean.
+Intern William chemically washed Clean Monster Truck 30 and made it Clean.
+Intern Abraham used some elbow grease on Clean Electric Car 15 and made it Clean.
+Salesperson Clifford attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Salesperson Elmer attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Salesperson Elmer attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Salesperson Clifford sold Dirty Broken Monster Truck, satellite radio 35 to Buyer for $160236.56 (earned $0.00 bonus)
+Driver Lester is driving Black Stallion (Monster Truck 18) in the race
+Driver Adolph is driving Monster Mutt Dalmatian (Monster Truck 19) in the race
+Driver Daniel is driving Avenger (Monster Truck 20) in the race
+Driver Lester placed 8 in the race.
+Driver Adolph placed 1 in the race! (earned $3401.20 bonus).
+Monster Truck 19 won!
+Driver Daniel placed 13 in the race.
+Paid staff $4298.00
+The FNCD made $160236.56

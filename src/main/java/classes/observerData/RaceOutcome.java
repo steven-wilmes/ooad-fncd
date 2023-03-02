@@ -2,12 +2,33 @@ package classes.observerData;
 
 public class RaceOutcome {
     
+    /**
+     * the place of the racing pair
+     */
     int place;
+    /**
+     * the driver's name
+     */
     String driverName;
+    /**
+     * the stage name for the monster truck. only used for monster trucks
+     */
     String mtStageName;
+    /**
+     * the string vehicle type
+     */
     String vehicleType;
+    /**
+     * the vehicle number
+     */
     int vehicleNum;
+    /**
+     * the bonus amount associated with the vehicle
+     */
     double bonusAmt;
+    /**
+     * whether or not the driver was injured in the race
+     */
     Boolean driverInjured;
     
     public RaceOutcome(int place_, String driverName_, String vehicleType_, int vehicleNum_, double bonusAmt_, Boolean driverInjured_) {
@@ -31,6 +52,10 @@ public class RaceOutcome {
         return driverName;
     }
     
+    /**
+     *
+     * @return the stage name if instantiated, otherwise "No"
+     */
     public String getMtStageName() {
         if (mtStageName != null) {
             return mtStageName;

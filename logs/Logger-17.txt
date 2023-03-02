@@ -1,14 +1,12 @@
-Intern John washed and detailed Clean Monster Truck 18 and made it Clean.
-Intern Roy chemically washed Clean Performance Car 3 and made it Clean.
-Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
-Intern John washed and detailed Clean Performance Car 1 and made it Clean.
-Intern Roy chemically washed Clean Regular Car 5 and made it Clean.
-Intern Elijah chemically washed Clean Motorcycle 21 and made it Clean.
-Mechanic Clifford fixed Broken Pickup 10 and made it Used (earned $802.56 bonus).
-Mechanic Raymond tried to fix Used Pickup 10 and did not succeed.
-Mechanic Percy tried to fix Used Pickup 10 and did not succeed.
-Mechanic Clifford fixed Used Pickup 10 and made it Like New (earned $802.56 bonus).
-Salesperson Carl attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Salesperson Owen attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Salesperson Owen sold Sparkling Like New Monster Truck, extended warranty, undercoating 42 to Buyer for $108252.11 (earned $0.00 bonus)
-Salesperson Alexander attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
+Intern Guy used some elbow grease on Dirty Electric Car 15 and made it Clean.
+Intern William chemically washed Clean Performance Car 2 and made it Sparkling (earned $2300.70 bonus).
+Intern Earl washed and detailed Clean Performance Car 3 and made it Clean.
+Intern Guy used some elbow grease on Clean Motorcycle 24 and made it Clean.
+Motorcycle 24 became LIKE NEW from the elbow grease.
+Intern William chemically washed Clean Motorcycle 24 and made it Clean.
+Intern Earl washed and detailed Clean Performance Car 3 and made it Sparkling (earned $2699.84 bonus).
+Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Clifford sold Dirty Like New Electric Car, satellite radio 43 to Buyer for $123066.56 (earned $0.00 bonus)
+Salesperson Clifford sold Dirty Used Electric Car, satellite radio 44 to Buyer for $123066.56 (earned $0.00 bonus)
+Paid staff $7787.54
+The FNCD made $246133.13

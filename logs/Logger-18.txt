@@ -1,9 +1,19 @@
-Intern John washed and detailed Dirty Pickup 10 and made it Clean.
-Intern Roy chemically washed Clean Regular Car 8 and made it Clean.
-Intern Elijah chemically washed Clean Monster Truck 18 and made it Dirty.
-Intern John washed and detailed Dirty Monster Truck 18 and made it Dirty.
-Intern Roy chemically washed Dirty Monster Truck 18 and made it Clean.
-Intern Elijah chemically washed Clean Performance Car 1 and made it Clean.
-Salesperson Alexander sold Clean Like New Monster Truck 18 to Buyer for $85914.38 (earned $2291.05 bonus)
-Salesperson Owen attempted to sell Clean Like New Electric Car 16 to Buyer for $71444.00 and did not succeed.
-Salesperson Owen attempted to sell Clean Like New Electric Car 16 to Buyer for $71444.00 and did not succeed.
+Intern Guy used some elbow grease on Clean Regular Car 5 and made it Clean.
+Intern William chemically washed Clean Performance Car 4 and made it Dirty.
+Performance Car 4 became BROKEN from the chemical wash.
+Intern Earl washed and detailed Dirty Performance Car 4 and made it Clean.
+Intern Guy used some elbow grease on Clean Electric Car 14 and made it Clean.
+Intern William chemically washed Clean Pickup 12 and made it Sparkling (earned $1208.30 bonus).
+Intern Earl washed and detailed Clean Electric Car 15 and made it Clean.
+Mechanic Henry fixed Broken Performance Car 4 and made it Used (earned $3389.30 bonus).
+Mechanic Fredrick fixed Used Performance Car 4 and made it Like New (earned $3389.30 bonus).
+Salesperson Abraham attempted to sell Dirty Like New Performance Car 4 to Buyer for $127098.75 and did not succeed.
+Salesperson Abraham sold Dirty Like New Performance Car 4 to Buyer for $127098.75 (earned $3389.30 bonus)
+Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Elmer attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Abraham attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Elmer sold Clean Broken Electric Car, extended warranty, satellite radio 46 to Buyer for $147679.88 (earned $0.00 bonus)
+Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Elmer attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Paid staff $14163.20
+The FNCD made $274778.63

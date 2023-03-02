@@ -1,10 +1,16 @@
-Intern John washed and detailed Dirty Electric Car 15 and made it Dirty.
-Intern George used some elbow grease on Dirty Monster Truck 34 and made it Clean.
-Intern Roy chemically washed Dirty Electric Car 15 and made it Clean.
-Intern John washed and detailed Dirty Regular Car 7 and made it Clean.
-Intern George used some elbow grease on Dirty Regular Car 5 and made it Clean.
-Intern Roy chemically washed Dirty Performance Car 1 and made it Clean.
-Mechanic Clifford fixed Broken Motorcycle 21 and made it Used (earned $1580.20 bonus).
-Mechanic Raymond tried to fix Used Motorcycle 21 and did not succeed.
-Mechanic Percy fixed Used Motorcycle 21 and made it Like New (earned $1580.20 bonus).
-Salesperson Alexander attempted to sell Clean Like New Monster Truck 19 to Buyer for $90190.00 and did not succeed.
+Hired Daniel as a new Driver.
+Hired Louis as a new Intern.
+Intern Guy used some elbow grease on Dirty Motorcycle 22 and made it Sparkling (earned $852.10 bonus).
+Intern William chemically washed Dirty Monster Truck 30 and made it Clean.
+Intern Louis washed and detailed Dirty Regular Car 7 and made it Sparkling (earned $812.55 bonus).
+Intern Guy used some elbow grease on Dirty Motorcycle 21 and made it Clean.
+Intern William chemically washed Dirty Monster Truck 18 and made it Clean.
+Intern Louis washed and detailed Clean Monster Truck 20 and made it Sparkling (earned $2170.40 bonus).
+Mechanic Henry fixed Broken Monster Truck 20 and made it Used (earned $2170.40 bonus).
+Mechanic Claude fixed Used Monster Truck 20 and made it Like New (earned $2170.40 bonus).
+Salesperson Elmer attempted to sell Dirty Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Salesperson Milton attempted to sell Dirty Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Salesperson Elmer attempted to sell Dirty Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
+Paid staff $11008.85
+The FNCD made $0.00
+Promoted Louis from Intern to Mechanic.

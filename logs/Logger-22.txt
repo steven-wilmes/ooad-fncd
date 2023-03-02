@@ -1,11 +1,12 @@
-Intern John washed and detailed Dirty Monster Truck 37 and made it Clean.
-Intern Elijah chemically washed Clean Monster Truck 20 and made it Sparkling (earned $2440.64 bonus).
-Intern Wiley used some elbow grease on Clean Pickup 9 and made it Sparkling (earned $2432.40 bonus).
-Intern John washed and detailed Clean Motorcycle 21 and made it Sparkling (earned $1580.20 bonus).
-Intern Elijah chemically washed Clean Performance Car 3 and made it Clean.
-Intern Wiley used some elbow grease on Clean Performance Car 2 and made it Clean.
-Salesperson Owen attempted to sell Clean Like New Monster Truck 37 to Buyer for $123836.25 and did not succeed.
-Salesperson Alexander attempted to sell Clean Like New Monster Truck 37 to Buyer for $123836.25 and did not succeed.
-Salesperson Carl sold Dirty Like New Monster Truck, satellite radio 46 to Buyer for $130028.06 (earned $0.00 bonus)
-Salesperson Owen attempted to sell Clean Like New Monster Truck 37 to Buyer for $123836.25 and did not succeed.
-Salesperson Alexander sold Sparkling Like New Monster Truck, satellite radio 47 to Buyer for $130028.06 (earned $0.00 bonus)
+Intern Guy used some elbow grease on Dirty Monster Truck 40 and made it Dirty.
+Monster Truck 40 became LIKE NEW from the elbow grease.
+Intern William chemically washed Dirty Monster Truck 40 and made it Clean.
+Intern Earl washed and detailed Dirty Monster Truck 39 and made it Clean.
+Intern Guy used some elbow grease on Clean Performance Car 47 and made it Dirty.
+Intern William chemically washed Dirty Performance Car 47 and made it Dirty.
+Intern Earl washed and detailed Dirty Performance Car 47 and made it Clean.
+Salesperson Elmer sold Clean Like New Monster Truck 40 to Buyer for $192241.50 (earned $3728.32 bonus)
+Salesperson Abraham attempted to sell Clean Like New Monster Truck 39 to Buyer for $184035.00 and did not succeed.
+Salesperson Abraham sold Dirty Like New Monster Truck, undercoating 50 to Buyer for $193236.75 (earned $0.00 bonus)
+Paid staff $6515.32
+The FNCD made $385478.25

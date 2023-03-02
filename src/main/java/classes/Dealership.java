@@ -50,12 +50,24 @@ public class Dealership {
      */
     double dailySales;
     
+    /**
+     * random number generator
+     */
     Random rng;
     
+    /**
+     * the publisher for the Observer pattern
+     */
     PropertyChangeSupport publisher;
     
+    /**
+     * the daily logger
+     */
     Logger dailyLogger;
     
+    /**
+     * the tracker
+     */
     Tracker tracker;
     
     /**
@@ -110,6 +122,9 @@ public class Dealership {
             }
             end();
         }
+        tracker.report();
+        publisher.removePropertyChangeListener(dailyLogger);
+        dailyLogger = null;
     }
     
     /**
@@ -194,6 +209,7 @@ public class Dealership {
         for (Driver d_ : injuredDrivers) {
             this.staffMembers.remove(d_);
             this.staffMembers.add(new Driver());
+            publisher.firePropertyChange("newStaff", null, new Tuple(this.staffMembers.get(staffMembers.size()-1).getName(), "Driver"));
             this.formerStaff.add(d_);
         }
     }
@@ -421,8 +437,7 @@ public class Dealership {
             staffMembers.add(promotee.promote(false));
             publisher.firePropertyChange("newStaff", null, new Tuple(promotee.getName(), "Salesperson"));
         }
-        tracker.report();
-        publisher.removePropertyChangeListener(dailyLogger);
+        
     }
     
     /**

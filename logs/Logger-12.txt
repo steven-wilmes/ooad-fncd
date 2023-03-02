@@ -1,9 +1,19 @@
-Intern John washed and detailed Clean Pickup 11 and made it Clean.
-Intern George used some elbow grease on Clean Electric Car 13 and made it Clean.
-Intern Roy chemically washed Clean Performance Car 2 and made it Clean.
-Intern John washed and detailed Clean Pickup 9 and made it Clean.
-Intern George used some elbow grease on Clean Performance Car 1 and made it Clean.
-Intern Roy chemically washed Clean Monster Truck 18 and made it Dirty.
-Salesperson Owen attempted to sell Dirty Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Salesperson Owen attempted to sell Dirty Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Salesperson Carl attempted to sell Dirty Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
+Intern Guy used some elbow grease on Dirty Monster Truck 37 and made it Dirty.
+Intern William chemically washed Dirty Monster Truck 37 and made it Clean.
+Intern Abraham used some elbow grease on Clean Monster Truck 36 and made it Dirty.
+Intern Guy used some elbow grease on Dirty Monster Truck 36 and made it Clean.
+Intern William chemically washed Clean Performance Car 1 and made it Clean.
+Intern Abraham used some elbow grease on Clean Regular Car 8 and made it Sparkling (earned $1524.80 bonus).
+Mechanic Henry fixed Broken Monster Truck 36 and made it Used (earned $2315.55 bonus).
+Mechanic Fredrick fixed Used Monster Truck 36 and made it Like New (earned $2315.55 bonus).
+Mechanic Louis fixed Used Monster Truck 37 and made it Like New (earned $3873.60 bonus).
+Salesperson Clifford sold Dirty Like New Monster Truck 37 to Buyer for $96840.00 (earned $3873.60 bonus)
+Salesperson Milton sold Dirty Like New Monster Truck, satellite radio 38 to Buyer for $91174.78 (earned $0.00 bonus)
+Salesperson Milton sold Dirty Like New Monster Truck 36 to Buyer for $86833.13 (earned $2315.55 bonus)
+Salesperson Clifford attempted to sell Clean Like New Monster Truck 19 to Buyer for $74826.40 and did not succeed.
+Salesperson Milton attempted to sell Clean Like New Monster Truck 19 to Buyer for $74826.40 and did not succeed.
+Salesperson Elmer attempted to sell Clean Like New Monster Truck 19 to Buyer for $74826.40 and did not succeed.
+Salesperson Milton sold Clean Like New Monster Truck 19 to Buyer for $74826.40 (earned $3401.20 bonus)
+Salesperson Clifford attempted to sell Sparkling Like New Electric Car 16 to Buyer for $73474.00 and did not succeed.
+Paid staff $22417.85
+The FNCD made $349674.31

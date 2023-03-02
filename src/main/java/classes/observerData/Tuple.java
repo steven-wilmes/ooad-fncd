@@ -9,10 +9,17 @@ public class Tuple {
         Y = y_;
     }
     
+    /**
+     * @return the first tuple element
+     */
     public Object getX() {
         return X;
     }
     
+    /**
+     *
+     * @return the second tuple element
+     */
     public Object getY() {
         return Y;
     }

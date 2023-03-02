@@ -3,14 +3,41 @@ package classes.observerData;
 import enums.Cleanliness;
 
 public class WashOutcome {
+    /**
+     * whether or not the was resulted in a sparkling vehicle
+     */
     Boolean washed;
+    /**
+     * the intern's name
+     */
     String internName;
+    /**
+     * the wash strategy employed
+     */
     String washType;
+    /**
+     * the cleanliness before washing
+     */
     Cleanliness initCleanliness;
+    /**
+     * the cleanliness after washing
+     */
     Cleanliness resultCleanliness;
+    /**
+     * the type of vehicle
+     */
     String vehicleType;
+    /**
+     * the vehicle's identifying number
+     */
     int vehicleNum;
+    /**
+     * the bonus associated with the vehicle
+     */
     double bonusAmt;
+    /**
+     * any extra messages from the cleaning strategy
+     */
     String extraMsg;
     
     public WashOutcome(Boolean washed_, String internName_, String washType_, Cleanliness initCleanliness_, Cleanliness resultCleanliness_, String vehicleType_, int vehicleNum_, double bonusAmt_, String extraMsg_) {

@@ -1,15 +1,23 @@
-Intern John washed and detailed Clean Performance Car 4 and made it Sparkling (earned $2185.68 bonus).
-Intern Roy chemically washed Clean Electric Car 28 and made it Sparkling (earned $2720.64 bonus).
-Intern Elijah chemically washed Clean Regular Car 5 and made it Clean.
-Intern John washed and detailed Clean Performance Car 1 and made it Clean.
-Intern Roy chemically washed Clean Monster Truck 20 and made it Dirty.
-Intern Elijah chemically washed Dirty Monster Truck 20 and made it Clean.
-Salesperson Carl attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Salesperson Owen attempted to sell Clean Like New Monster Truck 18 to Buyer for $85914.38 and did not succeed.
-Driver Allen is driving Pickup 9 in the race
-Driver Walter is driving Pickup 10 in the race
-Driver Otto is driving Pickup 11 in the race
-Driver Allen placed 15 in the race.
-Driver Walter placed 20 in the race and got injured!
-Pickup 10 became damaged!
-Driver Otto placed 8 in the race.
+Intern Guy used some elbow grease on Dirty Electric Car 14 and made it Clean.
+Electric Car 14 became LIKE NEW from the elbow grease.
+Intern William chemically washed Clean Motorcycle 21 and made it Clean.
+Intern Earl washed and detailed Clean Monster Truck 40 and made it Clean.
+Intern Guy used some elbow grease on Clean Motorcycle 23 and made it Clean.
+Intern William chemically washed Clean Electric Car 15 and made it Sparkling (earned $2500.40 bonus).
+Electric Car 15 became BROKEN from the chemical wash.
+Intern Earl washed and detailed Clean Regular Car 6 and made it Sparkling (earned $697.45 bonus).
+Mechanic Henry tried to fix Broken Electric Car 15 and did not succeed.
+Mechanic Fredrick fixed Broken Electric Car 15 and made it Used (earned $2500.40 bonus).
+Mechanic Louis fixed Used Electric Car 15 and made it Like New (earned $2500.40 bonus).
+Salesperson Elmer attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Abraham attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Salesperson Elmer attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
+Driver Lester is driving Black Stallion (Monster Truck 18) in the race
+Driver Adolph is driving The Felon (Monster Truck 39) in the race
+Driver Fred is driving Game Over (Monster Truck 40) in the race
+Driver Lester placed 5 in the race.
+Driver Adolph placed 7 in the race.
+Driver Fred placed 3 in the race! (earned $3728.32 bonus).
+Monster Truck 40 won!
+Paid staff $12485.65
+The FNCD made $0.00

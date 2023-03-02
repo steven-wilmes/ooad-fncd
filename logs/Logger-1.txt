@@ -1,17 +1,19 @@
-abcd
-Intern John washed and detailed Dirty Pickup 11 and made it Dirty.
-Intern Nicholas washed and detailed Dirty Regular Car 8 and made it Clean.
-Intern Sidney chemically washed Dirty Monster Truck 20 and made it Clean.
-Intern John washed and detailed Dirty Regular Car 7 and made it Sparkling (earned $773.65 bonus).
-Intern Nicholas washed and detailed Dirty Performance Car 3 and made it Clean.
-Intern Sidney chemically washed Dirty Monster Truck 19 and made it Clean.
-Mechanic Clifford fixed Used Monster Truck 20 and made it Like New (earned $2440.64 bonus).
-Mechanic Raymond fixed Broken Monster Truck 18 and made it Used (earned $2291.05 bonus).
-Mechanic Percy fixed Used Electric Car 15 and made it Like New (earned $2232.40 bonus).
-Mechanic Clifford fixed Used Pickup 10 and made it Like New (earned $802.56 bonus).
-Mechanic Raymond tried to fix Used Monster Truck 18 and did not succeed.
-Mechanic Percy fixed Broken Electric Car 14 and made it Used (earned $3818.80 bonus).
-Salesperson Alexander sold Dirty Like New Electric Car, satellite radio 27 to Buyer for $120292.20 (earned $0.00 bonus)
-Salesperson Carl sold Dirty Used Electric Car 14 to Buyer for $114564.00 (earned $3818.80 bonus)
-Salesperson Alexander attempted to sell Clean Used Monster Truck 19 to Buyer for $72152.00 and did not succeed.
-Salesperson Alexander attempted to sell Clean Used Monster Truck 19 to Buyer for $72152.00 and did not succeed.
+Hired Homer as a new Intern.
+Intern Elmer washed and detailed Dirty Performance Car 4 and made it Clean.
+Intern Guy used some elbow grease on Dirty Pickup 9 and made it Dirty.
+Intern Homer washed and detailed Dirty Performance Car 3 and made it Dirty.
+Intern Elmer washed and detailed Dirty Motorcycle 22 and made it Clean.
+Intern Guy used some elbow grease on Dirty Performance Car 3 and made it Clean.
+Intern Homer washed and detailed Dirty Performance Car 1 and made it Clean.
+Mechanic Henry fixed Used Pickup 11 and made it Like New (earned $1007.52 bonus).
+Mechanic Claude fixed Broken Monster Truck 20 and made it Used (earned $2170.40 bonus).
+Mechanic Fredrick tried to fix Broken Regular Car 7 and did not succeed.
+Mechanic Henry fixed Used Monster Truck 20 and made it Like New (earned $2170.40 bonus).
+Mechanic Claude fixed Used Motorcycle 23 and made it Like New (earned $1687.68 bonus).
+Mechanic Fredrick fixed Used Performance Car 3 and made it Like New (earned $2699.84 bonus).
+Salesperson Milton sold Dirty Used Regular Car, extended warranty, satellite radio 26 to Buyer for $20476.26 (earned $0.00 bonus)
+Salesperson Clifford attempted to sell Dirty Like New Monster Truck 17 to Buyer for $85966.00 and did not succeed.
+Salesperson Victor attempted to sell Dirty Like New Monster Truck 17 to Buyer for $85966.00 and did not succeed.
+Paid staff $12540.84
+The FNCD made $20476.26
+Promoted Elmer from Intern to Salesperson.

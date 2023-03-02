@@ -10,11 +10,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Logger implements PropertyChangeListener {
+    /**
+     * file name for the current log file
+     */
     String dailyLogName;
-    double dailyLoan;
-    double dailyStaff;
-    double dailyEarned;
     
+    /**
+     * create a new logger and file
+     * @param day_ the current day
+     */
     public Logger(int day_) {
         File logDir = new File("logs");
         if (!logDir.exists()) {
@@ -22,6 +26,9 @@ public class Logger implements PropertyChangeListener {
         }
         dailyLogName = String.format("logs%sLogger-%d.txt", File.separator, day_);
         File dailyLog = new File(dailyLogName);
+        if (dailyLog.exists()){
+            dailyLog.delete();
+        }
         try {
             dailyLog.createNewFile();
         } catch (IOException e) {
@@ -29,6 +36,10 @@ public class Logger implements PropertyChangeListener {
         }
     }
     
+    /**
+     * log to the file
+     * @param str_ line to log
+     */
     public void log(String str_) {
         try {
             FileWriter writer = new FileWriter(dailyLogName, true);
@@ -39,19 +50,20 @@ public class Logger implements PropertyChangeListener {
         }
     }
     
+    /**
+     * handle an event
+     * @param evt event
+     */
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
+        // the event type
         String propName = evt.getPropertyName();
-        if (propName.equals("loan")) {
-            dailyLoan = (Double) evt.getNewValue();
-        } else if (propName.equals("staffPay")) {
-            dailyStaff = (Double) evt.getNewValue();
-        } else if (propName.equals("moneyIn")) {
-            dailyEarned = (Double) evt.getNewValue();
-        } else if (propName.equals("washOutcome")) {
+        if (propName.equals("washOutcome")) {
+            // type: WashOutcome
             if (evt.getNewValue().getClass() != WashOutcome.class) {
                 main.Main.log("Invalid wash outcome update");
             } else {
+                // valid wash update
                 WashOutcome toLog = (WashOutcome) evt.getNewValue();
                 if (toLog.getWashed()) {
                     log(String.format("Intern %s %s %s %s %d and made it Sparkling (earned $%.2f bonus).",
@@ -75,9 +87,11 @@ public class Logger implements PropertyChangeListener {
                 }
             }
         } else if (propName.equals("repairOutcome")) {
+            // type: RepairOutcome
             if (evt.getNewValue().getClass() != RepairOutcome.class) {
                 main.Main.log("Invalid repair outcome update");
             } else {
+                // valid repair update
                 RepairOutcome toLog = (RepairOutcome) evt.getNewValue();
                 if (toLog.getRepaired()) {
                     log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%.2f bonus).",
@@ -96,9 +110,11 @@ public class Logger implements PropertyChangeListener {
                 }
             }
         } else if (propName.equals("salesOutcome")) {
+            // type: SaleOutcome
             if (evt.getNewValue().getClass() != SaleOutcome.class) {
                 main.Main.log("Invalid sale outcome update");
             } else {
+                // valid sales update
                 SaleOutcome toLog = (SaleOutcome) evt.getNewValue();
                 if (toLog.getSold()) {
                     log(String.format("Salesperson %s sold %s %s %s %d to Buyer for $%.2f (earned $%.2f bonus)",
@@ -120,9 +136,12 @@ public class Logger implements PropertyChangeListener {
                 }
             }
         } else if (propName.equals("raceOutcome")) {
+            // type: ArrayList<RaceOutcome>
             if (evt.getNewValue().getClass() != ArrayList.class) {
                 main.Main.log("Invalid race outcome update");
             } else {
+                // valid race update
+                // list of race outcomes
                 ArrayList<RaceOutcome> toLog = (ArrayList<RaceOutcome>) evt.getNewValue();
                 for (RaceOutcome r : toLog) {
                     if (!r.getMtStageName().equals("No")) {
@@ -166,17 +185,24 @@ public class Logger implements PropertyChangeListener {
                 }
             }
         } else if (propName.equals("newStaff")) {
+            // type: Tuple(String, String)
             if (evt.getNewValue().getClass() != Tuple.class) {
                 main.Main.log("Invalid new staff update");
             } else {
                 String name = (String) ((Tuple) evt.getNewValue()).getX();
                 String role = (String) ((Tuple) evt.getNewValue()).getY();
-                if (role.equals("Intern")) {
-                    log(String.format("Hired %s as a new Intern.", name));
+                if (role.equals("Intern") || role.equals("Driver")) {
+                    log(String.format("Hired %s as a new %s.", name, role));
                 } else {
                     log(String.format("Promoted %s from Intern to %s.", name, role));
                 }
             }
+        } else if (propName.equals("staffPay")){
+            log(String.format("Paid staff $%.2f", (Double) evt.getNewValue()));
+        } else if (propName.equals("moneyIn")){
+            log(String.format("The FNCD made $%.2f", (Double) evt.getNewValue()));
+        } else if (propName.equals("loan")){
+            log(String.format("The FNCD has taken out a loan. The FNCD has $%.2f in loans.", (Double) evt.getNewValue()));
         }
     }
 }

@@ -1,15 +1,17 @@
-Intern John washed and detailed Dirty Monster Truck 18 and made it Clean.
-Intern George used some elbow grease on Dirty Regular Car 5 and made it Dirty.
-Regular Car 5 became LIKE NEW from the elbow grease.
-Intern Roy chemically washed Dirty Motorcycle 26 and made it Clean.
-Intern John washed and detailed Dirty Motorcycle 23 and made it Sparkling (earned $804.30 bonus).
-Intern George used some elbow grease on Dirty Motorcycle 21 and made it Clean.
-Intern Roy chemically washed Dirty Regular Car 8 and made it Clean.
-Mechanic Clifford fixed Used Performance Car 1 and made it Like New (earned $1856.80 bonus).
-Mechanic Raymond tried to fix Broken Monster Truck 34 and did not succeed.
-Mechanic Percy fixed Broken Monster Truck 34 and made it Used (earned $1639.35 bonus).
-Mechanic Clifford fixed Used Monster Truck 34 and made it Like New (earned $1639.35 bonus).
-Salesperson Owen attempted to sell Clean Like New Monster Truck 19 to Buyer for $90190.00 and did not succeed.
-Salesperson Carl attempted to sell Clean Like New Monster Truck 19 to Buyer for $90190.00 and did not succeed.
-Salesperson Owen attempted to sell Clean Like New Monster Truck 19 to Buyer for $90190.00 and did not succeed.
-Salesperson Carl attempted to sell Clean Like New Monster Truck 19 to Buyer for $90190.00 and did not succeed.
+Intern Guy used some elbow grease on Dirty Monster Truck 20 and made it Clean.
+Intern Homer washed and detailed Dirty Regular Car 7 and made it Dirty.
+Intern William chemically washed Dirty Motorcycle 22 and made it Clean.
+Motorcycle 22 became BROKEN from the chemical wash.
+Intern Guy used some elbow grease on Dirty Regular Car 7 and made it Dirty.
+Regular Car 7 became LIKE NEW from the elbow grease.
+Intern Homer washed and detailed Dirty Electric Car 27 and made it Sparkling (earned $2042.48 bonus).
+Intern William chemically washed Dirty Electric Car 14 and made it Clean.
+Mechanic Henry fixed Used Monster Truck 30 and made it Like New (earned $3614.96 bonus).
+Mechanic Claude fixed Broken Motorcycle 22 and made it Used (earned $852.10 bonus).
+Mechanic Fredrick tried to fix Used Motorcycle 22 and did not succeed.
+Mechanic Henry fixed Used Motorcycle 22 and made it Like New (earned $852.10 bonus).
+Salesperson Milton sold Clean Used Monster Truck, undercoating, satellite radio 32 to Buyer for $99637.34 (earned $0.00 bonus)
+Salesperson Clifford attempted to sell Dirty Like New Monster Truck 30 to Buyer for $90374.00 and did not succeed.
+Salesperson Elmer sold Dirty Like New Monster Truck, satellite radio 33 to Buyer for $94892.70 (earned $0.00 bonus)
+Paid staff $10169.64
+The FNCD made $194530.04
