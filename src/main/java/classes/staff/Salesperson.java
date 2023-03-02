@@ -1,6 +1,7 @@
 package classes.staff;
 
 import classes.Buyer;
+import classes.observerData.Tuple;
 import classes.vehicles.Vehicle;
 import classes.vehicles.addon.*;
 import enums.Cleanliness;
@@ -40,7 +41,7 @@ public class Salesperson extends Staff {
      * @param vehicleInventory_ the current vehicle inventory
      * @return the sold vehicle if the sale is successful, else null
      */
-    public Vehicle sell(Buyer buyer_, ArrayList<Vehicle> vehicleInventory_) {
+    public Tuple sell(Buyer buyer_, ArrayList<Vehicle> vehicleInventory_) {
         ArrayList<Vehicle> desiredVehicleList = new ArrayList<>();
         ArrayList<Vehicle> sellableVehicles = new ArrayList<>();
         double saleChance = buyer_.getBuyingChance();
@@ -75,6 +76,7 @@ public class Salesperson extends Staff {
         // attempt sale
         if (rng.nextDouble() <= saleChance) { // random double between 0 and 1, if it's below the sale chance the sale succeeds
             //try to upsell them baby
+            //fixme should these be logged?
             if(rng.nextInt(100) < 25) {toSell = new ExtendedWarranty(toSell);}
             if(rng.nextInt(100) < 10) {toSell = new Undercoating(toSell);}
             if(rng.nextInt(100) < 2) {toSell = new RoadRescueCoverage(toSell);}
@@ -88,7 +90,7 @@ public class Salesperson extends Staff {
                     toSell.getVehicleNo(),
                     toSell.getSalesPrice(),
                     toSell.getBonusAmount()));
-            return toSell;
+            return new Tuple(toSell, true);
         } else {
             Main.log(String.format("Salesperson %s attempted to sell %s %s %s (VIN #%d) to Buyer for $%.2f and did not succeed.",
                     this.name,
@@ -97,7 +99,7 @@ public class Salesperson extends Staff {
                     toSell.getStr(),
                     toSell.getVehicleNo(),
                     toSell.getSalesPrice()));
-            return null;
+            return new Tuple(toSell, false);
         }
         
     }

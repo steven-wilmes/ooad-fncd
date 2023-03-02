@@ -3,7 +3,7 @@ package classes.staff;
 public class Driver extends Staff {
 
     int wins;
-    public Boolean isInjured;
+    Boolean isInjured;
 
     public Driver(){
         super();
@@ -50,5 +50,9 @@ public class Driver extends Staff {
                         position));
                 break;
         }
+    }
+    
+    public Boolean getInjured() {
+        return isInjured;
     }
 }

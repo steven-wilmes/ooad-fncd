@@ -1,9 +1,6 @@
 package classes;
 
-import classes.observerData.RaceOutcome;
-import classes.observerData.RepairOutcome;
-import classes.observerData.SaleOutcome;
-import classes.observerData.WashOutcome;
+import classes.observerData.*;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -14,10 +11,9 @@ import java.util.ArrayList;
 
 public class Logger implements PropertyChangeListener {
     String dailyLogName;
-    double totalLoan;
-    double totalStaff;
-    double totalEarned;
-    int day;
+    double dailyLoan;
+    double dailyStaff;
+    double dailyEarned;
     
     public Logger(int day_) {
         File logDir = new File("logs");
@@ -47,13 +43,11 @@ public class Logger implements PropertyChangeListener {
     public void propertyChange(PropertyChangeEvent evt) {
         String propName = evt.getPropertyName();
         if (propName.equals("loan")) {
-            totalLoan = (Double) evt.getNewValue();
+            dailyLoan = (Double) evt.getNewValue();
         } else if (propName.equals("staffPay")) {
-            totalStaff = (Double) evt.getNewValue();
+            dailyStaff = (Double) evt.getNewValue();
         } else if (propName.equals("moneyIn")) {
-            totalEarned = (Double) evt.getNewValue();
-        } else if (propName.equals("day")) {
-            day = (Integer) evt.getNewValue();
+            dailyEarned = (Double) evt.getNewValue();
         } else if (propName.equals("washOutcome")) {
             if (evt.getNewValue().getClass() != WashOutcome.class) {
                 main.Main.log("Invalid wash outcome update");
@@ -169,6 +163,18 @@ public class Logger implements PropertyChangeListener {
                                 r.getDriverName(),
                                 r.getPlace()));
                     }
+                }
+            }
+        } else if (propName.equals("newStaff")){
+            if (evt.getNewValue().getClass() != Tuple.class){
+                main.Main.log("Invalid new staff update");
+            }else{
+                String name = (String)((Tuple) evt.getNewValue()).getX();
+                String role = (String)((Tuple) evt.getNewValue()).getY();
+                if (role.equals("Intern")){
+                    log(String.format("Hired %s as a new Intern.", name));
+                }else{
+                    log(String.format("Promoted %s from Intern to %s.", name, role));
                 }
             }
         }

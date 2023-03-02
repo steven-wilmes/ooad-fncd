@@ -1,5 +1,9 @@
 package classes;
 
+import classes.observerData.RaceOutcome;
+import classes.observerData.SaleOutcome;
+import classes.observerData.Tuple;
+import classes.observerData.WashOutcome;
 import classes.staff.Intern;
 import classes.staff.Mechanic;
 import classes.staff.Salesperson;
@@ -60,6 +64,9 @@ public class Dealership {
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
     public Dealership() {
+        publisher = new PropertyChangeSupport(this);
+        tracker = new Tracker();
+        publisher.addPropertyChangeListener(tracker);
         staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
             staffMembers.add(new Salesperson());
@@ -78,9 +85,7 @@ public class Dealership {
         totalLoan = 0;
         dailySales = 0;
         rng = new Random();
-        publisher = new PropertyChangeSupport(this);
-        tracker = new Tracker();
-        publisher.addPropertyChangeListener(tracker);
+        
     }
     
     /**
@@ -173,7 +178,7 @@ public class Dealership {
      */
     private void hire() { // OO ELEMENT: Cohesion. The hire() function does one operation (hires an intern)
         Intern hiree = new Intern();
-        Main.log(String.format("Hired %s as a new intern.", hiree.getName()));
+        publisher.firePropertyChange("newStaff", null, new ArrayList<String>(Arrays.asList(hiree.getName(), hiree.getPosition())));
         staffMembers.add(hiree);
     }
 
@@ -183,7 +188,7 @@ public class Dealership {
         for(Staff s_ : this.staffMembers){
             if(s_.getClass() == Driver.class){
                 Driver driver = (Driver) s_;
-                if(driver.isInjured){
+                if(driver.getInjured()){
                     injuredDrivers.add(driver);
                 }
             }
@@ -203,9 +208,10 @@ public class Dealership {
      */
     private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern) {
         Vehicle toWash;
+        WashOutcome washOutcome = null;
         if (dirtyVehicleList.size() > 0) {
             toWash = dirtyVehicleList.get(rng.nextInt(dirtyVehicleList.size()));
-            intern.wash(toWash);
+            washOutcome = intern.wash(toWash);
             switch (toWash.getCleanliness()) {
                 case DIRTY:
                     // do nothing
@@ -220,7 +226,7 @@ public class Dealership {
             }
         } else if (cleanVehicleList.size() > 0) {
             toWash = cleanVehicleList.get(rng.nextInt(cleanVehicleList.size()));
-            intern.wash(toWash);
+            washOutcome = intern.wash(toWash);
             switch (toWash.getCleanliness()) {
                 case DIRTY:
                     cleanVehicleList.remove(toWash);
@@ -236,6 +242,9 @@ public class Dealership {
         } else {
             Main.log(String.format("There are no cars for Intern %s to wash.", intern.getName()));
         }
+        if (washOutcome != null){
+            publisher.firePropertyChange("washOutcome", null, washOutcome);
+        }
     }
     
     /**
@@ -248,7 +257,7 @@ public class Dealership {
         Vehicle toFix;
         if (unFixedVehicleList.size() > 0) {
             toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
-            mechanic.repair(toFix);
+            publisher.firePropertyChange("repairOutcome", null, mechanic.repair(toFix));
             if (toFix.getCondition() == Condition.LIKE_NEW) {
                 unFixedVehicleList.remove(toFix);
             }
@@ -270,8 +279,11 @@ public class Dealership {
         for (int i = 0; i < numBuyers; i++) {
             Buyer buyer = new Buyer();
             Salesperson seller = salespeople.get(rng.nextInt(salespeople.size()));
-            Vehicle sold = seller.sell(buyer, vehicleInventory);
-            if (!Objects.isNull(sold)) {
+            Tuple result = seller.sell(buyer, vehicleInventory);
+            Vehicle sold = (Vehicle) result.getX();
+            publisher.firePropertyChange("salesOutcome", null,
+                    new SaleOutcome((Boolean)result.getY(), seller.getName(), sold.getCleanliness(), sold.getCondition(), sold.getStr(), sold.getVehicleNo(), sold.getSalesPrice(), sold.getBonusAmount()));
+            if ((Boolean)result.getY()) {
                 // vehicle successfully sold
                 modifyBudget(sold.getSalesPrice());
                 dailySales += sold.getSalesPrice();
@@ -357,6 +369,8 @@ public class Dealership {
                 salespersons.add((Salesperson) s_);
             }
         }
+        publisher.firePropertyChange("staffPay",null, totalPaid);
+        publisher.firePropertyChange("moneyIn", null, dailySales);
         Main.log(String.format("Daily pay:      $%10.2f", totalPaid));
         Main.log(String.format("Daily Sales:    $%10.2f", dailySales));
         Main.log(String.format("Current Budget: $%10.2f", budget));
@@ -392,6 +406,7 @@ public class Dealership {
             interns.remove(promotee);
             staffMembers.remove(promotee);
             staffMembers.add(promotee.promote(true));
+            publisher.firePropertyChange("newStaff",null, new Tuple(promotee.getName(), "Mechanic"));
         }
         
         //handle salesperson quitting, promote intern
@@ -405,6 +420,7 @@ public class Dealership {
             interns.remove(promotee);
             staffMembers.remove(promotee);
             staffMembers.add(promotee.promote(false));
+            publisher.firePropertyChange("newStaff",null, new Tuple(promotee.getName(), "Salesperson"));
         }
         tracker.report();
         publisher.removePropertyChangeListener(dailyLogger);
@@ -483,6 +499,7 @@ public class Dealership {
         if (budget <= 0) {
             // out of money
             totalLoan += 250000;
+            publisher.firePropertyChange("loan", null, totalLoan);
             budget += 250000;
             Main.log(String.format("The FNCD has run out of money. Loan of $250000 added to the budget. Current budget: $%f", budget));
         }
@@ -540,11 +557,18 @@ public class Dealership {
             }
         }
         Main.log("\nRace Results:");
+        ArrayList<RaceOutcome> raceOutcomes = new ArrayList<>();
         //handle race results
         for(int i = 0; i < racingVehicles.size(); i++){
-            drivers.get(i).race(places.get(i));
-            racingVehicles.get(i).race(places.get(i));
-
+            Driver d = drivers.get(i);
+            Vehicle r = racingVehicles.get(i);
+            d.race(places.get(i));
+            r.race(places.get(i));
+            raceOutcomes.add(new RaceOutcome(places.get(i), d.getName(), r.getStr(), r.getVehicleNo(), r.getBonusAmount(), d.getInjured()));
+            if (r.getClass() == MonsterTruck.class){
+                raceOutcomes.get(i).addMTStageName(((MonsterTruck) r).getStageName());
+            }
         }
+        publisher.firePropertyChange("raceOutcome", null, raceOutcomes);
     }
 }

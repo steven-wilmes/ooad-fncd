@@ -1,5 +1,6 @@
 package classes.staff;
 
+import classes.observerData.WashOutcome;
 import classes.staff.WashBehavior.*;
 import classes.vehicles.Vehicle;
 import enums.Cleanliness;
@@ -37,7 +38,7 @@ public class Intern extends Staff {
      *
      * @param vehicle_ vehicle to be washed
      */
-    public void wash(Vehicle vehicle_) {
+    public WashOutcome wash(Vehicle vehicle_) {
         Cleanliness beforeWash = vehicle_.getCleanliness();
         String specialString = washBehavior.wash(vehicle_);
         if (vehicle_.getCleanliness() == Cleanliness.SPARKLING) { // if the vehicle becomes sparkling
@@ -61,6 +62,7 @@ public class Intern extends Staff {
         if(specialString != "") {
             main.Main.log(specialString);
         }
+        return new WashOutcome((vehicle_.getCleanliness() == Cleanliness.SPARKLING), this.name, this.washBehavior.getStr(), beforeWash, vehicle_.getCleanliness(), vehicle_.getStr(), vehicle_.getVehicleNo(), vehicle_.getBonusAmount(), specialString);
     }
     
     /**
@@ -71,10 +73,8 @@ public class Intern extends Staff {
      */
     public Staff promote(boolean isMechanic_) {
         if (isMechanic_) {
-            Main.log(String.format("Intern %s has been promoted to Mechanic", this.name));
             return new Mechanic(name);
         } else {
-            Main.log(String.format("Intern %s has been promoted to Salesperson", this.name));
             return new Salesperson(name);
         }
     }

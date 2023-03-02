@@ -14,9 +14,9 @@ public class Tracker implements PropertyChangeListener {
         if (propName.equals("loan")){
             totalLoan = (Double) evt.getNewValue();
         }else if (propName.equals("staffPay")){
-            totalStaff = (Double) evt.getNewValue();
+            totalStaff += (Double) evt.getNewValue();
         }else if (propName.equals("moneyIn")){
-            totalEarned = (Double) evt.getNewValue();
+            totalEarned += (Double) evt.getNewValue();
         }else if (propName.equals("day")){
             day = (Integer) evt.getNewValue();
         }

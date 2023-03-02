@@ -24,14 +24,8 @@ public class RaceOutcome {
         driverInjured = driverInjured_;
     }
     
-    public RaceOutcome(int place_, String driverName_, String mtStageName_, String vehicleType_, int vehicleNum_, double bonusAmt_, Boolean driverInjured_) {
-        place = place_;
-        driverName = driverName_;
+    public void addMTStageName(String mtStageName_){
         mtStageName = mtStageName_;
-        vehicleType = vehicleType_;
-        vehicleNum = vehicleNum_;
-        bonusAmt = bonusAmt_;
-        driverInjured = driverInjured_;
     }
     
     public int getPlace() {

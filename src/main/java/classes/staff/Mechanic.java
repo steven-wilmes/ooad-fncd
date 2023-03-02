@@ -1,5 +1,6 @@
 package classes.staff;
 
+import classes.observerData.RepairOutcome;
 import classes.vehicles.Vehicle;
 import enums.Condition;
 
@@ -31,9 +32,10 @@ public class Mechanic extends Staff {
      *
      * @param vehicle_ vehicle to be repaired
      */
-    public void repair(Vehicle vehicle_) {
+    public RepairOutcome repair(Vehicle vehicle_) {
         Condition prevCondition = vehicle_.getCondition();
-        if (vehicle_.repair()) { // if repaired
+        Boolean repairSuccessful = vehicle_.repair();
+        if (repairSuccessful) { // if repaired
             this.giveBonus(vehicle_.getBonusAmount());
             main.Main.log(String.format("Mechanic %s fixed %s %s %d and made it %s (earned $%.2f bonus).",
                     this.name,
@@ -49,5 +51,6 @@ public class Mechanic extends Staff {
                     vehicle_.getStr(),
                     vehicle_.getVehicleNo()));
         }
+        return new RepairOutcome(repairSuccessful, this.name, prevCondition, vehicle_.getCondition(), vehicle_.getStr(), vehicle_.getVehicleNo(), vehicle_.getBonusAmount());
     }
 }
