@@ -2,6 +2,7 @@ package classes.staff;
 
 import classes.Buyer;
 import classes.vehicles.Vehicle;
+import classes.vehicles.addon.*;
 import enums.Cleanliness;
 import enums.Condition;
 import main.Main;
@@ -73,8 +74,13 @@ public class Salesperson extends Staff {
         
         // attempt sale
         if (rng.nextDouble() <= saleChance) { // random double between 0 and 1, if it's below the sale chance the sale succeeds
+            //try to upsell them baby
+            if(rng.nextInt(100) < 25) {toSell = new ExtendedWarranty(toSell);}
+            if(rng.nextInt(100) < 10) {toSell = new Undercoating(toSell);}
+            if(rng.nextInt(100) < 2) {toSell = new RoadRescueCoverage(toSell);}
+            if(rng.nextInt(100) < 40) {toSell = new SatelliteRadio(toSell);}
             this.giveBonus(toSell.getBonusAmount());
-            Main.log(String.format("Salesperson %s sold %s %s %s %d to Buyer for $%.2f (earned $%.2f bonus)",
+            Main.log(String.format("Salesperson %s sold %s %s %s (VIN #%d) to Buyer for $%.2f (earned $%.2f bonus)",
                     this.name,
                     toSell.getCleanliness().getStr(),
                     toSell.getCondition().getStr(),
@@ -84,7 +90,7 @@ public class Salesperson extends Staff {
                     toSell.getBonusAmount()));
             return toSell;
         } else {
-            Main.log(String.format("Salesperson %s attempted to sell %s %s %s %d to Buyer for $%.2f and did not succeed.",
+            Main.log(String.format("Salesperson %s attempted to sell %s %s %s (VIN #%d) to Buyer for $%.2f and did not succeed.",
                     this.name,
                     toSell.getCleanliness().getStr(),
                     toSell.getCondition().getStr(),

@@ -443,10 +443,10 @@ public class Dealership {
         
         Main.log("\nSold Vehicles:");
         soldVehicles.sort(Comparator.comparing(Vehicle::getVehicleNo));
-        Main.log(String.format("%3s | %15s | %9s | %10s | %9s | %11s | %s",
+        Main.log(String.format("%3s | %75s | %9s | %10s | %9s | %11s | %s",
                 "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness", "Race Wins"));
         for (Vehicle v_ : soldVehicles) {
-            Main.log(String.format("%3d | %15s | $%8.2f | $%9.2f | %9s | %11s | %d",
+            Main.log(String.format("%3d | %75s | $%8.2f | $%9.2f | %9s | %11s | %d",
                     v_.getVehicleNo(),
                     v_.getStr(),
                     v_.getCost(),
