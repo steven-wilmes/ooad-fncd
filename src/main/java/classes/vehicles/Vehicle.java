@@ -46,7 +46,7 @@ public abstract class Vehicle {
      * counter of vehicles to assign unique number identifiers
      */
     static int inventoryNo = 1;
-
+    
     int wins;
     
     /**
@@ -58,7 +58,7 @@ public abstract class Vehicle {
         //assign vehicle number and increment inventory counter
         this.vehicleNo = inventoryNo;
         inventoryNo++;
-
+        
         this.wins = 0;
         
         //randomly determine initial vehicle cleanliness
@@ -129,27 +129,16 @@ public abstract class Vehicle {
             return true;
         }
     }
-
-    public void race(int position){
-        switch(position){
-            case 1:
-            case 2:
-            case 3:
-                this.wins+=1; //winner winner chicken dinner
-                this.salesPrice *= 1.1; //winning cars worth 10% more
-                break;
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
-                this.condition = Condition.BROKEN;
-                main.Main.log(String.format("%s %d became damaged!",
-                        this.getStr(),
-                        this.getVehicleNo()));
-                break;
-            default:
-                break;
+    
+    public void race(int position) {
+        if (position <= 3) {
+            this.wins += 1; //winner winner chicken dinner
+            this.salesPrice *= 1.1; //winning cars worth 10% more
+        } else if (position >= 16) {
+            this.condition = Condition.BROKEN;
+            main.Main.log(String.format("%s %d became damaged!",
+                    this.getStr(),
+                    this.getVehicleNo()));
         }
     }
     
@@ -197,7 +186,7 @@ public abstract class Vehicle {
     public Condition getCondition() {
         return this.condition;
     }
-
+    
     /**
      * Sets the condition of the vehicle
      *
@@ -210,8 +199,10 @@ public abstract class Vehicle {
     public int getVehicleNo() {
         return vehicleNo;
     }
-
-    public int getWins() {return this.wins;}
+    
+    public int getWins() {
+        return this.wins;
+    }
     
     /**
      * Gets type name

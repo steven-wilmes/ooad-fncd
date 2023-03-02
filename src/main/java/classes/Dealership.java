@@ -10,6 +10,8 @@ import enums.Cleanliness;
 import enums.Condition;
 import main.Main;
 
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.util.*;
 
 public class Dealership {
@@ -48,6 +50,12 @@ public class Dealership {
     
     Random rng;
     
+    PropertyChangeSupport publisher;
+    
+    Logger dailyLogger;
+    
+    Tracker tracker;
+    
     /**
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
@@ -70,6 +78,9 @@ public class Dealership {
         totalLoan = 0;
         dailySales = 0;
         rng = new Random();
+        publisher = new PropertyChangeSupport(this);
+        tracker = new Tracker();
+        publisher.addPropertyChangeListener(tracker);
     }
     
     /**
@@ -79,6 +90,8 @@ public class Dealership {
      *             than other days
      */
     public void day(int day_) {
+        dailyLogger = new Logger(day_);
+        publisher.addPropertyChangeListener(dailyLogger);
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));
         if (day_ % 7 == 6) { // sunday - no sales, but there is a rac
@@ -393,6 +406,8 @@ public class Dealership {
             staffMembers.remove(promotee);
             staffMembers.add(promotee.promote(false));
         }
+        tracker.report();
+        publisher.removePropertyChangeListener(dailyLogger);
     }
     
     /**
