@@ -1,18 +1,16 @@
-Intern Willard washed and detailed Dirty Pickup 42 and made it Dirty.
-Intern Russell chemically washed Dirty Pickup 42 and made it Clean.
-Intern Carl used some elbow grease on Clean Pickup 9 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Sparkling (earned $633.76 bonus).
-Intern Russell chemically washed Clean Pickup 9 and made it Sparkling (earned $944.55 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Mechanic Mark tried to fix Used Pickup 42 and did not succeed.
-Mechanic Manuel fixed Used Pickup 42 and made it Like New (earned $2486.00 bonus).
-Salesperson Harvey sold Dirty Broken Monster Truck, undercoating, satellite radio 44 to Buyer for $141959.97 (earned $0.00 bonus)
-Salesperson Louis sold Dirty Like New Monster Truck, satellite radio 45 to Buyer for $135199.97 (earned $0.00 bonus)
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck 18 to Buyer for $128761.88 and did not succeed.
-Salesperson Michael sold Sparkling Like New Monster Truck 18 to Buyer for $128761.88 (earned $1664.80 bonus)
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck 41 to Buyer for $128163.75 and did not succeed.
-Salesperson Michael sold Sparkling Like New Monster Truck 41 to Buyer for $128163.75 (earned $2734.16 bonus)
-Salesperson Harvey sold Sparkling Like New Electric Car 13 to Buyer for $111862.50 (earned $2386.40 bonus)
-Salesperson Louis sold Clean Like New Performance Car 3 to Buyer for $101085.00 (earned $2695.60 bonus)
-Paid staff $16305.27
-The FNCD made $747033.06
+Hired Clifford as a new Intern.
+Intern Horace washed and detailed Dirty Monster Truck 53 and made it Sparkling (earned $3924.56 bonus).
+Intern Sidney used some elbow grease on Dirty Monster Truck 54 and made it Clean.
+Intern Clifford washed and detailed Clean Monster Truck 54 and made it Clean.
+Intern Horace washed and detailed Clean Performance Car 50 and made it Sparkling (earned $2834.72 bonus).
+Intern Sidney used some elbow grease on Clean Monster Truck 54 and made it Clean.
+Intern Clifford washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1229.30 bonus).
+Salesperson Ollie sold Sparkling Like New Monster Truck 53 to Buyer for $98114.00 (earned $3924.56 bonus)
+Salesperson Joe attempted to sell Clean Like New Monster Truck 54 to Buyer for $89736.00 and did not succeed.
+Salesperson Ollie sold Clean Like New Monster Truck 54 to Buyer for $89736.00 (earned $4486.80 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Regular Car 6 to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Regular Car 6 to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde sold Sparkling Like New Regular Car 6 to Buyer for $86435.16 (earned $1229.30 bonus)
+Salesperson Clyde sold Dirty Like New Performance Car, satellite radio 55 to Buyer for $86806.13 (earned $1763.68 bonus)
+Paid staff $22190.92
+The FNCD made $361091.28

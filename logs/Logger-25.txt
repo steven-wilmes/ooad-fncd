@@ -1,12 +1,16 @@
-Intern Willard washed and detailed Dirty Performance Car 3 and made it Dirty.
-Intern Russell chemically washed Dirty Performance Car 3 and made it Clean.
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 3 and made it Clean.
-Intern Russell chemically washed Clean Monster Truck 29 and made it Sparkling (earned $2666.72 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Salesperson Louis sold Clean Like New Pickup 10 to Buyer for $128875.78 (earned $1832.90 bonus)
-Salesperson Harvey attempted to sell Sparkling Like New Monster Truck 18 to Buyer for $128761.88 and did not succeed.
-Salesperson Harvey attempted to sell Sparkling Like New Monster Truck 18 to Buyer for $128761.88 and did not succeed.
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck 18 to Buyer for $128761.88 and did not succeed.
-Paid staff $7259.62
-The FNCD made $128875.78
+Intern Lloyd chemically washed Dirty Performance Car 50 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 53 and made it Clean.
+Intern Sidney used some elbow grease on Dirty Regular Car 6 and made it Dirty.
+Intern Lloyd chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Sparkling (earned $996.08 bonus).
+Intern Sidney used some elbow grease on Clean Monster Truck 53 and made it Clean.
+Mechanic Albert fixed Used Monster Truck 53 and made it Like New (earned $3924.56 bonus).
+Mechanic Alfred fixed Broken Monster Truck 47 and made it Used (earned $2011.55 bonus).
+Mechanic Edward fixed Used Monster Truck 47 and made it Like New (earned $2011.55 bonus).
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck 47 to Buyer for $141437.11 and did not succeed.
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck 47 to Buyer for $141437.11 and did not succeed.
+Salesperson Joe sold Dirty Like New Monster Truck 47 to Buyer for $141437.11 (earned $2011.55 bonus)
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck 53 to Buyer for $98114.00 and did not succeed.
+Paid staff $13724.29
+The FNCD made $141437.11
+Promoted Lloyd from Intern to Mechanic.

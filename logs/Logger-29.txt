@@ -1,13 +1,12 @@
-Intern Willard washed and detailed Dirty Pickup 42 and made it Sparkling (earned $2486.00 bonus).
-Intern Russell chemically washed Dirty Monster Truck 48 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 46 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Clean.
-Intern Russell chemically washed Clean Performance Car 46 and made it Dirty.
-Performance Car 46 became BROKEN from the chemical wash.
-Intern Carl used some elbow grease on Dirty Performance Car 46 and made it Clean.
-Mechanic Mark fixed Broken Performance Car 46 and made it Used (earned $2134.16 bonus).
-Mechanic Manuel tried to fix Used Performance Car 46 and did not succeed.
-Mechanic Julius fixed Used Performance Car 46 and made it Like New (earned $2134.16 bonus).
-Salesperson Louis attempted to sell Clean Like New Monster Truck 48 to Buyer for $143763.00 and did not succeed.
-Paid staff $9514.32
-The FNCD made $0.00
+Intern Horace washed and detailed Dirty Monster Truck 62 and made it Dirty.
+Intern Sidney used some elbow grease on Dirty Monster Truck 62 and made it Clean.
+Intern Maurice washed and detailed Dirty Monster Truck 58 and made it Dirty.
+Intern Horace washed and detailed Dirty Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Performance Car 61 and made it Clean.
+Performance Car 61 became LIKE NEW from the elbow grease.
+Intern Maurice washed and detailed Clean Regular Car 56 and made it Sparkling (earned $1052.70 bonus).
+Mechanic Albert fixed Broken Performance Car 60 and made it Used (earned $1044.40 bonus).
+Mechanic Edward fixed Used Performance Car 60 and made it Like New (earned $1044.40 bonus).
+Salesperson Ollie sold Dirty Used Monster Truck, undercoating, satellite radio 64 to Buyer for $83638.82 (earned $1839.10 bonus)
+Paid staff $9273.60
+The FNCD made $83638.82

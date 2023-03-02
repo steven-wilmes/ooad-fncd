@@ -1,16 +1,15 @@
-
-Hired Anton as a new salesperson.
-Hired Mark as a new mechanic.
-Hired Manuel as a new intern.
-Hired Archie as a new driver.
-Hired Nicholas as a new salesperson.
-Hired Wilson as a new mechanic.
-Hired Clarence as a new intern.
-Hired Alexander as a new driver.
-Hired Louis as a new salesperson.
-Hired Jim as a new mechanic.
-Hired Harvey as a new intern.
-Hired William as a new driver.
+Hired Ernest as a new salesperson.
+Hired Albert as a new mechanic.
+Hired Lloyd as a new intern.
+Hired Bernard as a new driver.
+Hired Clyde as a new salesperson.
+Hired Ira as a new mechanic.
+Hired Edward as a new intern.
+Hired Willard as a new driver.
+Hired Felix as a new salesperson.
+Hired Alfred as a new mechanic.
+Hired Walter as a new intern.
+Hired Virgil as a new driver.
 
 ============================
 
@@ -18,97 +17,102 @@ It is Monday (Day 1)
 
 Opening...
 Bought a Dirty Like New Performance Car, assigned Vehicle Number 1
-Bought a Clean Used Performance Car, assigned Vehicle Number 2
-Bought a Dirty Like New Performance Car, assigned Vehicle Number 3
-Bought a Dirty Broken Performance Car, assigned Vehicle Number 4
+Bought a Dirty Like New Performance Car, assigned Vehicle Number 2
+Bought a Clean Like New Performance Car, assigned Vehicle Number 3
+Bought a Clean Used Performance Car, assigned Vehicle Number 4
 Bought a Dirty Like New Regular Car, assigned Vehicle Number 5
-Bought a Clean Like New Regular Car, assigned Vehicle Number 6
-Bought a Clean Broken Regular Car, assigned Vehicle Number 7
-Bought a Sparkling Used Regular Car, assigned Vehicle Number 8
-Bought a Clean Broken Pickup, assigned Vehicle Number 9
-Bought a Dirty Broken Pickup, assigned Vehicle Number 10
-Bought a Dirty Broken Pickup, assigned Vehicle Number 11
+Bought a Dirty Like New Regular Car, assigned Vehicle Number 6
+Bought a Dirty Used Regular Car, assigned Vehicle Number 7
+Bought a Dirty Used Regular Car, assigned Vehicle Number 8
+Bought a Clean Like New Pickup, assigned Vehicle Number 9
+Bought a Clean Used Pickup, assigned Vehicle Number 10
+Bought a Dirty Used Pickup, assigned Vehicle Number 11
 Bought a Dirty Used Pickup, assigned Vehicle Number 12
-Bought a Dirty Used Electric Car, assigned Vehicle Number 13
+Bought a Dirty Like New Electric Car, assigned Vehicle Number 13
 Bought a Dirty Broken Electric Car, assigned Vehicle Number 14
-Bought a Dirty Used Electric Car, assigned Vehicle Number 15
-Bought a Clean Like New Electric Car, assigned Vehicle Number 16
+Bought a Clean Broken Electric Car, assigned Vehicle Number 15
+Bought a Dirty Used Electric Car, assigned Vehicle Number 16
 Bought a Dirty Like New Monster Truck, assigned Vehicle Number 17
-Bought a Dirty Broken Monster Truck, assigned Vehicle Number 18
+Bought a Dirty Like New Monster Truck, assigned Vehicle Number 18
 Bought a Dirty Used Monster Truck, assigned Vehicle Number 19
-Bought a Dirty Used Monster Truck, assigned Vehicle Number 20
-Bought a Clean Used Motorcycle, assigned Vehicle Number 21
-Bought a Dirty Broken Motorcycle, assigned Vehicle Number 22
-Bought a Clean Used Motorcycle, assigned Vehicle Number 23
-Bought a Dirty Used Motorcycle, assigned Vehicle Number 24
+Bought a Clean Like New Monster Truck, assigned Vehicle Number 20
+Bought a Clean Broken Motorcycle, assigned Vehicle Number 21
+Bought a Dirty Used Motorcycle, assigned Vehicle Number 22
+Bought a Clean Like New Motorcycle, assigned Vehicle Number 23
+Bought a Sparkling Used Motorcycle, assigned Vehicle Number 24
+The FNCD has run out of money. Loan of $250000 added to the budget. Current budget: $231743.300000
 
 Working...
 
 Washing...
-Intern Manuel washed and detailed Dirty Pickup 11 and made it Sparkling (earned $1457.10 bonus).
-Intern Clarence chemically washed Dirty Motorcycle 24 and made it Clean.
-Intern Harvey washed and detailed Dirty Pickup 12 and made it Dirty.
-Intern Manuel washed and detailed Dirty Monster Truck 19 and made it Clean.
-Intern Clarence chemically washed Dirty Regular Car 5 and made it Clean.
-Intern Harvey washed and detailed Dirty Motorcycle 22 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 18 and made it Dirty.
+Intern Edward chemically washed Dirty Regular Car 8 and made it Dirty.
+Intern Walter chemically washed Dirty Electric Car 16 and made it Clean.
+Intern Lloyd chemically washed Dirty Pickup 12 and made it Clean.
+Intern Edward chemically washed Dirty Performance Car 1 and made it Clean.
+Intern Walter chemically washed Dirty Motorcycle 22 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Regular Car 7 and made it Used (earned $664.95 bonus).
-Mechanic Wilson fixed Broken Monster Truck 18 and made it Used (earned $1664.80 bonus).
-Mechanic Jim tried to fix Broken Electric Car 14 and did not succeed.
-Mechanic Mark fixed Used Monster Truck 20 and made it Like New (earned $3988.56 bonus).
-Mechanic Wilson fixed Used Motorcycle 21 and made it Like New (earned $420.96 bonus).
-Mechanic Jim tried to fix Used Pickup 12 and did not succeed.
+Mechanic Albert fixed Used Regular Car 7 and made it Like New (earned $1206.24 bonus).
+Mechanic Ira fixed Used Motorcycle 22 and made it Like New (earned $1229.44 bonus).
+Mechanic Alfred fixed Used Monster Truck 19 and made it Like New (earned $2709.60 bonus).
+Mechanic Albert fixed Used Electric Car 16 and made it Like New (earned $2659.76 bonus).
+Mechanic Ira tried to fix Broken Electric Car 14 and did not succeed.
+Mechanic Alfred fixed Used Regular Car 8 and made it Like New (earned $1063.68 bonus).
 
-Selling to 0...
+Selling to 5...
+Salesperson Clyde sold Dirty Like New Monster Truck (VIN #17) to Buyer for $91404.00 (earned $4570.20 bonus)
+Salesperson Felix sold Clean Used Monster Truck, extended warranty (VIN #25) to Buyer for $99674.40 (earned $4153.10 bonus)
+Salesperson Ernest attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $83062.00 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $83062.00 and did not succeed.
+Salesperson Ernest attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $83062.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $  10994.37
-Daily Sales:    $      0.00
-Current Budget: $  32193.13
-Salesperson Anton has quit the FNCD.
-Tracker: Day 0
-Total money earned by all Staff: $10994.37
-Total money earned by the FNCD: $0.00
+Daily pay:      $  20323.02
+Daily Sales:    $ 191078.40
+Current Budget: $ 402498.68
+Tracker: Day 1
+Total money earned by all Staff: $20323.02
+Total money earned by the FNCD: $191078.40
 
 ============================
 
 It is Tuesday (Day 2)
 
 Opening...
+Bought a Dirty Used Monster Truck, assigned Vehicle Number 26
 
 Working...
 
 Washing...
-Intern Manuel washed and detailed Dirty Monster Truck 18 and made it Clean.
-Intern Harvey washed and detailed Dirty Motorcycle 21 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Monster Truck 20 and made it Clean.
-Intern Manuel washed and detailed Dirty Regular Car 7 and made it Sparkling (earned $664.95 bonus).
-Intern Harvey washed and detailed Dirty Pickup 12 and made it Clean.
-Intern Michael used some elbow grease on Dirty Monster Truck 17 and made it Dirty.
+Intern Lloyd chemically washed Dirty Regular Car 8 and made it Dirty.
+Intern Edward chemically washed Dirty Electric Car 13 and made it Clean.
+Electric Car 13 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 18 and made it Clean.
+Intern Edward chemically washed Dirty Monster Truck 26 and made it Clean.
+Monster Truck 26 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Regular Car 8 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Used Regular Car 7 and made it Like New (earned $664.95 bonus).
-Mechanic Wilson fixed Used Electric Car 13 and made it Like New (earned $2386.40 bonus).
-Mechanic Jim fixed Used Monster Truck 19 and made it Like New (earned $2920.32 bonus).
-Mechanic Mark fixed Broken Pickup 10 and made it Used (earned $1832.90 bonus).
-Mechanic Wilson fixed Used Electric Car 15 and made it Like New (earned $2110.32 bonus).
-Mechanic Jim fixed Broken Pickup 11 and made it Used (earned $1457.10 bonus).
+Mechanic Albert fixed Broken Electric Car 14 and made it Used (earned $1852.00 bonus).
+Mechanic Ira fixed Broken Monster Truck 26 and made it Used (earned $3055.60 bonus).
+Mechanic Alfred fixed Broken Electric Car 15 and made it Used (earned $1200.25 bonus).
+Mechanic Albert fixed Used Pickup 10 and made it Like New (earned $2445.36 bonus).
+Mechanic Ira fixed Used Pickup 11 and made it Like New (earned $996.08 bonus).
+Mechanic Alfred fixed Used Electric Car 15 and made it Like New (earned $1200.25 bonus).
 
-Selling to 3...
-Salesperson Clarence sold Clean Broken Motorcycle, road rescue coverage, satellite radio (VIN #26) to Buyer for $12749.18 (earned $0.00 bonus)
-Salesperson Nicholas sold Clean Broken Motorcycle, extended warranty (VIN #27) to Buyer for $14284.80 (earned $0.00 bonus)
-Salesperson Clarence attempted to sell Clean Broken Pickup (VIN #9) to Buyer for $18891.00 and did not succeed.
+Selling to 0...
 Done working
 
 Paying workers...
-Daily pay:      $  14822.94
-Daily Sales:    $  27033.98
-Current Budget: $  44404.17
-Tracker: Day 0
-Total money earned by all Staff: $25817.31
-Total money earned by the FNCD: $27033.98
+Daily pay:      $  13480.54
+Daily Sales:    $      0.00
+Current Budget: $ 358462.14
+Tracker: Day 2
+Total money earned by all Staff: $33803.56
+Total money earned by the FNCD: $191078.40
 
 ============================
 
@@ -119,45 +123,52 @@ Opening...
 Working...
 
 Washing...
-Intern Manuel washed and detailed Dirty Monster Truck 19 and made it Dirty.
-Intern Harvey washed and detailed Dirty Electric Car 15 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Pickup 10 and made it Clean.
-Intern Manuel washed and detailed Dirty Performance Car 4 and made it Clean.
-Intern Harvey washed and detailed Dirty Electric Car 13 and made it Clean.
-Intern Michael used some elbow grease on Dirty Monster Truck 19 and made it Clean.
+Intern Lloyd chemically washed Dirty Electric Car 16 and made it Clean.
+Intern Edward chemically washed Dirty Monster Truck 19 and made it Clean.
+Intern Walter chemically washed Dirty Regular Car 7 and made it Clean.
+Regular Car 7 became BROKEN from the chemical wash.
+Intern Lloyd chemically washed Dirty Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
+Regular Car 5 became BROKEN from the chemical wash.
+Intern Edward chemically washed Dirty Electric Car 15 and made it Clean.
+Intern Walter chemically washed Dirty Motorcycle 22 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Used Pickup 11 and made it Like New (earned $1457.10 bonus).
-Mechanic Wilson fixed Broken Motorcycle 22 and made it Used (earned $595.20 bonus).
-Mechanic Jim fixed Used Motorcycle 22 and made it Like New (earned $595.20 bonus).
-Mechanic Mark tried to fix Broken Electric Car 14 and did not succeed.
-Mechanic Wilson tried to fix Used Pickup 12 and did not succeed.
-Mechanic Jim fixed Used Monster Truck 18 and made it Like New (earned $1664.80 bonus).
+Mechanic Albert fixed Used Monster Truck 26 and made it Like New (earned $3055.60 bonus).
+Mechanic Ira fixed Broken Electric Car 13 and made it Used (earned $2592.80 bonus).
+Mechanic Alfred tried to fix Used Motorcycle 24 and did not succeed.
+Mechanic Albert fixed Broken Regular Car 5 and made it Used (earned $1015.70 bonus).
+Mechanic Ira tried to fix Used Electric Car 13 and did not succeed.
+Mechanic Alfred fixed Broken Regular Car 7 and made it Used (earned $1206.24 bonus).
 
-Selling to 1...
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $99714.00 and did not succeed.
+Selling to 4...
+Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio (VIN #27) to Buyer for $120314.25 (earned $3055.60 bonus)
+Salesperson Ernest attempted to sell Dirty Like New Monster Truck (VIN #26) to Buyer for $114585.00 and did not succeed.
+Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio (VIN #28) to Buyer for $120314.25 (earned $3055.60 bonus)
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck (VIN #26) to Buyer for $114585.00 and did not succeed.
 Done working
 
 WEDNESDAY RACE NIGHT!
 
-Today we will be having a Pickup race!
+Today we will be having a Monster Truck race!
 
-Driver Archie is driving Pickup 10 in the race
-Driver Alexander is driving Pickup 11 in the race
-Driver William is driving Pickup 12 in the race
+Driver Bernard is driving The Felon (Monster Truck 18) in the race
+Driver Willard is driving Predator (Monster Truck 19) in the race
+Driver Virgil is driving Blacksmith (Monster Truck 20) in the race
 
 Race Results:
-Driver Archie placed 8 in the race, how unremarkable.
-Driver Alexander placed 10 in the race, how unremarkable.
-Driver William placed 13 in the race, how unremarkable.
+Driver Bernard placed 17 in the race.
+Monster Truck 18 became damaged!
+Driver Willard placed 6 in the race, how unremarkable.
+Driver Virgil placed 16 in the race.
+Monster Truck 20 became damaged!
 
 Paying workers...
-Daily pay:      $   7098.30
-Daily Sales:    $      0.00
-Current Budget: $  37305.87
-Tracker: Day 0
-Total money earned by all Staff: $32915.61
-Total money earned by the FNCD: $27033.98
+Daily pay:      $  17728.24
+Daily Sales:    $ 240628.50
+Current Budget: $ 581362.40
+Tracker: Day 3
+Total money earned by all Staff: $51531.80
+Total money earned by the FNCD: $431706.90
 
 ============================
 
@@ -168,122 +179,118 @@ Opening...
 Working...
 
 Washing...
-Intern Manuel washed and detailed Dirty Pickup 12 and made it Clean.
-Intern Harvey washed and detailed Dirty Pickup 11 and made it Clean.
-Intern Michael used some elbow grease on Dirty Motorcycle 21 and made it Sparkling (earned $420.96 bonus).
-Intern Manuel washed and detailed Dirty Electric Car 14 and made it Clean.
-Intern Harvey washed and detailed Dirty Electric Car 15 and made it Clean.
-Intern Michael used some elbow grease on Dirty Performance Car 3 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 26 and made it Clean.
+Intern Edward chemically washed Dirty Electric Car 13 and made it Clean.
+Electric Car 13 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Pickup 10 and made it Dirty.
+Intern Lloyd chemically washed Dirty Performance Car 2 and made it Clean.
+Intern Edward chemically washed Dirty Pickup 11 and made it Clean.
+Intern Walter chemically washed Dirty Electric Car 14 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Electric Car 14 and made it Used (earned $1841.25 bonus).
-Mechanic Wilson fixed Used Motorcycle 23 and made it Like New (earned $633.76 bonus).
-Mechanic Jim fixed Broken Pickup 9 and made it Used (earned $944.55 bonus).
-Mechanic Mark fixed Used Pickup 12 and made it Like New (earned $2862.40 bonus).
-Mechanic Wilson fixed Used Electric Car 14 and made it Like New (earned $1841.25 bonus).
-Mechanic Jim fixed Used Pickup 9 and made it Like New (earned $944.55 bonus).
+Mechanic Albert fixed Broken Electric Car 13 and made it Used (earned $2592.80 bonus).
+Mechanic Ira tried to fix Broken Motorcycle 21 and did not succeed.
+Mechanic Alfred fixed Broken Motorcycle 21 and made it Used (earned $1005.80 bonus).
+Mechanic Albert fixed Used Regular Car 5 and made it Like New (earned $1015.70 bonus).
+Mechanic Ira fixed Used Pickup 12 and made it Like New (earned $1571.44 bonus).
+Mechanic Alfred fixed Used Electric Car 13 and made it Like New (earned $2592.80 bonus).
 
-Selling to 4...
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $99714.00 and did not succeed.
-Salesperson Clarence sold Clean Like New Monster Truck (VIN #20) to Buyer for $99714.00 (earned $3988.56 bonus)
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #17) to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence sold Clean Like New Monster Truck, satellite radio (VIN #28) to Buyer for $95050.20 (earned $0.00 bonus)
+Selling to 0...
 Done working
 
 Paying workers...
-Daily pay:      $  16263.28
-Daily Sales:    $ 194764.20
-Current Budget: $ 215806.79
-Tracker: Day 0
-Total money earned by all Staff: $49178.89
-Total money earned by the FNCD: $221798.18
+Daily pay:      $  11509.54
+Daily Sales:    $      0.00
+Current Budget: $ 569852.86
+Tracker: Day 4
+Total money earned by all Staff: $63041.34
+Total money earned by the FNCD: $431706.90
 
 ============================
 
 It is Friday (Day 5)
 
 Opening...
-Bought a Clean Used Monster Truck, assigned Vehicle Number 29
 
 Working...
 
 Washing...
-Intern Manuel washed and detailed Dirty Electric Car 14 and made it Sparkling (earned $1841.25 bonus).
-Intern Harvey washed and detailed Dirty Performance Car 1 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Motorcycle 22 and made it Clean.
-Intern Manuel washed and detailed Dirty Performance Car 1 and made it Clean.
-Intern Harvey washed and detailed Dirty Monster Truck 18 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Motorcycle 23 and made it Dirty.
+Intern Lloyd chemically washed Dirty Pickup 12 and made it Dirty.
+Intern Edward chemically washed Dirty Pickup 12 and made it Clean.
+Intern Walter chemically washed Dirty Regular Car 7 and made it Clean.
+Intern Lloyd chemically washed Dirty Pickup 10 and made it Clean.
+Intern Edward chemically washed Dirty Motorcycle 21 and made it Clean.
+Intern Walter chemically washed Dirty Regular Car 5 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Used Performance Car 2 and made it Like New (earned $2117.76 bonus).
-Mechanic Wilson fixed Used Motorcycle 24 and made it Like New (earned $1387.44 bonus).
-Mechanic Jim fixed Used Monster Truck 29 and made it Like New (earned $2666.72 bonus).
-Mechanic Mark fixed Used Regular Car 8 and made it Like New (earned $1269.28 bonus).
-Mechanic Wilson fixed Broken Performance Car 4 and made it Used (earned $1336.30 bonus).
-Mechanic Jim fixed Used Performance Car 4 and made it Like New (earned $1336.30 bonus).
+Mechanic Albert fixed Used Electric Car 14 and made it Like New (earned $1852.00 bonus).
+Mechanic Ira fixed Broken Monster Truck 18 and made it Used (earned $3591.40 bonus).
+Mechanic Alfred tried to fix Used Motorcycle 24 and did not succeed.
+Mechanic Albert fixed Used Motorcycle 24 and made it Like New (earned $1903.44 bonus).
+Mechanic Ira fixed Used Motorcycle 21 and made it Like New (earned $1005.80 bonus).
+Mechanic Alfred fixed Used Performance Car 4 and made it Like New (earned $1763.68 bonus).
 
-Selling to 5...
-Salesperson Clarence attempted to sell Dirty Like New Monster Truck (VIN #17) to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence attempted to sell Dirty Like New Monster Truck (VIN #17) to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence sold Dirty Like New Monster Truck (VIN #17) to Buyer for $90524.00 (earned $4526.20 bonus)
-Salesperson Nicholas sold Dirty Like New Monster Truck, extended warranty (VIN #30) to Buyer for $87609.60 (earned $0.00 bonus)
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #19) to Buyer for $73008.00 and did not succeed.
+Selling to 7...
+Salesperson Felix attempted to sell Dirty Like New Electric Car (VIN #13) to Buyer for $145845.00 and did not succeed.
+Salesperson Ernest sold Dirty Like New Electric Car (VIN #13) to Buyer for $145845.00 (earned $2592.80 bonus)
+Salesperson Clyde sold Clean Like New Monster Truck (VIN #26) to Buyer for $114585.00 (earned $3055.60 bonus)
+Salesperson Felix attempted to sell Dirty Used Monster Truck (VIN #18) to Buyer for $107742.00 and did not succeed.
+Salesperson Ernest attempted to sell Dirty Used Monster Truck (VIN #18) to Buyer for $107742.00 and did not succeed.
+Salesperson Clyde sold Clean Broken Monster Truck, satellite radio (VIN #29) to Buyer for $113129.10 (earned $3591.40 bonus)
+Salesperson Felix sold Dirty Used Monster Truck (VIN #18) to Buyer for $107742.00 (earned $3591.40 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $  19267.25
-Daily Sales:    $ 178133.60
-Current Budget: $ 348005.94
-Mechanic Jim has quit the FNCD.
-Tracker: Day 0
-Total money earned by all Staff: $68446.14
-Total money earned by the FNCD: $399931.78
+Daily pay:      $  25678.52
+Daily Sales:    $ 481301.10
+Current Budget: $1025475.44
+Tracker: Day 5
+Total money earned by all Staff: $88719.86
+Total money earned by the FNCD: $913008.00
 
 ============================
 
 It is Saturday (Day 6)
 
 Opening...
+Bought a Clean Used Electric Car, assigned Vehicle Number 30
 Bought a Clean Like New Monster Truck, assigned Vehicle Number 31
+Bought a Clean Used Monster Truck, assigned Vehicle Number 32
 
 Working...
 
 Washing...
-Intern Harvey washed and detailed Dirty Pickup 12 and made it Clean.
-Intern Michael used some elbow grease on Dirty Motorcycle 24 and made it Clean.
-Intern Julius used some elbow grease on Dirty Monster Truck 18 and made it Dirty.
-Intern Harvey washed and detailed Dirty Performance Car 4 and made it Clean.
-Intern Michael used some elbow grease on Dirty Performance Car 2 and made it Clean.
-Intern Julius used some elbow grease on Dirty Monster Truck 29 and made it Dirty.
+Intern Lloyd chemically washed Dirty Electric Car 14 and made it Clean.
+Intern Edward chemically washed Dirty Performance Car 4 and made it Dirty.
+Performance Car 4 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Dirty Motorcycle 21 and made it Clean.
+Intern Edward chemically washed Dirty Motorcycle 24 and made it Dirty.
+Intern Walter chemically washed Dirty Motorcycle 24 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Used Pickup 10 and made it Like New (earned $1832.90 bonus).
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Used Regular Car 7 and made it Like New (earned $1206.24 bonus).
+Mechanic Ira tried to fix Broken Performance Car 4 and did not succeed.
+Mechanic Alfred fixed Broken Monster Truck 20 and made it Used (earned $4153.10 bonus).
+Mechanic Albert fixed Used Monster Truck 32 and made it Like New (earned $3582.56 bonus).
+Mechanic Ira fixed Used Monster Truck 20 and made it Like New (earned $4153.10 bonus).
+Mechanic Alfred tried to fix Used Electric Car 30 and did not succeed.
 
-Selling to 8...
-Salesperson Louis sold Clean Like New Monster Truck (VIN #19) to Buyer for $73008.00 (earned $2920.32 bonus)
-Salesperson Louis sold Clean Like New Monster Truck, satellite radio (VIN #32) to Buyer for $75740.70 (earned $0.00 bonus)
-Salesperson Nicholas sold Dirty Used Monster Truck, extended warranty, satellite radio (VIN #34) to Buyer for $90888.84 (earned $0.00 bonus)
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $72134.00 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $72134.00 and did not succeed.
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $72134.00 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $72134.00 and did not succeed.
-Salesperson Nicholas attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $72134.00 and did not succeed.
+Selling to 4...
+Salesperson Felix attempted to sell Dirty Like New Monster Truck (VIN #20) to Buyer for $155741.25 and did not succeed.
+Salesperson Ernest sold Dirty Like New Monster Truck, extended warranty (VIN #33) to Buyer for $186889.50 (earned $4153.10 bonus)
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck (VIN #20) to Buyer for $155741.25 and did not succeed.
+Salesperson Felix attempted to sell Dirty Like New Monster Truck (VIN #20) to Buyer for $155741.25 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   7555.22
-Daily Sales:    $ 239637.54
-Current Budget: $ 544021.26
-Salesperson Nicholas has quit the FNCD.
-Tracker: Day 0
-Total money earned by all Staff: $76001.36
-Total money earned by the FNCD: $639569.32
+Daily pay:      $  19979.10
+Daily Sales:    $ 186889.50
+Current Budget: $1087210.24
+Intern Walter has quit the FNCD.
+Tracker: Day 6
+Total money earned by all Staff: $108698.96
+Total money earned by the FNCD: $1099897.50
 
 ============================
 
@@ -291,57 +298,57 @@ It is Sunday (Day 7)
 
 SUNDAY SUNDAY SUNDAY RACE DAY!
 
-Today we will be having a Motorcycle race!
+Today we will be having a Pickup race!
 
-Driver Archie is driving Motorcycle 21 in the race
-Driver Alexander is driving Motorcycle 22 in the race
-Driver William is driving Motorcycle 23 in the race
+Driver Bernard is driving Pickup 9 in the race
+Driver Willard is driving Pickup 10 in the race
+Driver Virgil is driving Pickup 11 in the race
 
 Race Results:
-Driver Archie placed 7 in the race, how unremarkable.
-Driver Alexander placed 16 in the race and got injured!
-Motorcycle 22 became damaged!
-Driver William placed 8 in the race, how unremarkable.
-Tracker: Day 0
-Total money earned by all Staff: $76001.36
-Total money earned by the FNCD: $639569.32
+Driver Bernard placed 20 in the race.
+Pickup 9 became damaged!
+Driver Willard placed 12 in the race, how unremarkable.
+Driver Virgil placed 1 in the race! (earned $1500.00 bonus).
+Tracker: Day 7
+Total money earned by all Staff: $108698.96
+Total money earned by the FNCD: $1099897.50
 
 ============================
 
 It is Monday (Day 8)
 
 Opening...
-Bought a Dirty Broken Monster Truck, assigned Vehicle Number 35
 
 Working...
 
 Washing...
-Intern Michael used some elbow grease on Dirty Pickup 9 and made it Clean.
-Intern Julius used some elbow grease on Dirty Monster Truck 29 and made it Clean.
-Intern Willard washed and detailed Dirty Monster Truck 18 and made it Sparkling (earned $1664.80 bonus).
-Intern Michael used some elbow grease on Dirty Motorcycle 23 and made it Clean.
-Intern Julius used some elbow grease on Dirty Pickup 10 and made it Dirty.
-Pickup 10 became LIKE NEW from the elbow grease.
-Intern Willard washed and detailed Dirty Monster Truck 35 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 32 and made it Clean.
+Intern Edward chemically washed Dirty Performance Car 4 and made it Dirty.
+Intern Ollie chemically washed Dirty Regular Car 7 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 20 and made it Clean.
+Intern Edward chemically washed Dirty Electric Car 30 and made it Clean.
+Intern Ollie chemically washed Dirty Performance Car 4 and made it Dirty.
 
 Repairing...
-Mechanic Mark tried to fix Broken Motorcycle 22 and did not succeed.
-Mechanic Wilson tried to fix Broken Motorcycle 22 and did not succeed.
-Mechanic Manuel fixed Broken Monster Truck 35 and made it Used (earned $2404.05 bonus).
-Mechanic Mark tried to fix Broken Motorcycle 22 and did not succeed.
-Mechanic Wilson fixed Broken Motorcycle 22 and made it Used (earned $595.20 bonus).
-Mechanic Manuel fixed Used Motorcycle 22 and made it Like New (earned $595.20 bonus).
+Mechanic Albert fixed Broken Pickup 9 and made it Used (earned $1853.70 bonus).
+Mechanic Ira tried to fix Used Electric Car 30 and did not succeed.
+Mechanic Alfred fixed Used Pickup 9 and made it Like New (earned $1853.70 bonus).
+Mechanic Albert tried to fix Used Electric Car 30 and did not succeed.
+Mechanic Ira fixed Used Electric Car 30 and made it Like New (earned $2423.20 bonus).
+Mechanic Alfred fixed Broken Performance Car 4 and made it Used (earned $1763.68 bonus).
 
-Selling to 0...
+Selling to 1...
+Salesperson Felix sold Dirty Used Monster Truck, undercoating, satellite radio (VIN #35) to Buyer for $171704.73 (earned $4153.10 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $   8050.25
-Daily Sales:    $      0.00
-Current Budget: $ 511930.51
-Tracker: Day 0
-Total money earned by all Staff: $84051.61
-Total money earned by the FNCD: $639569.32
+Daily pay:      $  16314.38
+Daily Sales:    $ 171704.73
+Current Budget: $1242600.59
+Mechanic Ira has quit the FNCD.
+Tracker: Day 8
+Total money earned by all Staff: $125013.34
+Total money earned by the FNCD: $1271602.23
 
 ============================
 
@@ -352,35 +359,35 @@ Opening...
 Working...
 
 Washing...
-Intern Michael used some elbow grease on Dirty Motorcycle 22 and made it Clean.
-Intern Julius used some elbow grease on Dirty Pickup 10 and made it Dirty.
-Intern Willard washed and detailed Dirty Pickup 10 and made it Clean.
-Intern Michael used some elbow grease on Dirty Monster Truck 35 and made it Clean.
-Intern Julius used some elbow grease on Clean Performance Car 1 and made it Clean.
-Performance Car 1 became LIKE NEW from the elbow grease.
-Intern Willard washed and detailed Clean Monster Truck 31 and made it Sparkling (earned $3606.70 bonus).
+Intern Lloyd chemically washed Dirty Pickup 9 and made it Clean.
+Intern Ollie chemically washed Dirty Electric Car 30 and made it Clean.
+Intern Timothy washed and detailed Dirty Performance Car 4 and made it Dirty.
+Intern Lloyd chemically washed Dirty Performance Car 4 and made it Clean.
+Intern Ollie chemically washed Clean Monster Truck 31 and made it Clean.
+Monster Truck 31 became BROKEN from the chemical wash.
+Intern Timothy washed and detailed Clean Motorcycle 24 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Used Monster Truck 35 and made it Like New (earned $2404.05 bonus).
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert tried to fix Broken Monster Truck 31 and did not succeed.
+Mechanic Alfred fixed Used Performance Car 4 and made it Like New (earned $1763.68 bonus).
+Mechanic Edward fixed Broken Monster Truck 31 and made it Used (earned $4511.80 bonus).
+Mechanic Albert fixed Used Monster Truck 31 and made it Like New (earned $4511.80 bonus).
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
 Selling to 3...
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Clarence sold Clean Used Monster Truck, extended warranty (VIN #36) to Buyer for $108182.25 (earned $0.00 bonus)
+Salesperson Ernest sold Clean Like New Monster Truck, extended warranty, satellite radio (VIN #37) to Buyer for $213182.55 (earned $4511.80 bonus)
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $169192.50 and did not succeed.
+Salesperson Ernest attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $169192.50 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   8801.75
-Daily Sales:    $ 108182.25
-Current Budget: $ 611311.01
-Tracker: Day 0
-Total money earned by all Staff: $92853.36
-Total money earned by the FNCD: $747751.57
+Daily pay:      $  18115.08
+Daily Sales:    $ 213182.55
+Current Budget: $1437668.06
+Tracker: Day 9
+Total money earned by all Staff: $143128.42
+Total money earned by the FNCD: $1484784.78
 
 ============================
 
@@ -391,91 +398,87 @@ Opening...
 Working...
 
 Washing...
-Intern Michael used some elbow grease on Dirty Monster Truck 35 and made it Clean.
-Intern Julius used some elbow grease on Clean Electric Car 13 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 16 and made it Sparkling (earned $2909.10 bonus).
-Intern Michael used some elbow grease on Clean Regular Car 6 and made it Clean.
-Regular Car 6 became LIKE NEW from the elbow grease.
-Intern Julius used some elbow grease on Clean Pickup 10 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 1 and made it Sparkling (earned $2305.70 bonus).
+Intern Lloyd chemically washed Dirty Performance Car 4 and made it Clean.
+Intern Ollie chemically washed Dirty Monster Truck 31 and made it Clean.
+Intern Timothy washed and detailed Clean Motorcycle 24 and made it Clean.
+Intern Lloyd chemically washed Clean Motorcycle 22 and made it Clean.
+Intern Ollie chemically washed Clean Electric Car 30 and made it Clean.
+Intern Timothy washed and detailed Clean Monster Truck 32 and made it Sparkling (earned $3582.56 bonus).
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 5...
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Harvey attempted to sell Clean Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
-Salesperson Clarence attempted to sell Clean Like New Monster Truck (VIN #35) to Buyer for $90151.88 and did not succeed.
+Selling to 4...
+Salesperson Clyde sold Dirty Used Monster Truck, satellite radio (VIN #38) to Buyer for $177652.13 (earned $4511.80 bonus)
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $169192.50 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $169192.50 and did not succeed.
+Salesperson Felix sold Clean Like New Monster Truck (VIN #31) to Buyer for $169192.50 (earned $4511.80 bonus)
 Done working
 
 WEDNESDAY RACE NIGHT!
 
 Today we will be having a Motorcycle race!
 
-Driver Archie is driving Motorcycle 21 in the race
-Driver William is driving Motorcycle 22 in the race
-Driver Gilbert is driving Motorcycle 23 in the race
+Driver Bernard is driving Motorcycle 21 in the race
+Driver Willard is driving Motorcycle 22 in the race
+Driver Virgil is driving Motorcycle 23 in the race
 
 Race Results:
-Driver Archie placed 1 in the race! (earned $1500.00 bonus).
-Driver William placed 3 in the race! (earned $1500.00 bonus).
-Driver Gilbert placed 9 in the race, how unremarkable.
+Driver Bernard placed 13 in the race, how unremarkable.
+Driver Willard placed 19 in the race.
+Motorcycle 22 became damaged!
+Driver Virgil placed 6 in the race, how unremarkable.
 
 Paying workers...
-Daily pay:      $  11005.80
-Daily Sales:    $      0.00
-Current Budget: $ 600305.21
-Salesperson Clarence has quit the FNCD.
-Tracker: Day 0
-Total money earned by all Staff: $103859.16
-Total money earned by the FNCD: $747751.57
+Daily pay:      $  15422.16
+Daily Sales:    $ 346844.63
+Current Budget: $1769090.52
+Tracker: Day 10
+Total money earned by all Staff: $158550.58
+Total money earned by the FNCD: $1831629.40
 
 ============================
 
 It is Thursday (Day 11)
 
 Opening...
+Bought a Dirty Used Monster Truck, assigned Vehicle Number 39
 
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Clean Motorcycle 23 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 2 and made it Sparkling (earned $2117.76 bonus).
-Intern John chemically washed Clean Electric Car 13 and made it Clean.
-Electric Car 13 became BROKEN from the chemical wash.
-Intern Julius used some elbow grease on Clean Monster Truck 35 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Clean.
-Intern John chemically washed Clean Pickup 9 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 39 and made it Clean.
+Intern Ollie chemically washed Clean Performance Car 3 and made it Clean.
+Intern Timothy washed and detailed Clean Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
+Intern Lloyd chemically washed Clean Performance Car 4 and made it Clean.
+Intern Ollie chemically washed Clean Regular Car 6 and made it Clean.
+Intern Timothy washed and detailed Clean Performance Car 4 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Electric Car 13 and made it Used (earned $2386.40 bonus).
-Mechanic Wilson fixed Used Electric Car 13 and made it Like New (earned $2386.40 bonus).
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Used Monster Truck 39 and made it Like New (earned $3923.68 bonus).
+Mechanic Alfred fixed Broken Motorcycle 22 and made it Used (earned $1229.44 bonus).
+Mechanic Edward fixed Used Motorcycle 22 and made it Like New (earned $1229.44 bonus).
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 4...
-Salesperson Harvey attempted to sell Dirty Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Michael attempted to sell Dirty Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
+Selling to 2...
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $155741.25 and did not succeed.
+Salesperson Ernest sold Dirty Like New Monster Truck, extended warranty (VIN #40) to Buyer for $186889.50 (earned $4153.10 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $   9651.56
-Daily Sales:    $      0.00
-Current Budget: $ 590653.65
-Tracker: Day 0
-Total money earned by all Staff: $113510.72
-Total money earned by the FNCD: $747751.57
+Daily pay:      $  14367.36
+Daily Sales:    $ 186889.50
+Current Budget: $1902375.86
+Tracker: Day 11
+Total money earned by all Staff: $172917.94
+Total money earned by the FNCD: $2018518.90
 
 ============================
 
@@ -486,80 +489,82 @@ Opening...
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Electric Car 13 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 13 and made it Clean.
-Intern John chemically washed Clean Regular Car 5 and made it Clean.
-Intern Julius used some elbow grease on Clean Regular Car 6 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 3 and made it Sparkling (earned $2695.60 bonus).
-Intern John chemically washed Clean Regular Car 7 and made it Clean.
+Intern Lloyd chemically washed Dirty Motorcycle 22 and made it Sparkling (earned $1229.44 bonus).
+Intern Ollie chemically washed Dirty Monster Truck 39 and made it Clean.
+Intern Timothy washed and detailed Clean Motorcycle 21 and made it Sparkling (earned $1005.80 bonus).
+Intern Lloyd chemically washed Clean Monster Truck 19 and made it Clean.
+Intern Ollie chemically washed Clean Pickup 10 and made it Clean.
+Intern Timothy washed and detailed Clean Performance Car 2 and made it Clean.
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 5...
-Salesperson Harvey attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey sold Dirty Used Electric Car, satellite radio (VIN #37) to Buyer for $117455.63 (earned $0.00 bonus)
+Selling to 4...
+Salesperson Felix attempted to sell Clean Like New Monster Truck (VIN #20) to Buyer for $155741.25 and did not succeed.
+Salesperson Clyde sold Clean Like New Monster Truck (VIN #20) to Buyer for $155741.25 (earned $4153.10 bonus)
+Salesperson Ernest attempted to sell Clean Like New Monster Truck (VIN #39) to Buyer for $98092.00 and did not succeed.
+Salesperson Ernest attempted to sell Clean Like New Monster Truck (VIN #39) to Buyer for $98092.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   5456.60
-Daily Sales:    $ 117455.63
-Current Budget: $ 702652.68
-Tracker: Day 0
-Total money earned by all Staff: $118967.32
-Total money earned by the FNCD: $865207.20
+Daily pay:      $   9204.34
+Daily Sales:    $ 155741.25
+Current Budget: $2048912.77
+Intern Timothy has quit the FNCD.
+Tracker: Day 12
+Total money earned by all Staff: $182122.28
+Total money earned by the FNCD: $2174260.15
 
 ============================
 
 It is Saturday (Day 13)
 
 Opening...
+Bought a Dirty Used Monster Truck, assigned Vehicle Number 41
 
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Clean Regular Car 8 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 13 and made it Clean.
-Intern John chemically washed Clean Electric Car 15 and made it Dirty.
-Electric Car 15 became BROKEN from the chemical wash.
-Intern Julius used some elbow grease on Dirty Electric Car 15 and made it Clean.
-Intern Willard washed and detailed Clean Regular Car 5 and made it Clean.
-Intern John chemically washed Clean Motorcycle 24 and made it Clean.
-Motorcycle 24 became BROKEN from the chemical wash.
+Intern Lloyd chemically washed Dirty Monster Truck 41 and made it Clean.
+Intern Ollie chemically washed Clean Electric Car 15 and made it Sparkling (earned $1200.25 bonus).
+Intern Arch chemically washed Clean Performance Car 1 and made it Clean.
+Intern Lloyd chemically washed Clean Motorcycle 23 and made it Clean.
+Motorcycle 23 became BROKEN from the chemical wash.
+Intern Ollie chemically washed Clean Electric Car 30 and made it Sparkling (earned $2423.20 bonus).
+Intern Arch chemically washed Clean Regular Car 8 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Electric Car 15 and made it Used (earned $2110.32 bonus).
-Mechanic Wilson tried to fix Used Electric Car 15 and did not succeed.
-Mechanic Manuel fixed Broken Motorcycle 24 and made it Used (earned $1387.44 bonus).
-Mechanic Mark fixed Used Electric Car 15 and made it Like New (earned $2110.32 bonus).
-Mechanic Wilson fixed Used Motorcycle 24 and made it Like New (earned $1387.44 bonus).
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Used Monster Truck 41 and made it Like New (earned $2780.24 bonus).
+Mechanic Alfred fixed Broken Motorcycle 23 and made it Used (earned $1278.80 bonus).
+Mechanic Edward fixed Used Motorcycle 23 and made it Like New (earned $1278.80 bonus).
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
 Selling to 7...
-Salesperson Louis attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Michael sold Dirty Used Electric Car, satellite radio (VIN #38) to Buyer for $117455.63 (earned $0.00 bonus)
-Salesperson Michael attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Michael sold Clean Broken Electric Car, satellite radio (VIN #39) to Buyer for $117455.63 (earned $0.00 bonus)
-Salesperson Louis attempted to sell Clean Like New Electric Car (VIN #13) to Buyer for $111862.50 and did not succeed.
-Salesperson Michael sold Clean Broken Electric Car, extended warranty (VIN #40) to Buyer for $134235.00 (earned $0.00 bonus)
+Salesperson Felix attempted to sell Clean Like New Monster Truck (VIN #39) to Buyer for $98092.00 and did not succeed.
+Salesperson Felix attempted to sell Clean Like New Monster Truck (VIN #39) to Buyer for $98092.00 and did not succeed.
+Salesperson Felix sold Clean Like New Monster Truck (VIN #39) to Buyer for $98092.00 (earned $3923.68 bonus)
+Salesperson Ernest attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Ernest attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Ernest attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   9756.52
-Daily Sales:    $ 369146.25
-Current Budget: $1062042.41
-Tracker: Day 0
-Total money earned by all Staff: $128723.84
-Total money earned by the FNCD: $1234353.45
+Daily pay:      $  15689.97
+Daily Sales:    $  98092.00
+Current Budget: $2103512.40
+Intern Arch has quit the FNCD.
+Salesperson Ernest has quit the FNCD.
+Tracker: Day 13
+Total money earned by all Staff: $197812.25
+Total money earned by the FNCD: $2272352.15
 
 ============================
 
@@ -567,55 +572,59 @@ It is Sunday (Day 14)
 
 SUNDAY SUNDAY SUNDAY RACE DAY!
 
-Today we will be having a Monster Truck race!
+Today we will be having a Pickup race!
 
-Driver Archie is driving Stone Crusher (Monster Truck 18) in the race
-Driver William is driving Bounty Hunter (Monster Truck 29) in the race
-Driver Gilbert is driving Grider (Monster Truck 31) in the race
+Driver Bernard is driving Pickup 9 in the race
+Driver Willard is driving Pickup 10 in the race
+Driver Virgil is driving Pickup 11 in the race
 
 Race Results:
-Driver Archie placed 1 in the race! (earned $1500.00 bonus).
-Driver William placed 11 in the race, how unremarkable.
-Driver Gilbert placed 20 in the race.
-Monster Truck 31 became damaged!
-Tracker: Day 0
-Total money earned by all Staff: $128723.84
-Total money earned by the FNCD: $1234353.45
+Driver Bernard placed 15 in the race, how unremarkable.
+Driver Willard placed 13 in the race, how unremarkable.
+Driver Virgil placed 14 in the race, how unremarkable.
+Tracker: Day 14
+Total money earned by all Staff: $197812.25
+Total money earned by the FNCD: $2272352.15
 
 ============================
 
 It is Monday (Day 15)
 
 Opening...
+Bought a Dirty Used Monster Truck, assigned Vehicle Number 42
 
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Motorcycle 24 and made it Dirty.
-Intern Willard washed and detailed Dirty Electric Car 15 and made it Clean.
-Intern John chemically washed Dirty Motorcycle 24 and made it Clean.
-Intern Julius used some elbow grease on Clean Monster Truck 35 and made it Sparkling (earned $2404.05 bonus).
-Intern Willard washed and detailed Clean Electric Car 13 and made it Sparkling (earned $2386.40 bonus).
-Intern John chemically washed Clean Motorcycle 24 and made it Sparkling (earned $1387.44 bonus).
+Intern Lloyd chemically washed Dirty Motorcycle 23 and made it Clean.
+Intern Joe washed and detailed Dirty Monster Truck 41 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 42 and made it Dirty.
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Clean.
+Intern Joe washed and detailed Clean Motorcycle 24 and made it Sparkling (earned $1903.44 bonus).
+Intern Horace washed and detailed Clean Pickup 12 and made it Sparkling (earned $1571.44 bonus).
 
 Repairing...
-Mechanic Mark fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
-Mechanic Wilson fixed Used Monster Truck 31 and made it Like New (earned $3606.70 bonus).
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Used Monster Truck 42 and made it Like New (earned $2587.44 bonus).
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 0...
+Selling to 4...
+Salesperson Clyde sold Dirty Used Monster Truck, extended warranty, satellite radio (VIN #44) to Buyer for $112850.64 (earned $3582.56 bonus)
+Salesperson Ollie sold Dirty Used Monster Truck, satellite radio (VIN #45) to Buyer for $94042.20 (earned $3582.56 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde sold Clean Like New Monster Truck, road rescue coverage (VIN #46) to Buyer for $91355.28 (earned $3582.56 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $  17652.29
-Daily Sales:    $      0.00
-Current Budget: $1044390.12
-Tracker: Day 0
-Total money earned by all Staff: $146376.13
-Total money earned by the FNCD: $1234353.45
+Daily pay:      $  19538.00
+Daily Sales:    $ 298248.12
+Current Budget: $2356348.12
+Tracker: Day 15
+Total money earned by all Staff: $217350.25
+Total money earned by the FNCD: $2570600.27
 
 ============================
 
@@ -626,32 +635,33 @@ Opening...
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Monster Truck 31 and made it Clean.
-Intern Willard washed and detailed Clean Monster Truck 29 and made it Clean.
-Intern John chemically washed Clean Motorcycle 23 and made it Clean.
-Intern Julius used some elbow grease on Clean Pickup 11 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 12 and made it Clean.
-Intern John chemically washed Clean Pickup 12 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Dirty.
+Monster Truck 42 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Dirty Monster Truck 42 and made it Sparkling (earned $2587.44 bonus).
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Lloyd chemically washed Clean Performance Car 1 and made it Sparkling (earned $2720.90 bonus).
+Intern Joe washed and detailed Clean Pickup 10 and made it Clean.
+Intern Horace washed and detailed Clean Motorcycle 23 and made it Clean.
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Broken Monster Truck 42 and made it Used (earned $2587.44 bonus).
+Mechanic Alfred fixed Used Monster Truck 42 and made it Like New (earned $2587.44 bonus).
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
 Selling to 1...
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $135251.25 and did not succeed.
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   2761.00
+Daily pay:      $  13211.22
 Daily Sales:    $      0.00
-Current Budget: $1041629.12
-Tracker: Day 0
-Total money earned by all Staff: $149137.13
-Total money earned by the FNCD: $1234353.45
+Current Budget: $2343136.90
+Tracker: Day 16
+Total money earned by all Staff: $230561.47
+Total money earned by the FNCD: $2570600.27
 
 ============================
 
@@ -662,46 +672,47 @@ Opening...
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Clean Pickup 12 and made it Sparkling (earned $2862.40 bonus).
-Intern Willard washed and detailed Clean Regular Car 8 and made it Sparkling (earned $1269.28 bonus).
-Intern John chemically washed Clean Monster Truck 31 and made it Clean.
-Intern Julius used some elbow grease on Clean Pickup 9 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
-Intern John chemically washed Clean Monster Truck 29 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Clean.
+Intern Joe washed and detailed Clean Monster Truck 19 and made it Clean.
+Intern Horace washed and detailed Clean Monster Truck 19 and made it Sparkling (earned $2709.60 bonus).
+Intern Lloyd chemically washed Clean Motorcycle 23 and made it Clean.
+Intern Joe washed and detailed Clean Performance Car 3 and made it Sparkling (earned $3391.50 bonus).
+Intern Horace washed and detailed Clean Electric Car 16 and made it Clean.
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 0...
+Selling to 2...
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
 Done working
 
 WEDNESDAY RACE NIGHT!
 
-Today we will be having a Monster Truck race!
+Today we will be having a Pickup race!
 
-Driver Archie is driving Stone Crusher (Monster Truck 18) in the race
-Driver William is driving Bounty Hunter (Monster Truck 29) in the race
-Driver Gilbert is driving Grider (Monster Truck 31) in the race
+Driver Bernard is driving Pickup 9 in the race
+Driver Willard is driving Pickup 10 in the race
+Driver Virgil is driving Pickup 11 in the race
 
 Race Results:
-Driver Archie placed 20 in the race and got injured!
-Monster Truck 18 became damaged!
-Driver William placed 7 in the race, how unremarkable.
-Driver Gilbert placed 18 in the race.
-Monster Truck 31 became damaged!
+Driver Bernard placed 12 in the race, how unremarkable.
+Driver Willard placed 15 in the race, how unremarkable.
+Driver Virgil placed 18 in the race and got injured!
+Pickup 11 became damaged!
 
 Paying workers...
-Daily pay:      $   6892.68
+Daily pay:      $   8829.10
 Daily Sales:    $      0.00
-Current Budget: $1034736.44
-Tracker: Day 0
-Total money earned by all Staff: $156029.81
-Total money earned by the FNCD: $1234353.45
+Current Budget: $2334307.80
+Tracker: Day 17
+Total money earned by all Staff: $239390.57
+Total money earned by the FNCD: $2570600.27
 
 ============================
 
@@ -712,35 +723,34 @@ Opening...
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Clean Performance Car 4 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
-Intern John chemically washed Clean Regular Car 6 and made it Clean.
-Intern Julius used some elbow grease on Clean Regular Car 6 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 15 and made it Sparkling (earned $2110.32 bonus).
-Intern John chemically washed Clean Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Clean Regular Car 8 and made it Dirty.
+Intern Joe washed and detailed Dirty Regular Car 8 and made it Sparkling (earned $1063.68 bonus).
+Intern Horace washed and detailed Clean Regular Car 7 and made it Clean.
+Intern Lloyd chemically washed Clean Performance Car 4 and made it Sparkling (earned $1763.68 bonus).
+Intern Joe washed and detailed Clean Pickup 9 and made it Sparkling (earned $1853.70 bonus).
+Intern Horace washed and detailed Clean Regular Car 7 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Monster Truck 18 and made it Used (earned $1664.80 bonus).
-Mechanic Wilson fixed Used Monster Truck 18 and made it Like New (earned $1664.80 bonus).
-Mechanic Manuel fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
-Mechanic Mark tried to fix Used Monster Truck 31 and did not succeed.
-Mechanic Wilson tried to fix Used Monster Truck 31 and did not succeed.
-Mechanic Manuel tried to fix Used Monster Truck 31 and did not succeed.
+Mechanic Albert tried to fix Broken Pickup 11 and did not succeed.
+Mechanic Alfred fixed Broken Pickup 11 and made it Used (earned $996.08 bonus).
+Mechanic Edward fixed Used Pickup 11 and made it Like New (earned $996.08 bonus).
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 4...
-Salesperson Michael attempted to sell Dirty Used Monster Truck (VIN #31) to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck (VIN #31) to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck (VIN #31) to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck (VIN #31) to Buyer for $202876.88 and did not succeed.
+Selling to 3...
+Salesperson Ollie attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
+Salesperson Ollie attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $  11807.62
+Daily pay:      $   9401.22
 Daily Sales:    $      0.00
-Current Budget: $1022928.82
-Tracker: Day 0
-Total money earned by all Staff: $167837.43
-Total money earned by the FNCD: $1234353.45
+Current Budget: $2324906.58
+Tracker: Day 18
+Total money earned by all Staff: $248791.79
+Total money earned by the FNCD: $2570600.27
 
 ============================
 
@@ -751,75 +761,80 @@ Opening...
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Monster Truck 18 and made it Clean.
-Intern Willard washed and detailed Dirty Monster Truck 31 and made it Dirty.
-Intern John chemically washed Dirty Monster Truck 31 and made it Clean.
-Intern Julius used some elbow grease on Clean Monster Truck 31 and made it Dirty.
-Intern Willard washed and detailed Dirty Monster Truck 31 and made it Clean.
-Intern John chemically washed Clean Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Dirty Pickup 11 and made it Clean.
+Intern Joe washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Clean.
+Intern Lloyd chemically washed Clean Electric Car 16 and made it Sparkling (earned $2659.76 bonus).
+Intern Joe washed and detailed Clean Motorcycle 23 and made it Sparkling (earned $1278.80 bonus).
+Intern Horace washed and detailed Clean Regular Car 7 and made it Sparkling (earned $1206.24 bonus).
 
 Repairing...
-Mechanic Mark fixed Used Monster Truck 31 and made it Like New (earned $3606.70 bonus).
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 5...
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Michael attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
+Selling to 6...
+Salesperson Ollie attempted to sell Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 and did not succeed.
+Salesperson Ollie sold Clean Like New Monster Truck (VIN #42) to Buyer for $121286.25 (earned $2587.44 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   6367.70
-Daily Sales:    $      0.00
-Current Budget: $1016561.12
-Tracker: Day 0
-Total money earned by all Staff: $174205.13
-Total money earned by the FNCD: $1234353.45
+Daily pay:      $  10460.24
+Daily Sales:    $ 121286.25
+Current Budget: $2435732.59
+Tracker: Day 19
+Total money earned by all Staff: $259252.03
+Total money earned by the FNCD: $2691886.52
 
 ============================
 
 It is Saturday (Day 20)
 
 Opening...
+Bought a Dirty Broken Monster Truck, assigned Vehicle Number 47
 
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Monster Truck 31 and made it Clean.
-Intern Willard washed and detailed Clean Monster Truck 18 and made it Clean.
-Intern John chemically washed Clean Monster Truck 31 and made it Clean.
-Intern Julius used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Dirty.
-Intern John chemically washed Dirty Motorcycle 22 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 47 and made it Clean.
+Monster Truck 47 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Monster Truck 41 and made it Clean.
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Lloyd chemically washed Clean Performance Car 2 and made it Clean.
+Performance Car 2 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Monster Truck 41 and made it Sparkling (earned $2780.24 bonus).
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Wilson to fix.
-There are no cars for Mechanic Manuel to fix.
+Mechanic Albert fixed Broken Performance Car 2 and made it Used (earned $3821.50 bonus).
+Mechanic Alfred fixed Broken Monster Truck 47 and made it Used (earned $2011.55 bonus).
+Mechanic Edward fixed Used Monster Truck 47 and made it Like New (earned $2011.55 bonus).
+Mechanic Albert fixed Used Performance Car 2 and made it Like New (earned $3821.50 bonus).
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 4...
-Salesperson Harvey attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Michael attempted to sell Clean Like New Monster Truck (VIN #31) to Buyer for $253596.09 and did not succeed.
-Salesperson Harvey sold Clean Like New Monster Truck (VIN #31) to Buyer for $253596.09 (earned $3606.70 bonus)
+Selling to 5...
+Salesperson Clyde attempted to sell Dirty Like New Performance Car (VIN #2) to Buyer for $143306.25 and did not succeed.
+Salesperson Ollie attempted to sell Dirty Like New Performance Car (VIN #2) to Buyer for $143306.25 and did not succeed.
+Salesperson Felix attempted to sell Dirty Like New Performance Car (VIN #2) to Buyer for $143306.25 and did not succeed.
+Salesperson Clyde sold Dirty Like New Performance Car (VIN #2) to Buyer for $143306.25 (earned $3821.50 bonus)
+Salesperson Ollie attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   6367.70
-Daily Sales:    $ 253596.09
-Current Budget: $1263789.51
-Tracker: Day 0
-Total money earned by all Staff: $180572.83
-Total money earned by the FNCD: $1487949.54
+Daily pay:      $  20995.84
+Daily Sales:    $ 143306.25
+Current Budget: $2537927.50
+Tracker: Day 20
+Total money earned by all Staff: $280247.87
+Total money earned by the FNCD: $2835192.77
 
 ============================
 
@@ -827,96 +842,100 @@ It is Sunday (Day 21)
 
 SUNDAY SUNDAY SUNDAY RACE DAY!
 
-Today we will be having a Pickup race!
+Today we will be having a Performance Car race!
 
-Driver William is driving Pickup 9 in the race
-Driver Gilbert is driving Pickup 10 in the race
-Driver Frederick is driving Pickup 11 in the race
+Driver Bernard is driving Performance Car 1 in the race
+Driver Willard is driving Performance Car 3 in the race
+Driver Benjamin is driving Performance Car 4 in the race
 
 Race Results:
-Driver William placed 9 in the race, how unremarkable.
-Driver Gilbert placed 17 in the race.
-Pickup 10 became damaged!
-Driver Frederick placed 7 in the race, how unremarkable.
-Tracker: Day 0
-Total money earned by all Staff: $180572.83
-Total money earned by the FNCD: $1487949.54
+Driver Bernard placed 11 in the race, how unremarkable.
+Driver Willard placed 19 in the race and got injured!
+Performance Car 3 became damaged!
+Driver Benjamin placed 13 in the race, how unremarkable.
+Tracker: Day 21
+Total money earned by all Staff: $280247.87
+Total money earned by the FNCD: $2835192.77
 
 ============================
 
 It is Monday (Day 22)
 
 Opening...
-Bought a Dirty Used Monster Truck, assigned Vehicle Number 41
+Bought a Dirty Like New Performance Car, assigned Vehicle Number 48
 
 Working...
 
 Washing...
-Intern Julius used some elbow grease on Dirty Monster Truck 41 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Clean.
-Intern John chemically washed Clean Pickup 9 and made it Clean.
-Intern Julius used some elbow grease on Clean Monster Truck 41 and made it Clean.
-Intern Willard washed and detailed Clean Regular Car 7 and made it Clean.
-Intern John chemically washed Clean Pickup 10 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 47 and made it Dirty.
+Intern Joe washed and detailed Dirty Monster Truck 47 and made it Clean.
+Intern Horace washed and detailed Dirty Performance Car 48 and made it Sparkling (earned $3850.10 bonus).
+Intern Lloyd chemically washed Clean Regular Car 6 and made it Clean.
+Regular Car 6 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Electric Car 14 and made it Sparkling (earned $1852.00 bonus).
+Intern Horace washed and detailed Clean Pickup 11 and made it Dirty.
 
 Repairing...
-Mechanic Mark tried to fix Used Monster Truck 41 and did not succeed.
-Mechanic Wilson fixed Broken Pickup 10 and made it Used (earned $1832.90 bonus).
-Mechanic Manuel tried to fix Used Monster Truck 41 and did not succeed.
-Mechanic Mark fixed Used Monster Truck 41 and made it Like New (earned $2734.16 bonus).
-Mechanic Wilson tried to fix Used Pickup 10 and did not succeed.
-Mechanic Manuel fixed Used Pickup 10 and made it Like New (earned $1832.90 bonus).
+Mechanic Albert fixed Broken Regular Car 6 and made it Used (earned $1229.30 bonus).
+Mechanic Alfred fixed Used Regular Car 6 and made it Like New (earned $1229.30 bonus).
+Mechanic Edward tried to fix Broken Performance Car 3 and did not succeed.
+Mechanic Albert fixed Broken Performance Car 3 and made it Used (earned $3391.50 bonus).
+Mechanic Alfred fixed Used Performance Car 3 and made it Like New (earned $3391.50 bonus).
+There are no cars for Mechanic Edward to fix.
 
-Selling to 0...
+Selling to 5...
+Salesperson Ollie sold Dirty Like New Performance Car (VIN #3) to Buyer for $127181.25 (earned $3391.50 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
+Salesperson Ollie sold Dirty Broken Monster Truck, undercoating (VIN #49) to Buyer for $94042.20 (earned $3582.56 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $   9160.96
-Daily Sales:    $      0.00
-Current Budget: $1227286.95
-Intern John has quit the FNCD.
-Mechanic Wilson has quit the FNCD.
-Tracker: Day 0
-Total money earned by all Staff: $189733.79
-Total money earned by the FNCD: $1487949.54
+Daily pay:      $  24645.76
+Daily Sales:    $ 221223.45
+Current Budget: $2696004.19
+Tracker: Day 22
+Total money earned by all Staff: $304893.63
+Total money earned by the FNCD: $3056416.22
 
 ============================
 
 It is Tuesday (Day 23)
 
 Opening...
+Bought a Clean Used Performance Car, assigned Vehicle Number 50
 
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Pickup 10 and made it Clean.
-Intern Russell chemically washed Dirty Monster Truck 41 and made it Clean.
-Monster Truck 41 became BROKEN from the chemical wash.
-Intern Carl used some elbow grease on Clean Regular Car 7 and made it Dirty.
-Intern Willard washed and detailed Dirty Regular Car 7 and made it Dirty.
-Intern Russell chemically washed Dirty Regular Car 7 and made it Clean.
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Intern Lloyd chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Joe washed and detailed Dirty Pickup 11 and made it Dirty.
+Intern Horace washed and detailed Dirty Pickup 11 and made it Clean.
+Intern Lloyd chemically washed Clean Monster Truck 47 and made it Clean.
+Intern Joe washed and detailed Clean Performance Car 50 and made it Sparkling (earned $2834.72 bonus).
+Intern Horace washed and detailed Clean Pickup 10 and made it Sparkling (earned $2445.36 bonus).
 
 Repairing...
-Mechanic Mark tried to fix Broken Monster Truck 41 and did not succeed.
-Mechanic Manuel tried to fix Broken Monster Truck 41 and did not succeed.
-Mechanic Julius fixed Broken Monster Truck 41 and made it Used (earned $2734.16 bonus).
-Mechanic Mark fixed Used Monster Truck 41 and made it Like New (earned $2734.16 bonus).
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+Mechanic Albert fixed Used Performance Car 50 and made it Like New (earned $2834.72 bonus).
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 2...
-Salesperson Michael attempted to sell Clean Like New Pickup (VIN #10) to Buyer for $128875.78 and did not succeed.
-Salesperson Michael attempted to sell Clean Like New Pickup (VIN #10) to Buyer for $128875.78 and did not succeed.
+Selling to 1...
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   8228.32
+Daily pay:      $  10842.80
 Daily Sales:    $      0.00
-Current Budget: $1219058.63
-Tracker: Day 0
-Total money earned by all Staff: $197962.11
-Total money earned by the FNCD: $1487949.54
+Current Budget: $2656814.19
+Salesperson Felix has quit the FNCD.
+Tracker: Day 23
+Total money earned by all Staff: $315736.43
+Total money earned by the FNCD: $3056416.22
 
 ============================
 
@@ -927,163 +946,179 @@ Opening...
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Monster Truck 41 and made it Sparkling (earned $2734.16 bonus).
-Intern Russell chemically washed Clean Motorcycle 22 and made it Clean.
-Intern Carl used some elbow grease on Clean Regular Car 5 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Clean.
-Intern Russell chemically washed Clean Regular Car 7 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Clean Regular Car 6 and made it Clean.
+Regular Car 6 became BROKEN from the chemical wash.
+Intern Horace washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1229.30 bonus).
+Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
+Intern Lloyd chemically washed Dirty Performance Car 50 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Clean.
+Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+Mechanic Albert fixed Broken Regular Car 6 and made it Used (earned $1229.30 bonus).
+Mechanic Alfred fixed Used Regular Car 6 and made it Like New (earned $1229.30 bonus).
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 0...
+Selling to 3...
+Salesperson Ollie sold Sparkling Like New Monster Truck (VIN #32) to Buyer for $89564.00 (earned $3582.56 bonus)
+Salesperson Joe attempted to sell Dirty Like New Regular Car (VIN #6) to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde sold Dirty Like New Regular Car, extended warranty, satellite radio (VIN #52) to Buyer for $108908.30 (earned $1229.30 bonus)
 Done working
 
 WEDNESDAY RACE NIGHT!
 
-Today we will be having a Performance Car race!
+Today we will be having a Monster Truck race!
 
-Driver William is driving Performance Car 1 in the race
-Driver Gilbert is driving Performance Car 2 in the race
-Driver Frederick is driving Performance Car 3 in the race
+Driver Bernard is driving Predator (Monster Truck 19) in the race
+Driver Benjamin is driving Madusa (Monster Truck 41) in the race
+Driver Aaron is driving Blacksmith (Monster Truck 47) in the race
 
 Race Results:
-Driver William placed 15 in the race, how unremarkable.
-Driver Gilbert placed 7 in the race, how unremarkable.
-Driver Frederick placed 18 in the race.
-Performance Car 3 became damaged!
+Driver Bernard placed 13 in the race, how unremarkable.
+Driver Benjamin placed 12 in the race, how unremarkable.
+Driver Aaron placed 19 in the race.
+Monster Truck 47 became damaged!
 
 Paying workers...
-Daily pay:      $   5494.16
-Daily Sales:    $      0.00
-Current Budget: $1213564.47
-Tracker: Day 0
-Total money earned by all Staff: $203456.27
-Total money earned by the FNCD: $1487949.54
+Daily pay:      $  11268.76
+Daily Sales:    $ 198472.30
+Current Budget: $2844017.73
+Tracker: Day 24
+Total money earned by all Staff: $327005.19
+Total money earned by the FNCD: $3254888.52
 
 ============================
 
 It is Thursday (Day 25)
 
 Opening...
+Bought a Dirty Used Monster Truck, assigned Vehicle Number 53
 
 Working...
 
 Washing...
-Intern Willard washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1759.50 bonus).
-Intern Russell chemically washed Clean Monster Truck 18 and made it Sparkling (earned $1664.80 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 23 and made it Dirty.
-Intern Willard washed and detailed Dirty Motorcycle 23 and made it Clean.
-Intern Russell chemically washed Clean Pickup 9 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Dirty Performance Car 50 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 53 and made it Clean.
+Intern Sidney used some elbow grease on Dirty Regular Car 6 and made it Dirty.
+Intern Lloyd chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Sparkling (earned $996.08 bonus).
+Intern Sidney used some elbow grease on Clean Monster Truck 53 and made it Clean.
 
 Repairing...
-Mechanic Mark fixed Broken Performance Car 3 and made it Used (earned $2695.60 bonus).
-Mechanic Manuel fixed Used Performance Car 3 and made it Like New (earned $2695.60 bonus).
-There are no cars for Mechanic Julius to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+Mechanic Albert fixed Used Monster Truck 53 and made it Like New (earned $3924.56 bonus).
+Mechanic Alfred fixed Broken Monster Truck 47 and made it Used (earned $2011.55 bonus).
+Mechanic Edward fixed Used Monster Truck 47 and made it Like New (earned $2011.55 bonus).
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Alfred to fix.
+There are no cars for Mechanic Edward to fix.
 
-Selling to 0...
+Selling to 4...
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck (VIN #47) to Buyer for $141437.11 and did not succeed.
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck (VIN #47) to Buyer for $141437.11 and did not succeed.
+Salesperson Joe sold Dirty Like New Monster Truck (VIN #47) to Buyer for $141437.11 (earned $2011.55 bonus)
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck (VIN #53) to Buyer for $98114.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $  11575.50
-Daily Sales:    $      0.00
-Current Budget: $1201988.97
-Tracker: Day 0
-Total money earned by all Staff: $215031.77
-Total money earned by the FNCD: $1487949.54
+Daily pay:      $  13724.29
+Daily Sales:    $ 141437.11
+Current Budget: $2932484.95
+Mechanic Alfred has quit the FNCD.
+Tracker: Day 25
+Total money earned by all Staff: $340729.48
+Total money earned by the FNCD: $3396325.63
 
 ============================
 
 It is Friday (Day 26)
 
 Opening...
+Bought a Dirty Like New Monster Truck, assigned Vehicle Number 54
 
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Performance Car 3 and made it Dirty.
-Intern Russell chemically washed Dirty Performance Car 3 and made it Clean.
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 3 and made it Clean.
-Intern Russell chemically washed Clean Monster Truck 29 and made it Sparkling (earned $2666.72 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 53 and made it Sparkling (earned $3924.56 bonus).
+Intern Sidney used some elbow grease on Dirty Monster Truck 54 and made it Clean.
+Intern Clifford washed and detailed Clean Monster Truck 54 and made it Clean.
+Intern Horace washed and detailed Clean Performance Car 50 and made it Sparkling (earned $2834.72 bonus).
+Intern Sidney used some elbow grease on Clean Monster Truck 54 and made it Clean.
+Intern Clifford washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1229.30 bonus).
 
 Repairing...
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Lloyd to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Lloyd to fix.
 
-Selling to 4...
-Salesperson Louis sold Clean Like New Pickup (VIN #10) to Buyer for $128875.78 (earned $1832.90 bonus)
-Salesperson Harvey attempted to sell Sparkling Like New Monster Truck (VIN #18) to Buyer for $128761.88 and did not succeed.
-Salesperson Harvey attempted to sell Sparkling Like New Monster Truck (VIN #18) to Buyer for $128761.88 and did not succeed.
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck (VIN #18) to Buyer for $128761.88 and did not succeed.
+Selling to 7...
+Salesperson Ollie sold Sparkling Like New Monster Truck (VIN #53) to Buyer for $98114.00 (earned $3924.56 bonus)
+Salesperson Joe attempted to sell Clean Like New Monster Truck (VIN #54) to Buyer for $89736.00 and did not succeed.
+Salesperson Ollie sold Clean Like New Monster Truck (VIN #54) to Buyer for $89736.00 (earned $4486.80 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Regular Car (VIN #6) to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Regular Car (VIN #6) to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde sold Sparkling Like New Regular Car (VIN #6) to Buyer for $86435.16 (earned $1229.30 bonus)
+Salesperson Clyde sold Dirty Like New Performance Car, satellite radio (VIN #55) to Buyer for $86806.13 (earned $1763.68 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $   7259.62
-Daily Sales:    $ 128875.78
-Current Budget: $1323605.13
-Tracker: Day 0
-Total money earned by all Staff: $222291.39
-Total money earned by the FNCD: $1616825.32
+Daily pay:      $  22190.92
+Daily Sales:    $ 361091.28
+Current Budget: $3226517.31
+Intern Clifford has quit the FNCD.
+Tracker: Day 26
+Total money earned by all Staff: $362920.40
+Total money earned by the FNCD: $3757416.91
 
 ============================
 
 It is Saturday (Day 27)
 
 Opening...
-Bought a Dirty Used Pickup, assigned Vehicle Number 42
+Bought a Clean Like New Regular Car, assigned Vehicle Number 56
+Bought a Clean Broken Monster Truck, assigned Vehicle Number 57
+Bought a Dirty Broken Monster Truck, assigned Vehicle Number 58
 
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Pickup 42 and made it Dirty.
-Intern Russell chemically washed Dirty Pickup 42 and made it Clean.
-Intern Carl used some elbow grease on Clean Pickup 9 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Sparkling (earned $633.76 bonus).
-Intern Russell chemically washed Clean Pickup 9 and made it Sparkling (earned $944.55 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Regular Car 56 and made it Clean.
+Intern Maurice washed and detailed Clean Monster Truck 57 and made it Sparkling (earned $2186.45 bonus).
+Intern Horace washed and detailed Clean Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Monster Truck 58 and made it Clean.
+Intern Maurice washed and detailed Clean Regular Car 56 and made it Clean.
 
 Repairing...
-Mechanic Mark tried to fix Used Pickup 42 and did not succeed.
-Mechanic Manuel fixed Used Pickup 42 and made it Like New (earned $2486.00 bonus).
-There are no cars for Mechanic Julius to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+Mechanic Albert tried to fix Broken Monster Truck 57 and did not succeed.
+Mechanic Edward fixed Broken Monster Truck 58 and made it Used (earned $1839.10 bonus).
+Mechanic Lloyd fixed Used Monster Truck 58 and made it Like New (earned $1839.10 bonus).
+Mechanic Albert tried to fix Broken Monster Truck 57 and did not succeed.
+Mechanic Edward fixed Broken Monster Truck 57 and made it Used (earned $2186.45 bonus).
+Mechanic Lloyd fixed Used Monster Truck 57 and made it Like New (earned $2186.45 bonus).
 
-Selling to 8...
-Salesperson Harvey sold Dirty Broken Monster Truck, undercoating, satellite radio (VIN #44) to Buyer for $141959.97 (earned $0.00 bonus)
-Salesperson Louis sold Dirty Like New Monster Truck, satellite radio (VIN #45) to Buyer for $135199.97 (earned $0.00 bonus)
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck (VIN #18) to Buyer for $128761.88 and did not succeed.
-Salesperson Michael sold Sparkling Like New Monster Truck (VIN #18) to Buyer for $128761.88 (earned $1664.80 bonus)
-Salesperson Michael attempted to sell Sparkling Like New Monster Truck (VIN #41) to Buyer for $128163.75 and did not succeed.
-Salesperson Michael sold Sparkling Like New Monster Truck (VIN #41) to Buyer for $128163.75 (earned $2734.16 bonus)
-Salesperson Harvey sold Sparkling Like New Electric Car (VIN #13) to Buyer for $111862.50 (earned $2386.40 bonus)
-Salesperson Louis sold Clean Like New Performance Car (VIN #3) to Buyer for $101085.00 (earned $2695.60 bonus)
+Selling to 7...
+Salesperson Joe sold Sparkling Like New Performance Car (VIN #4) to Buyer for $82672.50 (earned $1763.68 bonus)
+Salesperson Joe sold Sparkling Broken Monster Truck, satellite radio (VIN #59) to Buyer for $86091.47 (earned $2186.45 bonus)
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck (VIN #57) to Buyer for $81991.88 and did not succeed.
+Salesperson Joe sold Dirty Like New Monster Truck (VIN #57) to Buyer for $81991.88 (earned $2186.45 bonus)
+Salesperson Clyde sold Sparkling Like New Performance Car (VIN #48) to Buyer for $77002.00 (earned $3850.10 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Performance Car (VIN #50) to Buyer for $70868.00 and did not succeed.
+Salesperson Ollie attempted to sell Sparkling Like New Performance Car (VIN #50) to Buyer for $70868.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $  16305.27
-Daily Sales:    $ 747033.06
-Current Budget: $2029472.92
-Tracker: Day 0
-Total money earned by all Staff: $238596.66
-Total money earned by the FNCD: $2363858.38
+Daily pay:      $  23017.23
+Daily Sales:    $ 327757.84
+Current Budget: $3480475.42
+Tracker: Day 27
+Total money earned by all Staff: $385937.63
+Total money earned by the FNCD: $4085174.75
 
 ============================
 
@@ -1093,58 +1128,57 @@ SUNDAY SUNDAY SUNDAY RACE DAY!
 
 Today we will be having a Monster Truck race!
 
-Driver William is driving Bounty Hunter (Monster Truck 29) in the race
-Driver Gilbert is driving Monster Mutt Dalmatian (Monster Truck 35) in the race
+Driver Bernard is driving Predator (Monster Truck 19) in the race
+Driver Benjamin is driving Madusa (Monster Truck 41) in the race
+Driver Aaron is driving Raminator (Monster Truck 58) in the race
 
 Race Results:
-Driver William placed 4 in the race, how unremarkable.
-Driver Gilbert placed 12 in the race, how unremarkable.
-Tracker: Day 0
-Total money earned by all Staff: $238596.66
-Total money earned by the FNCD: $2363858.38
+Driver Bernard placed 10 in the race, how unremarkable.
+Driver Benjamin placed 4 in the race, how unremarkable.
+Driver Aaron placed 1 in the race! (earned $1500.00 bonus).
+Tracker: Day 28
+Total money earned by all Staff: $385937.63
+Total money earned by the FNCD: $4085174.75
 
 ============================
 
 It is Monday (Day 29)
 
 Opening...
-Bought a Dirty Used Performance Car, assigned Vehicle Number 46
-Bought a Dirty Like New Electric Car, assigned Vehicle Number 47
-Bought a Dirty Used Monster Truck, assigned Vehicle Number 48
-Bought a Sparkling Like New Monster Truck, assigned Vehicle Number 49
+Bought a Sparkling Broken Performance Car, assigned Vehicle Number 60
+Bought a Clean Broken Performance Car, assigned Vehicle Number 61
+Bought a Dirty Like New Monster Truck, assigned Vehicle Number 62
 
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Pickup 42 and made it Dirty.
-Intern Russell chemically washed Dirty Monster Truck 48 and made it Dirty.
-Intern Carl used some elbow grease on Dirty Performance Car 46 and made it Dirty.
-Performance Car 46 became LIKE NEW from the elbow grease.
-Intern Willard washed and detailed Dirty Electric Car 47 and made it Clean.
-Intern Russell chemically washed Dirty Monster Truck 48 and made it Clean.
-Monster Truck 48 became BROKEN from the chemical wash.
-Intern Carl used some elbow grease on Dirty Performance Car 46 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 62 and made it Dirty.
+Intern Sidney used some elbow grease on Dirty Monster Truck 62 and made it Clean.
+Intern Maurice washed and detailed Dirty Monster Truck 58 and made it Dirty.
+Intern Horace washed and detailed Dirty Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Performance Car 61 and made it Clean.
+Performance Car 61 became LIKE NEW from the elbow grease.
+Intern Maurice washed and detailed Clean Regular Car 56 and made it Sparkling (earned $1052.70 bonus).
 
 Repairing...
-Mechanic Mark fixed Broken Monster Truck 48 and made it Used (earned $3833.68 bonus).
-Mechanic Manuel fixed Used Monster Truck 48 and made it Like New (earned $3833.68 bonus).
-There are no cars for Mechanic Julius to fix.
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+Mechanic Albert fixed Broken Performance Car 60 and made it Used (earned $1044.40 bonus).
+Mechanic Edward fixed Used Performance Car 60 and made it Like New (earned $1044.40 bonus).
+There are no cars for Mechanic Lloyd to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Lloyd to fix.
 
-Selling to 2...
-Salesperson Harvey sold Dirty Like New Monster Truck, satellite radio (VIN #50) to Buyer for $150951.15 (earned $0.00 bonus)
-Salesperson Louis attempted to sell Dirty Like New Monster Truck (VIN #48) to Buyer for $143763.00 and did not succeed.
+Selling to 1...
+Salesperson Ollie sold Dirty Used Monster Truck, undercoating, satellite radio (VIN #64) to Buyer for $83638.82 (earned $1839.10 bonus)
 Done working
 
 Paying workers...
-Daily pay:      $  10427.36
-Daily Sales:    $ 150951.15
-Current Budget: $2052265.31
-Tracker: Day 0
-Total money earned by all Staff: $249024.02
-Total money earned by the FNCD: $2514809.53
+Daily pay:      $   9273.60
+Daily Sales:    $  83638.82
+Current Budget: $3491593.64
+Tracker: Day 29
+Total money earned by all Staff: $395211.23
+Total money earned by the FNCD: $4168813.57
 
 ============================
 
@@ -1155,113 +1189,131 @@ Opening...
 Working...
 
 Washing...
-Intern Willard washed and detailed Dirty Pickup 42 and made it Sparkling (earned $2486.00 bonus).
-Intern Russell chemically washed Dirty Monster Truck 48 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 46 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Clean.
-Intern Russell chemically washed Clean Performance Car 46 and made it Dirty.
-Performance Car 46 became BROKEN from the chemical wash.
-Intern Carl used some elbow grease on Dirty Performance Car 46 and made it Clean.
+Intern Horace washed and detailed Dirty Performance Car 60 and made it Clean.
+Intern Sidney used some elbow grease on Clean Monster Truck 58 and made it Clean.
+Monster Truck 58 became LIKE NEW from the elbow grease.
+Intern Maurice washed and detailed Clean Monster Truck 58 and made it Sparkling (earned $1839.10 bonus).
+Intern Horace washed and detailed Clean Performance Car 60 and made it Sparkling (earned $1044.40 bonus).
+Intern Sidney used some elbow grease on Clean Performance Car 61 and made it Clean.
+Performance Car 61 became LIKE NEW from the elbow grease.
+Intern Maurice washed and detailed Clean Performance Car 61 and made it Sparkling (earned $1847.40 bonus).
 
 Repairing...
-Mechanic Mark fixed Broken Performance Car 46 and made it Used (earned $2134.16 bonus).
-Mechanic Manuel tried to fix Used Performance Car 46 and did not succeed.
-Mechanic Julius fixed Used Performance Car 46 and made it Like New (earned $2134.16 bonus).
-There are no cars for Mechanic Mark to fix.
-There are no cars for Mechanic Manuel to fix.
-There are no cars for Mechanic Julius to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Lloyd to fix.
+There are no cars for Mechanic Albert to fix.
+There are no cars for Mechanic Edward to fix.
+There are no cars for Mechanic Lloyd to fix.
 
-Selling to 1...
-Salesperson Louis attempted to sell Clean Like New Monster Truck (VIN #48) to Buyer for $143763.00 and did not succeed.
+Selling to 4...
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck (VIN #58) to Buyer for $75862.88 and did not succeed.
+Salesperson Joe attempted to sell Sparkling Like New Monster Truck (VIN #58) to Buyer for $75862.88 and did not succeed.
+Salesperson Clyde sold Sparkling Like New Monster Truck (VIN #58) to Buyer for $75862.88 (earned $1839.10 bonus)
+Salesperson Ollie attempted to sell Sparkling Like New Performance Car (VIN #50) to Buyer for $70868.00 and did not succeed.
 Done working
 
 Paying workers...
-Daily pay:      $   9514.32
-Daily Sales:    $      0.00
-Current Budget: $2042750.99
-Tracker: Day 0
-Total money earned by all Staff: $258538.34
-Total money earned by the FNCD: $2514809.53
+Daily pay:      $   9363.00
+Daily Sales:    $  75862.88
+Current Budget: $3558093.52
+Tracker: Day 30
+Total money earned by all Staff: $404574.23
+Total money earned by the FNCD: $4244676.45
 
 Generating Report...
 
 Current Staff Members:
-    Position | Name        | Days |   Total Pay | Total Bonus 
-    Mechanic | Mark        |   26 | $   8346.00 | $  50553.10
- Salesperson | Louis       |   26 | $  10660.00 | $   7448.82
-      Driver | William     |   26 | $      0.00 | $   1500.00
-    Mechanic | Manuel      |   21 | $   7035.00 | $  18841.57
- Salesperson | Harvey      |   20 | $   8340.00 | $   5993.10
-      Driver | Gilbert     |   20 | $      0.00 | $      0.00
-      Intern | Willard     |   20 | $   3340.00 | $  28679.08
- Salesperson | Michael     |   17 | $   7038.00 | $   4398.96
-      Driver | Frederick   |   11 | $      0.00 | $      0.00
-    Mechanic | Julius      |    7 | $   2303.00 | $   4868.32
-      Intern | Russell     |    7 | $   1295.00 | $   5276.07
-      Intern | Carl        |    7 | $   1274.00 | $      0.00
+    Position | Name        | Days |   Total Pay | Total Bonus
+    Mechanic | Albert      |   26 | $   8996.00 | $  63928.48
+      Driver | Bernard     |   26 | $      0.00 | $      0.00
+ Salesperson | Clyde       |   26 | $  10582.00 | $  40780.20
+    Mechanic | Edward      |   19 | $   6707.00 | $  17109.17
+ Salesperson | Ollie       |   14 | $   5656.00 | $  26977.08
+      Intern | Horace      |   14 | $   2338.00 | $  21811.80
+      Driver | Benjamin    |   11 | $      0.00 | $      0.00
+      Driver | Aaron       |    8 | $      0.00 | $   1500.00
+ Salesperson | Joe         |    6 | $   2634.00 | $   8148.13
+      Intern | Sidney      |    6 | $   1050.00 | $      0.00
+    Mechanic | Lloyd       |    4 | $   1284.00 | $   4025.55
+      Intern | Maurice     |    3 | $    543.00 | $   6925.65
 
 Former Staff Members:
-    Position | Name        | Days |   Total Pay | Total Bonus 
- Salesperson | Anton       |    1 | $    434.00 | $      0.00
-    Mechanic | Jim         |    5 | $   1630.00 | $  12529.54
- Salesperson | Nicholas    |    6 | $   2586.00 | $      0.00
-      Driver | Alexander   |    6 | $      0.00 | $      0.00
- Salesperson | Clarence    |    8 | $   3432.00 | $   8514.76
-      Driver | Archie      |   15 | $      0.00 | $   3000.00
-      Intern | John        |   10 | $   1680.00 | $   1387.44
-    Mechanic | Wilson      |   19 | $   6840.00 | $  23849.87
+    Position | Name        | Days |   Total Pay | Total Bonus
+      Intern | Walter      |    6 | $    930.00 | $      0.00
+    Mechanic | Ira         |    7 | $   2296.00 | $  20618.86
+      Intern | Timothy     |    4 | $    692.00 | $   5604.06
+      Intern | Arch        |    1 | $    162.00 | $      0.00
+ Salesperson | Ernest      |   12 | $   5328.00 | $  21522.00
+      Driver | Virgil      |   15 | $      0.00 | $   1500.00
+      Driver | Willard     |   18 | $      0.00 | $      0.00
+ Salesperson | Felix       |   20 | $   8480.00 | $  20333.08
+    Mechanic | Alfred      |   22 | $   7216.00 | $  38241.42
+      Intern | Clifford    |    1 | $    186.00 | $   1229.30
 
 Current Vehicles in Stock:
 VIN |            Type |      Cost |      Price | Condition | Cleanliness | Race Wins
-  1 | Performance Car | $23057.00 | $ 46114.00 |  Like New |   Sparkling | 0
-  2 | Performance Car | $21177.60 | $ 52944.00 |  Like New |   Sparkling | 0
-  4 | Performance Car | $13363.00 | $ 50111.25 |  Like New |       Clean | 0
-  5 |     Regular Car | $10509.00 | $ 21018.00 |  Like New |       Clean | 0
-  6 |     Regular Car | $17595.00 | $ 35190.00 |  Like New |   Sparkling | 0
-  7 |     Regular Car | $ 6649.50 | $ 24935.63 |  Like New |       Clean | 0
-  8 |     Regular Car | $12692.80 | $ 31732.00 |  Like New |   Sparkling | 0
-  9 |          Pickup | $ 9445.50 | $ 35420.63 |  Like New |   Sparkling | 0
- 11 |          Pickup | $14571.00 | $ 54641.25 |  Like New |       Clean | 0
- 12 |          Pickup | $28624.00 | $ 71560.00 |  Like New |   Sparkling | 0
- 14 |    Electric Car | $18412.50 | $ 69046.88 |  Like New |   Sparkling | 0
- 15 |    Electric Car | $21103.20 | $ 98921.25 |  Like New |   Sparkling | 0
- 16 |    Electric Car | $29091.00 | $ 58182.00 |  Like New |   Sparkling | 0
- 21 |      Motorcycle | $ 4209.60 | $ 11576.40 |  Like New |   Sparkling | 1
- 22 |      Motorcycle | $ 5952.00 | $ 46035.00 |  Like New |       Clean | 1
- 23 |      Motorcycle | $ 6337.60 | $ 15844.00 |  Like New |   Sparkling | 0
- 24 |      Motorcycle | $13874.40 | $ 65036.25 |  Like New |   Sparkling | 0
- 29 |   Monster Truck | $26667.20 | $ 66668.00 |  Like New |   Sparkling | 0
- 35 |   Monster Truck | $24040.50 | $ 90151.88 |  Like New |   Sparkling | 0
- 42 |          Pickup | $24860.00 | $ 62150.00 |  Like New |   Sparkling | 0
- 46 | Performance Car | $21341.60 | $ 80031.00 |  Like New |       Dirty | 0
- 47 |    Electric Car | $20177.00 | $ 40354.00 |  Like New |       Clean | 0
- 48 |   Monster Truck | $38336.80 | $143763.00 |  Like New |       Clean | 0
- 49 |   Monster Truck | $37876.00 | $ 75752.00 |  Like New |   Sparkling | 0
+  1 | Performance Car | $27209.00 | $ 54418.00 |  Like New |   Sparkling | 0
+  5 |     Regular Car | $10157.00 | $ 38088.75 |  Like New |   Sparkling | 0
+  7 |     Regular Car | $12062.40 | $ 56542.50 |  Like New |   Sparkling | 0
+  8 |     Regular Car | $10636.80 | $ 26592.00 |  Like New |   Sparkling | 0
+  9 |          Pickup | $18537.00 | $ 69513.75 |  Like New |   Sparkling | 0
+ 10 |          Pickup | $24453.60 | $ 61134.00 |  Like New |   Sparkling | 0
+ 11 |          Pickup | $ 9960.80 | $ 51360.38 |  Like New |   Sparkling | 1
+ 12 |          Pickup | $15714.40 | $ 39286.00 |  Like New |   Sparkling | 0
+ 14 |    Electric Car | $18520.00 | $ 69450.00 |  Like New |   Sparkling | 0
+ 15 |    Electric Car | $12002.50 | $ 45009.38 |  Like New |   Sparkling | 0
+ 16 |    Electric Car | $26597.60 | $ 66494.00 |  Like New |   Sparkling | 0
+ 19 |   Monster Truck | $27096.00 | $ 67740.00 |  Like New |   Sparkling | 0
+ 21 |      Motorcycle | $10058.00 | $ 37717.50 |  Like New |   Sparkling | 0
+ 22 |      Motorcycle | $12294.40 | $ 57630.00 |  Like New |   Sparkling | 0
+ 23 |      Motorcycle | $12788.00 | $ 47955.00 |  Like New |   Sparkling | 0
+ 24 |      Motorcycle | $19034.40 | $ 47586.00 |  Like New |   Sparkling | 0
+ 30 |    Electric Car | $24232.00 | $ 60580.00 |  Like New |   Sparkling | 0
+ 41 |   Monster Truck | $27802.40 | $ 69506.00 |  Like New |   Sparkling | 0
+ 50 | Performance Car | $28347.20 | $ 70868.00 |  Like New |   Sparkling | 0
+ 56 |     Regular Car | $10527.00 | $ 21054.00 |  Like New |   Sparkling | 0
+ 60 | Performance Car | $10444.00 | $ 39165.00 |  Like New |   Sparkling | 0
+ 61 | Performance Car | $18474.00 | $ 36948.00 |  Like New |   Sparkling | 0
+ 62 |   Monster Truck | $34329.00 | $ 68658.00 |  Like New |       Clean | 0
 
 Sold Vehicles:
 VIN |                                                                        Type |      Cost |      Price | Condition | Cleanliness | Race Wins
-  3 |                                                             Performance Car | $26956.00 | $101085.00 |  Like New |       Clean | 0
- 10 |                                                                      Pickup | $18329.00 | $128875.78 |  Like New |       Clean | 0
- 13 |                                                                Electric Car | $23864.00 | $111862.50 |  Like New |   Sparkling | 0
- 17 |                                                               Monster Truck | $45262.00 | $ 90524.00 |  Like New |       Dirty | 0
- 18 |                                                               Monster Truck | $16648.00 | $128761.88 |  Like New |   Sparkling | 1
- 19 |                                                               Monster Truck | $29203.20 | $ 73008.00 |  Like New |       Clean | 0
- 20 |                                                               Monster Truck | $39885.60 | $ 99714.00 |  Like New |       Clean | 0
- 26 |                           Motorcycle, road rescue coverage, satellite radio | $ 5952.00 | $ 49303.49 |    Broken |       Clean | 0
- 27 |                                               Motorcycle, extended warranty | $ 5952.00 | $ 55242.00 |    Broken |       Clean | 0
- 28 |                                              Monster Truck, satellite radio | $45262.00 | $ 95050.20 |  Like New |       Clean | 0
- 30 |                                            Monster Truck, extended warranty | $29203.20 | $ 87609.60 |  Like New |       Dirty | 0
- 31 |                                                               Monster Truck | $36067.00 | $253596.09 |  Like New |       Clean | 0
- 32 |                                              Monster Truck, satellite radio | $36067.00 | $266275.90 |  Like New |       Clean | 0
- 34 |                           Monster Truck, extended warranty, satellite radio | $36067.00 | $319531.08 |      Used |       Dirty | 0
- 36 |                                            Monster Truck, extended warranty | $24040.50 | $108182.25 |      Used |       Clean | 0
- 37 |                                               Electric Car, satellite radio | $23864.00 | $117455.63 |      Used |       Dirty | 0
- 38 |                                               Electric Car, satellite radio | $23864.00 | $117455.63 |      Used |       Dirty | 0
- 39 |                                               Electric Car, satellite radio | $23864.00 | $117455.63 |    Broken |       Clean | 0
- 40 |                                             Electric Car, extended warranty | $23864.00 | $134235.00 |    Broken |       Clean | 0
- 41 |                                                               Monster Truck | $27341.60 | $128163.75 |  Like New |   Sparkling | 0
- 44 |                                Monster Truck, undercoating, satellite radio | $16648.00 | $141959.97 |    Broken |       Dirty | 0
- 45 |                                              Monster Truck, satellite radio | $16648.00 | $135199.97 |  Like New |       Dirty | 0
- 50 |                                              Monster Truck, satellite radio | $38336.80 | $150951.15 |  Like New |       Dirty | 0
-Operating Budget: $2042750.99
-Loans taken: $0.00
+  2 |                                                             Performance Car | $38215.00 | $143306.25 |  Like New |       Dirty | 0
+  3 |                                                             Performance Car | $33915.00 | $127181.25 |  Like New |       Dirty | 0
+  4 |                                                             Performance Car | $17636.80 | $ 82672.50 |  Like New |   Sparkling | 0
+  6 |                                                                 Regular Car | $12293.00 | $ 86435.16 |  Like New |   Sparkling | 0
+ 13 |                                                                Electric Car | $25928.00 | $145845.00 |  Like New |       Dirty | 0
+ 17 |                                                               Monster Truck | $45702.00 | $ 91404.00 |  Like New |       Dirty | 0
+ 18 |                                                               Monster Truck | $35914.00 | $107742.00 |      Used |       Dirty | 0
+ 20 |                                                               Monster Truck | $41531.00 | $155741.25 |  Like New |       Clean | 0
+ 25 |                                            Monster Truck, extended warranty | $41531.00 | $186889.50 |      Used |       Clean | 0
+ 26 |                                                               Monster Truck | $30556.00 | $114585.00 |  Like New |       Clean | 0
+ 27 |                                              Monster Truck, satellite radio | $30556.00 | $120314.25 |    Broken |       Dirty | 0
+ 28 |                                              Monster Truck, satellite radio | $30556.00 | $120314.25 |    Broken |       Dirty | 0
+ 29 |                                              Monster Truck, satellite radio | $35914.00 | $113129.10 |    Broken |       Clean | 0
+ 31 |                                                               Monster Truck | $45118.00 | $169192.50 |  Like New |       Clean | 0
+ 32 |                                                               Monster Truck | $35825.60 | $ 89564.00 |  Like New |   Sparkling | 0
+ 33 |                                            Monster Truck, extended warranty | $41531.00 | $186889.50 |  Like New |       Dirty | 0
+ 35 |                                Monster Truck, undercoating, satellite radio | $41531.00 | $171704.73 |      Used |       Dirty | 0
+ 37 |                           Monster Truck, extended warranty, satellite radio | $45118.00 | $213182.55 |  Like New |       Clean | 0
+ 38 |                                              Monster Truck, satellite radio | $45118.00 | $177652.13 |      Used |       Dirty | 0
+ 39 |                                                               Monster Truck | $39236.80 | $ 98092.00 |  Like New |       Clean | 0
+ 40 |                                            Monster Truck, extended warranty | $41531.00 | $186889.50 |  Like New |       Dirty | 0
+ 42 |                                                               Monster Truck | $25874.40 | $121286.25 |  Like New |       Clean | 0
+ 44 |                           Monster Truck, extended warranty, satellite radio | $35825.60 | $112850.64 |      Used |       Dirty | 0
+ 45 |                                              Monster Truck, satellite radio | $35825.60 | $ 94042.20 |      Used |       Dirty | 0
+ 46 |                                         Monster Truck, road rescue coverage | $35825.60 | $ 91355.28 |  Like New |       Clean | 0
+ 47 |                                                               Monster Truck | $20115.50 | $141437.11 |  Like New |       Dirty | 0
+ 48 |                                                             Performance Car | $38501.00 | $ 77002.00 |  Like New |   Sparkling | 0
+ 49 |                                                 Monster Truck, undercoating | $35825.60 | $ 94042.20 |    Broken |       Dirty | 0
+ 52 |                             Regular Car, extended warranty, satellite radio | $12293.00 | $108908.30 |  Like New |       Dirty | 0
+ 53 |                                                               Monster Truck | $39245.60 | $ 98114.00 |  Like New |   Sparkling | 0
+ 54 |                                                               Monster Truck | $44868.00 | $ 89736.00 |  Like New |       Clean | 0
+ 55 |                                            Performance Car, satellite radio | $17636.80 | $ 86806.13 |  Like New |       Dirty | 0
+ 57 |                                                               Monster Truck | $21864.50 | $ 81991.88 |  Like New |       Dirty | 0
+ 58 |                                                               Monster Truck | $18391.00 | $ 75862.88 |  Like New |   Sparkling | 1
+ 59 |                                              Monster Truck, satellite radio | $21864.50 | $ 86091.47 |    Broken |   Sparkling | 0
+ 64 |                                Monster Truck, undercoating, satellite radio | $18391.00 | $ 83638.82 |      Used |       Dirty | 0
+Operating Budget: $3558093.52
+Loans taken: $250000.00

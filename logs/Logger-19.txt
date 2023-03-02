@@ -1,12 +1,14 @@
-Intern Julius used some elbow grease on Dirty Monster Truck 31 and made it Clean.
-Intern Willard washed and detailed Clean Monster Truck 18 and made it Clean.
-Intern John chemically washed Clean Monster Truck 31 and made it Clean.
-Intern Julius used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Dirty.
-Intern John chemically washed Dirty Motorcycle 22 and made it Clean.
-Salesperson Harvey attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
-Salesperson Michael attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
-Salesperson Harvey sold Clean Like New Monster Truck 31 to Buyer for $253596.09 (earned $3606.70 bonus)
-Paid staff $6367.70
-The FNCD made $253596.09
+Intern Lloyd chemically washed Dirty Pickup 11 and made it Clean.
+Intern Joe washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Clean.
+Intern Lloyd chemically washed Clean Electric Car 16 and made it Sparkling (earned $2659.76 bonus).
+Intern Joe washed and detailed Clean Motorcycle 23 and made it Sparkling (earned $1278.80 bonus).
+Intern Horace washed and detailed Clean Regular Car 7 and made it Sparkling (earned $1206.24 bonus).
+Salesperson Ollie attempted to sell Clean Like New Monster Truck 42 to Buyer for $121286.25 and did not succeed.
+Salesperson Ollie sold Clean Like New Monster Truck 42 to Buyer for $121286.25 (earned $2587.44 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Paid staff $10460.24
+The FNCD made $121286.25

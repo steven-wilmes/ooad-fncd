@@ -1,16 +1,18 @@
-Hired John as a new Intern.
-Intern Julius used some elbow grease on Clean Motorcycle 23 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 2 and made it Sparkling (earned $2117.76 bonus).
-Intern John chemically washed Clean Electric Car 13 and made it Clean.
-Electric Car 13 became BROKEN from the chemical wash.
-Intern Julius used some elbow grease on Clean Monster Truck 35 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Clean.
-Intern John chemically washed Clean Pickup 9 and made it Clean.
-Mechanic Mark fixed Broken Electric Car 13 and made it Used (earned $2386.40 bonus).
-Mechanic Wilson fixed Used Electric Car 13 and made it Like New (earned $2386.40 bonus).
-Salesperson Harvey attempted to sell Dirty Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Michael attempted to sell Dirty Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Dirty Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Paid staff $9651.56
-The FNCD made $0.00
+Intern Lloyd chemically washed Dirty Performance Car 4 and made it Clean.
+Intern Ollie chemically washed Dirty Monster Truck 31 and made it Clean.
+Intern Timothy washed and detailed Clean Motorcycle 24 and made it Clean.
+Intern Lloyd chemically washed Clean Motorcycle 22 and made it Clean.
+Intern Ollie chemically washed Clean Electric Car 30 and made it Clean.
+Intern Timothy washed and detailed Clean Monster Truck 32 and made it Sparkling (earned $3582.56 bonus).
+Salesperson Clyde sold Dirty Used Monster Truck, satellite radio 38 to Buyer for $177652.13 (earned $4511.80 bonus)
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 31 to Buyer for $169192.50 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 31 to Buyer for $169192.50 and did not succeed.
+Salesperson Felix sold Clean Like New Monster Truck 31 to Buyer for $169192.50 (earned $4511.80 bonus)
+Driver Bernard is driving Motorcycle 21 in the race
+Driver Willard is driving Motorcycle 22 in the race
+Driver Virgil is driving Motorcycle 23 in the race
+Driver Bernard placed 13 in the race.
+Motorcycle 22 became damaged!
+Driver Virgil placed 6 in the race.
+Paid staff $15422.16
+The FNCD made $346844.63

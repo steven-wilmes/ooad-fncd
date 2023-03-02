@@ -1,9 +1,15 @@
-Intern Julius used some elbow grease on Dirty Monster Truck 31 and made it Clean.
-Intern Willard washed and detailed Clean Monster Truck 29 and made it Clean.
-Intern John chemically washed Clean Motorcycle 23 and made it Clean.
-Intern Julius used some elbow grease on Clean Pickup 11 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 12 and made it Clean.
-Intern John chemically washed Clean Pickup 12 and made it Clean.
-Salesperson Louis attempted to sell Clean Like New Monster Truck 31 to Buyer for $135251.25 and did not succeed.
-Paid staff $2761.00
-The FNCD made $0.00
+Hired Joe as a new Intern.
+Hired Horace as a new Intern.
+Intern Lloyd chemically washed Dirty Motorcycle 23 and made it Clean.
+Intern Joe washed and detailed Dirty Monster Truck 41 and made it Clean.
+Intern Horace washed and detailed Dirty Monster Truck 42 and made it Dirty.
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Clean.
+Intern Joe washed and detailed Clean Motorcycle 24 and made it Sparkling (earned $1903.44 bonus).
+Intern Horace washed and detailed Clean Pickup 12 and made it Sparkling (earned $1571.44 bonus).
+Mechanic Albert fixed Used Monster Truck 42 and made it Like New (earned $2587.44 bonus).
+Salesperson Clyde sold Dirty Used Monster Truck, extended warranty, satellite radio 44 to Buyer for $112850.64 (earned $3582.56 bonus)
+Salesperson Ollie sold Dirty Used Monster Truck, satellite radio 45 to Buyer for $94042.20 (earned $3582.56 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde sold Clean Like New Monster Truck, road rescue coverage 46 to Buyer for $91355.28 (earned $3582.56 bonus)
+Paid staff $19538.00
+The FNCD made $298248.12

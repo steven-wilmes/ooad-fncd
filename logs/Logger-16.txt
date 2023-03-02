@@ -1,15 +1,12 @@
-Intern Julius used some elbow grease on Clean Pickup 12 and made it Sparkling (earned $2862.40 bonus).
-Intern Willard washed and detailed Clean Regular Car 8 and made it Sparkling (earned $1269.28 bonus).
-Intern John chemically washed Clean Monster Truck 31 and made it Clean.
-Intern Julius used some elbow grease on Clean Pickup 9 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
-Intern John chemically washed Clean Monster Truck 29 and made it Clean.
-Driver Archie is driving Stone Crusher (Monster Truck 18) in the race
-Driver William is driving Bounty Hunter (Monster Truck 29) in the race
-Driver Gilbert is driving Grider (Monster Truck 31) in the race
-Driver Archie placed 20 in the race and got injured!
-Monster Truck 18 became damaged!
-Driver William placed 7 in the race.
-Monster Truck 31 became damaged!
-Paid staff $6892.68
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Dirty.
+Monster Truck 42 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Dirty Monster Truck 42 and made it Sparkling (earned $2587.44 bonus).
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Lloyd chemically washed Clean Performance Car 1 and made it Sparkling (earned $2720.90 bonus).
+Intern Joe washed and detailed Clean Pickup 10 and made it Clean.
+Intern Horace washed and detailed Clean Motorcycle 23 and made it Clean.
+Mechanic Albert fixed Broken Monster Truck 42 and made it Used (earned $2587.44 bonus).
+Mechanic Alfred fixed Used Monster Truck 42 and made it Like New (earned $2587.44 bonus).
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck 42 to Buyer for $121286.25 and did not succeed.
+Paid staff $13211.22
 The FNCD made $0.00

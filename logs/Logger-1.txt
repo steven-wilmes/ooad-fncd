@@ -1,18 +1,20 @@
-Hired Michael as a new Intern.
-Intern Manuel washed and detailed Dirty Monster Truck 18 and made it Clean.
-Intern Harvey washed and detailed Dirty Motorcycle 21 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Monster Truck 20 and made it Clean.
-Intern Manuel washed and detailed Dirty Regular Car 7 and made it Sparkling (earned $664.95 bonus).
-Intern Harvey washed and detailed Dirty Pickup 12 and made it Clean.
-Intern Michael used some elbow grease on Dirty Monster Truck 17 and made it Dirty.
-Mechanic Mark fixed Used Regular Car 7 and made it Like New (earned $664.95 bonus).
-Mechanic Wilson fixed Used Electric Car 13 and made it Like New (earned $2386.40 bonus).
-Mechanic Jim fixed Used Monster Truck 19 and made it Like New (earned $2920.32 bonus).
-Mechanic Mark fixed Broken Pickup 10 and made it Used (earned $1832.90 bonus).
-Mechanic Wilson fixed Used Electric Car 15 and made it Like New (earned $2110.32 bonus).
-Mechanic Jim fixed Broken Pickup 11 and made it Used (earned $1457.10 bonus).
-Salesperson Clarence sold Clean Broken Motorcycle, road rescue coverage, satellite radio 26 to Buyer for $12749.18 (earned $0.00 bonus)
-Salesperson Nicholas sold Clean Broken Motorcycle, extended warranty 27 to Buyer for $14284.80 (earned $0.00 bonus)
-Salesperson Clarence attempted to sell Clean Broken Pickup 9 to Buyer for $18891.00 and did not succeed.
-Paid staff $14822.94
-The FNCD made $27033.98
+The FNCD has taken out a loan. The FNCD has $250000.00 in loans.
+Intern Lloyd chemically washed Dirty Monster Truck 18 and made it Dirty.
+Intern Edward chemically washed Dirty Regular Car 8 and made it Dirty.
+Intern Walter chemically washed Dirty Electric Car 16 and made it Clean.
+Intern Lloyd chemically washed Dirty Pickup 12 and made it Clean.
+Intern Edward chemically washed Dirty Performance Car 1 and made it Clean.
+Intern Walter chemically washed Dirty Motorcycle 22 and made it Clean.
+Mechanic Albert fixed Used Regular Car 7 and made it Like New (earned $1206.24 bonus).
+Mechanic Ira fixed Used Motorcycle 22 and made it Like New (earned $1229.44 bonus).
+Mechanic Alfred fixed Used Monster Truck 19 and made it Like New (earned $2709.60 bonus).
+Mechanic Albert fixed Used Electric Car 16 and made it Like New (earned $2659.76 bonus).
+Mechanic Ira tried to fix Broken Electric Car 14 and did not succeed.
+Mechanic Alfred fixed Used Regular Car 8 and made it Like New (earned $1063.68 bonus).
+Salesperson Clyde sold Dirty Like New Monster Truck 17 to Buyer for $91404.00 (earned $4570.20 bonus)
+Salesperson Felix sold Clean Used Monster Truck, extended warranty 25 to Buyer for $99674.40 (earned $4153.10 bonus)
+Salesperson Ernest attempted to sell Clean Like New Monster Truck 20 to Buyer for $83062.00 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 20 to Buyer for $83062.00 and did not succeed.
+Salesperson Ernest attempted to sell Clean Like New Monster Truck 20 to Buyer for $83062.00 and did not succeed.
+Paid staff $20323.02
+The FNCD made $191078.40

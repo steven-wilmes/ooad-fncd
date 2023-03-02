@@ -1,4 +1,22 @@
-Driver William is driving Bounty Hunter (Monster Truck 29) in the race
-Driver Gilbert is driving Monster Mutt Dalmatian (Monster Truck 35) in the race
-Driver William placed 4 in the race.
-Driver Gilbert placed 12 in the race.
+Hired Maurice as a new Intern.
+Intern Horace washed and detailed Dirty Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Regular Car 56 and made it Clean.
+Intern Maurice washed and detailed Clean Monster Truck 57 and made it Sparkling (earned $2186.45 bonus).
+Intern Horace washed and detailed Clean Monster Truck 58 and made it Clean.
+Intern Sidney used some elbow grease on Clean Monster Truck 58 and made it Clean.
+Intern Maurice washed and detailed Clean Regular Car 56 and made it Clean.
+Mechanic Albert tried to fix Broken Monster Truck 57 and did not succeed.
+Mechanic Edward fixed Broken Monster Truck 58 and made it Used (earned $1839.10 bonus).
+Mechanic Lloyd fixed Used Monster Truck 58 and made it Like New (earned $1839.10 bonus).
+Mechanic Albert tried to fix Broken Monster Truck 57 and did not succeed.
+Mechanic Edward fixed Broken Monster Truck 57 and made it Used (earned $2186.45 bonus).
+Mechanic Lloyd fixed Used Monster Truck 57 and made it Like New (earned $2186.45 bonus).
+Salesperson Joe sold Sparkling Like New Performance Car 4 to Buyer for $82672.50 (earned $1763.68 bonus)
+Salesperson Joe sold Sparkling Broken Monster Truck, satellite radio 59 to Buyer for $86091.47 (earned $2186.45 bonus)
+Salesperson Ollie attempted to sell Dirty Like New Monster Truck 57 to Buyer for $81991.88 and did not succeed.
+Salesperson Joe sold Dirty Like New Monster Truck 57 to Buyer for $81991.88 (earned $2186.45 bonus)
+Salesperson Clyde sold Sparkling Like New Performance Car 48 to Buyer for $77002.00 (earned $3850.10 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Performance Car 50 to Buyer for $70868.00 and did not succeed.
+Salesperson Ollie attempted to sell Sparkling Like New Performance Car 50 to Buyer for $70868.00 and did not succeed.
+Paid staff $23017.23
+The FNCD made $327757.84

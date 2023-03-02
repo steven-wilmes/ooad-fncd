@@ -1,10 +1,6 @@
-Intern Julius used some elbow grease on Dirty Motorcycle 24 and made it Dirty.
-Intern Willard washed and detailed Dirty Electric Car 15 and made it Clean.
-Intern John chemically washed Dirty Motorcycle 24 and made it Clean.
-Intern Julius used some elbow grease on Clean Monster Truck 35 and made it Sparkling (earned $2404.05 bonus).
-Intern Willard washed and detailed Clean Electric Car 13 and made it Sparkling (earned $2386.40 bonus).
-Intern John chemically washed Clean Motorcycle 24 and made it Sparkling (earned $1387.44 bonus).
-Mechanic Mark fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
-Mechanic Wilson fixed Used Monster Truck 31 and made it Like New (earned $3606.70 bonus).
-Paid staff $17652.29
-The FNCD made $0.00
+Driver Bernard is driving Pickup 9 in the race
+Driver Willard is driving Pickup 10 in the race
+Driver Virgil is driving Pickup 11 in the race
+Driver Bernard placed 15 in the race.
+Driver Willard placed 13 in the race.
+Driver Virgil placed 14 in the race.

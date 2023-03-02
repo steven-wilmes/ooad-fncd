@@ -105,7 +105,8 @@ public class Dealership {
      *             than other days
      */
     public void day(int day_) {
-        dailyLogger = new Logger(day_);
+        publisher.firePropertyChange("day", day_, day_+1);
+        dailyLogger = new Logger(day_+1);
         publisher.addPropertyChangeListener(dailyLogger);
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));

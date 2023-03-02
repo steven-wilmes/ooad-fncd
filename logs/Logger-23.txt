@@ -1,14 +1,11 @@
-Intern Willard washed and detailed Dirty Monster Truck 41 and made it Sparkling (earned $2734.16 bonus).
-Intern Russell chemically washed Clean Motorcycle 22 and made it Clean.
-Intern Carl used some elbow grease on Clean Regular Car 5 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 23 and made it Clean.
-Intern Russell chemically washed Clean Regular Car 7 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 4 and made it Clean.
-Driver William is driving Performance Car 1 in the race
-Driver Gilbert is driving Performance Car 2 in the race
-Driver Frederick is driving Performance Car 3 in the race
-Driver William placed 15 in the race.
-Driver Gilbert placed 7 in the race.
-Performance Car 3 became damaged!
-Paid staff $5494.16
+Intern Lloyd chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Joe washed and detailed Dirty Pickup 11 and made it Dirty.
+Intern Horace washed and detailed Dirty Pickup 11 and made it Clean.
+Intern Lloyd chemically washed Clean Monster Truck 47 and made it Clean.
+Intern Joe washed and detailed Clean Performance Car 50 and made it Sparkling (earned $2834.72 bonus).
+Intern Horace washed and detailed Clean Pickup 10 and made it Sparkling (earned $2445.36 bonus).
+Mechanic Albert fixed Used Performance Car 50 and made it Like New (earned $2834.72 bonus).
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Paid staff $10842.80
 The FNCD made $0.00
+Promoted Joe from Intern to Salesperson.

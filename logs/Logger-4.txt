@@ -1,20 +1,15 @@
-Intern Manuel washed and detailed Dirty Electric Car 14 and made it Sparkling (earned $1841.25 bonus).
-Intern Harvey washed and detailed Dirty Performance Car 1 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Motorcycle 22 and made it Clean.
-Intern Manuel washed and detailed Dirty Performance Car 1 and made it Clean.
-Intern Harvey washed and detailed Dirty Monster Truck 18 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Motorcycle 23 and made it Dirty.
-Mechanic Mark fixed Used Performance Car 2 and made it Like New (earned $2117.76 bonus).
-Mechanic Wilson fixed Used Motorcycle 24 and made it Like New (earned $1387.44 bonus).
-Mechanic Jim fixed Used Monster Truck 29 and made it Like New (earned $2666.72 bonus).
-Mechanic Mark fixed Used Regular Car 8 and made it Like New (earned $1269.28 bonus).
-Mechanic Wilson fixed Broken Performance Car 4 and made it Used (earned $1336.30 bonus).
-Mechanic Jim fixed Used Performance Car 4 and made it Like New (earned $1336.30 bonus).
-Salesperson Clarence attempted to sell Dirty Like New Monster Truck 17 to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence attempted to sell Dirty Like New Monster Truck 17 to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence sold Dirty Like New Monster Truck 17 to Buyer for $90524.00 (earned $4526.20 bonus)
-Salesperson Nicholas sold Dirty Like New Monster Truck, extended warranty 30 to Buyer for $87609.60 (earned $0.00 bonus)
-Salesperson Louis attempted to sell Clean Like New Monster Truck 19 to Buyer for $73008.00 and did not succeed.
-Paid staff $19267.25
-The FNCD made $178133.60
-Promoted Manuel from Intern to Mechanic.
+Intern Lloyd chemically washed Dirty Monster Truck 26 and made it Clean.
+Intern Edward chemically washed Dirty Electric Car 13 and made it Clean.
+Electric Car 13 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Pickup 10 and made it Dirty.
+Intern Lloyd chemically washed Dirty Performance Car 2 and made it Clean.
+Intern Edward chemically washed Dirty Pickup 11 and made it Clean.
+Intern Walter chemically washed Dirty Electric Car 14 and made it Clean.
+Mechanic Albert fixed Broken Electric Car 13 and made it Used (earned $2592.80 bonus).
+Mechanic Ira tried to fix Broken Motorcycle 21 and did not succeed.
+Mechanic Alfred fixed Broken Motorcycle 21 and made it Used (earned $1005.80 bonus).
+Mechanic Albert fixed Used Regular Car 5 and made it Like New (earned $1015.70 bonus).
+Mechanic Ira fixed Used Pickup 12 and made it Like New (earned $1571.44 bonus).
+Mechanic Alfred fixed Used Electric Car 13 and made it Like New (earned $2592.80 bonus).
+Paid staff $11509.54
+The FNCD made $0.00

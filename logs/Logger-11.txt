@@ -1,13 +1,13 @@
-Intern Julius used some elbow grease on Dirty Electric Car 13 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 13 and made it Clean.
-Intern John chemically washed Clean Regular Car 5 and made it Clean.
-Intern Julius used some elbow grease on Clean Regular Car 6 and made it Clean.
-Intern Willard washed and detailed Clean Performance Car 3 and made it Sparkling (earned $2695.60 bonus).
-Intern John chemically washed Clean Regular Car 7 and made it Clean.
-Salesperson Harvey attempted to sell Clean Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Louis attempted to sell Clean Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey attempted to sell Clean Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey attempted to sell Clean Like New Electric Car 13 to Buyer for $111862.50 and did not succeed.
-Salesperson Harvey sold Dirty Used Electric Car, satellite radio 37 to Buyer for $117455.63 (earned $0.00 bonus)
-Paid staff $5456.60
-The FNCD made $117455.63
+Intern Lloyd chemically washed Dirty Monster Truck 39 and made it Clean.
+Intern Ollie chemically washed Clean Performance Car 3 and made it Clean.
+Intern Timothy washed and detailed Clean Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
+Intern Lloyd chemically washed Clean Performance Car 4 and made it Clean.
+Intern Ollie chemically washed Clean Regular Car 6 and made it Clean.
+Intern Timothy washed and detailed Clean Performance Car 4 and made it Clean.
+Mechanic Albert fixed Used Monster Truck 39 and made it Like New (earned $3923.68 bonus).
+Mechanic Alfred fixed Broken Motorcycle 22 and made it Used (earned $1229.44 bonus).
+Mechanic Edward fixed Used Motorcycle 22 and made it Like New (earned $1229.44 bonus).
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 20 to Buyer for $155741.25 and did not succeed.
+Salesperson Ernest sold Dirty Like New Monster Truck, extended warranty 40 to Buyer for $186889.50 (earned $4153.10 bonus)
+Paid staff $14367.36
+The FNCD made $186889.50

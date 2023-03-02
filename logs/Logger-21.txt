@@ -1,15 +1,7 @@
-Intern Julius used some elbow grease on Dirty Monster Truck 41 and made it Clean.
-Intern Willard washed and detailed Clean Motorcycle 22 and made it Clean.
-Intern John chemically washed Clean Pickup 9 and made it Clean.
-Intern Julius used some elbow grease on Clean Monster Truck 41 and made it Clean.
-Intern Willard washed and detailed Clean Regular Car 7 and made it Clean.
-Intern John chemically washed Clean Pickup 10 and made it Clean.
-Mechanic Mark tried to fix Used Monster Truck 41 and did not succeed.
-Mechanic Wilson fixed Broken Pickup 10 and made it Used (earned $1832.90 bonus).
-Mechanic Manuel tried to fix Used Monster Truck 41 and did not succeed.
-Mechanic Mark fixed Used Monster Truck 41 and made it Like New (earned $2734.16 bonus).
-Mechanic Wilson tried to fix Used Pickup 10 and did not succeed.
-Mechanic Manuel fixed Used Pickup 10 and made it Like New (earned $1832.90 bonus).
-Paid staff $9160.96
-The FNCD made $0.00
-Promoted Julius from Intern to Mechanic.
+Driver Bernard is driving Performance Car 1 in the race
+Driver Willard is driving Performance Car 3 in the race
+Driver Benjamin is driving Performance Car 4 in the race
+Driver Bernard placed 11 in the race.
+Driver Willard placed 19 in the race and got injured!
+Performance Car 3 became damaged!
+Driver Benjamin placed 13 in the race.

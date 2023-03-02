@@ -1,19 +1,17 @@
-Hired Frederick as a new Driver.
-Intern Julius used some elbow grease on Clean Performance Car 4 and made it Clean.
-Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
-Intern John chemically washed Clean Regular Car 6 and made it Clean.
-Intern Julius used some elbow grease on Clean Regular Car 6 and made it Clean.
-Intern Willard washed and detailed Clean Electric Car 15 and made it Sparkling (earned $2110.32 bonus).
-Intern John chemically washed Clean Performance Car 4 and made it Clean.
-Mechanic Mark fixed Broken Monster Truck 18 and made it Used (earned $1664.80 bonus).
-Mechanic Wilson fixed Used Monster Truck 18 and made it Like New (earned $1664.80 bonus).
-Mechanic Manuel fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
-Mechanic Mark tried to fix Used Monster Truck 31 and did not succeed.
-Mechanic Wilson tried to fix Used Monster Truck 31 and did not succeed.
-Mechanic Manuel tried to fix Used Monster Truck 31 and did not succeed.
-Salesperson Michael attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
-Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
-Paid staff $11807.62
+Intern Lloyd chemically washed Dirty Monster Truck 42 and made it Clean.
+Intern Joe washed and detailed Clean Monster Truck 19 and made it Clean.
+Intern Horace washed and detailed Clean Monster Truck 19 and made it Sparkling (earned $2709.60 bonus).
+Intern Lloyd chemically washed Clean Motorcycle 23 and made it Clean.
+Intern Joe washed and detailed Clean Performance Car 3 and made it Sparkling (earned $3391.50 bonus).
+Intern Horace washed and detailed Clean Electric Car 16 and made it Clean.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 42 to Buyer for $121286.25 and did not succeed.
+Salesperson Clyde attempted to sell Clean Like New Monster Truck 42 to Buyer for $121286.25 and did not succeed.
+Driver Bernard is driving Pickup 9 in the race
+Driver Willard is driving Pickup 10 in the race
+Driver Virgil is driving Pickup 11 in the race
+Driver Bernard placed 12 in the race.
+Driver Willard placed 15 in the race.
+Driver Virgil placed 18 in the race and got injured!
+Pickup 11 became damaged!
+Paid staff $8829.10
 The FNCD made $0.00

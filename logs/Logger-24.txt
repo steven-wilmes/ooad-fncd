@@ -1,10 +1,21 @@
-Intern Willard washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1759.50 bonus).
-Intern Russell chemically washed Clean Monster Truck 18 and made it Sparkling (earned $1664.80 bonus).
-Intern Carl used some elbow grease on Clean Motorcycle 23 and made it Dirty.
-Intern Willard washed and detailed Dirty Motorcycle 23 and made it Clean.
-Intern Russell chemically washed Clean Pickup 9 and made it Clean.
-Intern Carl used some elbow grease on Clean Performance Car 4 and made it Clean.
-Mechanic Mark fixed Broken Performance Car 3 and made it Used (earned $2695.60 bonus).
-Mechanic Manuel fixed Used Performance Car 3 and made it Like New (earned $2695.60 bonus).
-Paid staff $11575.50
-The FNCD made $0.00
+Hired Sidney as a new Intern.
+Intern Lloyd chemically washed Clean Regular Car 6 and made it Clean.
+Regular Car 6 became BROKEN from the chemical wash.
+Intern Horace washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1229.30 bonus).
+Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
+Intern Lloyd chemically washed Dirty Performance Car 50 and made it Clean.
+Intern Horace washed and detailed Clean Pickup 11 and made it Clean.
+Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
+Mechanic Albert fixed Broken Regular Car 6 and made it Used (earned $1229.30 bonus).
+Mechanic Alfred fixed Used Regular Car 6 and made it Like New (earned $1229.30 bonus).
+Salesperson Ollie sold Sparkling Like New Monster Truck 32 to Buyer for $89564.00 (earned $3582.56 bonus)
+Salesperson Joe attempted to sell Dirty Like New Regular Car 6 to Buyer for $86435.16 and did not succeed.
+Salesperson Clyde sold Dirty Like New Regular Car, extended warranty, satellite radio 52 to Buyer for $108908.30 (earned $1229.30 bonus)
+Driver Bernard is driving Predator (Monster Truck 19) in the race
+Driver Benjamin is driving Madusa (Monster Truck 41) in the race
+Driver Aaron is driving Blacksmith (Monster Truck 47) in the race
+Driver Bernard placed 13 in the race.
+Driver Benjamin placed 12 in the race.
+Monster Truck 47 became damaged!
+Paid staff $11268.76
+The FNCD made $198472.30

@@ -1,17 +1,20 @@
-Hired Russell as a new Intern.
-Hired Carl as a new Intern.
-Intern Willard washed and detailed Dirty Pickup 10 and made it Clean.
-Intern Russell chemically washed Dirty Monster Truck 41 and made it Clean.
-Monster Truck 41 became BROKEN from the chemical wash.
-Intern Carl used some elbow grease on Clean Regular Car 7 and made it Dirty.
-Intern Willard washed and detailed Dirty Regular Car 7 and made it Dirty.
-Intern Russell chemically washed Dirty Regular Car 7 and made it Clean.
-Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
-Mechanic Mark tried to fix Broken Monster Truck 41 and did not succeed.
-Mechanic Manuel tried to fix Broken Monster Truck 41 and did not succeed.
-Mechanic Julius fixed Broken Monster Truck 41 and made it Used (earned $2734.16 bonus).
-Mechanic Mark fixed Used Monster Truck 41 and made it Like New (earned $2734.16 bonus).
-Salesperson Michael attempted to sell Clean Like New Pickup 10 to Buyer for $128875.78 and did not succeed.
-Salesperson Michael attempted to sell Clean Like New Pickup 10 to Buyer for $128875.78 and did not succeed.
-Paid staff $8228.32
-The FNCD made $0.00
+Hired Aaron as a new Driver.
+Intern Lloyd chemically washed Dirty Monster Truck 47 and made it Dirty.
+Intern Joe washed and detailed Dirty Monster Truck 47 and made it Clean.
+Intern Horace washed and detailed Dirty Performance Car 48 and made it Sparkling (earned $3850.10 bonus).
+Intern Lloyd chemically washed Clean Regular Car 6 and made it Clean.
+Regular Car 6 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Electric Car 14 and made it Sparkling (earned $1852.00 bonus).
+Intern Horace washed and detailed Clean Pickup 11 and made it Dirty.
+Mechanic Albert fixed Broken Regular Car 6 and made it Used (earned $1229.30 bonus).
+Mechanic Alfred fixed Used Regular Car 6 and made it Like New (earned $1229.30 bonus).
+Mechanic Edward tried to fix Broken Performance Car 3 and did not succeed.
+Mechanic Albert fixed Broken Performance Car 3 and made it Used (earned $3391.50 bonus).
+Mechanic Alfred fixed Used Performance Car 3 and made it Like New (earned $3391.50 bonus).
+Salesperson Ollie sold Dirty Like New Performance Car 3 to Buyer for $127181.25 (earned $3391.50 bonus)
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Felix attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Salesperson Ollie sold Dirty Broken Monster Truck, undercoating 49 to Buyer for $94042.20 (earned $3582.56 bonus)
+Paid staff $24645.76
+The FNCD made $221223.45

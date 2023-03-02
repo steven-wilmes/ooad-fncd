@@ -1,7 +1,19 @@
-Driver Archie is driving Motorcycle 21 in the race
-Driver Alexander is driving Motorcycle 22 in the race
-Driver William is driving Motorcycle 23 in the race
-Driver Archie placed 7 in the race.
-Driver Alexander placed 16 in the race and got injured!
-Motorcycle 22 became damaged!
-Driver William placed 8 in the race.
+Intern Lloyd chemically washed Dirty Electric Car 14 and made it Clean.
+Intern Edward chemically washed Dirty Performance Car 4 and made it Dirty.
+Performance Car 4 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Performance Car 4 and made it Clean.
+Intern Lloyd chemically washed Dirty Motorcycle 21 and made it Clean.
+Intern Edward chemically washed Dirty Motorcycle 24 and made it Dirty.
+Intern Walter chemically washed Dirty Motorcycle 24 and made it Clean.
+Mechanic Albert fixed Used Regular Car 7 and made it Like New (earned $1206.24 bonus).
+Mechanic Ira tried to fix Broken Performance Car 4 and did not succeed.
+Mechanic Alfred fixed Broken Monster Truck 20 and made it Used (earned $4153.10 bonus).
+Mechanic Albert fixed Used Monster Truck 32 and made it Like New (earned $3582.56 bonus).
+Mechanic Ira fixed Used Monster Truck 20 and made it Like New (earned $4153.10 bonus).
+Mechanic Alfred tried to fix Used Electric Car 30 and did not succeed.
+Salesperson Felix attempted to sell Dirty Like New Monster Truck 20 to Buyer for $155741.25 and did not succeed.
+Salesperson Ernest sold Dirty Like New Monster Truck, extended warranty 33 to Buyer for $186889.50 (earned $4153.10 bonus)
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck 20 to Buyer for $155741.25 and did not succeed.
+Salesperson Felix attempted to sell Dirty Like New Monster Truck 20 to Buyer for $155741.25 and did not succeed.
+Paid staff $19979.10
+The FNCD made $186889.50

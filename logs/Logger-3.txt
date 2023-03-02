@@ -1,18 +1,26 @@
-Intern Manuel washed and detailed Dirty Pickup 12 and made it Clean.
-Intern Harvey washed and detailed Dirty Pickup 11 and made it Clean.
-Intern Michael used some elbow grease on Dirty Motorcycle 21 and made it Sparkling (earned $420.96 bonus).
-Intern Manuel washed and detailed Dirty Electric Car 14 and made it Clean.
-Intern Harvey washed and detailed Dirty Electric Car 15 and made it Clean.
-Intern Michael used some elbow grease on Dirty Performance Car 3 and made it Clean.
-Mechanic Mark fixed Broken Electric Car 14 and made it Used (earned $1841.25 bonus).
-Mechanic Wilson fixed Used Motorcycle 23 and made it Like New (earned $633.76 bonus).
-Mechanic Jim fixed Broken Pickup 9 and made it Used (earned $944.55 bonus).
-Mechanic Mark fixed Used Pickup 12 and made it Like New (earned $2862.40 bonus).
-Mechanic Wilson fixed Used Electric Car 14 and made it Like New (earned $1841.25 bonus).
-Mechanic Jim fixed Used Pickup 9 and made it Like New (earned $944.55 bonus).
-Salesperson Clarence attempted to sell Clean Like New Monster Truck 20 to Buyer for $99714.00 and did not succeed.
-Salesperson Clarence sold Clean Like New Monster Truck 20 to Buyer for $99714.00 (earned $3988.56 bonus)
-Salesperson Louis attempted to sell Dirty Like New Monster Truck 17 to Buyer for $90524.00 and did not succeed.
-Salesperson Clarence sold Clean Like New Monster Truck, satellite radio 28 to Buyer for $95050.20 (earned $0.00 bonus)
-Paid staff $16263.28
-The FNCD made $194764.20
+Intern Lloyd chemically washed Dirty Electric Car 16 and made it Clean.
+Intern Edward chemically washed Dirty Monster Truck 19 and made it Clean.
+Intern Walter chemically washed Dirty Regular Car 7 and made it Clean.
+Regular Car 7 became BROKEN from the chemical wash.
+Intern Lloyd chemically washed Dirty Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
+Regular Car 5 became BROKEN from the chemical wash.
+Intern Edward chemically washed Dirty Electric Car 15 and made it Clean.
+Intern Walter chemically washed Dirty Motorcycle 22 and made it Clean.
+Mechanic Albert fixed Used Monster Truck 26 and made it Like New (earned $3055.60 bonus).
+Mechanic Ira fixed Broken Electric Car 13 and made it Used (earned $2592.80 bonus).
+Mechanic Alfred tried to fix Used Motorcycle 24 and did not succeed.
+Mechanic Albert fixed Broken Regular Car 5 and made it Used (earned $1015.70 bonus).
+Mechanic Ira tried to fix Used Electric Car 13 and did not succeed.
+Mechanic Alfred fixed Broken Regular Car 7 and made it Used (earned $1206.24 bonus).
+Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio 27 to Buyer for $120314.25 (earned $3055.60 bonus)
+Salesperson Ernest attempted to sell Dirty Like New Monster Truck 26 to Buyer for $114585.00 and did not succeed.
+Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio 28 to Buyer for $120314.25 (earned $3055.60 bonus)
+Salesperson Clyde attempted to sell Dirty Like New Monster Truck 26 to Buyer for $114585.00 and did not succeed.
+Driver Bernard is driving The Felon (Monster Truck 18) in the race
+Driver Willard is driving Predator (Monster Truck 19) in the race
+Driver Virgil is driving Blacksmith (Monster Truck 20) in the race
+Monster Truck 18 became damaged!
+Driver Willard placed 6 in the race.
+Monster Truck 20 became damaged!
+Paid staff $17728.24
+The FNCD made $240628.50

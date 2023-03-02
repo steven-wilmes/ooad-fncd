@@ -1,21 +1,16 @@
-Intern Manuel washed and detailed Dirty Monster Truck 19 and made it Dirty.
-Intern Harvey washed and detailed Dirty Electric Car 15 and made it Dirty.
-Intern Michael used some elbow grease on Dirty Pickup 10 and made it Clean.
-Intern Manuel washed and detailed Dirty Performance Car 4 and made it Clean.
-Intern Harvey washed and detailed Dirty Electric Car 13 and made it Clean.
-Intern Michael used some elbow grease on Dirty Monster Truck 19 and made it Clean.
-Mechanic Mark fixed Used Pickup 11 and made it Like New (earned $1457.10 bonus).
-Mechanic Wilson fixed Broken Motorcycle 22 and made it Used (earned $595.20 bonus).
-Mechanic Jim fixed Used Motorcycle 22 and made it Like New (earned $595.20 bonus).
-Mechanic Mark tried to fix Broken Electric Car 14 and did not succeed.
-Mechanic Wilson tried to fix Used Pickup 12 and did not succeed.
-Mechanic Jim fixed Used Monster Truck 18 and made it Like New (earned $1664.80 bonus).
-Salesperson Louis attempted to sell Clean Like New Monster Truck 20 to Buyer for $99714.00 and did not succeed.
-Driver Archie is driving Pickup 10 in the race
-Driver Alexander is driving Pickup 11 in the race
-Driver William is driving Pickup 12 in the race
-Driver Archie placed 8 in the race.
-Driver Alexander placed 10 in the race.
-Driver William placed 13 in the race.
-Paid staff $7098.30
+Intern Lloyd chemically washed Dirty Regular Car 8 and made it Dirty.
+Intern Edward chemically washed Dirty Electric Car 13 and made it Clean.
+Electric Car 13 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Regular Car 6 and made it Clean.
+Intern Lloyd chemically washed Dirty Monster Truck 18 and made it Clean.
+Intern Edward chemically washed Dirty Monster Truck 26 and made it Clean.
+Monster Truck 26 became BROKEN from the chemical wash.
+Intern Walter chemically washed Dirty Regular Car 8 and made it Clean.
+Mechanic Albert fixed Broken Electric Car 14 and made it Used (earned $1852.00 bonus).
+Mechanic Ira fixed Broken Monster Truck 26 and made it Used (earned $3055.60 bonus).
+Mechanic Alfred fixed Broken Electric Car 15 and made it Used (earned $1200.25 bonus).
+Mechanic Albert fixed Used Pickup 10 and made it Like New (earned $2445.36 bonus).
+Mechanic Ira fixed Used Pickup 11 and made it Like New (earned $996.08 bonus).
+Mechanic Alfred fixed Used Electric Car 15 and made it Like New (earned $1200.25 bonus).
+Paid staff $13480.54
 The FNCD made $0.00

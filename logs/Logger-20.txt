@@ -1,6 +1,19 @@
-Driver William is driving Pickup 9 in the race
-Driver Gilbert is driving Pickup 10 in the race
-Driver Frederick is driving Pickup 11 in the race
-Driver William placed 9 in the race.
-Pickup 10 became damaged!
-Driver Frederick placed 7 in the race.
+Intern Lloyd chemically washed Dirty Monster Truck 47 and made it Clean.
+Monster Truck 47 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Monster Truck 41 and made it Clean.
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
+Intern Lloyd chemically washed Clean Performance Car 2 and made it Clean.
+Performance Car 2 became BROKEN from the chemical wash.
+Intern Joe washed and detailed Clean Monster Truck 41 and made it Sparkling (earned $2780.24 bonus).
+Intern Horace washed and detailed Clean Electric Car 14 and made it Clean.
+Mechanic Albert fixed Broken Performance Car 2 and made it Used (earned $3821.50 bonus).
+Mechanic Alfred fixed Broken Monster Truck 47 and made it Used (earned $2011.55 bonus).
+Mechanic Edward fixed Used Monster Truck 47 and made it Like New (earned $2011.55 bonus).
+Mechanic Albert fixed Used Performance Car 2 and made it Like New (earned $3821.50 bonus).
+Salesperson Clyde attempted to sell Dirty Like New Performance Car 2 to Buyer for $143306.25 and did not succeed.
+Salesperson Ollie attempted to sell Dirty Like New Performance Car 2 to Buyer for $143306.25 and did not succeed.
+Salesperson Felix attempted to sell Dirty Like New Performance Car 2 to Buyer for $143306.25 and did not succeed.
+Salesperson Clyde sold Dirty Like New Performance Car 2 to Buyer for $143306.25 (earned $3821.50 bonus)
+Salesperson Ollie attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
+Paid staff $20995.84
+The FNCD made $143306.25
