@@ -19,6 +19,8 @@ a lot of the getters since the attributes are only used internally. For both sta
 attributes a bit to better match what we were doing. We also added Vehicle ID numbers to the vehicle class, which we had
 forgotten to include at all in our first draft.
 
+#### Changes from 3.1
+We had some changes on the UML Diagram between Project 3.1 and 3.2. Most were relatively minor with some implementation details concerning parameters and functions for Tracker and Logger and Dealership. We also added the WashBehavior subclasses. For Project 3.1 we had a decent idea with what had to be done and a good baseline to start with, so there were no major structural changes
 ## OO Elements
 
 Inheritance - Dealership:158
