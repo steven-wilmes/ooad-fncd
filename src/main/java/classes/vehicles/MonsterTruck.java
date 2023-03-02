@@ -5,7 +5,9 @@ import java.util.HashMap;
 
 public class MonsterTruck extends Vehicle {
     
-    // names from https://en.wikipedia.org/wiki/List_of_monster_trucks
+    /**
+     * a hashmap of monster truck names and the number of times they have been used. names from https://en.wikipedia.org/wiki/List_of_monster_trucks
+     */
     static HashMap<String, Integer> truckNames = new HashMap<>() {{
         put("Air Force Afterburner", 0);
         put("Avenger", 0);
@@ -48,6 +50,10 @@ public class MonsterTruck extends Vehicle {
         put("War Wizard", 0);
         put("WCW Nitro Machine", 0);
     }};
+    
+    /**
+     * the monster truck's stage name
+     */
     String stageName;
     
     public MonsterTruck() {
@@ -72,6 +78,8 @@ public class MonsterTruck extends Vehicle {
             // name already used
             this.stageName = stageName_.concat(" ").concat(Integer.toString(timesUsed));
             truckNames.replace(stageName_, timesUsed + 1);
+        } else {
+            this.stageName = stageName_;
         }
     }
     

@@ -4,8 +4,14 @@ import enums.Condition;
 
 public class ElectricCar extends Vehicle {
     
+    /**
+     * the range of the electric car, in miles
+     */
     int range;
     
+    /**
+     * initialize a new electric car. set initial cost and range
+     */
     public ElectricCar() {
         super();
         int initialCost = rng.nextInt(20000) + 20000; //generated cost between $20000 and $40000
@@ -27,6 +33,10 @@ public class ElectricCar extends Vehicle {
         
     }
     
+    /**
+     * repair the electric car. does {@link Vehicle.repair()} and then increases the range by 100 if it becomes like new
+     * @return the result of Vehicle.repair()
+     */
     @Override
     public Boolean repair() {
         Boolean superRepair = super.repair(); // TODO 99% sure this is how this works
@@ -36,6 +46,10 @@ public class ElectricCar extends Vehicle {
         return superRepair;
     }
     
+    /**
+     *
+     * @return "Electric Car"
+     */
     @Override
     public String getStr() {
         return "Electric Car";

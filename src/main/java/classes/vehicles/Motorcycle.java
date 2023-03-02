@@ -2,6 +2,9 @@ package classes.vehicles;
 
 public class Motorcycle extends Vehicle {
     
+    /**
+     * the motorcycle's engine size rating, in cubic centimeters
+     */
     double engSizeRating;
     
     public Motorcycle() {

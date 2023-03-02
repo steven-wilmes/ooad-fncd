@@ -3,12 +3,33 @@ package classes.observerData;
 import enums.Condition;
 
 public class RepairOutcome {
+    /**
+     * whether or not the repair was successful
+     */
     Boolean repaired;
+    /**
+     * the mechanic's name
+     */
     String mechanicName;
+    /**
+     * the condition before the repair
+     */
     Condition initCondition;
+    /**
+     * the condition after the repair
+     */
     Condition resultCondition;
+    /**
+     * the type of vehicle
+     */
     String vehicleType;
+    /**
+     * the vehicle's identifying number
+     */
     int vehicleNum;
+    /**
+     * the bonus associated with the vehicle
+     */
     double bonusAmt;
     
     public RepairOutcome(Boolean repaired_, String mechanicName_, Condition initCondition_, Condition resultCondition_, String vehicleType_, int vehicleNum_, double bonusAmt_) {

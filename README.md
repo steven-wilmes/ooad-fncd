@@ -39,45 +39,78 @@ Abstraction - Vehicle:90
 
 ```
 ooad-fncd
-│   .gitignore
+|   .gitignore
 │   build.gradle
 │   gradlew
 │   gradlew.bat
 │   README.md
 │   settings.gradle
 │   SimResults.txt
-│
+│   UMLDiagram.png
+|
+├───.gradle
+│   
+├───.idea
+│   
+├───build
+│   
 ├───gradle
-│   └───wrapper
-│           gradle-wrapper.jar
-│           gradle-wrapper.properties
-│
+|
 ├───logs
 │       logs_README.md
 │
 └───src
-    └───main
+    ├───main
+    │   └───java
+    │       │   Main.java
+    │       │
+    │       ├───classes
+    │       │   │   Buyer.java
+    │       │   │   Dealership.java
+    │       │   │   Logger.java
+    │       │   │   Tracker.java
+    │       │   │
+    │       │   ├───observerData
+    │       │   │       RaceOutcome.java
+    │       │   │       RepairOutcome.java
+    │       │   │       SaleOutcome.java
+    │       │   │       Tuple.java
+    │       │   │       WashOutcome.java
+    │       │   │
+    │       │   ├───staff
+    │       │   │   │   Driver.java
+    │       │   │   │   Intern.java
+    │       │   │   │   Mechanic.java
+    │       │   │   │   Salesperson.java
+    │       │   │   │   Staff.java
+    │       │   │   │
+    │       │   │   └───WashBehavior
+    │       │   │           ChemicalWash.java
+    │       │   │           DetailedWash.java
+    │       │   │           ElbowGrease.java
+    │       │   │           WashBehavior.java
+    │       │   │
+    │       │   └───vehicles
+    │       │       │   ElectricCar.java
+    │       │       │   MonsterTruck.java
+    │       │       │   Motorcycle.java
+    │       │       │   PerformanceCar.java
+    │       │       │   Pickup.java
+    │       │       │   RegularCar.java
+    │       │       │   Vehicle.java
+    │       │       │
+    │       │       └───addon
+    │       │               AddOnDecorator.java
+    │       │               ExtendedWarranty.java
+    │       │               RoadRescueCoverage.java
+    │       │               SatelliteRadio.java
+    │       │               Undercoating.java
+    │       │
+    │       └───enums
+    │               Cleanliness.java
+    │               Condition.java
+    │
+    └───test
         └───java
-            │   Main.java
-            │
-            ├───classes
-            │   │   Buyer.java
-            │   │   Dealership.java
-            │   │
-            │   ├───staff
-            │   │       Intern.java
-            │   │       Mechanic.java
-            │   │       Salesperson.java
-            │   │       Staff.java
-            │   │
-            │   └───vehicles
-            │           PerformanceCar.java
-            │           Pickup.java
-            │           RegularCar.java
-            │           Vehicle.java
-            │
-            └───enums
-                    Cleanliness.java
-                    Condition.java
-                    VehicleType.java
+                LoggerTest.java
 ```
