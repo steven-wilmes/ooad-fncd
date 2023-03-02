@@ -1,19 +1,14 @@
-Intern Guy used some elbow grease on Clean Regular Car 5 and made it Clean.
-Intern William chemically washed Clean Performance Car 4 and made it Dirty.
-Performance Car 4 became BROKEN from the chemical wash.
-Intern Earl washed and detailed Dirty Performance Car 4 and made it Clean.
-Intern Guy used some elbow grease on Clean Electric Car 14 and made it Clean.
-Intern William chemically washed Clean Pickup 12 and made it Sparkling (earned $1208.30 bonus).
-Intern Earl washed and detailed Clean Electric Car 15 and made it Clean.
-Mechanic Henry fixed Broken Performance Car 4 and made it Used (earned $3389.30 bonus).
-Mechanic Fredrick fixed Used Performance Car 4 and made it Like New (earned $3389.30 bonus).
-Salesperson Abraham attempted to sell Dirty Like New Performance Car 4 to Buyer for $127098.75 and did not succeed.
-Salesperson Abraham sold Dirty Like New Performance Car 4 to Buyer for $127098.75 (earned $3389.30 bonus)
-Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Elmer attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Abraham attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Elmer sold Clean Broken Electric Car, extended warranty, satellite radio 46 to Buyer for $147679.88 (earned $0.00 bonus)
-Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Elmer attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Paid staff $14163.20
-The FNCD made $274778.63
+Intern Julius used some elbow grease on Dirty Monster Truck 18 and made it Clean.
+Intern Willard washed and detailed Dirty Monster Truck 31 and made it Dirty.
+Intern John chemically washed Dirty Monster Truck 31 and made it Clean.
+Intern Julius used some elbow grease on Clean Monster Truck 31 and made it Dirty.
+Intern Willard washed and detailed Dirty Monster Truck 31 and made it Clean.
+Intern John chemically washed Clean Performance Car 4 and made it Clean.
+Mechanic Mark fixed Used Monster Truck 31 and made it Like New (earned $3606.70 bonus).
+Salesperson Louis attempted to sell Dirty Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Michael attempted to sell Dirty Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Louis attempted to sell Dirty Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Louis attempted to sell Dirty Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Paid staff $6367.70
+The FNCD made $0.00

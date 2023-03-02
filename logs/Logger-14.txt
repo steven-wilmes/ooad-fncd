@@ -1,20 +1,10 @@
-Hired Fred as a new Driver.
-Intern Guy used some elbow grease on Dirty Monster Truck 40 and made it Clean.
-Intern William chemically washed Clean Monster Truck 40 and made it Clean.
-Intern Abraham used some elbow grease on Clean Monster Truck 41 and made it Clean.
-Intern Guy used some elbow grease on Clean Motorcycle 23 and made it Clean.
-Intern William chemically washed Clean Electric Car 14 and made it Clean.
-Electric Car 14 became BROKEN from the chemical wash.
-Intern Abraham used some elbow grease on Clean Performance Car 1 and made it Clean.
-Mechanic Henry fixed Broken Pickup 11 and made it Used (earned $1007.52 bonus).
-Mechanic Fredrick fixed Used Monster Truck 40 and made it Like New (earned $3728.32 bonus).
-Mechanic Louis fixed Used Monster Truck 39 and made it Like New (earned $3926.08 bonus).
-Mechanic Henry fixed Used Pickup 11 and made it Like New (earned $1007.52 bonus).
-Mechanic Fredrick fixed Broken Monster Truck 41 and made it Used (earned $2361.45 bonus).
-Mechanic Louis tried to fix Used Monster Truck 41 and did not succeed.
-Salesperson Clifford attempted to sell Dirty Like New Monster Truck 39 to Buyer for $98152.00 and did not succeed.
-Salesperson Elmer sold Dirty Used Monster Truck, extended warranty 42 to Buyer for $117782.40 (earned $0.00 bonus)
-Salesperson Clifford attempted to sell Dirty Like New Monster Truck 39 to Buyer for $98152.00 and did not succeed.
-Paid staff $14828.89
-The FNCD made $117782.40
-Promoted Abraham from Intern to Salesperson.
+Intern Julius used some elbow grease on Dirty Motorcycle 24 and made it Dirty.
+Intern Willard washed and detailed Dirty Electric Car 15 and made it Clean.
+Intern John chemically washed Dirty Motorcycle 24 and made it Clean.
+Intern Julius used some elbow grease on Clean Monster Truck 35 and made it Sparkling (earned $2404.05 bonus).
+Intern Willard washed and detailed Clean Electric Car 13 and made it Sparkling (earned $2386.40 bonus).
+Intern John chemically washed Clean Motorcycle 24 and made it Sparkling (earned $1387.44 bonus).
+Mechanic Mark fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
+Mechanic Wilson fixed Used Monster Truck 31 and made it Like New (earned $3606.70 bonus).
+Paid staff $17652.29
+The FNCD made $0.00

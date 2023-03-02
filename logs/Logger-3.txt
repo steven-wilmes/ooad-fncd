@@ -1,16 +1,18 @@
-Intern Guy used some elbow grease on Dirty Performance Car 3 and made it Dirty.
-Intern Homer washed and detailed Dirty Performance Car 3 and made it Clean.
-Intern William chemically washed Dirty Electric Car 15 and made it Clean.
-Intern Guy used some elbow grease on Dirty Pickup 11 and made it Clean.
-Intern Homer washed and detailed Dirty Pickup 9 and made it Clean.
-Intern William chemically washed Dirty Regular Car 8 and made it Dirty.
-Mechanic Henry fixed Used Regular Car 8 and made it Like New (earned $1524.80 bonus).
-Mechanic Claude fixed Used Regular Car 7 and made it Like New (earned $812.55 bonus).
-Mechanic Fredrick tried to fix Used Motorcycle 21 and did not succeed.
-Mechanic Henry tried to fix Used Monster Truck 18 and did not succeed.
-Mechanic Claude fixed Used Monster Truck 18 and made it Like New (earned $2567.28 bonus).
-Mechanic Fredrick fixed Used Electric Car 27 and made it Like New (earned $2042.48 bonus).
-Salesperson Clifford sold Clean Like New Monster Truck, extended warranty 28 to Buyer for $103159.20 (earned $0.00 bonus)
-Salesperson Elmer attempted to sell Dirty Like New Monster Truck 17 to Buyer for $85966.00 and did not succeed.
-Paid staff $9755.11
-The FNCD made $103159.20
+Intern Manuel washed and detailed Dirty Pickup 12 and made it Clean.
+Intern Harvey washed and detailed Dirty Pickup 11 and made it Clean.
+Intern Michael used some elbow grease on Dirty Motorcycle 21 and made it Sparkling (earned $420.96 bonus).
+Intern Manuel washed and detailed Dirty Electric Car 14 and made it Clean.
+Intern Harvey washed and detailed Dirty Electric Car 15 and made it Clean.
+Intern Michael used some elbow grease on Dirty Performance Car 3 and made it Clean.
+Mechanic Mark fixed Broken Electric Car 14 and made it Used (earned $1841.25 bonus).
+Mechanic Wilson fixed Used Motorcycle 23 and made it Like New (earned $633.76 bonus).
+Mechanic Jim fixed Broken Pickup 9 and made it Used (earned $944.55 bonus).
+Mechanic Mark fixed Used Pickup 12 and made it Like New (earned $2862.40 bonus).
+Mechanic Wilson fixed Used Electric Car 14 and made it Like New (earned $1841.25 bonus).
+Mechanic Jim fixed Used Pickup 9 and made it Like New (earned $944.55 bonus).
+Salesperson Clarence attempted to sell Clean Like New Monster Truck 20 to Buyer for $99714.00 and did not succeed.
+Salesperson Clarence sold Clean Like New Monster Truck 20 to Buyer for $99714.00 (earned $3988.56 bonus)
+Salesperson Louis attempted to sell Dirty Like New Monster Truck 17 to Buyer for $90524.00 and did not succeed.
+Salesperson Clarence sold Clean Like New Monster Truck, satellite radio 28 to Buyer for $95050.20 (earned $0.00 bonus)
+Paid staff $16263.28
+The FNCD made $194764.20

@@ -1,12 +1,19 @@
-Intern Guy used some elbow grease on Dirty Electric Car 15 and made it Clean.
-Intern William chemically washed Clean Performance Car 2 and made it Sparkling (earned $2300.70 bonus).
-Intern Earl washed and detailed Clean Performance Car 3 and made it Clean.
-Intern Guy used some elbow grease on Clean Motorcycle 24 and made it Clean.
-Motorcycle 24 became LIKE NEW from the elbow grease.
-Intern William chemically washed Clean Motorcycle 24 and made it Clean.
-Intern Earl washed and detailed Clean Performance Car 3 and made it Sparkling (earned $2699.84 bonus).
-Salesperson Clifford attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Clifford sold Dirty Like New Electric Car, satellite radio 43 to Buyer for $123066.56 (earned $0.00 bonus)
-Salesperson Clifford sold Dirty Used Electric Car, satellite radio 44 to Buyer for $123066.56 (earned $0.00 bonus)
-Paid staff $7787.54
-The FNCD made $246133.13
+Hired Frederick as a new Driver.
+Intern Julius used some elbow grease on Clean Performance Car 4 and made it Clean.
+Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
+Intern John chemically washed Clean Regular Car 6 and made it Clean.
+Intern Julius used some elbow grease on Clean Regular Car 6 and made it Clean.
+Intern Willard washed and detailed Clean Electric Car 15 and made it Sparkling (earned $2110.32 bonus).
+Intern John chemically washed Clean Performance Car 4 and made it Clean.
+Mechanic Mark fixed Broken Monster Truck 18 and made it Used (earned $1664.80 bonus).
+Mechanic Wilson fixed Used Monster Truck 18 and made it Like New (earned $1664.80 bonus).
+Mechanic Manuel fixed Broken Monster Truck 31 and made it Used (earned $3606.70 bonus).
+Mechanic Mark tried to fix Used Monster Truck 31 and did not succeed.
+Mechanic Wilson tried to fix Used Monster Truck 31 and did not succeed.
+Mechanic Manuel tried to fix Used Monster Truck 31 and did not succeed.
+Salesperson Michael attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Used Monster Truck 31 to Buyer for $202876.88 and did not succeed.
+Paid staff $11807.62
+The FNCD made $0.00

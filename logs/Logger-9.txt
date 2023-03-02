@@ -1,19 +1,23 @@
-Intern Guy used some elbow grease on Clean Motorcycle 24 and made it Clean.
-Intern William chemically washed Clean Regular Car 5 and made it Clean.
-Intern Abraham used some elbow grease on Clean Regular Car 5 and made it Dirty.
-Intern Guy used some elbow grease on Dirty Regular Car 5 and made it Clean.
-Intern William chemically washed Clean Monster Truck 30 and made it Clean.
-Intern Abraham used some elbow grease on Clean Electric Car 15 and made it Clean.
-Salesperson Clifford attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Elmer attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Elmer attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Clifford sold Dirty Broken Monster Truck, satellite radio 35 to Buyer for $160236.56 (earned $0.00 bonus)
-Driver Lester is driving Black Stallion (Monster Truck 18) in the race
-Driver Adolph is driving Monster Mutt Dalmatian (Monster Truck 19) in the race
-Driver Daniel is driving Avenger (Monster Truck 20) in the race
-Driver Lester placed 8 in the race.
-Driver Adolph placed 1 in the race! (earned $3401.20 bonus).
-Monster Truck 19 won!
-Driver Daniel placed 13 in the race.
-Paid staff $4298.00
-The FNCD made $160236.56
+Intern Michael used some elbow grease on Dirty Monster Truck 35 and made it Clean.
+Intern Julius used some elbow grease on Clean Electric Car 13 and made it Clean.
+Intern Willard washed and detailed Clean Electric Car 16 and made it Sparkling (earned $2909.10 bonus).
+Intern Michael used some elbow grease on Clean Regular Car 6 and made it Clean.
+Regular Car 6 became LIKE NEW from the elbow grease.
+Intern Julius used some elbow grease on Clean Pickup 10 and made it Clean.
+Intern Willard washed and detailed Clean Performance Car 1 and made it Sparkling (earned $2305.70 bonus).
+Salesperson Clarence attempted to sell Clean Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Louis attempted to sell Clean Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Clarence attempted to sell Clean Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Harvey attempted to sell Clean Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Clarence attempted to sell Clean Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Driver Archie is driving Motorcycle 21 in the race
+Driver William is driving Motorcycle 22 in the race
+Driver Gilbert is driving Motorcycle 23 in the race
+Driver Archie placed 1 in the race! (earned $420.96 bonus).
+Motorcycle 21 won!
+Driver William placed 3 in the race! (earned $595.20 bonus).
+Motorcycle 22 won!
+Driver Gilbert placed 9 in the race.
+Paid staff $11005.80
+The FNCD made $0.00
+Promoted Michael from Intern to Salesperson.

@@ -1,15 +1,18 @@
-Hired Cornelius as a new Intern.
-Intern Guy used some elbow grease on Clean Pickup 11 and made it Clean.
-Intern Earl washed and detailed Clean Regular Car 5 and made it Clean.
-Intern Cornelius washed and detailed Clean Regular Car 5 and made it Clean.
-Intern Guy used some elbow grease on Clean Monster Truck 39 and made it Clean.
-Monster Truck 39 became LIKE NEW from the elbow grease.
-Intern Earl washed and detailed Clean Regular Car 5 and made it Sparkling (earned $1067.20 bonus).
-Intern Cornelius washed and detailed Clean Pickup 10 and made it Sparkling (earned $2716.64 bonus).
-Salesperson William attempted to sell Clean Like New Monster Truck 39 to Buyer for $345065.63 and did not succeed.
-Salesperson William sold Dirty Broken Monster Truck, extended warranty, undercoating, satellite radio 56 to Buyer for $456521.82 (earned $0.00 bonus)
-Salesperson Elmer attempted to sell Clean Like New Monster Truck 39 to Buyer for $345065.63 and did not succeed.
-Salesperson Elmer attempted to sell Clean Like New Monster Truck 39 to Buyer for $345065.63 and did not succeed.
-Paid staff $6547.84
-The FNCD made $456521.82
-Promoted Earl from Intern to Mechanic.
+Intern Willard washed and detailed Dirty Pickup 42 and made it Dirty.
+Intern Russell chemically washed Dirty Pickup 42 and made it Clean.
+Intern Carl used some elbow grease on Clean Pickup 9 and made it Clean.
+Intern Willard washed and detailed Clean Motorcycle 23 and made it Sparkling (earned $633.76 bonus).
+Intern Russell chemically washed Clean Pickup 9 and made it Sparkling (earned $944.55 bonus).
+Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Mechanic Mark tried to fix Used Pickup 42 and did not succeed.
+Mechanic Manuel fixed Used Pickup 42 and made it Like New (earned $2486.00 bonus).
+Salesperson Harvey sold Dirty Broken Monster Truck, undercoating, satellite radio 44 to Buyer for $141959.97 (earned $0.00 bonus)
+Salesperson Louis sold Dirty Like New Monster Truck, satellite radio 45 to Buyer for $135199.97 (earned $0.00 bonus)
+Salesperson Michael attempted to sell Sparkling Like New Monster Truck 18 to Buyer for $128761.88 and did not succeed.
+Salesperson Michael sold Sparkling Like New Monster Truck 18 to Buyer for $128761.88 (earned $1664.80 bonus)
+Salesperson Michael attempted to sell Sparkling Like New Monster Truck 41 to Buyer for $128163.75 and did not succeed.
+Salesperson Michael sold Sparkling Like New Monster Truck 41 to Buyer for $128163.75 (earned $2734.16 bonus)
+Salesperson Harvey sold Sparkling Like New Electric Car 13 to Buyer for $111862.50 (earned $2386.40 bonus)
+Salesperson Louis sold Clean Like New Performance Car 3 to Buyer for $101085.00 (earned $2695.60 bonus)
+Paid staff $16305.27
+The FNCD made $747033.06

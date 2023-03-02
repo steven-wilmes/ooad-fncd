@@ -9,6 +9,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Observer pattern
+ */
 public class Logger implements PropertyChangeListener {
     /**
      * file name for the current log file

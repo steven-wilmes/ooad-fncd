@@ -1,18 +1,14 @@
-Intern Guy used some elbow grease on Clean Pickup 11 and made it Clean.
-Intern William chemically washed Clean Motorcycle 24 and made it Clean.
-Intern Earl washed and detailed Clean Electric Car 15 and made it Sparkling (earned $2500.40 bonus).
-Intern Guy used some elbow grease on Clean Pickup 11 and made it Dirty.
-Intern William chemically washed Dirty Pickup 11 and made it Clean.
-Intern Earl washed and detailed Clean Motorcycle 24 and made it Sparkling (earned $782.16 bonus).
-Mechanic Henry fixed Broken Monster Truck 51 and made it Used (earned $2222.95 bonus).
-Mechanic Fredrick tried to fix Used Monster Truck 51 and did not succeed.
-Mechanic Louis fixed Used Monster Truck 51 and made it Like New (earned $2222.95 bonus).
-Driver Lester is driving Pickup 9 in the race
-Driver Adolph is driving Pickup 10 in the race
-Driver Sylvester is driving Pickup 11 in the race
-Driver Lester placed 12 in the race.
-Pickup 10 became damaged!
-Driver Sylvester placed 3 in the race! (earned $1007.52 bonus).
-Pickup 11 won!
-Paid staff $12015.46
+Intern Willard washed and detailed Dirty Monster Truck 41 and made it Sparkling (earned $2734.16 bonus).
+Intern Russell chemically washed Clean Motorcycle 22 and made it Clean.
+Intern Carl used some elbow grease on Clean Regular Car 5 and made it Clean.
+Intern Willard washed and detailed Clean Motorcycle 23 and made it Clean.
+Intern Russell chemically washed Clean Regular Car 7 and made it Clean.
+Intern Carl used some elbow grease on Clean Performance Car 4 and made it Clean.
+Driver William is driving Performance Car 1 in the race
+Driver Gilbert is driving Performance Car 2 in the race
+Driver Frederick is driving Performance Car 3 in the race
+Driver William placed 15 in the race.
+Driver Gilbert placed 7 in the race.
+Performance Car 3 became damaged!
+Paid staff $5494.16
 The FNCD made $0.00

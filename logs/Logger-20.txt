@@ -1,7 +1,6 @@
-Driver Lester is driving Black Stallion (Monster Truck 18) in the race
-Driver Adolph is driving The Felon (Monster Truck 39) in the race
-Driver Fred is driving Game Over (Monster Truck 40) in the race
-Driver Lester placed 6 in the race.
-Driver Adolph placed 4 in the race.
-Driver Fred placed 19 in the race and got injured!
-Monster Truck 40 became damaged!
+Driver William is driving Pickup 9 in the race
+Driver Gilbert is driving Pickup 10 in the race
+Driver Frederick is driving Pickup 11 in the race
+Driver William placed 9 in the race.
+Pickup 10 became damaged!
+Driver Frederick placed 7 in the race.

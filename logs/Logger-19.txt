@@ -1,11 +1,12 @@
-Intern Guy used some elbow grease on Dirty Performance Car 47 and made it Clean.
-Intern William chemically washed Clean Electric Car 15 and made it Clean.
-Intern Earl washed and detailed Clean Monster Truck 41 and made it Sparkling (earned $2361.45 bonus).
-Intern Guy used some elbow grease on Clean Motorcycle 23 and made it Clean.
-Intern William chemically washed Clean Pickup 9 and made it Sparkling (earned $2078.60 bonus).
-Intern Earl washed and detailed Clean Performance Car 1 and made it Clean.
-Mechanic Henry fixed Used Performance Car 47 and made it Like New (earned $2121.76 bonus).
-Salesperson Elmer attempted to sell Clean Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Clifford sold Dirty Used Electric Car, extended warranty, satellite radio 49 to Buyer for $147679.88 (earned $0.00 bonus)
-Paid staff $9348.81
-The FNCD made $147679.88
+Intern Julius used some elbow grease on Dirty Monster Truck 31 and made it Clean.
+Intern Willard washed and detailed Clean Monster Truck 18 and made it Clean.
+Intern John chemically washed Clean Monster Truck 31 and made it Clean.
+Intern Julius used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Intern Willard washed and detailed Clean Motorcycle 22 and made it Dirty.
+Intern John chemically washed Dirty Motorcycle 22 and made it Clean.
+Salesperson Harvey attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Louis attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Michael attempted to sell Clean Like New Monster Truck 31 to Buyer for $253596.09 and did not succeed.
+Salesperson Harvey sold Clean Like New Monster Truck 31 to Buyer for $253596.09 (earned $3606.70 bonus)
+Paid staff $6367.70
+The FNCD made $253596.09

@@ -1,12 +1,17 @@
-Intern Guy used some elbow grease on Dirty Monster Truck 40 and made it Dirty.
-Monster Truck 40 became LIKE NEW from the elbow grease.
-Intern William chemically washed Dirty Monster Truck 40 and made it Clean.
-Intern Earl washed and detailed Dirty Monster Truck 39 and made it Clean.
-Intern Guy used some elbow grease on Clean Performance Car 47 and made it Dirty.
-Intern William chemically washed Dirty Performance Car 47 and made it Dirty.
-Intern Earl washed and detailed Dirty Performance Car 47 and made it Clean.
-Salesperson Elmer sold Clean Like New Monster Truck 40 to Buyer for $192241.50 (earned $3728.32 bonus)
-Salesperson Abraham attempted to sell Clean Like New Monster Truck 39 to Buyer for $184035.00 and did not succeed.
-Salesperson Abraham sold Dirty Like New Monster Truck, undercoating 50 to Buyer for $193236.75 (earned $0.00 bonus)
-Paid staff $6515.32
-The FNCD made $385478.25
+Hired Russell as a new Intern.
+Hired Carl as a new Intern.
+Intern Willard washed and detailed Dirty Pickup 10 and made it Clean.
+Intern Russell chemically washed Dirty Monster Truck 41 and made it Clean.
+Monster Truck 41 became BROKEN from the chemical wash.
+Intern Carl used some elbow grease on Clean Regular Car 7 and made it Dirty.
+Intern Willard washed and detailed Dirty Regular Car 7 and made it Dirty.
+Intern Russell chemically washed Dirty Regular Car 7 and made it Clean.
+Intern Carl used some elbow grease on Clean Motorcycle 22 and made it Clean.
+Mechanic Mark tried to fix Broken Monster Truck 41 and did not succeed.
+Mechanic Manuel tried to fix Broken Monster Truck 41 and did not succeed.
+Mechanic Julius fixed Broken Monster Truck 41 and made it Used (earned $2734.16 bonus).
+Mechanic Mark fixed Used Monster Truck 41 and made it Like New (earned $2734.16 bonus).
+Salesperson Michael attempted to sell Clean Like New Pickup 10 to Buyer for $128875.78 and did not succeed.
+Salesperson Michael attempted to sell Clean Like New Pickup 10 to Buyer for $128875.78 and did not succeed.
+Paid staff $8228.32
+The FNCD made $0.00

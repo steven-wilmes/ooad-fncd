@@ -1,23 +1,15 @@
-Intern Guy used some elbow grease on Dirty Electric Car 14 and made it Clean.
-Electric Car 14 became LIKE NEW from the elbow grease.
-Intern William chemically washed Clean Motorcycle 21 and made it Clean.
-Intern Earl washed and detailed Clean Monster Truck 40 and made it Clean.
-Intern Guy used some elbow grease on Clean Motorcycle 23 and made it Clean.
-Intern William chemically washed Clean Electric Car 15 and made it Sparkling (earned $2500.40 bonus).
-Electric Car 15 became BROKEN from the chemical wash.
-Intern Earl washed and detailed Clean Regular Car 6 and made it Sparkling (earned $697.45 bonus).
-Mechanic Henry tried to fix Broken Electric Car 15 and did not succeed.
-Mechanic Fredrick fixed Broken Electric Car 15 and made it Used (earned $2500.40 bonus).
-Mechanic Louis fixed Used Electric Car 15 and made it Like New (earned $2500.40 bonus).
-Salesperson Elmer attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Abraham attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Salesperson Elmer attempted to sell Dirty Like New Electric Car 15 to Buyer for $117206.25 and did not succeed.
-Driver Lester is driving Black Stallion (Monster Truck 18) in the race
-Driver Adolph is driving The Felon (Monster Truck 39) in the race
-Driver Fred is driving Game Over (Monster Truck 40) in the race
-Driver Lester placed 5 in the race.
-Driver Adolph placed 7 in the race.
-Driver Fred placed 3 in the race! (earned $3728.32 bonus).
-Monster Truck 40 won!
-Paid staff $12485.65
+Intern Julius used some elbow grease on Clean Pickup 12 and made it Sparkling (earned $2862.40 bonus).
+Intern Willard washed and detailed Clean Regular Car 8 and made it Sparkling (earned $1269.28 bonus).
+Intern John chemically washed Clean Monster Truck 31 and made it Clean.
+Intern Julius used some elbow grease on Clean Pickup 9 and made it Clean.
+Intern Willard washed and detailed Clean Pickup 9 and made it Clean.
+Intern John chemically washed Clean Monster Truck 29 and made it Clean.
+Driver Archie is driving Stone Crusher (Monster Truck 18) in the race
+Driver William is driving Bounty Hunter (Monster Truck 29) in the race
+Driver Gilbert is driving Grider (Monster Truck 31) in the race
+Driver Archie placed 20 in the race and got injured!
+Monster Truck 18 became damaged!
+Driver William placed 7 in the race.
+Monster Truck 31 became damaged!
+Paid staff $6892.68
 The FNCD made $0.00

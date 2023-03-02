@@ -1,7 +1,7 @@
-Driver Lester is driving Black Stallion (Monster Truck 18) in the race
-Driver Adolph is driving Monster Mutt Dalmatian (Monster Truck 19) in the race
-Driver Howard is driving Avenger (Monster Truck 20) in the race
-Driver Lester placed 15 in the race.
-Driver Adolph placed 8 in the race.
-Driver Howard placed 20 in the race and got injured!
-Monster Truck 20 became damaged!
+Driver Archie is driving Motorcycle 21 in the race
+Driver Alexander is driving Motorcycle 22 in the race
+Driver William is driving Motorcycle 23 in the race
+Driver Archie placed 7 in the race.
+Driver Alexander placed 16 in the race and got injured!
+Motorcycle 22 became damaged!
+Driver William placed 8 in the race.

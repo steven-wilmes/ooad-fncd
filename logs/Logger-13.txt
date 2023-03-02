@@ -1,7 +1,7 @@
-Driver Lester is driving Pickup 9 in the race
-Driver Adolph is driving Pickup 10 in the race
-Driver Daniel is driving Pickup 11 in the race
-Driver Lester placed 12 in the race.
-Driver Adolph placed 9 in the race.
-Driver Daniel placed 20 in the race and got injured!
-Pickup 11 became damaged!
+Driver Archie is driving Stone Crusher (Monster Truck 18) in the race
+Driver William is driving Bounty Hunter (Monster Truck 29) in the race
+Driver Gilbert is driving Grider (Monster Truck 31) in the race
+Driver Archie placed 1 in the race! (earned $1664.80 bonus).
+Monster Truck 18 won!
+Driver William placed 11 in the race.
+Monster Truck 31 became damaged!

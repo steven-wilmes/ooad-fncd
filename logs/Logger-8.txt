@@ -1,14 +1,13 @@
-Hired Abraham as a new Intern.
-Intern Guy used some elbow grease on Dirty Monster Truck 20 and made it Clean.
-Intern William chemically washed Clean Motorcycle 24 and made it Clean.
-Intern Abraham used some elbow grease on Clean Pickup 11 and made it Clean.
-Intern Guy used some elbow grease on Clean Electric Car 15 and made it Clean.
-Intern William chemically washed Clean Regular Car 6 and made it Clean.
-Intern Abraham used some elbow grease on Clean Pickup 12 and made it Clean.
-Salesperson Elmer sold Clean Broken Monster Truck, extended warranty 34 to Buyer for $183127.50 (earned $0.00 bonus)
-Salesperson Elmer attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Clifford attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Clifford attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Salesperson Clifford attempted to sell Clean Like New Monster Truck 20 to Buyer for $152606.25 and did not succeed.
-Paid staff $2798.00
-The FNCD made $183127.50
+Intern Michael used some elbow grease on Dirty Motorcycle 22 and made it Clean.
+Intern Julius used some elbow grease on Dirty Pickup 10 and made it Dirty.
+Intern Willard washed and detailed Dirty Pickup 10 and made it Clean.
+Intern Michael used some elbow grease on Dirty Monster Truck 35 and made it Clean.
+Intern Julius used some elbow grease on Clean Performance Car 1 and made it Clean.
+Performance Car 1 became LIKE NEW from the elbow grease.
+Intern Willard washed and detailed Clean Monster Truck 31 and made it Sparkling (earned $3606.70 bonus).
+Mechanic Mark fixed Used Monster Truck 35 and made it Like New (earned $2404.05 bonus).
+Salesperson Louis attempted to sell Dirty Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Like New Monster Truck 35 to Buyer for $90151.88 and did not succeed.
+Salesperson Clarence sold Clean Used Monster Truck, extended warranty 36 to Buyer for $108182.25 (earned $0.00 bonus)
+Paid staff $8801.75
+The FNCD made $108182.25

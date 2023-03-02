@@ -1,7 +1,4 @@
-Driver Lester is driving Pickup 9 in the race
-Driver Adolph is driving Pickup 10 in the race
-Driver Sylvester is driving Pickup 11 in the race
-Driver Lester placed 11 in the race.
-Driver Adolph placed 4 in the race.
-Driver Sylvester placed 19 in the race and got injured!
-Pickup 11 became damaged!
+Driver William is driving Bounty Hunter (Monster Truck 29) in the race
+Driver Gilbert is driving Monster Mutt Dalmatian (Monster Truck 35) in the race
+Driver William placed 4 in the race.
+Driver Gilbert placed 12 in the race.

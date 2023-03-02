@@ -3,6 +3,9 @@ package classes;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
+/**
+ * Observer pattern
+ */
 public class Tracker implements PropertyChangeListener {
     double totalLoan;
     double totalStaff;

@@ -4,6 +4,9 @@ import classes.vehicles.Vehicle;
 
 import java.util.Random;
 
+/**
+ * Strategy pattern
+ */
 public abstract class WashBehavior {
     Random rng = new Random();
     
