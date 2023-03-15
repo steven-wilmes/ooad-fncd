@@ -5,8 +5,8 @@ public class Driver extends Staff {
     int wins;
     Boolean isInjured;
     
-    public Driver() {
-        super();
+    public Driver(String name_) {
+        super(name_);
         this.wins = 0;
         this.isInjured = false;
     }

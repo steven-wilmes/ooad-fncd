@@ -38,10 +38,9 @@ public abstract class Staff {
     /**
      * Superclass constructor, chooses {@link #name} and creates {@link #rng}. Sets other values to 0.
      */
-    public Staff() {
+    public Staff(String name_) {
         rng = new Random();
-        name = names.get(rng.nextInt(names.size()));
-        names.remove(name); // avoids duplicate names
+        name = name_;
         totalSalary = 0;
         totalBonusEarned = 0;
         dailyBonusEarned = 0;

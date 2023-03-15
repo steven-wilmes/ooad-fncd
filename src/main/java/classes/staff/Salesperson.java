@@ -18,8 +18,8 @@ public class Salesperson extends Staff {
     /**
      * creates a new salesperson with a random name and pay amount
      */
-    public Salesperson() {
-        super();
+    public Salesperson(name_) {
+        super(name_);
         dailyPay = rng.nextInt(45) + 400;
     }
     

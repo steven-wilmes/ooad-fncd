@@ -6,21 +6,11 @@ import enums.Condition;
 
 public class Mechanic extends Staff {
     /**
-     * creates a new mechanic with a random name and assigns their pay
-     */
-    public Mechanic() {
-        super();
-        dailyPay = rng.nextInt(45) + 320;
-    }
-    
-    /**
-     * creates a new mechanic with a specific name
-     *
-     * @param name_ name for mechanic
+     * creates a new mechanic  and assigns their pay
      */
     public Mechanic(String name_) {
-        this();
-        name = name_;
+        super(name_);
+        dailyPay = rng.nextInt(45) + 320;
     }
     
     public String getPosition() {

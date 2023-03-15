@@ -14,8 +14,8 @@ public class Intern extends Staff {
     /**
      * creates a new intern with a random name and assigns their pay
      */
-    public Intern() {
-        super();
+    public Intern(String name_) {
+        super(name_);
         dailyPay = rng.nextInt(45) + 148;
         
         // OO Patterns: Strategy Pattern
