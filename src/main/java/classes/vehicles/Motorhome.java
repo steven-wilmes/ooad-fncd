@@ -1,11 +1,14 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 public class Motorhome extends Vehicle{
     
     private char classType;
     
     public Motorhome() {
         super();
+        type = VehicleType.MOTORHOME;
         int classChoice = rng.nextInt(3);
         switch (classChoice){
             case 0:

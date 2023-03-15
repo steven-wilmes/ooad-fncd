@@ -1,5 +1,7 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 public class Motorcycle extends Vehicle {
     
     /**
@@ -9,6 +11,7 @@ public class Motorcycle extends Vehicle {
     
     public Motorcycle() {
         super();
+        type = VehicleType.MOTORCYCLE;
         int initialCost = rng.nextInt(20000) + 5000; //generated cost between $20000 and $40000
         engSizeRating = 0;
         while (engSizeRating < 50) {

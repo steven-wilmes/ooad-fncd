@@ -8,6 +8,7 @@ import classes.staff.*;
 import classes.vehicles.*;
 import enums.Cleanliness;
 import enums.Condition;
+import enums.VehicleType;
 import main.Main;
 
 import java.beans.PropertyChangeSupport;
@@ -70,6 +71,8 @@ public class Dealership {
      */
     Tracker tracker;
     
+    VehicleFactory vehicleFactory;
+    
     /**
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
@@ -77,6 +80,7 @@ public class Dealership {
         publisher = new PropertyChangeSupport(this);
         tracker = new Tracker();
         publisher.addPropertyChangeListener(tracker);
+        vehicleFactory = new VehicleFactory();
         staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
             staffMembers.add(new Salesperson());
@@ -141,12 +145,9 @@ public class Dealership {
             hire();
         }
         
-        restock(PerformanceCar.class);
-        restock(RegularCar.class);
-        restock(Pickup.class);
-        restock(ElectricCar.class);
-        restock(MonsterTruck.class);
-        restock(Motorcycle.class);
+        for (VehicleType type : VehicleType.values()){
+            restock(type);
+        }
     }
     
     /**
@@ -155,15 +156,15 @@ public class Dealership {
      *
      * @param type_ this is the type of vehicle to check and restock
      */
-    private void restock(Class<? extends Vehicle> type_) {
+    private void restock(VehicleType type_) {
         int numVe = 0;
         for (Vehicle v_ : vehicleInventory) {
-            if (v_.getClass() == type_) {
+            if (v_.getType() == type_) {
                 numVe++;
             }
         }
         
-        while (numVe < 4) {
+        while (numVe < 6) {
             buyCar(type_);
             numVe++;
         }
@@ -174,13 +175,8 @@ public class Dealership {
      *
      * @param type_ type of car to buy
      */
-    private void buyCar(Class<? extends Vehicle> type_) {
-        Vehicle newCar = null;
-        try {
-            newCar = (Vehicle) type_.getDeclaredConstructors()[0].newInstance(); // https://stackoverflow.com/questions/712371/can-i-instantiate-a-class-using-the-class-object-what-about-constructors
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    private void buyCar(VehicleType type_) {
+        Vehicle newCar = vehicleFactory.purchaseVehicle(type_);
         Main.log(String.format("Bought a %s %s %s, assigned Vehicle Number %s",
                 newCar.getCleanliness().getStr(), newCar.getCondition().getStr(), newCar.getStr(), newCar.getVehicleNo()));
         vehicleInventory.add(newCar);

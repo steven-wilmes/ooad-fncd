@@ -1,9 +1,12 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 public class Pickup extends Vehicle {
     
     public Pickup() {
         super();
+        type = VehicleType.PICKUP;
         int initialCost = rng.nextInt(30000) + 10000; //generated cost between $10000 and $40000
         switch (condition) {
             case LIKE_NEW:

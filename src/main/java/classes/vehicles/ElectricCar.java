@@ -1,6 +1,7 @@
 package classes.vehicles;
 
 import enums.Condition;
+import enums.VehicleType;
 
 public class ElectricCar extends Vehicle {
     
@@ -14,6 +15,7 @@ public class ElectricCar extends Vehicle {
      */
     public ElectricCar() {
         super();
+        type = VehicleType.ELECTRIC_CAR;
         int initialCost = rng.nextInt(20000) + 20000; //generated cost between $20000 and $40000
         range = rng.nextInt(340) + 60;
         switch (condition) {

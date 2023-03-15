@@ -2,6 +2,7 @@ package classes.vehicles;
 
 import enums.Cleanliness;
 import enums.Condition;
+import enums.VehicleType;
 import main.Main;
 
 import java.util.Random;
@@ -48,6 +49,8 @@ public abstract class Vehicle {
     static int inventoryNo = 1;
     
     int wins;
+    
+    VehicleType type;
     
     /**
      * Superclass constructor,  creates {@link #rng}. Other attributes handled in subclass
@@ -211,4 +214,7 @@ public abstract class Vehicle {
      */
     public abstract String getStr();
     
+    public VehicleType getType() {
+        return type;
+    }
 }

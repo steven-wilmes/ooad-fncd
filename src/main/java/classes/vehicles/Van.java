@@ -1,5 +1,7 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 import java.time.LocalDate;
 
 public class Van extends Vehicle{
@@ -11,6 +13,7 @@ public class Van extends Vehicle{
     
     public Van() {
         super();
+        type = VehicleType.VAN;
         length = rng.nextInt(51)+98; // lenght between 98 and 149 inches
         int initialCost = rng.nextInt(15000) + 10000; //generated cost between $10000 and $25000
         switch (condition) {

@@ -1,5 +1,7 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 import java.time.LocalDate;
 
 public class CollectorCar extends Vehicle {
@@ -8,6 +10,7 @@ public class CollectorCar extends Vehicle {
     
     public CollectorCar() {
         super();
+        type = VehicleType.COLLECTOR_CAR;
         year = 0;
         while (year < 1920 || year > 1988) {
             // nextGaussian implementation: https://stackoverflow.com/questions/6011943/java-normal-distribution

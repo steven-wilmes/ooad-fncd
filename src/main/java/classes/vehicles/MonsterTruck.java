@@ -1,5 +1,7 @@
 package classes.vehicles;
 
+import enums.VehicleType;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -58,6 +60,7 @@ public class MonsterTruck extends Vehicle {
     
     public MonsterTruck() {
         super();
+        type = VehicleType.MONSTER_TRUCK;
         int initialCost = rng.nextInt(20000) + 30000; //generated cost between $20000 and $40000
         switch (condition) {
             case LIKE_NEW:
