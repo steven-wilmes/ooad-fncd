@@ -80,7 +80,7 @@ public class Dealership {
      */
     public Dealership() {
         publisher = new PropertyChangeSupport(this);
-        tracker = new Tracker();
+        tracker = Tracker.getInstance();
         publisher.addPropertyChangeListener(tracker);
         vehicleFactory = new VehicleFactory();
         staffFactory = new StaffFactory();
@@ -110,7 +110,7 @@ public class Dealership {
      */
     public void day(int day_) {
         publisher.firePropertyChange("day", day_, day_+1);
-        dailyLogger = new Logger(day_+1);
+        dailyLogger = Logger.getInstance(day_+1);
         publisher.addPropertyChangeListener(dailyLogger);
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));

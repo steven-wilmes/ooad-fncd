@@ -12,7 +12,7 @@ public class LoggerTest {
     Logger testLogger;
     
     public LoggerTest() {
-        testLogger = new Logger(1);
+        testLogger = Logger.getInstance(1);
     }
     
     @Test

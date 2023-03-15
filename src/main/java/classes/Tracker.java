@@ -4,13 +4,20 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 /**
- * Observer pattern
+ * Observer pattern, singleton with eager instantiation
  */
 public class Tracker implements PropertyChangeListener {
     double totalLoan;
     double totalStaff;
     double totalEarned;
     int day;
+    static Tracker trackerInstance = new Tracker();
+    
+    private Tracker(){}
+    
+    public static synchronized Tracker getInstance(){
+        return trackerInstance;
+    }
     
     @Override
     public void propertyChange(PropertyChangeEvent evt) {

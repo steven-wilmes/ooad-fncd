@@ -18,11 +18,21 @@ public class Logger implements PropertyChangeListener {
      */
     String dailyLogName;
     
+    int currentDay = 1;
+    
+    static Logger loggerInstance;
+    
+    public static synchronized Logger getInstance(int day_){
+        if (loggerInstance == null || loggerInstance.currentDay != day_){
+            loggerInstance = new Logger(day_); // new logger created on day 1
+        }
+        return loggerInstance;
+    }
     /**
      * create a new logger and file
      * @param day_ the current day
      */
-    public Logger(int day_) {
+    private Logger(int day_) {
         File logDir = new File("logs");
         if (!logDir.exists()) {
             logDir.mkdir();
