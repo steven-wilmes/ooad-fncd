@@ -8,6 +8,7 @@ import classes.staff.*;
 import classes.vehicles.*;
 import enums.Cleanliness;
 import enums.Condition;
+import enums.StaffType;
 import enums.VehicleType;
 import main.Main;
 
@@ -72,6 +73,7 @@ public class Dealership {
     Tracker tracker;
     
     VehicleFactory vehicleFactory;
+    StaffFactory staffFactory;
     
     /**
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
@@ -81,16 +83,14 @@ public class Dealership {
         tracker = new Tracker();
         publisher.addPropertyChangeListener(tracker);
         vehicleFactory = new VehicleFactory();
+        staffFactory = new StaffFactory();
         staffMembers = new ArrayList<Staff>();
         for (int i = 0; i < 3; i++) {
-            staffMembers.add(new Salesperson());
-            Main.log(String.format("Hired %s as a new salesperson.", staffMembers.get(staffMembers.size() - 1).getName()));
-            staffMembers.add(new Mechanic());
-            Main.log(String.format("Hired %s as a new mechanic.", staffMembers.get(staffMembers.size() - 1).getName()));
-            staffMembers.add(new Intern());
-            Main.log(String.format("Hired %s as a new intern.", staffMembers.get(staffMembers.size() - 1).getName()));
-            staffMembers.add(new Driver());
-            Main.log(String.format("Hired %s as a new driver.", staffMembers.get(staffMembers.size() - 1).getName()));
+            for (StaffType type : StaffType.values()){
+                Staff newStaff = staffFactory.hireStaff(type);
+                staffMembers.add(newStaff);
+                Main.log(String.format("Hired %s as a new %s.", newStaff.getName(), newStaff.getPosition()));
+            }
         }
         formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
@@ -187,7 +187,7 @@ public class Dealership {
      * hire a new intern
      */
     private void hire() { // OO ELEMENT: Cohesion. The hire() function does one operation (hires an intern)
-        Intern hiree = new Intern();
+        Staff hiree = staffFactory.hireStaff(StaffType.INTERN);
         publisher.firePropertyChange("newStaff", null, new Tuple(hiree.getName(), hiree.getPosition()));
         staffMembers.add(hiree);
     }
@@ -205,7 +205,7 @@ public class Dealership {
         }
         for (Driver d_ : injuredDrivers) {
             this.staffMembers.remove(d_);
-            this.staffMembers.add(new Driver());
+            this.staffMembers.add(staffFactory.hireStaff(StaffType.DRIVER));
             publisher.firePropertyChange("newStaff", null, new Tuple(this.staffMembers.get(staffMembers.size()-1).getName(), "Driver"));
             this.formerStaff.add(d_);
         }
@@ -417,7 +417,7 @@ public class Dealership {
             Intern promotee = interns.get(rng.nextInt(interns.size()));
             interns.remove(promotee);
             staffMembers.remove(promotee);
-            staffMembers.add(promotee.promote(true));
+            staffMembers.add(staffFactory.hireStaff(StaffType.MECHANIC, promotee));
             publisher.firePropertyChange("newStaff", null, new Tuple(promotee.getName(), "Mechanic"));
         }
         
@@ -431,7 +431,7 @@ public class Dealership {
             Intern promotee = interns.get(rng.nextInt(interns.size()));
             interns.remove(promotee);
             staffMembers.remove(promotee);
-            staffMembers.add(promotee.promote(false));
+            staffMembers.add(staffFactory.hireStaff(StaffType.SALESPERSON, promotee));
             publisher.firePropertyChange("newStaff", null, new Tuple(promotee.getName(), "Salesperson"));
         }
         
