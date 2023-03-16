@@ -156,7 +156,7 @@ public class Dealership extends Thread {
     /**
      * Hires new interns if necessary, and restocks vehicle inventory
      */
-    private void open() throws InterruptedException {
+    public void open() throws InterruptedException {
         lock.acquire();
         dailySales = 0;
         Main.log("\nOpening...");
@@ -750,5 +750,25 @@ public class Dealership extends Thread {
     
     public String getLoc() {
         return location;
+    }
+    
+    public ArrayList<Staff> getStaffMembers() {
+        return staffMembers;
+    }
+    
+    public ArrayList<Vehicle> getVehicleInventory() {
+        return vehicleInventory;
+    }
+    
+    public double getBudget() {
+        return budget;
+    }
+    
+    public double getTotalLoan() {
+        return totalLoan;
+    }
+    
+    public double getDailySales() {
+        return dailySales;
     }
 }

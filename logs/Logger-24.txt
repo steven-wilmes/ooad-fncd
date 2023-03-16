@@ -1,42 +1,34 @@
-Intern Ed chemically washed Dirty Pickup 158 and made it Clean.
-Pickup 158 became BROKEN from the chemical wash.
-Intern Noah used some elbow grease on Clean Regular Car 58 and made it Clean.
-Intern Joe washed and detailed Clean Regular Car 5 and made it Clean.
-Intern Arthur chemically washed Clean Electric Car 89 and made it Sparkling (earned $2084.08 bonus).
-Intern Perry washed and detailed Clean Van 38 and made it Sparkling (earned $776.30 bonus).
-Intern Dennis used some elbow grease on Clean Motorcycle 76 and made it Clean.
-Intern Ed chemically washed Clean Motorhome 46 and made it Clean.
-Intern Noah used some elbow grease on Clean Monster Truck 83 and made it Clean.
-Intern Joe washed and detailed Clean Motorhome 46 and made it Sparkling (earned $1345.80 bonus).
-Intern Arthur chemically washed Clean Motorhome 98 and made it Clean.
-Intern Perry washed and detailed Clean Monster Truck 26 and made it Sparkling (earned $2558.16 bonus).
-Intern Dennis used some elbow grease on Clean Motorhome 101 and made it Clean.
-Mechanic Daniel tried to fix Broken Pickup 158 and did not succeed.
-Mechanic Dan tried to fix Broken Pickup 158 and did not succeed.
-Mechanic Ora fixed Broken Pickup 158 and made it Used (earned $1809.92 bonus).
-Mechanic Daniel fixed Used Pickup 158 and made it Like New (earned $1809.92 bonus).
-Salesperson Leon sold Dirty Used Monster Truck, satellite radio 159 to Buyer for $86973.47 (earned $2208.85 bonus)
-Salesperson Leon sold Dirty Broken Monster Truck, undercoating 160 to Buyer for $86973.47 (earned $2208.85 bonus)
-Salesperson Owen attempted to sell Clean Like New Monster Truck 124 to Buyer for $82831.88 and did not succeed.
-Salesperson Leon sold Clean Broken Monster Truck, satellite radio 161 to Buyer for $86973.47 (earned $2208.85 bonus)
-Salesperson Alfred attempted to sell Clean Like New Monster Truck 152 to Buyer for $98268.00 and did not succeed.
-Salesperson Frank sold Clean Like New Monster Truck 152 to Buyer for $98268.00 (earned $3930.72 bonus)
-Salesperson Frank attempted to sell Sparkling Like New Performance Car 68 to Buyer for $90207.92 and did not succeed.
-Salesperson Wilson sold Dirty Used Performance Car, extended warranty, satellite radio 163 to Buyer for $113661.98 (earned $3727.60 bonus)
-Driver Robert is driving Performance Car 13 in the race
-Driver Sam is driving Performance Car 14 in the race
-Driver August is driving Performance Car 15 in the race
-Driver Robert placed 12 in the race.
-Performance Car 14 became damaged!
-Driver August placed 7 in the race.
-Driver Sylvester is driving Motorcycle 73 in the race
-Driver Alex is driving Motorcycle 74 in the race
-Driver Clarence is driving Motorcycle 75 in the race
-Driver Sylvester placed 4 in the race.
-Driver Alex placed 2 in the race! (earned $2034.30 bonus).
-Motorcycle 74 won!
-Motorcycle 75 became damaged!
-Paid staff $17701.65 at Dealership North
-The North FNCD made $260920.41
-Paid staff $14095.40 at Dealership South
-The South FNCD made $211929.98
+Intern Adam used some elbow grease on Dirty Monster Truck 167 and made it Clean.
+Intern Irvin chemically washed Clean Motorhome 102 and made it Clean.
+Intern Harold used some elbow grease on Clean Pickup 8 and made it Clean.
+Intern Lewis washed and detailed Clean Van 92 and made it Sparkling (earned $662.95 bonus).
+Intern Floyd used some elbow grease on Clean Performance Car 15 and made it Dirty.
+Performance Car 15 became LIKE NEW from the elbow grease.
+Intern Victor washed and detailed Clean Collector Car 108 and made it Sparkling (earned $2154.00 bonus).
+Intern Adam used some elbow grease on Dirty Performance Car 15 and made it Clean.
+Intern Irvin chemically washed Clean Motorhome 97 and made it Dirty.
+Intern Harold used some elbow grease on Clean Regular Car 1 and made it Dirty.
+Intern Lewis washed and detailed Dirty Motorhome 97 and made it Clean.
+Intern Floyd used some elbow grease on Dirty Regular Car 1 and made it Clean.
+Intern Victor washed and detailed Clean Motorcycle 73 and made it Sparkling (earned $1777.04 bonus).
+Salesperson Marvin attempted to sell Clean Like New Monster Truck 167 to Buyer for $98186.00 and did not succeed.
+Salesperson Raymond attempted to sell Clean Like New Pickup 61 to Buyer for $138971.25 and did not succeed.
+Driver Patrick is driving Pickup 7 in the race
+Driver Wilbur is driving Pickup 8 in the race
+Driver Nicholas is driving Pickup 9 in the race
+Driver Patrick placed 11 in the race.
+Driver Wilbur placed 2 in the race! (earned $2469.04 bonus).
+Pickup 8 won!
+Driver Nicholas placed 4 in the race.
+Driver Noah is driving Pickup 61 in the race
+Driver Aaron is driving Pickup 62 in the race
+Driver Charlie is driving Pickup 63 in the race
+Pickup 61 became damaged!
+Driver Aaron placed 1 in the race! (earned $530.95 bonus).
+Pickup 62 won!
+Driver Charlie placed 2 in the race! (earned $1088.15 bonus).
+Pickup 63 won!
+Paid staff $4236.00 at Dealership North
+The North FNCD made $0.00
+Paid staff $10469.99 at Dealership South
+The South FNCD made $0.00

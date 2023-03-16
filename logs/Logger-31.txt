@@ -1,34 +1,30 @@
-Intern Ed chemically washed Dirty Performance Car 176 and made it Clean.
-Intern Noah used some elbow grease on Dirty Motorcycle 76 and made it Clean.
-Intern Joe washed and detailed Clean Pickup 8 and made it Clean.
-Intern Arthur chemically washed Dirty Motorcycle 77 and made it Clean.
-Intern Perry washed and detailed Clean Pickup 151 and made it Sparkling (earned $1112.00 bonus).
-Intern Solomon chemically washed Clean Monster Truck 178 and made it Clean.
-Intern Ed chemically washed Clean Regular Car 133 and made it Clean.
-Intern Noah used some elbow grease on Clean Motorcycle 76 and made it Sparkling (earned $1514.90 bonus).
-Motorcycle 76 became LIKE NEW from the elbow grease.
-Intern Joe washed and detailed Clean Performance Car 176 and made it Clean.
-Intern Arthur chemically washed Clean Van 95 and made it Clean.
-Intern Perry washed and detailed Clean Collector Car 52 and made it Sparkling (earned $2174.48 bonus).
-Intern Solomon chemically washed Clean Motorcycle 75 and made it Sparkling (earned $1089.30 bonus).
-Mechanic Daniel fixed Broken Monster Truck 177 and made it Used (earned $1777.90 bonus).
-Mechanic Dan fixed Used Monster Truck 177 and made it Like New (earned $1777.90 bonus).
-Mechanic Ora fixed Used Performance Car 176 and made it Like New (earned $1609.84 bonus).
-Driver Robert is driving Motorcycle 20 in the race
-Driver Sam is driving Motorcycle 21 in the race
-Driver August is driving Motorcycle 22 in the race
-Driver Robert placed 9 in the race.
-Motorcycle 21 became damaged!
-Driver August placed 7 in the race.
-Driver Sylvester is driving Performance Car 67 in the race
-Driver Alex is driving Performance Car 68 in the race
-Driver Eugene is driving Performance Car 69 in the race
-Driver Sylvester placed 7 in the race.
-Driver Alex placed 2 in the race! (earned $3727.60 bonus).
-Performance Car 68 won!
-Performance Car 69 became damaged!
-Paid staff $11227.12 at Dealership North
-The North FNCD made $0.00
-Paid staff $6975.20 at Dealership South
+Intern Harold used some elbow grease on Clean Van 37 and made it Clean.
+Van 37 became LIKE NEW from the elbow grease.
+Intern Lewis washed and detailed Clean Monster Truck 137 and made it Sparkling (earned $1570.95 bonus).
+Intern Joe washed and detailed Clean Monster Truck 28 and made it Clean.
+Intern Victor washed and detailed Clean Motorcycle 74 and made it Dirty.
+Intern Mike washed and detailed Clean Van 37 and made it Clean.
+Intern Stanley washed and detailed Dirty Motorcycle 74 and made it Clean.
+Intern Harold used some elbow grease on Clean Van 37 and made it Sparkling (earned $802.65 bonus).
+Intern Lewis washed and detailed Clean Regular Car 57 and made it Clean.
+Intern Joe washed and detailed Clean Pickup 12 and made it Clean.
+Intern Victor washed and detailed Clean Van 93 and made it Clean.
+Intern Mike washed and detailed Clean Monster Truck 29 and made it Dirty.
+Intern Stanley washed and detailed Clean Motorcycle 77 and made it Clean.
+Salesperson Russell sold Clean Like New Monster Truck 178 to Buyer for $86060.63 (earned $2294.95 bonus)
+Driver Noah is driving Performance Car 67 in the race
+Driver Aaron is driving Performance Car 69 in the race
+Driver Charlie is driving Performance Car 71 in the race
+Driver Noah placed 13 in the race.
+Driver Aaron placed 6 in the race.
+Driver Charlie placed 12 in the race.
+Driver Patrick is driving Pickup 7 in the race
+Driver Wilbur is driving Pickup 8 in the race
+Driver Nicholas is driving Pickup 9 in the race
+Driver Patrick placed 6 in the race.
+Driver Wilbur placed 12 in the race.
+Driver Nicholas placed 5 in the race.
+Paid staff $4418.95 at Dealership South
 The South FNCD made $0.00
-Promoted Noah from Intern to Mechanic at Dealership South.
+Paid staff $5828.60 at Dealership North
+The North FNCD made $86060.63

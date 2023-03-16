@@ -1,14 +1,13 @@
-Driver Robert is driving Motorcycle 20 in the race
-Driver Sam is driving Motorcycle 21 in the race
-Driver August is driving Motorcycle 22 in the race
-Motorcycle 20 became damaged!
-Driver Sam placed 15 in the race.
-Driver August placed 13 in the race.
-Driver Sylvester is driving El Toro Loco (Monster Truck 79) in the race
-Driver Alex is driving Snake Bite (Monster Truck 83) in the race
-Driver Clarence is driving El Toro Loco (Monster Truck 125) in the race
-Driver Sylvester placed 8 in the race.
-Driver Alex placed 3 in the race! (earned $3480.70 bonus).
-Monster Truck 83 won!
-Driver Clarence placed 18 in the race and got injured!
-Monster Truck 125 became damaged!
+Driver Patrick is driving Performance Car 13 in the race
+Driver Wilbur is driving Performance Car 14 in the race
+Driver Nicholas is driving Performance Car 15 in the race
+Driver Patrick placed 10 in the race.
+Driver Wilbur placed 8 in the race.
+Driver Nicholas placed 11 in the race.
+Driver Noah is driving Grave Digger (Monster Truck 83) in the race
+Driver Aaron is driving Gunslinger (Monster Truck 117) in the race
+Driver Charlie is driving Bad News Travels Fast (Monster Truck 137) in the race
+Driver Noah placed 8 in the race.
+Driver Aaron placed 9 in the race.
+Driver Charlie placed 1 in the race! (earned $1570.95 bonus).
+Monster Truck 137 won!

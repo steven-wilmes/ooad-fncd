@@ -1,17 +1,30 @@
-Hired Dennis as a new Intern at Dealership South.
-Intern Ed chemically washed Clean Motorcycle 24 and made it Dirty.
-Intern Noah used some elbow grease on Dirty Monster Truck 152 and made it Clean.
-Intern Joe washed and detailed Dirty Motorcycle 24 and made it Sparkling (earned $1044.32 bonus).
-Intern Arthur chemically washed Clean Van 92 and made it Sparkling (earned $961.45 bonus).
-Intern Perry washed and detailed Clean Motorcycle 21 and made it Clean.
-Intern Dennis used some elbow grease on Clean Performance Car 70 and made it Sparkling (earned $1128.15 bonus).
-Intern Ed chemically washed Clean Motorhome 45 and made it Clean.
-Intern Noah used some elbow grease on Clean Collector Car 107 and made it Clean.
-Intern Joe washed and detailed Clean Monster Truck 27 and made it Sparkling (earned $2740.72 bonus).
-Intern Arthur chemically washed Clean Collector Car 108 and made it Clean.
-Intern Perry washed and detailed Clean Performance Car 18 and made it Clean.
-Intern Dennis used some elbow grease on Clean Electric Car 89 and made it Dirty.
-Paid staff $6560.04 at Dealership North
-The North FNCD made $0.00
-Paid staff $4942.60 at Dealership South
-The South FNCD made $0.00
+Hired Charlie as a new Driver at Dealership South.
+Intern Adam used some elbow grease on Dirty Pickup 7 and made it Dirty.
+Intern Raymond chemically washed Clean Performance Car 72 and made it Clean.
+Intern Russell used some elbow grease on Dirty Pickup 7 and made it Clean.
+Intern Irvin chemically washed Clean Performance Car 67 and made it Sparkling (earned $1032.00 bonus).
+Intern Harold used some elbow grease on Clean Collector Car 52 and made it Dirty.
+Intern Lewis washed and detailed Clean Monster Truck 137 and made it Clean.
+Intern Adam used some elbow grease on Dirty Collector Car 52 and made it Clean.
+Collector Car 52 became LIKE NEW from the elbow grease.
+Intern Raymond chemically washed Clean Performance Car 72 and made it Clean.
+Intern Russell used some elbow grease on Clean Motorcycle 118 and made it Clean.
+Intern Irvin chemically washed Clean Electric Car 85 and made it Sparkling (earned $2776.24 bonus).
+Intern Harold used some elbow grease on Clean Monster Truck 122 and made it Clean.
+Intern Lewis washed and detailed Clean Performance Car 110 and made it Sparkling (earned $2581.90 bonus).
+Mechanic Newton fixed Broken Pickup 61 and made it Used (earned $2695.20 bonus).
+Mechanic Theodore fixed Broken Pickup 62 and made it Used (earned $530.95 bonus).
+Mechanic Nelson fixed Used Pickup 62 and made it Like New (earned $530.95 bonus).
+Mechanic Newton fixed Used Pickup 61 and made it Like New (earned $2695.20 bonus).
+Salesperson Edwin attempted to sell Clean Like New Monster Truck 148 to Buyer for $78334.00 and did not succeed.
+Salesperson Edwin attempted to sell Clean Like New Monster Truck 148 to Buyer for $78334.00 and did not succeed.
+Salesperson Marvin sold Clean Like New Monster Truck 148 to Buyer for $78334.00 (earned $3916.70 bonus)
+Salesperson Anton sold Dirty Broken Pickup, satellite radio 166 to Buyer for $145919.81 (earned $2695.20 bonus)
+Salesperson Harley attempted to sell Dirty Like New Pickup 61 to Buyer for $138971.25 and did not succeed.
+Salesperson Joseph attempted to sell Dirty Like New Pickup 61 to Buyer for $138971.25 and did not succeed.
+Paid staff $6635.70 at Dealership North
+The North FNCD made $78334.00
+Promoted Russell from Intern to Salesperson at Dealership North.
+Paid staff $19946.64 at Dealership South
+The South FNCD made $145919.81
+Promoted Raymond from Intern to Salesperson at Dealership South.

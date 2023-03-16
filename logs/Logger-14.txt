@@ -1,14 +1,12 @@
-Driver Chester is driving Pickup 9 in the race
-Driver Sam is driving Pickup 11 in the race
-Driver Robert placed 10 in the race.
-Driver Chester placed 19 in the race and got injured!
-Pickup 9 became damaged!
-Driver Sam placed 2 in the race! (earned $991.55 bonus).
-Pickup 11 won!
-Driver Sylvester is driving Performance Car 67 in the race
-Driver Alex is driving Performance Car 68 in the race
-Driver Clarence is driving Performance Car 69 in the race
-Driver Sylvester placed 8 in the race.
-Driver Alex placed 10 in the race.
-Driver Clarence placed 3 in the race! (earned $1600.85 bonus).
-Performance Car 69 won!
+Driver Patrick is driving Performance Car 13 in the race
+Driver Wilbur is driving Performance Car 14 in the race
+Driver Nicholas is driving Performance Car 15 in the race
+Driver Patrick placed 13 in the race.
+Driver Wilbur placed 7 in the race.
+Driver Nicholas placed 12 in the race.
+Driver Noah is driving Pickup 61 in the race
+Driver Virgil is driving Pickup 62 in the race
+Driver Aaron is driving Pickup 63 in the race
+Driver Noah placed 10 in the race.
+Pickup 62 became damaged!
+Driver Aaron placed 13 in the race.

@@ -1,12 +1,12 @@
-Driver Robert is driving Pickup 7 in the race
-Driver Chester is driving Pickup 9 in the race
-Driver Sam is driving Pickup 11 in the race
-Driver Robert placed 7 in the race.
-Driver Chester placed 9 in the race.
-Driver Sam placed 14 in the race.
-Driver Sylvester is driving Motorcycle 73 in the race
-Driver Alex is driving Motorcycle 74 in the race
-Driver Clarence is driving Motorcycle 75 in the race
-Driver Sylvester placed 10 in the race.
-Driver Alex placed 14 in the race.
-Motorcycle 75 became damaged!
+Driver Wilbur is driving Pickup 8 in the race
+Driver Nicholas is driving Pickup 9 in the race
+Driver Patrick placed 14 in the race.
+Driver Wilbur placed 13 in the race.
+Driver Nicholas placed 12 in the race.
+Driver Noah is driving Pickup 61 in the race
+Driver Virgil is driving Pickup 62 in the race
+Driver Aaron is driving Pickup 63 in the race
+Driver Noah placed 3 in the race! (earned $2695.20 bonus).
+Pickup 61 won!
+Driver Virgil placed 7 in the race.
+Driver Aaron placed 11 in the race.

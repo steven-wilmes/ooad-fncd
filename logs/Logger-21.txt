@@ -1,11 +1,14 @@
-Driver Sam is driving The Felon (Monster Truck 26) in the race
-Driver August is driving Air Force Afterburner (Monster Truck 27) in the race
-Driver Robert placed 12 in the race.
-Driver Sam placed 4 in the race.
-Driver August placed 11 in the race.
-Driver Sylvester is driving Performance Car 67 in the race
-Driver Alex is driving Performance Car 68 in the race
-Driver Clarence is driving Performance Car 69 in the race
-Driver Sylvester placed 11 in the race.
-Driver Alex placed 9 in the race.
-Driver Clarence placed 14 in the race.
+Driver Patrick is driving Performance Car 13 in the race
+Driver Wilbur is driving Performance Car 14 in the race
+Driver Nicholas is driving Performance Car 15 in the race
+Driver Patrick placed 12 in the race.
+Driver Wilbur placed 4 in the race.
+Driver Nicholas placed 6 in the race.
+Driver Noah is driving Pickup 61 in the race
+Driver Virgil is driving Pickup 62 in the race
+Driver Aaron is driving Pickup 63 in the race
+Pickup 61 became damaged!
+Driver Virgil placed 19 in the race and got injured!
+Pickup 62 became damaged!
+Driver Aaron placed 1 in the race! (earned $1088.15 bonus).
+Pickup 63 won!
