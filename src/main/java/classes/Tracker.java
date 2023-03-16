@@ -15,9 +15,10 @@ public class Tracker implements PropertyChangeListener {
     // OO PATTERN: SINGLETON (EAGER)
     static Tracker trackerInstance = new Tracker();
     
-    private Tracker(){}
+    private Tracker() {
+    }
     
-    public static synchronized Tracker getInstance(){
+    public static synchronized Tracker getInstance() {
         return trackerInstance;
     }
     

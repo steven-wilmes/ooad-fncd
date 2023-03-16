@@ -106,10 +106,10 @@ public class Salesperson extends Staff {
         
     }
     
-    public boolean UISell(Vehicle toSell_, Scanner scan_){
+    public boolean UISell(Vehicle toSell_, Scanner scan_) {
         Main.log(String.format("Vehicle %s Proceed with purchase? (Y/N)", toSell_.getDetails()));
         String usrResponse = scan_.nextLine();
-        if (usrResponse.equalsIgnoreCase("N")){
+        if (usrResponse.equalsIgnoreCase("N")) {
             return false;
         }
         Main.log("Would you like to add an extended warranty? (Y/N)");
@@ -132,7 +132,7 @@ public class Salesperson extends Staff {
         if (usrResponse.equalsIgnoreCase("Y")) {
             toSell_ = new SatelliteRadio(toSell_);
         }
-    
+        
         this.giveBonus(toSell_.getBonusAmount());
         Main.log(String.format("Salesperson %s sold %s %s %s (VIN #%d) to User for $%.2f (earned $%.2f bonus)",
                 this.name,

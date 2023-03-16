@@ -17,7 +17,6 @@ public class Tuple {
     }
     
     /**
-     *
      * @return the second tuple element
      */
     public Object getY() {

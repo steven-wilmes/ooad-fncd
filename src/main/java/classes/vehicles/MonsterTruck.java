@@ -2,11 +2,7 @@ package classes.vehicles;
 
 import enums.VehicleType;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class MonsterTruck extends Vehicle {
-    
     
     
     /**

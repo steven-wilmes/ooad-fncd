@@ -2,7 +2,7 @@ package classes.vehicles;
 
 import enums.VehicleType;
 
-public class Motorhome extends Vehicle{
+public class Motorhome extends Vehicle {
     
     private char classType;
     
@@ -10,7 +10,7 @@ public class Motorhome extends Vehicle{
         super();
         type = VehicleType.MOTORHOME;
         int classChoice = rng.nextInt(3);
-        switch (classChoice){
+        switch (classChoice) {
             case 0:
                 classType = 'A';
                 break;
@@ -37,7 +37,7 @@ public class Motorhome extends Vehicle{
         bonusAmount = salesPrice * .05;
     }
     
-    public char getClassType(){
+    public char getClassType() {
         return classType;
     }
     

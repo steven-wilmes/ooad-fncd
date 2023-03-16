@@ -10,12 +10,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DecoratorTest {
     Vehicle testVehicle;
-    public DecoratorTest(){
+    
+    public DecoratorTest() {
         testVehicle = new CollectorCar();
     }
     
     @Test
-    public void testIndivPrice(){
+    public void testIndivPrice() {
         double initialPrice = testVehicle.getSalesPrice();
         Vehicle addonVehicle = new ExtendedWarranty(testVehicle);
         assertEquals(initialPrice * 1.2, addonVehicle.getSalesPrice());
@@ -27,15 +28,15 @@ public class DecoratorTest {
         assertEquals(initialPrice * 1.05, addonVehicle.getSalesPrice());
         
         addonVehicle = new Undercoating(testVehicle);
-        assertEquals(initialPrice*1.05, addonVehicle.getSalesPrice());
+        assertEquals(initialPrice * 1.05, addonVehicle.getSalesPrice());
     }
     
     @Test
-    public void testTotalPrice(){
+    public void testTotalPrice() {
         Vehicle addonVehicle = new ExtendedWarranty(testVehicle);
         addonVehicle = new RoadRescueCoverage(addonVehicle);
         addonVehicle = new SatelliteRadio(addonVehicle);
         addonVehicle = new Undercoating(addonVehicle);
-        assertEquals((((testVehicle.getSalesPrice()*1.2)*1.02)*1.05)*1.05, addonVehicle.getSalesPrice());
+        assertEquals((((testVehicle.getSalesPrice() * 1.2) * 1.02) * 1.05) * 1.05, addonVehicle.getSalesPrice());
     }
 }

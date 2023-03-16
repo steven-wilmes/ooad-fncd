@@ -53,7 +53,6 @@ public class RaceOutcome {
     }
     
     /**
-     *
      * @return the stage name if instantiated, otherwise "No"
      */
     public String getMtStageName() {

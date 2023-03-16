@@ -10,7 +10,8 @@ import java.util.Random;
 public class VehicleFactory {
     
     /**
-     * a hashmap of monster truck names and the number of times they have been used. names from https://en.wikipedia.org/wiki/List_of_monster_trucks
+     * a hashmap of monster truck names and the number of times they have been used. names from
+     * https://en.wikipedia.org/wiki/List_of_monster_trucks
      */
     private HashMap<String, Integer> truckNames = new HashMap<>() {{
         put("Air Force Afterburner", 0);
@@ -55,12 +56,13 @@ public class VehicleFactory {
         put("WCW Nitro Machine", 0);
     }};
     
-    public VehicleFactory(){}
+    public VehicleFactory() {
+    }
     
-    public Vehicle purchaseVehicle(VehicleType vehicleType_){
+    public Vehicle purchaseVehicle(VehicleType vehicleType_) {
         Vehicle newCar = null;
         
-        switch(vehicleType_){
+        switch (vehicleType_) {
             case PICKUP:
                 newCar = new Pickup();
                 break;

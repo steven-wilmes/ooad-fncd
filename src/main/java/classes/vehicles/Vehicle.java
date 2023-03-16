@@ -218,7 +218,7 @@ public abstract class Vehicle {
         return type;
     }
     
-    public String getDetails(){
+    public String getDetails() {
         return String.format("%d is a %s %s %s with a base cost of $%.2f.",
                 getVehicleNo(),
                 getCleanliness().getStr(),

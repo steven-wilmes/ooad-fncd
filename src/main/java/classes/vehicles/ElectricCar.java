@@ -36,7 +36,9 @@ public class ElectricCar extends Vehicle {
     }
     
     /**
-     * repair the electric car. does {@link Vehicle.repair()} and then increases the range by 100 if it becomes like new
+     * repair the electric car. does {@link Vehicle.repair()} and then increases the range by 100 if it becomes like
+     * new
+     *
      * @return the result of Vehicle.repair()
      */
     @Override
@@ -49,7 +51,6 @@ public class ElectricCar extends Vehicle {
     }
     
     /**
-     *
      * @return "Electric Car"
      */
     @Override

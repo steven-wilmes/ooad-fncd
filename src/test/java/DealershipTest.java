@@ -4,12 +4,11 @@ import org.junit.jupiter.api.Test;
 import java.util.concurrent.Semaphore;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DealershipTest {
     Dealership testDealership;
     
-    public DealershipTest(){
+    public DealershipTest() {
         testDealership = new Dealership("test", new Semaphore(1), new Semaphore(1));
     }
     
