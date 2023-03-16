@@ -1,7 +1,13 @@
-Driver Bernard is driving Performance Car 1 in the race
-Driver Willard is driving Performance Car 3 in the race
-Driver Benjamin is driving Performance Car 4 in the race
-Driver Bernard placed 11 in the race.
-Driver Willard placed 19 in the race and got injured!
-Performance Car 3 became damaged!
-Driver Benjamin placed 13 in the race.
+Driver Warren is driving Lucas Oil Crusader (Monster Truck 25) in the race
+Driver Carl is driving Mohawk Warrior (Monster Truck 29) in the race
+Driver Dave is driving WCW Nitro Machine (Monster Truck 118) in the race
+Driver Warren placed 15 in the race.
+Driver Carl placed 6 in the race.
+Driver Dave placed 2 in the race! (earned $3260.64 bonus).
+Monster Truck 118 won!
+Driver Jose is driving Performance Car 67 in the race
+Driver Earl is driving Performance Car 68 in the race
+Driver Harvey is driving Performance Car 69 in the race
+Performance Car 67 became damaged!
+Driver Earl placed 10 in the race.
+Driver Harvey placed 7 in the race.

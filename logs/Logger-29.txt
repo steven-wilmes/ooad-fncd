@@ -1,12 +1,21 @@
-Intern Horace washed and detailed Dirty Monster Truck 62 and made it Dirty.
-Intern Sidney used some elbow grease on Dirty Monster Truck 62 and made it Clean.
-Intern Maurice washed and detailed Dirty Monster Truck 58 and made it Dirty.
-Intern Horace washed and detailed Dirty Monster Truck 58 and made it Clean.
-Intern Sidney used some elbow grease on Clean Performance Car 61 and made it Clean.
-Performance Car 61 became LIKE NEW from the elbow grease.
-Intern Maurice washed and detailed Clean Regular Car 56 and made it Sparkling (earned $1052.70 bonus).
-Mechanic Albert fixed Broken Performance Car 60 and made it Used (earned $1044.40 bonus).
-Mechanic Edward fixed Used Performance Car 60 and made it Like New (earned $1044.40 bonus).
-Salesperson Ollie sold Dirty Used Monster Truck, undercoating, satellite radio 64 to Buyer for $83638.82 (earned $1839.10 bonus)
-Paid staff $9273.60
-The FNCD made $83638.82
+Hired Arch as a new Intern at Dealership South.
+Hired Patrick as a new Intern at Dealership South.
+Intern Lee washed and detailed Clean Performance Car 13 and made it Clean.
+Intern Dennis washed and detailed Dirty Motorcycle 74 and made it Clean.
+Intern Percy used some elbow grease on Clean Performance Car 140 and made it Sparkling (earned $1831.30 bonus).
+Performance Car 140 became LIKE NEW from the elbow grease.
+Intern Arch washed and detailed Clean Monster Truck 122 and made it Clean.
+Intern Gilbert chemically washed Clean Pickup 12 and made it Clean.
+Intern Patrick chemically washed Clean Regular Car 59 and made it Clean.
+Intern Lee washed and detailed Clean Electric Car 35 and made it Clean.
+Intern Dennis washed and detailed Clean Motorhome 97 and made it Sparkling (earned $1201.80 bonus).
+Intern Percy used some elbow grease on Clean Pickup 12 and made it Clean.
+Intern Arch washed and detailed Clean Regular Car 59 and made it Clean.
+Intern Gilbert chemically washed Clean Collector Car 53 and made it Clean.
+Intern Patrick chemically washed Clean Motorcycle 74 and made it Sparkling (earned $1350.00 bonus).
+Salesperson Francis sold Dirty Broken Monster Truck, satellite radio 180 to Buyer for $87763.20 (earned $3343.36 bonus)
+Salesperson Thomas attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
+Paid staff $9541.66 at Dealership North
+The North FNCD made $87763.20
+Paid staff $5354.80 at Dealership South
+The South FNCD made $0.00

@@ -1,7 +1,16 @@
-Driver Bernard is driving Pickup 9 in the race
-Driver Willard is driving Pickup 10 in the race
-Driver Virgil is driving Pickup 11 in the race
-Pickup 9 became damaged!
-Driver Willard placed 12 in the race.
-Driver Virgil placed 1 in the race! (earned $996.08 bonus).
-Pickup 11 won!
+Driver Warren is driving Performance Car 13 in the race
+Driver Carl is driving Performance Car 16 in the race
+Driver Dave is driving Performance Car 17 in the race
+Driver Warren placed 2 in the race! (earned $2284.64 bonus).
+Performance Car 13 won!
+Driver Carl placed 1 in the race! (earned $1620.05 bonus).
+Performance Car 16 won!
+Driver Dave placed 12 in the race.
+Driver Jose is driving Performance Car 67 in the race
+Driver Warren is driving Performance Car 68 in the race
+Driver Thomas is driving Performance Car 71 in the race
+Driver Jose placed 13 in the race.
+Driver Warren placed 19 in the race and got injured!
+Performance Car 68 became damaged!
+Driver Thomas placed 17 in the race and got injured!
+Performance Car 71 became damaged!

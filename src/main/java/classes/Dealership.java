@@ -17,8 +17,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
+import java.util.concurrent.Semaphore;
 
-public class Dealership {
+// semaphore synchronization from https://stackoverflow.com/questions/9388838/writing-a-program-with-2-threads-which-prints-alternatively
+public class Dealership extends Thread{
     /**
      * list of days
      */
@@ -75,16 +77,28 @@ public class Dealership {
     VehicleFactory vehicleFactory;
     StaffFactory staffFactory;
     
+    Semaphore lock, unlock;
+    
+    String location;
+    
     /**
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
-    public Dealership() {
+    public Dealership(String name_, Semaphore lock_, Semaphore unlock_) {
+        lock = lock_;
+        unlock = unlock_;
+        location = name_;
         publisher = new PropertyChangeSupport(this);
         tracker = Tracker.getInstance();
         publisher.addPropertyChangeListener(tracker);
         vehicleFactory = new VehicleFactory();
         staffFactory = new StaffFactory();
         staffMembers = new ArrayList<Staff>();
+        try {
+            lock.acquire();
+        } catch (InterruptedException e_) {
+            e_.printStackTrace();
+        }
         for (int i = 0; i < 3; i++) {
             for (StaffType type : StaffType.values()){
                 Staff newStaff = staffFactory.hireStaff(type);
@@ -92,6 +106,7 @@ public class Dealership {
                 Main.log(String.format("Hired %s as a new %s.", newStaff.getName(), newStaff.getPosition()));
             }
         }
+        unlock.release();
         formerStaff = new ArrayList<>();
         vehicleInventory = new ArrayList<Vehicle>();
         soldVehicles = new ArrayList<Vehicle>();
@@ -108,7 +123,7 @@ public class Dealership {
      * @param day_ handles the day of the week, on sunday FNCD is closed and Friday/Saturday there will be more buyers
      *             than other days
      */
-    public void day(int day_) {
+    public void day(int day_) throws InterruptedException {
         publisher.firePropertyChange("day", day_, day_+1);
         dailyLogger = Logger.getInstance(day_+1);
         publisher.addPropertyChangeListener(dailyLogger);
@@ -135,7 +150,8 @@ public class Dealership {
     /**
      * Hires new interns if necessary, and restocks vehicle inventory
      */
-    private void open() {
+    private void open() throws InterruptedException {
+        lock.acquire();
         dailySales = 0;
         Main.log("\nOpening...");
         
@@ -148,6 +164,7 @@ public class Dealership {
         for (VehicleType type : VehicleType.values()){
             restock(type);
         }
+        unlock.release();
     }
     
     /**
@@ -218,7 +235,8 @@ public class Dealership {
      * @param cleanVehicleList list of vehicles that are clean
      * @param intern           the intern to do the cleaning
      */
-    private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern) {
+    private void wash(ArrayList<Vehicle> dirtyVehicleList, ArrayList<Vehicle> cleanVehicleList, Intern intern) throws InterruptedException {
+        lock.acquire();
         Vehicle toWash;
         WashOutcome washOutcome = null;
         if (dirtyVehicleList.size() > 0) {
@@ -257,6 +275,7 @@ public class Dealership {
         if (washOutcome != null) {
             publisher.firePropertyChange("washOutcome", null, washOutcome);
         }
+        unlock.release();
     }
     
     /**
@@ -265,7 +284,8 @@ public class Dealership {
      * @param unFixedVehicleList list of vehicles in need of repair
      * @param mechanic           mechanic to do the repairing
      */
-    private void repair(ArrayList<Vehicle> unFixedVehicleList, Mechanic mechanic) {
+    private void repair(ArrayList<Vehicle> unFixedVehicleList, Mechanic mechanic) throws InterruptedException {
+        lock.acquire();
         Vehicle toFix;
         if (unFixedVehicleList.size() > 0) {
             toFix = unFixedVehicleList.get(rng.nextInt(unFixedVehicleList.size()));
@@ -276,6 +296,7 @@ public class Dealership {
         } else {
             Main.log(String.format("There are no cars for Mechanic %s to fix.", mechanic.getName()));
         }
+        unlock.release();
     }
     
     /**
@@ -284,7 +305,8 @@ public class Dealership {
      * @param extraBuyers whether there are extra buyers today (Fri or Sat)
      * @param salespeople the current salespeople
      */
-    private void sell(boolean extraBuyers, ArrayList<Salesperson> salespeople) {
+    private void sell(boolean extraBuyers, ArrayList<Salesperson> salespeople) throws InterruptedException {
+        lock.acquire();
         // create buyers
         int numBuyers = (extraBuyers ? rng.nextInt(7) + 2 : rng.nextInt(6));
         Main.log(String.format("\nSelling to %d...", numBuyers));
@@ -303,6 +325,7 @@ public class Dealership {
                 soldVehicles.add(sold);
             }
         }
+        unlock.release();
     }
     
     /**
@@ -310,7 +333,7 @@ public class Dealership {
      *
      * @param extraBuyers_ whether there are extra buyers today (Fri or Sat)
      */
-    private void work(boolean extraBuyers_) {
+    private void work(boolean extraBuyers_) throws InterruptedException {
         ArrayList<Salesperson> salespeople = new ArrayList<>();
         ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
         ArrayList<Vehicle> cleanVehicleList = new ArrayList<>();
@@ -359,8 +382,8 @@ public class Dealership {
     /**
      * Closes the dealership for the day Pays all employees Handles any quitters, and promotes interns if necessary
      */
-    private void end() {
-        
+    private void end() throws InterruptedException {
+        lock.acquire();
         ArrayList<Intern> interns = new ArrayList<Intern>();
         ArrayList<Mechanic> mechanics = new ArrayList<Mechanic>();
         ArrayList<Salesperson> salespersons = new ArrayList<Salesperson>();
@@ -434,6 +457,7 @@ public class Dealership {
             staffMembers.add(staffFactory.hireStaff(StaffType.SALESPERSON, promotee));
             publisher.firePropertyChange("newStaff", null, new Tuple(promotee.getName(), "Salesperson"));
         }
+        unlock.release();
         
     }
     
@@ -441,7 +465,8 @@ public class Dealership {
      * Produces report including: All current and formers staff members All current and sold Vehicles Budget and Loan
      * amounts
      */
-    public void report() {
+    public void report() throws InterruptedException {
+        lock.acquire();
         Main.log("\nGenerating Report...");
         
         Main.log("\nCurrent Staff Members:");
@@ -500,6 +525,7 @@ public class Dealership {
         
         Main.log(String.format("Operating Budget: $%.2f", this.budget));
         Main.log(String.format("Loans taken: $%.2f", this.totalLoan));
+        unlock.release();
     }
     
     /**
@@ -516,7 +542,8 @@ public class Dealership {
         }
     }
     
-    private void race() {
+    private void race() throws InterruptedException {
+        lock.acquire();
         String types[] = {"Performance Car", "Pickup", "Motorcycle", "Monster Truck"};
         
         String raceType = types[rng.nextInt(types.length)];
@@ -581,5 +608,26 @@ public class Dealership {
             }
         }
         publisher.firePropertyChange("raceOutcome", null, raceOutcomes);
+        unlock.release();
+    }
+    
+    @Override
+    public void run() {
+        for (int day = 0; day < 30; day++) {
+            try {
+                this.day(day);
+            } catch (InterruptedException e_) {
+                e_.printStackTrace();
+            }
+        }
+        try {
+            this.report();
+        } catch (InterruptedException e_) {
+            e_.printStackTrace();
+        }
+    }
+    
+    public String getLoc() {
+        return location;
     }
 }

@@ -1,13 +1,39 @@
-Intern Lloyd chemically washed Dirty Monster Truck 39 and made it Clean.
-Intern Ollie chemically washed Clean Performance Car 3 and made it Clean.
-Intern Timothy washed and detailed Clean Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
-Intern Lloyd chemically washed Clean Performance Car 4 and made it Clean.
-Intern Ollie chemically washed Clean Regular Car 6 and made it Clean.
-Intern Timothy washed and detailed Clean Performance Car 4 and made it Clean.
-Mechanic Albert fixed Used Monster Truck 39 and made it Like New (earned $3923.68 bonus).
-Mechanic Alfred fixed Broken Motorcycle 22 and made it Used (earned $1229.44 bonus).
-Mechanic Edward fixed Used Motorcycle 22 and made it Like New (earned $1229.44 bonus).
-Salesperson Clyde attempted to sell Clean Like New Monster Truck 20 to Buyer for $155741.25 and did not succeed.
-Salesperson Ernest sold Dirty Like New Monster Truck, extended warranty 40 to Buyer for $186889.50 (earned $4153.10 bonus)
-Paid staff $14367.36
-The FNCD made $186889.50
+Intern Harrison chemically washed Dirty Monster Truck 30 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Motorcycle 78 and made it Dirty.
+Intern Jeff used some elbow grease on Dirty Regular Car 5 and made it Clean.
+Intern Cornelius washed and detailed Dirty Motorhome 98 and made it Clean.
+Intern Thomas washed and detailed Dirty Regular Car 3 and made it Clean.
+Intern Mack washed and detailed Dirty Monster Truck 83 and made it Clean.
+Intern Harrison chemically washed Dirty Van 42 and made it Dirty.
+Intern Edwin used some elbow grease on Dirty Regular Car 60 and made it Clean.
+Intern Jeff used some elbow grease on Dirty Performance Car 17 and made it Dirty.
+Intern Cornelius washed and detailed Dirty Electric Car 88 and made it Dirty.
+Intern Thomas washed and detailed Dirty Electric Car 114 and made it Clean.
+Intern Mack washed and detailed Dirty Monster Truck 122 and made it Clean.
+Mechanic Daniel fixed Used Van 41 and made it Like New (earned $824.00 bonus).
+Mechanic Eugene fixed Broken Collector Car 106 and made it Used (earned $1194.90 bonus).
+Mechanic David fixed Used Regular Car 5 and made it Like New (earned $896.00 bonus).
+Mechanic Lester fixed Used Collector Car 106 and made it Like New (earned $1194.90 bonus).
+Mechanic Philip fixed Broken Pickup 8 and made it Used (earned $880.55 bonus).
+Mechanic Columbus tried to fix Used Performance Car 71 and did not succeed.
+Mechanic Daniel fixed Used Collector Car 51 and made it Like New (earned $1278.35 bonus).
+Mechanic Eugene fixed Used Collector Car 103 and made it Like New (earned $1141.00 bonus).
+Mechanic David fixed Used Motorcycle 19 and made it Like New (earned $1179.52 bonus).
+Mechanic Lester fixed Broken Pickup 63 and made it Used (earned $3138.40 bonus).
+Mechanic Philip fixed Used Pickup 8 and made it Like New (earned $880.55 bonus).
+Mechanic Columbus fixed Used Performance Car 68 and made it Like New (earned $2479.60 bonus).
+Salesperson Michael sold Dirty Used Performance Car, satellite radio 137 to Buyer for $86768.22 (earned $3004.96 bonus)
+Salesperson Samuel attempted to sell Dirty Like New Performance Car 17 to Buyer for $82636.40 and did not succeed.
+Salesperson Francis attempted to sell Clean Broken Electric Car 32 to Buyer for $32316.00 and did not succeed.
+Salesperson Samuel attempted to sell Dirty Broken Regular Car 2 to Buyer for $12613.00 and did not succeed.
+Salesperson Samuel sold Dirty Like New Performance Car 17 to Buyer for $82636.40 (earned $3004.96 bonus)
+Salesperson Wilson sold Clean Broken Performance Car, extended warranty 138 to Buyer for $24976.80 (earned $1040.70 bonus)
+Salesperson Elmer attempted to sell Dirty Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
+Salesperson Floyd attempted to sell Clean Broken Performance Car 70 to Buyer for $20814.00 and did not succeed.
+Salesperson Wilson sold Clean Used Performance Car, satellite radio 139 to Buyer for $122042.81 (earned $2479.60 bonus)
+Salesperson Elmer sold Clean Broken Performance Car 70 to Buyer for $20814.00 (earned $1040.70 bonus)
+Paid staff $14721.89 at Dealership North
+The North FNCD made $169404.62
+Promoted Thomas from Intern to Salesperson at Dealership North.
+Paid staff $16524.80 at Dealership South
+The South FNCD made $167833.61

@@ -1,21 +1,42 @@
-Hired Sidney as a new Intern.
-Intern Lloyd chemically washed Clean Regular Car 6 and made it Clean.
-Regular Car 6 became BROKEN from the chemical wash.
-Intern Horace washed and detailed Clean Regular Car 6 and made it Sparkling (earned $1229.30 bonus).
-Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
-Intern Lloyd chemically washed Dirty Performance Car 50 and made it Clean.
-Intern Horace washed and detailed Clean Pickup 11 and made it Clean.
-Intern Sidney used some elbow grease on Clean Performance Car 50 and made it Dirty.
-Mechanic Albert fixed Broken Regular Car 6 and made it Used (earned $1229.30 bonus).
-Mechanic Alfred fixed Used Regular Car 6 and made it Like New (earned $1229.30 bonus).
-Salesperson Ollie sold Sparkling Like New Monster Truck 32 to Buyer for $89564.00 (earned $3582.56 bonus)
-Salesperson Joe attempted to sell Dirty Like New Regular Car 6 to Buyer for $86435.16 and did not succeed.
-Salesperson Clyde sold Dirty Like New Regular Car, extended warranty, satellite radio 52 to Buyer for $108908.30 (earned $1229.30 bonus)
-Driver Bernard is driving Predator (Monster Truck 19) in the race
-Driver Benjamin is driving Madusa (Monster Truck 41) in the race
-Driver Aaron is driving Blacksmith (Monster Truck 47) in the race
-Driver Bernard placed 13 in the race.
-Driver Benjamin placed 12 in the race.
-Monster Truck 47 became damaged!
-Paid staff $11268.76
-The FNCD made $198472.30
+Hired Dennis as a new Intern at Dealership South.
+Hired Lawrence as a new Intern at Dealership South.
+Intern Jeff used some elbow grease on Dirty Regular Car 4 and made it Clean.
+Regular Car 4 became LIKE NEW from the elbow grease.
+Intern Frank chemically washed Clean Collector Car 107 and made it Dirty.
+Intern Wesley used some elbow grease on Dirty Monster Truck 173 and made it Clean.
+Intern Dennis washed and detailed Dirty Collector Car 107 and made it Dirty.
+Intern Lee washed and detailed Clean Motorcycle 19 and made it Clean.
+Intern Lawrence chemically washed Dirty Collector Car 107 and made it Clean.
+Intern Jeff used some elbow grease on Clean Collector Car 53 and made it Clean.
+Intern Frank chemically washed Clean Van 95 and made it Dirty.
+Intern Wesley used some elbow grease on Clean Van 38 and made it Clean.
+Intern Dennis washed and detailed Dirty Van 95 and made it Clean.
+Intern Lee washed and detailed Clean Electric Car 34 and made it Clean.
+Intern Lawrence chemically washed Clean Van 91 and made it Clean.
+Mechanic Daniel fixed Broken Monster Truck 173 and made it Used (earned $1727.00 bonus).
+Mechanic David fixed Used Monster Truck 173 and made it Like New (earned $1727.00 bonus).
+Salesperson Elmer attempted to sell Clean Like New Monster Truck 84 to Buyer for $146291.25 and did not succeed.
+Salesperson Edwin attempted to sell Clean Like New Monster Truck 84 to Buyer for $146291.25 and did not succeed.
+Salesperson Elmer sold Clean Like New Monster Truck 84 to Buyer for $146291.25 (earned $3901.10 bonus)
+Salesperson Elmer attempted to sell Sparkling Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
+Driver Warren is driving Lucas Oil Crusader (Monster Truck 25) in the race
+Driver Carl is driving Mohawk Warrior (Monster Truck 29) in the race
+Driver Dave is driving Bounty Hunter (Monster Truck 136) in the race
+Driver Warren placed 13 in the race.
+Driver Carl placed 3 in the race! (earned $2432.16 bonus).
+Monster Truck 29 won!
+Driver Dave placed 1 in the race! (earned $2588.48 bonus).
+Monster Truck 136 won!
+Driver Jose is driving Performance Car 67 in the race
+Driver Earl is driving Performance Car 68 in the race
+Driver Harvey is driving Performance Car 69 in the race
+Performance Car 67 became damaged!
+Performance Car 68 became damaged!
+Driver Harvey placed 3 in the race! (earned $1353.95 bonus).
+Performance Car 69 won!
+Paid staff $9246.00 at Dealership North
+The North FNCD made $0.00
+Promoted Wesley from Intern to Salesperson at Dealership North.
+Paid staff $8215.10 at Dealership South
+The South FNCD made $146291.25
+Promoted Lawrence from Intern to Salesperson at Dealership South.

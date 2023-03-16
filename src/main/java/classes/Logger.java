@@ -22,14 +22,16 @@ public class Logger implements PropertyChangeListener {
     
     static Logger loggerInstance;
     
-    public static synchronized Logger getInstance(int day_){
-        if (loggerInstance == null || loggerInstance.currentDay != day_){
+    public static synchronized Logger getInstance(int day_) {
+        if (loggerInstance == null || loggerInstance.currentDay != day_) {
             loggerInstance = new Logger(day_); // new logger created on day 1
         }
         return loggerInstance;
     }
+    
     /**
      * create a new logger and file
+     *
      * @param day_ the current day
      */
     private Logger(int day_) {
@@ -39,7 +41,7 @@ public class Logger implements PropertyChangeListener {
         }
         dailyLogName = String.format("logs%sLogger-%d.txt", File.separator, day_);
         File dailyLog = new File(dailyLogName);
-        if (dailyLog.exists()){
+        if (dailyLog.exists()) {
             dailyLog.delete();
         }
         try {
@@ -51,6 +53,7 @@ public class Logger implements PropertyChangeListener {
     
     /**
      * log to the file
+     *
      * @param str_ line to log
      */
     public void log(String str_) {
@@ -65,12 +68,14 @@ public class Logger implements PropertyChangeListener {
     
     /**
      * handle an event
+     *
      * @param evt event
      */
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
         // the event type
         String propName = evt.getPropertyName();
+        String sourceName = ((Dealership) evt.getSource()).getLoc();
         if (propName.equals("washOutcome")) {
             // type: WashOutcome
             if (evt.getNewValue().getClass() != WashOutcome.class) {
@@ -205,17 +210,17 @@ public class Logger implements PropertyChangeListener {
                 String name = (String) ((Tuple) evt.getNewValue()).getX();
                 String role = (String) ((Tuple) evt.getNewValue()).getY();
                 if (role.equals("Intern") || role.equals("Driver")) {
-                    log(String.format("Hired %s as a new %s.", name, role));
+                    log(String.format("Hired %s as a new %s at Dealership %s.", name, role, sourceName));
                 } else {
-                    log(String.format("Promoted %s from Intern to %s.", name, role));
+                    log(String.format("Promoted %s from Intern to %s at Dealership %s.", name, role, sourceName));
                 }
             }
-        } else if (propName.equals("staffPay")){
-            log(String.format("Paid staff $%.2f", (Double) evt.getNewValue()));
-        } else if (propName.equals("moneyIn")){
-            log(String.format("The FNCD made $%.2f", (Double) evt.getNewValue()));
-        } else if (propName.equals("loan")){
-            log(String.format("The FNCD has taken out a loan. The FNCD has $%.2f in loans.", (Double) evt.getNewValue()));
+        } else if (propName.equals("staffPay")) {
+            log(String.format("Paid staff $%.2f at Dealership %s", (Double) evt.getNewValue(), sourceName));
+        } else if (propName.equals("moneyIn")) {
+            log(String.format("The %s FNCD made $%.2f", sourceName, (Double) evt.getNewValue()));
+        } else if (propName.equals("loan")) {
+            log(String.format("The %s FNCD has taken out a loan. The %s FNCD has $%.2f in loans.", sourceName, sourceName, (Double) evt.getNewValue()));
         }
     }
 }

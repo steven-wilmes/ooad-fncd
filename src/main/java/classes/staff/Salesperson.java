@@ -18,19 +18,9 @@ public class Salesperson extends Staff {
     /**
      * creates a new salesperson with a random name and pay amount
      */
-    public Salesperson(name_) {
+    public Salesperson(String name_) {
         super(name_);
         dailyPay = rng.nextInt(45) + 400;
-    }
-    
-    /**
-     * creates a new salesperson with a specific name
-     *
-     * @param name_ the name for the salesperson
-     */
-    public Salesperson(String name_) {
-        this();
-        name = name_;
     }
     
     public String getPosition() {

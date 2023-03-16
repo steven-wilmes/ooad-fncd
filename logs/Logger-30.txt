@@ -1,14 +1,25 @@
-Intern Horace washed and detailed Dirty Performance Car 60 and made it Clean.
-Intern Sidney used some elbow grease on Clean Monster Truck 58 and made it Clean.
-Monster Truck 58 became LIKE NEW from the elbow grease.
-Intern Maurice washed and detailed Clean Monster Truck 58 and made it Sparkling (earned $1839.10 bonus).
-Intern Horace washed and detailed Clean Performance Car 60 and made it Sparkling (earned $1044.40 bonus).
-Intern Sidney used some elbow grease on Clean Performance Car 61 and made it Clean.
-Performance Car 61 became LIKE NEW from the elbow grease.
-Intern Maurice washed and detailed Clean Performance Car 61 and made it Sparkling (earned $1847.40 bonus).
-Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 58 to Buyer for $75862.88 and did not succeed.
-Salesperson Joe attempted to sell Sparkling Like New Monster Truck 58 to Buyer for $75862.88 and did not succeed.
-Salesperson Clyde sold Sparkling Like New Monster Truck 58 to Buyer for $75862.88 (earned $1839.10 bonus)
-Salesperson Ollie attempted to sell Sparkling Like New Performance Car 50 to Buyer for $70868.00 and did not succeed.
-Paid staff $9363.00
-The FNCD made $75862.88
+Intern Lee washed and detailed Clean Monster Truck 163 and made it Clean.
+Intern Dennis washed and detailed Clean Van 91 and made it Clean.
+Intern Percy used some elbow grease on Clean Collector Car 54 and made it Clean.
+Intern Arch washed and detailed Clean Regular Car 135 and made it Clean.
+Intern Gilbert chemically washed Clean Electric Car 114 and made it Clean.
+Intern Patrick chemically washed Clean Electric Car 87 and made it Clean.
+Electric Car 87 became BROKEN from the chemical wash.
+Intern Lee washed and detailed Clean Performance Car 113 and made it Clean.
+Intern Dennis washed and detailed Clean Van 92 and made it Clean.
+Intern Percy used some elbow grease on Clean Performance Car 134 and made it Clean.
+Performance Car 134 became LIKE NEW from the elbow grease.
+Intern Arch washed and detailed Clean Monster Truck 119 and made it Clean.
+Intern Gilbert chemically washed Clean Van 41 and made it Clean.
+Intern Patrick chemically washed Clean Electric Car 112 and made it Clean.
+Mechanic Eugene fixed Broken Electric Car 87 and made it Used (earned $1161.45 bonus).
+Mechanic Lester tried to fix Used Electric Car 87 and did not succeed.
+Mechanic Andrew fixed Used Electric Car 87 and made it Like New (earned $1161.45 bonus).
+Salesperson Francis attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
+Salesperson Frank sold Dirty Like New Performance Car, extended warranty 181 to Buyer for $261520.31 (earned $2479.60 bonus)
+Paid staff $2867.00 at Dealership North
+The North FNCD made $0.00
+Promoted Gilbert from Intern to Salesperson at Dealership North.
+Paid staff $7605.50 at Dealership South
+The South FNCD made $261520.31
+Promoted Arch from Intern to Mechanic at Dealership South.

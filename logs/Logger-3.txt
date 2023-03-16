@@ -1,26 +1,43 @@
-Intern Lloyd chemically washed Dirty Electric Car 16 and made it Clean.
-Intern Edward chemically washed Dirty Monster Truck 19 and made it Clean.
-Intern Walter chemically washed Dirty Regular Car 7 and made it Clean.
-Regular Car 7 became BROKEN from the chemical wash.
-Intern Lloyd chemically washed Dirty Regular Car 5 and made it Sparkling (earned $1015.70 bonus).
-Regular Car 5 became BROKEN from the chemical wash.
-Intern Edward chemically washed Dirty Electric Car 15 and made it Clean.
-Intern Walter chemically washed Dirty Motorcycle 22 and made it Clean.
-Mechanic Albert fixed Used Monster Truck 26 and made it Like New (earned $3055.60 bonus).
-Mechanic Ira fixed Broken Electric Car 13 and made it Used (earned $2592.80 bonus).
-Mechanic Alfred tried to fix Used Motorcycle 24 and did not succeed.
-Mechanic Albert fixed Broken Regular Car 5 and made it Used (earned $1015.70 bonus).
-Mechanic Ira tried to fix Used Electric Car 13 and did not succeed.
-Mechanic Alfred fixed Broken Regular Car 7 and made it Used (earned $1206.24 bonus).
-Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio 27 to Buyer for $120314.25 (earned $3055.60 bonus)
-Salesperson Ernest attempted to sell Dirty Like New Monster Truck 26 to Buyer for $114585.00 and did not succeed.
-Salesperson Ernest sold Dirty Broken Monster Truck, satellite radio 28 to Buyer for $120314.25 (earned $3055.60 bonus)
-Salesperson Clyde attempted to sell Dirty Like New Monster Truck 26 to Buyer for $114585.00 and did not succeed.
-Driver Bernard is driving The Felon (Monster Truck 18) in the race
-Driver Willard is driving Predator (Monster Truck 19) in the race
-Driver Virgil is driving Blacksmith (Monster Truck 20) in the race
-Monster Truck 18 became damaged!
-Driver Willard placed 6 in the race.
-Monster Truck 20 became damaged!
-Paid staff $17728.24
-The FNCD made $240628.50
+Intern Samuel chemically washed Dirty Pickup 8 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Regular Car 60 and made it Clean.
+Intern Harrison chemically washed Dirty Performance Car 18 and made it Clean.
+Intern Felix chemically washed Dirty Motorhome 102 and made it Clean.
+Intern Jeff used some elbow grease on Dirty Van 38 and made it Clean.
+Intern Cornelius washed and detailed Dirty Pickup 66 and made it Clean.
+Intern Samuel chemically washed Dirty Electric Car 36 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Motorcycle 74 and made it Clean.
+Intern Harrison chemically washed Dirty Electric Car 32 and made it Clean.
+Electric Car 32 became BROKEN from the chemical wash.
+Intern Felix chemically washed Dirty Regular Car 58 and made it Clean.
+Intern Jeff used some elbow grease on Dirty Monster Truck 28 and made it Dirty.
+Intern Cornelius washed and detailed Dirty Regular Car 56 and made it Clean.
+Mechanic Daniel tried to fix Used Collector Car 51 and did not succeed.
+Mechanic Eugene fixed Broken Regular Car 60 and made it Used (earned $521.45 bonus).
+Mechanic David tried to fix Used Monster Truck 29 and did not succeed.
+Mechanic Lester fixed Broken Monster Truck 79 and made it Used (earned $2280.90 bonus).
+Mechanic Philip tried to fix Broken Motorhome 47 and did not succeed.
+Mechanic Columbus tried to fix Used Regular Car 58 and did not succeed.
+Mechanic Daniel tried to fix Broken Electric Car 33 and did not succeed.
+Mechanic Eugene tried to fix Used Collector Car 105 and did not succeed.
+Mechanic David tried to fix Used Van 39 and did not succeed.
+Mechanic Lester fixed Used Motorhome 99 and made it Like New (earned $1092.40 bonus).
+Mechanic Philip fixed Broken Motorhome 44 and made it Used (earned $1182.45 bonus).
+Mechanic Columbus fixed Used Motorcycle 78 and made it Like New (earned $1682.72 bonus).
+Salesperson Victor sold Clean Broken Electric Car 31 to Buyer for $36980.00 (earned $1849.00 bonus)
+Driver Warren is driving Performance Car 13 in the race
+Driver Carl is driving Performance Car 16 in the race
+Driver Dave is driving Performance Car 17 in the race
+Driver Warren placed 4 in the race.
+Driver Carl placed 5 in the race.
+Driver Dave placed 3 in the race! (earned $3004.96 bonus).
+Performance Car 17 won!
+Driver Jose is driving Motorcycle 73 in the race
+Driver Warren is driving Motorcycle 74 in the race
+Driver Thomas is driving Motorcycle 75 in the race
+Driver Jose placed 5 in the race.
+Driver Warren placed 10 in the race.
+Driver Thomas placed 4 in the race.
+Paid staff $7324.45 at Dealership North
+The North FNCD made $36980.00
+Paid staff $8396.47 at Dealership South
+The South FNCD made $0.00

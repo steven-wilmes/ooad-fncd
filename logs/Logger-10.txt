@@ -1,18 +1,49 @@
-Intern Lloyd chemically washed Dirty Performance Car 4 and made it Clean.
-Intern Ollie chemically washed Dirty Monster Truck 31 and made it Clean.
-Intern Timothy washed and detailed Clean Motorcycle 24 and made it Clean.
-Intern Lloyd chemically washed Clean Motorcycle 22 and made it Clean.
-Intern Ollie chemically washed Clean Electric Car 30 and made it Clean.
-Intern Timothy washed and detailed Clean Monster Truck 32 and made it Sparkling (earned $3582.56 bonus).
-Salesperson Clyde sold Dirty Used Monster Truck, satellite radio 38 to Buyer for $177652.13 (earned $4511.80 bonus)
-Salesperson Clyde attempted to sell Clean Like New Monster Truck 31 to Buyer for $169192.50 and did not succeed.
-Salesperson Clyde attempted to sell Clean Like New Monster Truck 31 to Buyer for $169192.50 and did not succeed.
-Salesperson Felix sold Clean Like New Monster Truck 31 to Buyer for $169192.50 (earned $4511.80 bonus)
-Driver Bernard is driving Motorcycle 21 in the race
-Driver Willard is driving Motorcycle 22 in the race
-Driver Virgil is driving Motorcycle 23 in the race
-Driver Bernard placed 13 in the race.
-Motorcycle 22 became damaged!
-Driver Virgil placed 6 in the race.
-Paid staff $15422.16
-The FNCD made $346844.63
+Hired Mack as a new Intern at Dealership South.
+Intern Harrison chemically washed Dirty Van 39 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Electric Car 87 and made it Clean.
+Intern Jeff used some elbow grease on Dirty Performance Car 17 and made it Dirty.
+Intern Cornelius washed and detailed Dirty Performance Car 70 and made it Clean.
+Intern Thomas washed and detailed Dirty Monster Truck 26 and made it Dirty.
+Intern Mack washed and detailed Dirty Performance Car 69 and made it Clean.
+Intern Harrison chemically washed Dirty Pickup 12 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Regular Car 57 and made it Clean.
+Intern Jeff used some elbow grease on Dirty Regular Car 4 and made it Clean.
+Regular Car 4 became LIKE NEW from the elbow grease.
+Intern Cornelius washed and detailed Dirty Motorhome 97 and made it Clean.
+Intern Thomas washed and detailed Dirty Regular Car 3 and made it Dirty.
+Intern Mack washed and detailed Dirty Performance Car 71 and made it Clean.
+Mechanic Daniel fixed Used Electric Car 114 and made it Like New (earned $1173.50 bonus).
+Mechanic Eugene fixed Used Performance Car 69 and made it Like New (earned $1353.95 bonus).
+Mechanic David fixed Broken Van 40 and made it Used (earned $704.50 bonus).
+Mechanic Lester fixed Used Monster Truck 83 and made it Like New (earned $1918.30 bonus).
+Mechanic Philip fixed Broken Van 38 and made it Used (earned $1204.20 bonus).
+Mechanic Columbus fixed Broken Performance Car 68 and made it Used (earned $2479.60 bonus).
+Mechanic Daniel fixed Used Collector Car 52 and made it Like New (earned $1777.20 bonus).
+Mechanic Eugene fixed Used Regular Car 57 and made it Like New (earned $1161.36 bonus).
+Mechanic David fixed Used Motorhome 45 and made it Like New (earned $848.45 bonus).
+Mechanic Lester fixed Used Monster Truck 121 and made it Like New (earned $3915.28 bonus).
+Mechanic Philip fixed Used Collector Car 49 and made it Like New (earned $1797.52 bonus).
+Mechanic Columbus fixed Used Motorhome 98 and made it Like New (earned $1117.76 bonus).
+Salesperson Francis sold Dirty Like New Monster Truck 26 to Buyer for $83874.00 (earned $4193.70 bonus)
+Salesperson Francis attempted to sell Dirty Like New Performance Car 17 to Buyer for $82636.40 and did not succeed.
+Salesperson Floyd attempted to sell Clean Used Performance Car 71 to Buyer for $100815.00 and did not succeed.
+Salesperson Elmer attempted to sell Clean Used Performance Car 71 to Buyer for $100815.00 and did not succeed.
+Salesperson Floyd attempted to sell Clean Used Performance Car 71 to Buyer for $100815.00 and did not succeed.
+Salesperson Floyd attempted to sell Clean Used Performance Car 71 to Buyer for $100815.00 and did not succeed.
+Driver Warren is driving Motorcycle 19 in the race
+Driver Carl is driving Motorcycle 20 in the race
+Driver Dave is driving Motorcycle 21 in the race
+Driver Warren placed 1 in the race! (earned $1179.52 bonus).
+Motorcycle 19 won!
+Motorcycle 20 became damaged!
+Driver Dave placed 7 in the race.
+Driver Jose is driving Pickup 61 in the race
+Driver Earl is driving Pickup 62 in the race
+Driver Nelson is driving Pickup 63 in the race
+Driver Jose placed 8 in the race.
+Driver Earl placed 11 in the race.
+Pickup 63 became damaged!
+Paid staff $15972.07 at Dealership North
+The North FNCD made $83874.00
+Paid staff $14761.25 at Dealership South
+The South FNCD made $0.00

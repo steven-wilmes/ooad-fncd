@@ -1,21 +1,32 @@
-Hired Arch as a new Intern.
-Intern Lloyd chemically washed Dirty Monster Truck 41 and made it Clean.
-Intern Ollie chemically washed Clean Electric Car 15 and made it Sparkling (earned $1200.25 bonus).
-Intern Arch chemically washed Clean Performance Car 1 and made it Clean.
-Intern Lloyd chemically washed Clean Motorcycle 23 and made it Clean.
-Motorcycle 23 became BROKEN from the chemical wash.
-Intern Ollie chemically washed Clean Electric Car 30 and made it Sparkling (earned $2423.20 bonus).
-Intern Arch chemically washed Clean Regular Car 8 and made it Clean.
-Mechanic Albert fixed Used Monster Truck 41 and made it Like New (earned $2780.24 bonus).
-Mechanic Alfred fixed Broken Motorcycle 23 and made it Used (earned $1278.80 bonus).
-Mechanic Edward fixed Used Motorcycle 23 and made it Like New (earned $1278.80 bonus).
-Salesperson Felix attempted to sell Clean Like New Monster Truck 39 to Buyer for $98092.00 and did not succeed.
-Salesperson Felix attempted to sell Clean Like New Monster Truck 39 to Buyer for $98092.00 and did not succeed.
-Salesperson Felix sold Clean Like New Monster Truck 39 to Buyer for $98092.00 (earned $3923.68 bonus)
-Salesperson Ernest attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
-Salesperson Ernest attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
-Salesperson Clyde attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
-Salesperson Ernest attempted to sell Sparkling Like New Monster Truck 32 to Buyer for $89564.00 and did not succeed.
-Paid staff $15689.97
-The FNCD made $98092.00
-Promoted Ollie from Intern to Salesperson.
+Intern Harrison chemically washed Dirty Pickup 127 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Van 95 and made it Dirty.
+Intern Jeff used some elbow grease on Dirty Pickup 8 and made it Clean.
+Intern Cornelius washed and detailed Dirty Motorcycle 78 and made it Sparkling (earned $1682.72 bonus).
+Intern Wesley used some elbow grease on Dirty Motorhome 47 and made it Clean.
+Intern Mack washed and detailed Dirty Pickup 65 and made it Dirty.
+Intern Harrison chemically washed Dirty Motorcycle 24 and made it Clean.
+Intern Edwin used some elbow grease on Dirty Motorcycle 74 and made it Dirty.
+Intern Jeff used some elbow grease on Dirty Van 38 and made it Clean.
+Intern Cornelius washed and detailed Dirty Collector Car 106 and made it Dirty.
+Intern Wesley used some elbow grease on Dirty Collector Car 53 and made it Clean.
+Intern Mack washed and detailed Dirty Motorhome 100 and made it Sparkling (earned $953.76 bonus).
+Mechanic Daniel tried to fix Broken Regular Car 2 and did not succeed.
+Mechanic Eugene fixed Used Performance Car 147 and made it Like New (earned $1929.92 bonus).
+Mechanic David fixed Broken Performance Car 140 and made it Used (earned $1831.30 bonus).
+Mechanic Lester tried to fix Used Regular Car 56 and did not succeed.
+Mechanic Philip fixed Used Pickup 9 and made it Like New (earned $1938.32 bonus).
+Mechanic Columbus fixed Used Regular Car 56 and made it Like New (earned $1397.92 bonus).
+Mechanic Daniel fixed Broken Motorcycle 20 and made it Used (earned $1296.80 bonus).
+Mechanic David fixed Used Performance Car 140 and made it Like New (earned $1831.30 bonus).
+Mechanic Philip fixed Used Pickup 127 and made it Like New (earned $2221.92 bonus).
+Salesperson Francis attempted to sell Clean Like New Monster Truck 27 to Buyer for $82202.00 and did not succeed.
+Salesperson Francis attempted to sell Clean Like New Monster Truck 27 to Buyer for $82202.00 and did not succeed.
+Salesperson Samuel sold Clean Like New Monster Truck 27 to Buyer for $82202.00 (earned $4110.10 bonus)
+Salesperson Elmer sold Dirty Like New Pickup 63 to Buyer for $117690.00 (earned $3138.40 bonus)
+Salesperson Floyd sold Dirty Like New Performance Car, extended warranty, undercoating, satellite radio 150 to Buyer for $153773.94 (earned $2479.60 bonus)
+Salesperson Floyd sold Clean Used Performance Car, extended warranty 151 to Buyer for $139477.50 (earned $2479.60 bonus)
+Salesperson Floyd sold Sparkling Used Performance Car, satellite radio 152 to Buyer for $122042.81 (earned $2479.60 bonus)
+Paid staff $15994.74 at Dealership North
+The North FNCD made $82202.00
+Paid staff $19356.52 at Dealership South
+The South FNCD made $532984.26

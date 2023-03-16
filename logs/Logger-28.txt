@@ -1,7 +1,13 @@
-Driver Bernard is driving Predator (Monster Truck 19) in the race
-Driver Benjamin is driving Madusa (Monster Truck 41) in the race
-Driver Aaron is driving Raminator (Monster Truck 58) in the race
-Driver Bernard placed 10 in the race.
-Driver Benjamin placed 4 in the race.
-Driver Aaron placed 1 in the race! (earned $1839.10 bonus).
-Monster Truck 58 won!
+Driver Warren is driving Pickup 8 in the race
+Driver Carl is driving Pickup 9 in the race
+Driver Dave is driving Pickup 10 in the race
+Driver Warren placed 12 in the race.
+Driver Carl placed 7 in the race.
+Driver Dave placed 2 in the race! (earned $1236.10 bonus).
+Pickup 10 won!
+Driver Jose is driving Performance Car 67 in the race
+Driver Earl is driving Performance Car 68 in the race
+Driver Harvey is driving Performance Car 69 in the race
+Driver Jose placed 13 in the race.
+Driver Earl placed 9 in the race.
+Driver Harvey placed 4 in the race.
