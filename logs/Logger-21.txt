@@ -1,13 +1,11 @@
-Driver Warren is driving Lucas Oil Crusader (Monster Truck 25) in the race
-Driver Carl is driving Mohawk Warrior (Monster Truck 29) in the race
-Driver Dave is driving WCW Nitro Machine (Monster Truck 118) in the race
-Driver Warren placed 15 in the race.
-Driver Carl placed 6 in the race.
-Driver Dave placed 2 in the race! (earned $3260.64 bonus).
-Monster Truck 118 won!
-Driver Jose is driving Performance Car 67 in the race
-Driver Earl is driving Performance Car 68 in the race
-Driver Harvey is driving Performance Car 69 in the race
-Performance Car 67 became damaged!
-Driver Earl placed 10 in the race.
-Driver Harvey placed 7 in the race.
+Driver Sam is driving The Felon (Monster Truck 26) in the race
+Driver August is driving Air Force Afterburner (Monster Truck 27) in the race
+Driver Robert placed 12 in the race.
+Driver Sam placed 4 in the race.
+Driver August placed 11 in the race.
+Driver Sylvester is driving Performance Car 67 in the race
+Driver Alex is driving Performance Car 68 in the race
+Driver Clarence is driving Performance Car 69 in the race
+Driver Sylvester placed 11 in the race.
+Driver Alex placed 9 in the race.
+Driver Clarence placed 14 in the race.

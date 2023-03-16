@@ -1,27 +1,28 @@
-Hired Andrew as a new Intern at Dealership South.
-Intern Lee washed and detailed Dirty Monster Truck 173 and made it Clean.
-Intern Frank chemically washed Dirty Monster Truck 174 and made it Clean.
-Intern Milton chemically washed Clean Motorhome 47 and made it Clean.
-Intern Dennis washed and detailed Clean Collector Car 107 and made it Sparkling (earned $2815.90 bonus).
-Intern Percy used some elbow grease on Clean Electric Car 33 and made it Clean.
-Intern Andrew chemically washed Clean Electric Car 87 and made it Dirty.
-Intern Lee washed and detailed Clean Electric Car 36 and made it Sparkling (earned $1771.90 bonus).
-Intern Frank chemically washed Dirty Electric Car 87 and made it Clean.
-Intern Milton chemically washed Clean Motorcycle 22 and made it Clean.
-Intern Dennis washed and detailed Clean Pickup 66 and made it Clean.
-Intern Percy used some elbow grease on Clean Motorhome 43 and made it Clean.
-Intern Andrew chemically washed Clean Van 95 and made it Clean.
-Mechanic Eugene fixed Broken Performance Car 67 and made it Used (earned $1250.55 bonus).
-Mechanic Lester fixed Broken Performance Car 68 and made it Used (earned $2479.60 bonus).
-Mechanic Columbus fixed Used Performance Car 68 and made it Like New (earned $2479.60 bonus).
-Mechanic Eugene fixed Used Performance Car 67 and made it Like New (earned $1250.55 bonus).
-Salesperson Wesley attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
-Salesperson Francis attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
-Salesperson Wesley attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
-Salesperson Wesley attempted to sell Clean Like New Monster Truck 164 to Buyer for $83584.00 and did not succeed.
-Salesperson Cornelius attempted to sell Dirty Like New Performance Car 68 to Buyer for $217933.59 and did not succeed.
-Salesperson Cornelius sold Dirty Like New Performance Car, satellite radio 175 to Buyer for $228830.27 (earned $2479.60 bonus)
-Paid staff $4618.90 at Dealership North
+Hired Solomon as a new Intern at Dealership South.
+Intern Ed chemically washed Dirty Pickup 158 and made it Clean.
+Intern Noah used some elbow grease on Dirty Monster Truck 164 and made it Clean.
+Intern Joe washed and detailed Clean Motorcycle 21 and made it Sparkling (earned $373.80 bonus).
+Intern Arthur chemically washed Clean Collector Car 106 and made it Dirty.
+Collector Car 106 became BROKEN from the chemical wash.
+Intern Perry washed and detailed Clean Van 37 and made it Sparkling (earned $632.50 bonus).
+Intern Solomon chemically washed Dirty Collector Car 106 and made it Clean.
+Intern Ed chemically washed Clean Van 41 and made it Sparkling (earned $917.25 bonus).
+Intern Noah used some elbow grease on Clean Monster Truck 140 and made it Clean.
+Intern Joe washed and detailed Clean Performance Car 122 and made it Dirty.
+Intern Arthur chemically washed Clean Pickup 64 and made it Sparkling (earned $2038.08 bonus).
+Intern Perry washed and detailed Dirty Performance Car 122 and made it Clean.
+Intern Solomon chemically washed Clean Electric Car 90 and made it Dirty.
+Mechanic Daniel fixed Broken Performance Car 14 and made it Used (earned $1853.50 bonus).
+Mechanic Eddie fixed Broken Motorcycle 75 and made it Used (earned $1089.30 bonus).
+Mechanic Dan fixed Used Performance Car 14 and made it Like New (earned $1853.50 bonus).
+Mechanic Benjamin fixed Broken Collector Car 106 and made it Used (earned $1150.80 bonus).
+Mechanic Willard fixed Used Monster Truck 164 and made it Like New (earned $3939.20 bonus).
+Mechanic Eddie fixed Used Collector Car 106 and made it Like New (earned $1150.80 bonus).
+Mechanic Benjamin fixed Used Motorcycle 75 and made it Like New (earned $1089.30 bonus).
+Salesperson Wilson sold Clean Like New Monster Truck, satellite radio 165 to Buyer for $103404.00 (earned $3939.20 bonus)
+Salesperson Wilson attempted to sell Dirty Like New Monster Truck 164 to Buyer for $98480.00 and did not succeed.
+Salesperson Wilson sold Dirty Like New Monster Truck 164 to Buyer for $98480.00 (earned $3939.20 bonus)
+Paid staff $8405.55 at Dealership North
 The North FNCD made $0.00
-Paid staff $15553.80 at Dealership South
-The South FNCD made $228830.27
+Paid staff $21206.88 at Dealership South
+The South FNCD made $201884.00

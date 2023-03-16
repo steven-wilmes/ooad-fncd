@@ -5,7 +5,6 @@ import classes.Dealership;
 import java.util.concurrent.Semaphore;
 
 public class Main {
-    
     public static synchronized void log(String text) {
         System.out.println(text);
     }

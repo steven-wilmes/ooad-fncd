@@ -1,12 +1,14 @@
-Driver Warren is driving Lucas Oil Crusader (Monster Truck 25) in the race
-Driver Carl is driving Mohawk Warrior (Monster Truck 29) in the race
-Driver Dave is driving Swamp Thing (Monster Truck 30) in the race
-Driver Warren placed 7 in the race.
-Driver Carl placed 12 in the race.
-Monster Truck 30 became damaged!
-Driver Jose is driving Stone Crusher (Monster Truck 82) in the race
-Driver Earl is driving Air Force Afterburner (Monster Truck 83) in the race
-Driver Nelson is driving Game Over (Monster Truck 84) in the race
-Driver Jose placed 8 in the race.
-Driver Earl placed 12 in the race.
-Driver Nelson placed 11 in the race.
+Driver Chester is driving Pickup 9 in the race
+Driver Sam is driving Pickup 11 in the race
+Driver Robert placed 10 in the race.
+Driver Chester placed 19 in the race and got injured!
+Pickup 9 became damaged!
+Driver Sam placed 2 in the race! (earned $991.55 bonus).
+Pickup 11 won!
+Driver Sylvester is driving Performance Car 67 in the race
+Driver Alex is driving Performance Car 68 in the race
+Driver Clarence is driving Performance Car 69 in the race
+Driver Sylvester placed 8 in the race.
+Driver Alex placed 10 in the race.
+Driver Clarence placed 3 in the race! (earned $1600.85 bonus).
+Performance Car 69 won!

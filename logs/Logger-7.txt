@@ -1,16 +1,12 @@
-Driver Warren is driving Performance Car 13 in the race
-Driver Carl is driving Performance Car 16 in the race
-Driver Dave is driving Performance Car 17 in the race
-Driver Warren placed 2 in the race! (earned $2284.64 bonus).
-Performance Car 13 won!
-Driver Carl placed 1 in the race! (earned $1620.05 bonus).
-Performance Car 16 won!
-Driver Dave placed 12 in the race.
-Driver Jose is driving Performance Car 67 in the race
-Driver Warren is driving Performance Car 68 in the race
-Driver Thomas is driving Performance Car 71 in the race
-Driver Jose placed 13 in the race.
-Driver Warren placed 19 in the race and got injured!
-Performance Car 68 became damaged!
-Driver Thomas placed 17 in the race and got injured!
-Performance Car 71 became damaged!
+Driver Robert is driving Pickup 7 in the race
+Driver Chester is driving Pickup 9 in the race
+Driver Sam is driving Pickup 11 in the race
+Driver Robert placed 7 in the race.
+Driver Chester placed 9 in the race.
+Driver Sam placed 14 in the race.
+Driver Sylvester is driving Motorcycle 73 in the race
+Driver Alex is driving Motorcycle 74 in the race
+Driver Clarence is driving Motorcycle 75 in the race
+Driver Sylvester placed 10 in the race.
+Driver Alex placed 14 in the race.
+Motorcycle 75 became damaged!

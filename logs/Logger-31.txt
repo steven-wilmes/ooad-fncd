@@ -1,0 +1,34 @@
+Intern Ed chemically washed Dirty Performance Car 176 and made it Clean.
+Intern Noah used some elbow grease on Dirty Motorcycle 76 and made it Clean.
+Intern Joe washed and detailed Clean Pickup 8 and made it Clean.
+Intern Arthur chemically washed Dirty Motorcycle 77 and made it Clean.
+Intern Perry washed and detailed Clean Pickup 151 and made it Sparkling (earned $1112.00 bonus).
+Intern Solomon chemically washed Clean Monster Truck 178 and made it Clean.
+Intern Ed chemically washed Clean Regular Car 133 and made it Clean.
+Intern Noah used some elbow grease on Clean Motorcycle 76 and made it Sparkling (earned $1514.90 bonus).
+Motorcycle 76 became LIKE NEW from the elbow grease.
+Intern Joe washed and detailed Clean Performance Car 176 and made it Clean.
+Intern Arthur chemically washed Clean Van 95 and made it Clean.
+Intern Perry washed and detailed Clean Collector Car 52 and made it Sparkling (earned $2174.48 bonus).
+Intern Solomon chemically washed Clean Motorcycle 75 and made it Sparkling (earned $1089.30 bonus).
+Mechanic Daniel fixed Broken Monster Truck 177 and made it Used (earned $1777.90 bonus).
+Mechanic Dan fixed Used Monster Truck 177 and made it Like New (earned $1777.90 bonus).
+Mechanic Ora fixed Used Performance Car 176 and made it Like New (earned $1609.84 bonus).
+Driver Robert is driving Motorcycle 20 in the race
+Driver Sam is driving Motorcycle 21 in the race
+Driver August is driving Motorcycle 22 in the race
+Driver Robert placed 9 in the race.
+Motorcycle 21 became damaged!
+Driver August placed 7 in the race.
+Driver Sylvester is driving Performance Car 67 in the race
+Driver Alex is driving Performance Car 68 in the race
+Driver Eugene is driving Performance Car 69 in the race
+Driver Sylvester placed 7 in the race.
+Driver Alex placed 2 in the race! (earned $3727.60 bonus).
+Performance Car 68 won!
+Performance Car 69 became damaged!
+Paid staff $11227.12 at Dealership North
+The North FNCD made $0.00
+Paid staff $6975.20 at Dealership South
+The South FNCD made $0.00
+Promoted Noah from Intern to Mechanic at Dealership South.

@@ -1,29 +1,26 @@
-Intern Jeff used some elbow grease on Dirty Pickup 9 and made it Clean.
-Intern Edwin used some elbow grease on Dirty Monster Truck 121 and made it Clean.
-Intern Wesley used some elbow grease on Dirty Electric Car 33 and made it Clean.
-Intern Cornelius washed and detailed Dirty Collector Car 103 and made it Clean.
-Intern Lee washed and detailed Dirty Regular Car 2 and made it Dirty.
-Intern Mack washed and detailed Dirty Regular Car 56 and made it Clean.
-Intern Jeff used some elbow grease on Dirty Van 37 and made it Dirty.
-Intern Edwin used some elbow grease on Dirty Monster Truck 119 and made it Dirty.
-Intern Wesley used some elbow grease on Dirty Van 42 and made it Clean.
-Intern Cornelius washed and detailed Dirty Pickup 65 and made it Dirty.
-Intern Lee washed and detailed Dirty Regular Car 2 and made it Clean.
-Intern Mack washed and detailed Dirty Motorcycle 77 and made it Clean.
-Mechanic Daniel fixed Used Van 40 and made it Like New (earned $704.50 bonus).
-Mechanic Eugene fixed Used Pickup 154 and made it Like New (earned $1288.48 bonus).
-Mechanic David fixed Used Motorcycle 20 and made it Like New (earned $1296.80 bonus).
-Mechanic Philip tried to fix Broken Monster Truck 30 and did not succeed.
-Mechanic Daniel fixed Broken Monster Truck 30 and made it Used (earned $1838.80 bonus).
-Mechanic David fixed Broken Monster Truck 153 and made it Used (earned $2489.00 bonus).
-Mechanic Philip fixed Broken Regular Car 2 and made it Used (earned $630.65 bonus).
-Salesperson Samuel attempted to sell Dirty Used Monster Truck 30 to Buyer for $103432.50 and did not succeed.
-Salesperson Francis attempted to sell Dirty Used Monster Truck 30 to Buyer for $103432.50 and did not succeed.
-Salesperson Thomas attempted to sell Dirty Used Monster Truck 30 to Buyer for $103432.50 and did not succeed.
-Salesperson Wilson attempted to sell Clean Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
-Salesperson Floyd attempted to sell Clean Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
-Salesperson Wilson attempted to sell Clean Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
-Paid staff $9751.75 at Dealership North
+Intern Owen washed and detailed Dirty Pickup 11 and made it Clean.
+Intern Noah used some elbow grease on Dirty Performance Car 67 and made it Sparkling (earned $3942.00 bonus).
+Intern Fred chemically washed Dirty Pickup 143 and made it Clean.
+Intern Ollie washed and detailed Dirty Motorhome 102 and made it Dirty.
+Intern Oscar washed and detailed Dirty Regular Car 133 and made it Clean.
+Intern Arthur chemically washed Dirty Pickup 66 and made it Clean.
+Intern Owen washed and detailed Dirty Performance Car 15 and made it Dirty.
+Intern Noah used some elbow grease on Dirty Collector Car 105 and made it Dirty.
+Intern Fred chemically washed Dirty Monster Truck 124 and made it Dirty.
+Intern Ollie washed and detailed Dirty Motorhome 102 and made it Clean.
+Intern Oscar washed and detailed Dirty Performance Car 18 and made it Clean.
+Intern Arthur chemically washed Dirty Monster Truck 140 and made it Clean.
+Mechanic Daniel fixed Broken Pickup 9 and made it Used (earned $1689.30 bonus).
+Mechanic Dan fixed Broken Pickup 7 and made it Used (earned $2277.28 bonus).
+Mechanic Ora fixed Used Motorcycle 23 and made it Like New (earned $647.90 bonus).
+Mechanic Daniel tried to fix Used Motorhome 43 and did not succeed.
+Mechanic Dan fixed Used Pickup 8 and made it Like New (earned $991.15 bonus).
+Mechanic Ora fixed Used Motorhome 47 and made it Like New (earned $930.55 bonus).
+Salesperson Alfred attempted to sell Clean Like New Monster Truck 84 to Buyer for $83866.00 and did not succeed.
+Salesperson Wilson attempted to sell Clean Like New Monster Truck 84 to Buyer for $83866.00 and did not succeed.
+Salesperson Frank sold Clean Like New Monster Truck 84 to Buyer for $83866.00 (earned $4193.30 bonus)
+Salesperson Frank attempted to sell Clean Like New Performance Car 68 to Buyer for $82007.20 and did not succeed.
+Paid staff $10842.18 at Dealership North
 The North FNCD made $0.00
-Paid staff $4103.48 at Dealership South
-The South FNCD made $0.00
+Paid staff $12470.30 at Dealership South
+The South FNCD made $83866.00

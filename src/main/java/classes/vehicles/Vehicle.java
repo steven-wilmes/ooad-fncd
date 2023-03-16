@@ -217,4 +217,13 @@ public abstract class Vehicle {
     public VehicleType getType() {
         return type;
     }
+    
+    public String getDetails(){
+        return String.format("%d is a %s %s %s with a base cost of $%.2f.",
+                getVehicleNo(),
+                getCleanliness().getStr(),
+                getCondition().getStr(),
+                getType(),
+                getSalesPrice());
+    }
 }

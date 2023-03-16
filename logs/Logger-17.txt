@@ -1,35 +1,41 @@
-Intern Jeff used some elbow grease on Dirty Electric Car 32 and made it Clean.
-Electric Car 32 became LIKE NEW from the elbow grease.
-Intern Edwin used some elbow grease on Dirty Pickup 65 and made it Clean.
-Pickup 65 became LIKE NEW from the elbow grease.
-Intern Wesley used some elbow grease on Dirty Motorcycle 20 and made it Clean.
-Intern Cornelius washed and detailed Dirty Performance Car 69 and made it Clean.
-Intern Lee washed and detailed Dirty Motorcycle 19 and made it Dirty.
-Intern Mack washed and detailed Dirty Performance Car 141 and made it Sparkling (earned $2157.40 bonus).
-Intern Jeff used some elbow grease on Dirty Regular Car 2 and made it Clean.
-Intern Edwin used some elbow grease on Dirty Monster Truck 119 and made it Dirty.
-Intern Wesley used some elbow grease on Dirty Van 41 and made it Clean.
-Intern Cornelius washed and detailed Dirty Monster Truck 119 and made it Dirty.
-Intern Lee washed and detailed Dirty Collector Car 51 and made it Sparkling (earned $1278.35 bonus).
-Intern Mack washed and detailed Dirty Pickup 66 and made it Clean.
-Salesperson Thomas sold Dirty Used Monster Truck, satellite radio 155 to Buyer for $135755.16 (earned $1838.80 bonus)
-Salesperson Samuel sold Sparkling Broken Monster Truck, undercoating 156 to Buyer for $135755.16 (earned $1838.80 bonus)
-Salesperson Wilson attempted to sell Clean Like New Performance Car 68 to Buyer for $116231.25 and did not succeed.
-Driver Warren is driving Pickup 8 in the race
-Driver Carl is driving Pickup 9 in the race
-Driver Dave is driving Pickup 10 in the race
-Pickup 8 became damaged!
-Driver Carl placed 10 in the race.
-Driver Dave placed 3 in the race! (earned $1236.10 bonus).
-Pickup 10 won!
-Driver Jose is driving Stone Crusher (Monster Truck 82) in the race
-Driver Earl is driving Air Force Afterburner (Monster Truck 83) in the race
-Driver Nelson is driving Game Over (Monster Truck 84) in the race
-Monster Truck 82 became damaged!
-Driver Earl placed 6 in the race.
-Driver Nelson placed 19 in the race and got injured!
-Monster Truck 84 became damaged!
-Paid staff $9247.95 at Dealership North
-The North FNCD made $271510.31
-Paid staff $4972.40 at Dealership South
-The South FNCD made $0.00
+Hired Joe as a new Intern at Dealership North.
+Intern Oscar washed and detailed Dirty Pickup 9 and made it Clean.
+Intern Noah used some elbow grease on Dirty Performance Car 70 and made it Clean.
+Intern Ed chemically washed Dirty Motorcycle 21 and made it Clean.
+Intern Ollie washed and detailed Dirty Motorcycle 75 and made it Sparkling (earned $1089.30 bonus).
+Intern Joe washed and detailed Dirty Motorcycle 23 and made it Dirty.
+Intern Arthur chemically washed Dirty Motorhome 98 and made it Clean.
+Intern Oscar washed and detailed Dirty Pickup 7 and made it Clean.
+Intern Noah used some elbow grease on Dirty Monster Truck 146 and made it Clean.
+Intern Ed chemically washed Dirty Van 40 and made it Clean.
+Van 40 became BROKEN from the chemical wash.
+Intern Ollie washed and detailed Dirty Collector Car 106 and made it Clean.
+Intern Joe washed and detailed Dirty Motorhome 47 and made it Sparkling (earned $930.55 bonus).
+Intern Arthur chemically washed Dirty Collector Car 105 and made it Clean.
+Mechanic Daniel fixed Broken Van 40 and made it Used (earned $712.80 bonus).
+Mechanic Eddie tried to fix Used Monster Truck 146 and did not succeed.
+Mechanic Dan fixed Used Van 40 and made it Like New (earned $712.80 bonus).
+Mechanic Benjamin tried to fix Used Monster Truck 146 and did not succeed.
+Mechanic Willard fixed Used Monster Truck 146 and made it Like New (earned $3767.60 bonus).
+Salesperson Owen attempted to sell Clean Like New Pickup 9 to Buyer for $118778.91 and did not succeed.
+Salesperson Leon attempted to sell Clean Like New Pickup 9 to Buyer for $118778.91 and did not succeed.
+Salesperson Frank attempted to sell Dirty Like New Monster Truck 146 to Buyer for $94190.00 and did not succeed.
+Salesperson Alfred attempted to sell Dirty Like New Monster Truck 146 to Buyer for $94190.00 and did not succeed.
+Salesperson Wilson sold Clean Broken Monster Truck, extended warranty, satellite radio 148 to Buyer for $118679.40 (earned $3767.60 bonus)
+Driver Robert is driving Blue Thunder (Monster Truck 25) in the race
+Driver Sam is driving The Felon (Monster Truck 26) in the race
+Driver August is driving Air Force Afterburner (Monster Truck 27) in the race
+Driver Robert placed 13 in the race.
+Driver Sam placed 14 in the race.
+Driver August placed 4 in the race.
+Driver Sylvester is driving Performance Car 67 in the race
+Driver Alex is driving Performance Car 68 in the race
+Driver Clarence is driving Performance Car 69 in the race
+Driver Sylvester placed 4 in the race.
+Driver Alex placed 1 in the race! (earned $3727.60 bonus).
+Performance Car 68 won!
+Driver Clarence placed 8 in the race.
+Paid staff $5154.15 at Dealership North
+The North FNCD made $0.00
+Paid staff $12959.50 at Dealership South
+The South FNCD made $118679.40

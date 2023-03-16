@@ -1,13 +1,14 @@
-Driver Warren is driving Pickup 8 in the race
-Driver Carl is driving Pickup 9 in the race
-Driver Dave is driving Pickup 10 in the race
-Driver Warren placed 12 in the race.
-Driver Carl placed 7 in the race.
-Driver Dave placed 2 in the race! (earned $1236.10 bonus).
-Pickup 10 won!
-Driver Jose is driving Performance Car 67 in the race
-Driver Earl is driving Performance Car 68 in the race
-Driver Harvey is driving Performance Car 69 in the race
-Driver Jose placed 13 in the race.
-Driver Earl placed 9 in the race.
-Driver Harvey placed 4 in the race.
+Driver Robert is driving Motorcycle 20 in the race
+Driver Sam is driving Motorcycle 21 in the race
+Driver August is driving Motorcycle 22 in the race
+Motorcycle 20 became damaged!
+Driver Sam placed 15 in the race.
+Driver August placed 13 in the race.
+Driver Sylvester is driving El Toro Loco (Monster Truck 79) in the race
+Driver Alex is driving Snake Bite (Monster Truck 83) in the race
+Driver Clarence is driving El Toro Loco (Monster Truck 125) in the race
+Driver Sylvester placed 8 in the race.
+Driver Alex placed 3 in the race! (earned $3480.70 bonus).
+Monster Truck 83 won!
+Driver Clarence placed 18 in the race and got injured!
+Monster Truck 125 became damaged!

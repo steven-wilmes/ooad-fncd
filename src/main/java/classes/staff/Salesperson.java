@@ -13,6 +13,7 @@ import main.Main;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Scanner;
 
 public class Salesperson extends Staff {
     /**
@@ -103,5 +104,44 @@ public class Salesperson extends Staff {
             return new Tuple(toSell, false);
         }
         
+    }
+    
+    public boolean UISell(Vehicle toSell_, Scanner scan_){
+        Main.log(String.format("Vehicle %s Proceed with purchase? (Y/N)", toSell_.getDetails()));
+        String usrResponse = scan_.nextLine();
+        if (usrResponse.equalsIgnoreCase("N")){
+            return false;
+        }
+        Main.log("Would you like to add an extended warranty? (Y/N)");
+        usrResponse = scan_.nextLine();
+        if (usrResponse.equalsIgnoreCase("Y")) {
+            toSell_ = new ExtendedWarranty(toSell_);
+        }
+        Main.log("Would you like to add an undercoating? (Y/N)");
+        usrResponse = scan_.nextLine();
+        if (usrResponse.equalsIgnoreCase("Y")) {
+            toSell_ = new Undercoating(toSell_);
+        }
+        Main.log("Would you like to add road rescue coverage? (Y/N)");
+        usrResponse = scan_.nextLine();
+        if (usrResponse.equalsIgnoreCase("Y")) {
+            toSell_ = new RoadRescueCoverage(toSell_);
+        }
+        Main.log("Would you like to add satellite radio? (Y/N)");
+        usrResponse = scan_.nextLine();
+        if (usrResponse.equalsIgnoreCase("Y")) {
+            toSell_ = new SatelliteRadio(toSell_);
+        }
+    
+        this.giveBonus(toSell_.getBonusAmount());
+        Main.log(String.format("Salesperson %s sold %s %s %s (VIN #%d) to User for $%.2f (earned $%.2f bonus)",
+                this.name,
+                toSell_.getCleanliness().getStr(),
+                toSell_.getCondition().getStr(),
+                toSell_.getStr(),
+                toSell_.getVehicleNo(),
+                toSell_.getSalesPrice(),
+                toSell_.getBonusAmount()));
+        return true;
     }
 }

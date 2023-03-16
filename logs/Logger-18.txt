@@ -1,27 +1,19 @@
-Hired Harvey as a new Driver at Dealership South.
-Intern Jeff used some elbow grease on Dirty Van 40 and made it Clean.
-Intern Edwin used some elbow grease on Dirty Pickup 154 and made it Clean.
-Intern Wesley used some elbow grease on Dirty Performance Car 140 and made it Clean.
-Performance Car 140 became LIKE NEW from the elbow grease.
-Intern Cornelius washed and detailed Dirty Monster Truck 119 and made it Clean.
-Intern Lee washed and detailed Dirty Van 37 and made it Clean.
-Intern Mack washed and detailed Dirty Collector Car 108 and made it Clean.
-Intern Jeff used some elbow grease on Dirty Monster Truck 118 and made it Clean.
-Intern Edwin used some elbow grease on Dirty Performance Car 147 and made it Clean.
-Intern Wesley used some elbow grease on Dirty Monster Truck 25 and made it Clean.
-Intern Cornelius washed and detailed Dirty Monster Truck 84 and made it Clean.
-Intern Lee washed and detailed Dirty Monster Truck 30 and made it Sparkling (earned $1838.80 bonus).
-Intern Mack washed and detailed Clean Collector Car 104 and made it Dirty.
-Mechanic Daniel fixed Broken Pickup 8 and made it Used (earned $880.55 bonus).
-Mechanic Eugene fixed Broken Monster Truck 82 and made it Used (earned $4164.60 bonus).
-Mechanic David fixed Used Pickup 8 and made it Like New (earned $880.55 bonus).
-Mechanic Lester fixed Used Monster Truck 82 and made it Like New (earned $4164.60 bonus).
-Mechanic Columbus fixed Broken Monster Truck 84 and made it Used (earned $3901.10 bonus).
-Mechanic Eugene fixed Used Monster Truck 84 and made it Like New (earned $3901.10 bonus).
-Salesperson Samuel sold Dirty Broken Monster Truck, undercoating, satellite radio 158 to Buyer for $142542.91 (earned $1838.80 bonus)
-Salesperson Samuel attempted to sell Sparkling Like New Monster Truck 30 to Buyer for $129290.63 and did not succeed.
-Salesperson Francis attempted to sell Sparkling Like New Monster Truck 30 to Buyer for $129290.63 and did not succeed.
-Paid staff $8230.70 at Dealership North
-The North FNCD made $142542.91
-Paid staff $18946.40 at Dealership South
-The South FNCD made $0.00
+Intern Oscar washed and detailed Dirty Van 38 and made it Dirty.
+Intern Noah used some elbow grease on Dirty Monster Truck 146 and made it Clean.
+Intern Ed chemically washed Dirty Performance Car 17 and made it Clean.
+Intern Ollie washed and detailed Clean Van 93 and made it Clean.
+Intern Joe washed and detailed Dirty Van 37 and made it Clean.
+Intern Arthur chemically washed Clean Monster Truck 146 and made it Dirty.
+Intern Oscar washed and detailed Dirty Van 38 and made it Dirty.
+Intern Noah used some elbow grease on Dirty Monster Truck 146 and made it Clean.
+Intern Ed chemically washed Dirty Motorcycle 127 and made it Clean.
+Intern Ollie washed and detailed Clean Pickup 66 and made it Sparkling (earned $3195.60 bonus).
+Intern Joe washed and detailed Dirty Pickup 8 and made it Clean.
+Intern Arthur chemically washed Clean Motorhome 97 and made it Clean.
+Salesperson Owen attempted to sell Clean Like New Pickup 9 to Buyer for $118778.91 and did not succeed.
+Salesperson Frank attempted to sell Clean Like New Monster Truck 146 to Buyer for $94190.00 and did not succeed.
+Salesperson Wilson sold Dirty Used Monster Truck, undercoating, satellite radio 150 to Buyer for $103844.48 (earned $3767.60 bonus)
+Paid staff $2798.00 at Dealership North
+The North FNCD made $0.00
+Paid staff $9798.20 at Dealership South
+The South FNCD made $103844.48

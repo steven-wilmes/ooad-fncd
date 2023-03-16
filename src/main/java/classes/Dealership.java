@@ -5,7 +5,9 @@ import classes.observerData.SaleOutcome;
 import classes.observerData.Tuple;
 import classes.observerData.WashOutcome;
 import classes.staff.*;
-import classes.vehicles.*;
+import classes.vehicles.MonsterTruck;
+import classes.vehicles.Vehicle;
+import classes.vehicles.VehicleFactory;
 import enums.Cleanliness;
 import enums.Condition;
 import enums.StaffType;
@@ -13,14 +15,13 @@ import enums.VehicleType;
 import main.Main;
 
 import java.beans.PropertyChangeSupport;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Random;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 import java.util.concurrent.Semaphore;
 
 // semaphore synchronization from https://stackoverflow.com/questions/9388838/writing-a-program-with-2-threads-which-prints-alternatively
-public class Dealership extends Thread{
+public class Dealership extends Thread {
     /**
      * list of days
      */
@@ -81,6 +82,7 @@ public class Dealership extends Thread{
     
     String location;
     
+    
     /**
      * creates a new Dealership. Instantiates 3 staff of each type, instantiates lists, sets initial budget value
      */
@@ -100,7 +102,7 @@ public class Dealership extends Thread{
             e_.printStackTrace();
         }
         for (int i = 0; i < 3; i++) {
-            for (StaffType type : StaffType.values()){
+            for (StaffType type : StaffType.values()) {
                 Staff newStaff = staffFactory.hireStaff(type);
                 staffMembers.add(newStaff);
                 Main.log(String.format("Hired %s as a new %s.", newStaff.getName(), newStaff.getPosition()));
@@ -123,23 +125,27 @@ public class Dealership extends Thread{
      * @param day_ handles the day of the week, on sunday FNCD is closed and Friday/Saturday there will be more buyers
      *             than other days
      */
-    public void day(int day_) throws InterruptedException {
-        publisher.firePropertyChange("day", day_, day_+1);
-        dailyLogger = Logger.getInstance(day_+1);
+    public void day(int day_, boolean uiSell_) throws InterruptedException {
+        publisher.firePropertyChange("day", day_, day_ + 1);
+        dailyLogger = Logger.getInstance(day_ + 1);
         publisher.addPropertyChangeListener(dailyLogger);
         Main.log("\n============================\n");
         Main.log(String.format("It is %s (Day %d)", days[day_ % 7], day_ + 1));
         if (day_ % 7 == 6) { // sunday - no sales, but there is a rac
+            lock.acquire();
             Main.log("\nSUNDAY SUNDAY SUNDAY RACE DAY!\n");
             this.race();
+            unlock.release();
         } else {
             // open day
             open();
-            work((day_ % 7 == 4) || (day_ % 7 == 5));
+            work((day_ % 7 == 4) || (day_ % 7 == 5), uiSell_);
+            lock.acquire();
             if (day_ % 7 == 2) {
                 Main.log("\nWEDNESDAY RACE NIGHT!\n");
                 this.race();
             }
+            unlock.release();
             end();
         }
         tracker.report();
@@ -161,7 +167,7 @@ public class Dealership extends Thread{
             hire();
         }
         
-        for (VehicleType type : VehicleType.values()){
+        for (VehicleType type : VehicleType.values()) {
             restock(type);
         }
         unlock.release();
@@ -223,7 +229,7 @@ public class Dealership extends Thread{
         for (Driver d_ : injuredDrivers) {
             this.staffMembers.remove(d_);
             this.staffMembers.add(staffFactory.hireStaff(StaffType.DRIVER));
-            publisher.firePropertyChange("newStaff", null, new Tuple(this.staffMembers.get(staffMembers.size()-1).getName(), "Driver"));
+            publisher.firePropertyChange("newStaff", null, new Tuple(this.staffMembers.get(staffMembers.size() - 1).getName(), "Driver"));
             this.formerStaff.add(d_);
         }
     }
@@ -321,7 +327,7 @@ public class Dealership extends Thread{
                 // vehicle successfully sold
                 modifyBudget(sold.getSalesPrice());
                 dailySales += sold.getSalesPrice();
-                vehicleInventory.remove(sold);
+                vehicleInventory.removeIf(v -> v.getVehicleNo() == sold.getVehicleNo());
                 soldVehicles.add(sold);
             }
         }
@@ -333,7 +339,7 @@ public class Dealership extends Thread{
      *
      * @param extraBuyers_ whether there are extra buyers today (Fri or Sat)
      */
-    private void work(boolean extraBuyers_) throws InterruptedException {
+    private void work(boolean extraBuyers_, boolean uiSell_) throws InterruptedException {
         ArrayList<Salesperson> salespeople = new ArrayList<>();
         ArrayList<Vehicle> dirtyVehicleList = new ArrayList<>();
         ArrayList<Vehicle> cleanVehicleList = new ArrayList<>();
@@ -374,9 +380,12 @@ public class Dealership extends Thread{
                 repair(unFixedVehicleList, (Mechanic) s_);
             }
         }
-        
-        sell(extraBuyers_, salespeople);
-        System.out.println("Done working");
+        if (uiSell_) {
+            uiSell(salespeople);
+        } else {
+            sell(extraBuyers_, salespeople);
+        }
+        Main.log("Done working");
     }
     
     /**
@@ -493,20 +502,7 @@ public class Dealership extends Thread{
                     s_.getTotalBonusEarned()));
         }
         
-        Main.log("\nCurrent Vehicles in Stock:");
-        vehicleInventory.sort(Comparator.comparing(Vehicle::getVehicleNo));
-        Main.log(String.format("%3s | %15s | %9s | %10s | %9s | %11s | %s",
-                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness", "Race Wins"));
-        for (Vehicle v_ : vehicleInventory) {
-            Main.log(String.format("%3d | %15s | $%8.2f | $%9.2f | %9s | %11s | %d",
-                    v_.getVehicleNo(),
-                    v_.getStr(),
-                    v_.getCost(),
-                    v_.getSalesPrice(),
-                    v_.getCondition().getStr(),
-                    v_.getCleanliness().getStr(),
-                    v_.getWins()));
-        }
+        Main.log(prettyCurrentVehicles());
         
         Main.log("\nSold Vehicles:");
         soldVehicles.sort(Comparator.comparing(Vehicle::getVehicleNo));
@@ -528,6 +524,25 @@ public class Dealership extends Thread{
         unlock.release();
     }
     
+    private String prettyCurrentVehicles() {
+        String toReturn = "";
+        toReturn = toReturn.concat("\nCurrent Vehicles in Stock:\n");
+        vehicleInventory.sort(Comparator.comparing(Vehicle::getVehicleNo));
+        toReturn = toReturn.concat(String.format("%3s | %15s | %9s | %10s | %9s | %11s | %s\n",
+                "VIN", "Type", "Cost", "Price", "Condition", "Cleanliness", "Race Wins"));
+        for (Vehicle v_ : vehicleInventory) {
+            toReturn = toReturn.concat(String.format("%3d | %15s | $%8.2f | $%9.2f | %9s | %11s | %d\n",
+                    v_.getVehicleNo(),
+                    v_.getStr(),
+                    v_.getCost(),
+                    v_.getSalesPrice(),
+                    v_.getCondition().getStr(),
+                    v_.getCleanliness().getStr(),
+                    v_.getWins()));
+        }
+        return toReturn;
+    }
+    
     /**
      * Adjusts the budget by the passed in amount Takes out a loan if necessary
      */
@@ -543,7 +558,6 @@ public class Dealership extends Thread{
     }
     
     private void race() throws InterruptedException {
-        lock.acquire();
         String types[] = {"Performance Car", "Pickup", "Motorcycle", "Monster Truck"};
         
         String raceType = types[rng.nextInt(types.length)];
@@ -608,6 +622,102 @@ public class Dealership extends Thread{
             }
         }
         publisher.firePropertyChange("raceOutcome", null, raceOutcomes);
+    }
+    
+    private void uiSell(ArrayList<Salesperson> salespeople_) throws InterruptedException {
+        Scanner scan = new Scanner(System.in);
+        final Salesperson[] seller = {salespeople_.get(rng.nextInt(salespeople_.size()))};
+        salespeople_.remove(seller[0]);
+        HashMap<String, Command> commandMap = new HashMap<>();
+        commandMap.put("switch", (n) -> {
+            unlock.release();
+            lock.acquire();
+            return "Switched dealership";
+        });
+        commandMap.put("name", (n) -> seller[0].getName());
+        commandMap.put("time", (n) -> LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+        commandMap.put("new salesperson", (n) -> {
+            seller[0] = salespeople_.get(rng.nextInt(salespeople_.size()));
+            return seller[0].getName();
+        });
+        commandMap.put("inventory", (n) -> prettyCurrentVehicles());
+        commandMap.put("details", (vin) -> {
+            Vehicle selectedVehicle = null;
+            for (Vehicle v : vehicleInventory) {
+                if (vin == v.getVehicleNo()) {
+                    selectedVehicle = v;
+                    break;
+                }
+            }
+            if (selectedVehicle == null) {
+                return "Invalid vehicle selection";
+            }
+            return selectedVehicle.getDetails();
+        });
+        commandMap.put("buy", (vin) -> {
+            Vehicle selectedVehicle = null;
+            for (Vehicle v : vehicleInventory) {
+                if (vin == v.getVehicleNo()) {
+                    selectedVehicle = v;
+                    break;
+                }
+            }
+            if (selectedVehicle == null) {
+                return "Invalid vehicle selection";
+            } else {
+                boolean saleResult = seller[0].UISell(selectedVehicle, scan);
+                publisher.firePropertyChange("salesOutcome", null,
+                        new SaleOutcome(saleResult, seller[0].getName(), selectedVehicle.getCleanliness(), selectedVehicle.getCondition(), selectedVehicle.getStr(), selectedVehicle.getVehicleNo(), selectedVehicle.getSalesPrice(), selectedVehicle.getBonusAmount()));
+                if (saleResult) {
+                    // vehicle successfully sold
+                    modifyBudget(selectedVehicle.getSalesPrice());
+                    dailySales += selectedVehicle.getSalesPrice();
+                    vehicleInventory.remove(selectedVehicle);
+                    soldVehicles.add(selectedVehicle);
+                }
+            }
+            return "Thank you for your purchase";
+            
+        });
+        
+        lock.acquire();
+        String usrIn = "";
+        while (!usrIn.equals("exit")) {
+            
+            // display menu
+            Main.log(String.format("=========================\nUser Input: FNCD %s\n=========================\n%s%s%s%s%s%s%s%s",
+                    getLoc(),
+                    "switch - switch FNCDs\n",
+                    "name - get your salesperson's name\n",
+                    "time - get the current time\n",
+                    "new salesperson - get a new salesperson\n",
+                    "inventory - get the current inventory\n",
+                    "details {vehicle number} - get details on the specified vehicle\n",
+                    "buy {vehicle number} - buy the specified vehicle\n",
+                    "exit - exit this FNCD"));
+            usrIn = scan.nextLine();
+            int vin = 0;
+            if (usrIn.startsWith("details") || usrIn.startsWith("buy")) {
+                String[] cmdSplit = usrIn.split(" ");
+                usrIn = cmdSplit[0];
+                try {
+                    vin = Integer.parseInt(cmdSplit[1]);
+                } catch (Exception e) {
+                    Main.log("Invalid VIN");
+                    continue;
+                }
+            }
+            if (usrIn.equals("exit")) {
+                Main.log(String.format("Thank you for visiting FNCD %s.", getLoc()));
+            } else {
+                Command reqCmd = commandMap.get(usrIn);
+                if (reqCmd == null) {
+                    Main.log("Invalid command");
+                } else {
+                    Main.log(reqCmd.execute(vin));
+                }
+            }
+        }
         unlock.release();
     }
     
@@ -615,11 +725,19 @@ public class Dealership extends Thread{
     public void run() {
         for (int day = 0; day < 30; day++) {
             try {
-                this.day(day);
+                this.day(day, false);
             } catch (InterruptedException e_) {
                 e_.printStackTrace();
             }
         }
+        
+        // user control
+        try {
+            this.day(30, true);
+        } catch (InterruptedException e_) {
+            e_.printStackTrace();
+        }
+        
         try {
             this.report();
         } catch (InterruptedException e_) {
