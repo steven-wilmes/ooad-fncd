@@ -92,6 +92,7 @@ public class VehicleFactory {
                     truckNames.replace(stageName_, timesUsed + 1);
                 } else {
                     finalStageName = stageName_;
+                    truckNames.replace(stageName_, timesUsed + 1);
                 }
                 
                 newCar = new MonsterTruck(finalStageName);

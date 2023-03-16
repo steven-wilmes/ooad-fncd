@@ -1,41 +1,46 @@
-Intern Lee chemically washed Dirty Collector Car 51 and made it Clean.
-Intern Joseph chemically washed Dirty Regular Car 124 and made it Clean.
-Regular Car 124 became BROKEN from the chemical wash.
-Intern Thomas washed and detailed Dirty Van 37 and made it Dirty.
-Intern Frank washed and detailed Dirty Performance Car 67 and made it Clean.
-Intern Adam used some elbow grease on Dirty Van 39 and made it Clean.
-Intern Raymond chemically washed Dirty Monster Truck 150 and made it Clean.
-Intern Lee chemically washed Dirty Collector Car 50 and made it Dirty.
-Intern Joseph chemically washed Dirty Motorcycle 78 and made it Clean.
-Intern Thomas washed and detailed Dirty Electric Car 140 and made it Dirty.
-Intern Frank washed and detailed Dirty Pickup 62 and made it Clean.
-Intern Adam used some elbow grease on Dirty Regular Car 6 and made it Clean.
-Intern Raymond chemically washed Dirty Van 91 and made it Clean.
-Mechanic Newton tried to fix Broken Regular Car 124 and did not succeed.
-Mechanic Theodore tried to fix Broken Regular Car 124 and did not succeed.
-Mechanic Nelson fixed Broken Regular Car 124 and made it Used (earned $907.20 bonus).
-Mechanic Newton tried to fix Used Regular Car 124 and did not succeed.
-Mechanic Theodore fixed Used Regular Car 124 and made it Like New (earned $907.20 bonus).
-Salesperson Tom attempted to sell Clean Like New Monster Truck 148 to Buyer for $78334.00 and did not succeed.
-Salesperson Edwin attempted to sell Clean Like New Monster Truck 148 to Buyer for $78334.00 and did not succeed.
-Salesperson Marvin attempted to sell Clean Like New Monster Truck 148 to Buyer for $78334.00 and did not succeed.
-Driver Patrick is driving Motorcycle 20 in the race
-Driver Wilbur is driving Motorcycle 21 in the race
-Driver Nicholas is driving Motorcycle 22 in the race
-Driver Patrick placed 15 in the race.
-Driver Wilbur placed 3 in the race! (earned $995.10 bonus).
-Motorcycle 21 won!
-Driver Nicholas placed 10 in the race.
-Driver Noah is driving Performance Car 67 in the race
-Driver Virgil is driving Performance Car 69 in the race
-Driver Aaron is driving Performance Car 71 in the race
-Driver Noah placed 2 in the race! (earned $1032.00 bonus).
-Performance Car 67 won!
-Driver Virgil placed 3 in the race! (earned $2114.16 bonus).
-Performance Car 69 won!
-Driver Aaron placed 11 in the race.
-Paid staff $4260.00 at Dealership North
+Hired Stanley as a new Intern at Dealership South.
+Intern Dan chemically washed Dirty Motorhome 44 and made it Clean.
+Motorhome 44 became BROKEN from the chemical wash.
+Intern Oliver chemically washed Dirty Monster Truck 81 and made it Clean.
+Intern Amos chemically washed Dirty Monster Truck 151 and made it Clean.
+Intern Archie used some elbow grease on Dirty Van 91 and made it Clean.
+Intern Leon chemically washed Dirty Monster Truck 30 and made it Clean.
+Intern Stanley used some elbow grease on Dirty Pickup 65 and made it Clean.
+Intern Dan chemically washed Dirty Electric Car 36 and made it Clean.
+Intern Oliver chemically washed Dirty Collector Car 106 and made it Clean.
+Intern Amos chemically washed Dirty Van 41 and made it Clean.
+Intern Archie used some elbow grease on Dirty Motorcycle 77 and made it Dirty.
+Intern Leon chemically washed Dirty Performance Car 139 and made it Dirty.
+Performance Car 139 became BROKEN from the chemical wash.
+Intern Stanley used some elbow grease on Dirty Pickup 63 and made it Dirty.
+Mechanic Marshall tried to fix Broken Electric Car 34 and did not succeed.
+Mechanic Hugh tried to fix Broken Pickup 154 and did not succeed.
+Mechanic Henry tried to fix Used Electric Car 31 and did not succeed.
+Mechanic Marshall tried to fix Used Regular Car 117 and did not succeed.
+Mechanic Hugh fixed Broken Performance Car 144 and made it Used (earned $1612.80 bonus).
+Mechanic Henry tried to fix Broken Pickup 154 and did not succeed.
+Salesperson Clinton attempted to sell Clean Broken Motorcycle 19 to Buyer for $49088.00 and did not succeed.
+Salesperson Willard attempted to sell Clean Broken Motorcycle 19 to Buyer for $49088.00 and did not succeed.
+Salesperson Bert attempted to sell Clean Like New Performance Car 68 to Buyer for $111431.25 and did not succeed.
+Salesperson Maurice attempted to sell Clean Like New Performance Car 68 to Buyer for $111431.25 and did not succeed.
+Salesperson Maurice sold Clean Like New Performance Car 68 to Buyer for $111431.25 (earned $2377.20 bonus)
+Driver Alonzo is driving Blue Thunder (Monster Truck 25) in the race
+Driver Oscar is driving The Felon (Monster Truck 27) in the race
+Driver Lawrence is driving Bad News Travels Fast (Monster Truck 30) in the race
+Driver Alonzo placed 7 in the race.
+Driver Oscar placed 13 in the race.
+Driver Lawrence placed 11 in the race.
+Driver Jerry is driving Motorcycle 73 in the race
+Driver Theodore is driving Motorcycle 74 in the race
+Driver Ed is driving Motorcycle 75 in the race
+Driver Jerry placed 18 in the race and got injured!
+Motorcycle 73 became damaged!
+Driver Theodore placed 1 in the race! (earned $1182.70 bonus).
+Motorcycle 74 won!
+Driver Ed placed 3 in the race! (earned $1472.00 bonus).
+Motorcycle 75 won!
+Paid staff $4444.80 at Dealership North
 The North FNCD made $0.00
-Paid staff $7673.40 at Dealership South
-The South FNCD made $0.00
-Promoted Joseph from Intern to Salesperson at Dealership South.
+Promoted Amos from Intern to Mechanic at Dealership North.
+Paid staff $8098.20 at Dealership South
+The South FNCD made $111431.25

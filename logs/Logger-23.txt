@@ -1,19 +1,24 @@
-Hired Victor as a new Intern at Dealership South.
-Intern Adam used some elbow grease on Dirty Monster Truck 167 and made it Dirty.
-Intern Irvin chemically washed Dirty Pickup 62 and made it Clean.
-Intern Harold used some elbow grease on Dirty Monster Truck 167 and made it Clean.
-Intern Lewis washed and detailed Dirty Pickup 61 and made it Clean.
-Intern Floyd used some elbow grease on Clean Motorcycle 22 and made it Dirty.
-Motorcycle 22 became LIKE NEW from the elbow grease.
-Intern Victor washed and detailed Clean Electric Car 89 and made it Sparkling (earned $2680.24 bonus).
-Intern Adam used some elbow grease on Dirty Motorcycle 22 and made it Clean.
-Intern Irvin chemically washed Clean Electric Car 87 and made it Clean.
-Intern Harold used some elbow grease on Clean Motorcycle 21 and made it Clean.
-Intern Lewis washed and detailed Clean Motorhome 99 and made it Clean.
-Intern Floyd used some elbow grease on Clean Regular Car 6 and made it Sparkling (earned $877.30 bonus).
-Intern Victor washed and detailed Clean Collector Car 105 and made it Clean.
-Mechanic Harley fixed Used Monster Truck 167 and made it Like New (earned $3927.44 bonus).
-Paid staff $7540.74 at Dealership North
+Intern Dan chemically washed Dirty Monster Truck 140 and made it Clean.
+Intern Oliver chemically washed Dirty Monster Truck 161 and made it Clean.
+Intern Leon chemically washed Dirty Electric Car 31 and made it Clean.
+Intern Archie used some elbow grease on Dirty Monster Truck 84 and made it Dirty.
+Intern James washed and detailed Dirty Monster Truck 151 and made it Sparkling (earned $2454.24 bonus).
+Intern Richard washed and detailed Dirty Monster Truck 84 and made it Clean.
+Intern Dan chemically washed Dirty Motorhome 43 and made it Clean.
+Intern Oliver chemically washed Clean Pickup 61 and made it Clean.
+Intern Leon chemically washed Dirty Pickup 10 and made it Clean.
+Intern Archie used some elbow grease on Clean Van 91 and made it Clean.
+Intern James washed and detailed Clean Motorcycle 21 and made it Clean.
+Intern Richard washed and detailed Clean Collector Car 103 and made it Clean.
+Salesperson Willard attempted to sell Clean Like New Monster Truck 140 to Buyer for $176883.75 and did not succeed.
+Salesperson Willard attempted to sell Clean Like New Monster Truck 140 to Buyer for $176883.75 and did not succeed.
+Salesperson Willard attempted to sell Clean Like New Monster Truck 140 to Buyer for $176883.75 and did not succeed.
+Salesperson Stanley attempted to sell Clean Like New Monster Truck 84 to Buyer for $125122.50 and did not succeed.
+Salesperson Stanley attempted to sell Clean Like New Monster Truck 84 to Buyer for $125122.50 and did not succeed.
+Salesperson Stanley sold Clean Like New Monster Truck 84 to Buyer for $125122.50 (earned $3336.60 bonus)
+Salesperson Maurice sold Clean Used Monster Truck, undercoating 164 to Buyer for $82769.61 (earned $2866.48 bonus)
+Salesperson Harvey attempted to sell Clean Like New Monster Truck 80 to Buyer for $78828.20 and did not succeed.
+Paid staff $5227.24 at Dealership North
 The North FNCD made $0.00
-Paid staff $5556.24 at Dealership South
-The South FNCD made $0.00
+Paid staff $8924.08 at Dealership South
+The South FNCD made $207892.11

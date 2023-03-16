@@ -1,34 +1,38 @@
-Intern Adam used some elbow grease on Dirty Monster Truck 167 and made it Clean.
-Intern Irvin chemically washed Clean Motorhome 102 and made it Clean.
-Intern Harold used some elbow grease on Clean Pickup 8 and made it Clean.
-Intern Lewis washed and detailed Clean Van 92 and made it Sparkling (earned $662.95 bonus).
-Intern Floyd used some elbow grease on Clean Performance Car 15 and made it Dirty.
-Performance Car 15 became LIKE NEW from the elbow grease.
-Intern Victor washed and detailed Clean Collector Car 108 and made it Sparkling (earned $2154.00 bonus).
-Intern Adam used some elbow grease on Dirty Performance Car 15 and made it Clean.
-Intern Irvin chemically washed Clean Motorhome 97 and made it Dirty.
-Intern Harold used some elbow grease on Clean Regular Car 1 and made it Dirty.
-Intern Lewis washed and detailed Dirty Motorhome 97 and made it Clean.
-Intern Floyd used some elbow grease on Dirty Regular Car 1 and made it Clean.
-Intern Victor washed and detailed Clean Motorcycle 73 and made it Sparkling (earned $1777.04 bonus).
-Salesperson Marvin attempted to sell Clean Like New Monster Truck 167 to Buyer for $98186.00 and did not succeed.
-Salesperson Raymond attempted to sell Clean Like New Pickup 61 to Buyer for $138971.25 and did not succeed.
-Driver Patrick is driving Pickup 7 in the race
-Driver Wilbur is driving Pickup 8 in the race
-Driver Nicholas is driving Pickup 9 in the race
-Driver Patrick placed 11 in the race.
-Driver Wilbur placed 2 in the race! (earned $2469.04 bonus).
-Pickup 8 won!
-Driver Nicholas placed 4 in the race.
-Driver Noah is driving Pickup 61 in the race
-Driver Aaron is driving Pickup 62 in the race
-Driver Charlie is driving Pickup 63 in the race
-Pickup 61 became damaged!
-Driver Aaron placed 1 in the race! (earned $530.95 bonus).
-Pickup 62 won!
-Driver Charlie placed 2 in the race! (earned $1088.15 bonus).
-Pickup 63 won!
-Paid staff $4236.00 at Dealership North
-The North FNCD made $0.00
-Paid staff $10469.99 at Dealership South
+Intern Dan chemically washed Clean Monster Truck 25 and made it Sparkling (earned $3602.60 bonus).
+Intern Oliver chemically washed Dirty Monster Truck 165 and made it Clean.
+Monster Truck 165 became BROKEN from the chemical wash.
+Intern Leon chemically washed Clean Regular Car 2 and made it Clean.
+Intern Archie used some elbow grease on Clean Collector Car 106 and made it Clean.
+Intern James washed and detailed Clean Motorcycle 23 and made it Clean.
+Intern Richard washed and detailed Clean Van 95 and made it Clean.
+Intern Dan chemically washed Clean Performance Car 18 and made it Clean.
+Intern Oliver chemically washed Clean Collector Car 106 and made it Clean.
+Intern Leon chemically washed Clean Collector Car 52 and made it Sparkling (earned $1289.25 bonus).
+Intern Archie used some elbow grease on Clean Regular Car 57 and made it Clean.
+Intern James washed and detailed Clean Monster Truck 27 and made it Sparkling (earned $2654.96 bonus).
+Intern Richard washed and detailed Clean Motorcycle 75 and made it Sparkling (earned $1472.00 bonus).
+Mechanic Dennis fixed Broken Monster Truck 165 and made it Used (earned $2333.50 bonus).
+Mechanic Christopher fixed Used Monster Truck 165 and made it Like New (earned $2333.50 bonus).
+Salesperson Clinton attempted to sell Clean Like New Monster Truck 140 to Buyer for $176883.75 and did not succeed.
+Salesperson Elijah sold Clean Like New Monster Truck 140 to Buyer for $176883.75 (earned $3773.52 bonus)
+Salesperson Elijah attempted to sell Clean Like New Pickup 10 to Buyer for $104452.73 and did not succeed.
+Driver Alonzo is driving Performance Car 13 in the race
+Driver Oscar is driving Performance Car 15 in the race
+Driver Lawrence is driving Performance Car 17 in the race
+Driver Alonzo placed 8 in the race.
+Driver Oscar placed 14 in the race.
+Driver Lawrence placed 19 in the race and got injured!
+Performance Car 17 became damaged!
+Driver Theodore is driving Motorcycle 73 in the race
+Driver Ed is driving Motorcycle 74 in the race
+Driver Russell is driving Motorcycle 75 in the race
+Driver Theodore placed 17 in the race and got injured!
+Motorcycle 73 became damaged!
+Driver Ed placed 2 in the race! (earned $1182.70 bonus).
+Motorcycle 74 won!
+Driver Russell placed 4 in the race.
+Paid staff $14093.33 at Dealership North
+The North FNCD made $176883.75
+Paid staff $10360.00 at Dealership South
 The South FNCD made $0.00
+Promoted Archie from Intern to Mechanic at Dealership South.

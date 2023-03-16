@@ -1,14 +1,13 @@
-Driver Patrick is driving Performance Car 13 in the race
-Driver Wilbur is driving Performance Car 14 in the race
-Driver Nicholas is driving Performance Car 15 in the race
-Driver Patrick placed 12 in the race.
-Driver Wilbur placed 4 in the race.
-Driver Nicholas placed 6 in the race.
-Driver Noah is driving Pickup 61 in the race
-Driver Virgil is driving Pickup 62 in the race
-Driver Aaron is driving Pickup 63 in the race
-Pickup 61 became damaged!
-Driver Virgil placed 19 in the race and got injured!
-Pickup 62 became damaged!
-Driver Aaron placed 1 in the race! (earned $1088.15 bonus).
-Pickup 63 won!
+Driver Alonzo is driving Pickup 7 in the race
+Driver Oscar is driving Pickup 8 in the race
+Driver Lawrence is driving Pickup 10 in the race
+Driver Alonzo placed 14 in the race.
+Driver Oscar placed 15 in the race.
+Pickup 10 became damaged!
+Driver Theodore is driving The Destroyer (Monster Truck 80) in the race
+Driver Ed is driving Cyborg (Monster Truck 81) in the race
+Driver Russell is driving Blacksmith (Monster Truck 84) in the race
+Driver Theodore placed 2 in the race! (earned $2866.48 bonus).
+Monster Truck 80 won!
+Driver Ed placed 8 in the race.
+Monster Truck 84 became damaged!

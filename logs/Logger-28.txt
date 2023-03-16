@@ -1,13 +1,14 @@
-Driver Patrick is driving Performance Car 13 in the race
-Driver Wilbur is driving Performance Car 14 in the race
-Driver Nicholas is driving Performance Car 15 in the race
-Driver Patrick placed 10 in the race.
-Driver Wilbur placed 8 in the race.
-Driver Nicholas placed 11 in the race.
-Driver Noah is driving Grave Digger (Monster Truck 83) in the race
-Driver Aaron is driving Gunslinger (Monster Truck 117) in the race
-Driver Charlie is driving Bad News Travels Fast (Monster Truck 137) in the race
-Driver Noah placed 8 in the race.
-Driver Aaron placed 9 in the race.
-Driver Charlie placed 1 in the race! (earned $1570.95 bonus).
-Monster Truck 137 won!
+Driver Alonzo is driving Performance Car 13 in the race
+Driver Oscar is driving Performance Car 15 in the race
+Driver Marion is driving Performance Car 17 in the race
+Driver Alonzo placed 14 in the race.
+Driver Oscar placed 3 in the race! (earned $2003.04 bonus).
+Performance Car 15 won!
+Driver Marion placed 11 in the race.
+Driver Ed is driving Performance Car 67 in the race
+Driver Russell is driving Performance Car 69 in the race
+Driver Pearl is driving Performance Car 70 in the race
+Driver Ed placed 16 in the race and got injured!
+Performance Car 67 became damaged!
+Driver Russell placed 14 in the race.
+Driver Pearl placed 10 in the race.

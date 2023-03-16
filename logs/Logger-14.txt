@@ -1,12 +1,13 @@
-Driver Patrick is driving Performance Car 13 in the race
-Driver Wilbur is driving Performance Car 14 in the race
-Driver Nicholas is driving Performance Car 15 in the race
-Driver Patrick placed 13 in the race.
-Driver Wilbur placed 7 in the race.
-Driver Nicholas placed 12 in the race.
-Driver Noah is driving Pickup 61 in the race
-Driver Virgil is driving Pickup 62 in the race
-Driver Aaron is driving Pickup 63 in the race
-Driver Noah placed 10 in the race.
-Pickup 62 became damaged!
-Driver Aaron placed 13 in the race.
+Driver Alonzo is driving Motorcycle 19 in the race
+Driver Oscar is driving Motorcycle 21 in the race
+Driver Lawrence is driving Motorcycle 22 in the race
+Motorcycle 19 became damaged!
+Driver Oscar placed 4 in the race.
+Driver Lawrence placed 2 in the race! (earned $1965.50 bonus).
+Motorcycle 22 won!
+Driver Jerry is driving Performance Car 67 in the race
+Driver Theodore is driving Performance Car 68 in the race
+Driver Ed is driving Performance Car 69 in the race
+Driver Jerry placed 14 in the race.
+Performance Car 68 became damaged!
+Driver Ed placed 12 in the race.

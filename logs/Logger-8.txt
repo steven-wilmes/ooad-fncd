@@ -1,38 +1,36 @@
-Intern Tom washed and detailed Dirty Van 40 and made it Sparkling (earned $1410.72 bonus).
-Intern Robert used some elbow grease on Dirty Motorhome 100 and made it Clean.
-Intern Allen used some elbow grease on Dirty Pickup 12 and made it Dirty.
-Intern Theodore washed and detailed Dirty Monster Truck 83 and made it Clean.
-Intern Ora washed and detailed Dirty Motorhome 44 and made it Dirty.
-Intern Hugh used some elbow grease on Dirty Pickup 62 and made it Clean.
-Pickup 62 became LIKE NEW from the elbow grease.
-Intern Tom washed and detailed Dirty Electric Car 133 and made it Clean.
-Intern Robert used some elbow grease on Dirty Motorhome 102 and made it Clean.
-Intern Allen used some elbow grease on Dirty Pickup 7 and made it Clean.
-Intern Theodore washed and detailed Dirty Regular Car 59 and made it Clean.
-Intern Ora washed and detailed Dirty Regular Car 1 and made it Clean.
-Intern Hugh used some elbow grease on Dirty Collector Car 103 and made it Clean.
-Mechanic Morris fixed Used Performance Car 13 and made it Like New (earned $1850.48 bonus).
-Mechanic Newton tried to fix Used Van 92 and did not succeed.
-Mechanic Harley fixed Broken Collector Car 52 and made it Used (earned $1117.65 bonus).
-Mechanic George fixed Used Monster Truck 125 and made it Like New (earned $3189.04 bonus).
-Mechanic Wilson tried to fix Used Motorhome 47 and did not succeed.
-Mechanic Earnest fixed Used Collector Car 103 and made it Like New (earned $1131.80 bonus).
-Mechanic Morris fixed Broken Collector Car 51 and made it Used (earned $1413.55 bonus).
-Mechanic Newton fixed Broken Regular Car 124 and made it Used (earned $907.20 bonus).
-Mechanic Harley fixed Broken Pickup 10 and made it Used (earned $805.75 bonus).
-Mechanic George tried to fix Broken Performance Car 67 and did not succeed.
-Mechanic Wilson tried to fix Used Motorhome 47 and did not succeed.
-Mechanic Earnest tried to fix Broken Motorcycle 77 and did not succeed.
-Salesperson Marvin attempted to sell Clean Like New Electric Car 33 to Buyer for $76964.00 and did not succeed.
-Salesperson Mack attempted to sell Clean Like New Electric Car 33 to Buyer for $76964.00 and did not succeed.
-Salesperson Marvin sold Clean Broken Electric Car 123 to Buyer for $30374.00 (earned $1518.70 bonus)
-Salesperson Mack attempted to sell Clean Like New Electric Car 33 to Buyer for $76964.00 and did not succeed.
-Salesperson Marvin attempted to sell Clean Like New Electric Car 33 to Buyer for $76964.00 and did not succeed.
-Salesperson Harley attempted to sell Clean Like New Monster Truck 80 to Buyer for $80300.00 and did not succeed.
-Salesperson David sold Clean Broken Monster Truck, satellite radio 135 to Buyer for $84315.00 (earned $4015.00 bonus)
-Salesperson David sold Clean Like New Monster Truck 80 to Buyer for $80300.00 (earned $4015.00 bonus)
-Salesperson David sold Dirty Like New Monster Truck 125 to Buyer for $79726.00 (earned $3189.04 bonus)
-Paid staff $10839.85 at Dealership North
-The North FNCD made $30374.00
-Paid staff $20796.08 at Dealership South
-The South FNCD made $244341.00
+Intern Elijah chemically washed Dirty Performance Car 13 and made it Clean.
+Intern Christopher washed and detailed Dirty Pickup 63 and made it Clean.
+Intern Dan chemically washed Dirty Performance Car 18 and made it Clean.
+Intern Oliver chemically washed Dirty Collector Car 106 and made it Clean.
+Intern Amos chemically washed Dirty Collector Car 51 and made it Clean.
+Intern Elijah washed and detailed Dirty Collector Car 104 and made it Clean.
+Intern Elijah chemically washed Dirty Motorhome 45 and made it Clean.
+Intern Christopher washed and detailed Dirty Electric Car 88 and made it Clean.
+Intern Dan chemically washed Dirty Motorhome 46 and made it Clean.
+Intern Oliver chemically washed Dirty Monster Truck 81 and made it Clean.
+Intern Amos chemically washed Dirty Motorhome 48 and made it Clean.
+Intern Elijah washed and detailed Dirty Performance Car 69 and made it Clean.
+Mechanic Marshall fixed Used Pickup 12 and made it Like New (earned $1193.80 bonus).
+Mechanic Matthew tried to fix Used Performance Car 70 and did not succeed.
+Mechanic Hugh fixed Broken Motorcycle 110 and made it Used (earned $964.95 bonus).
+Mechanic Dennis fixed Used Van 91 and made it Like New (earned $959.65 bonus).
+Mechanic Henry fixed Used Van 41 and made it Like New (earned $1060.30 bonus).
+Mechanic Wiley fixed Used Collector Car 103 and made it Like New (earned $2073.12 bonus).
+Mechanic Marshall fixed Used Motorcycle 23 and made it Like New (earned $807.20 bonus).
+Mechanic Matthew fixed Broken Monster Truck 120 and made it Used (earned $2094.15 bonus).
+Mechanic Hugh fixed Used Van 42 and made it Like New (earned $1035.52 bonus).
+Mechanic Dennis fixed Broken Collector Car 104 and made it Used (earned $1173.20 bonus).
+Mechanic Henry fixed Broken Performance Car 15 and made it Used (earned $2003.04 bonus).
+Mechanic Wiley tried to fix Used Performance Car 69 and did not succeed.
+Salesperson Clinton sold Dirty Like New Monster Truck, extended warranty, undercoating, satellite radio 129 to Buyer for $189891.84 (earned $3062.00 bonus)
+Salesperson Clinton attempted to sell Dirty Like New Monster Truck 28 to Buyer for $143531.25 and did not succeed.
+Salesperson Clinton attempted to sell Dirty Like New Monster Truck 28 to Buyer for $143531.25 and did not succeed.
+Salesperson Lewis attempted to sell Dirty Like New Monster Truck 28 to Buyer for $143531.25 and did not succeed.
+Salesperson Maurice attempted to sell Dirty Like New Electric Car 86 to Buyer for $79372.00 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Like New Electric Car 86 to Buyer for $79372.00 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Like New Electric Car 86 to Buyer for $79372.00 and did not succeed.
+Salesperson Harvey attempted to sell Dirty Like New Electric Car 86 to Buyer for $79372.00 and did not succeed.
+Paid staff $13009.81 at Dealership North
+The North FNCD made $189891.84
+Paid staff $9096.12 at Dealership South
+The South FNCD made $0.00

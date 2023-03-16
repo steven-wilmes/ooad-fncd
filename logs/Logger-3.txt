@@ -1,50 +1,44 @@
-Hired Tom as a new Intern at Dealership North.
-Intern Willis chemically washed Dirty Collector Car 54 and made it Clean.
-Intern Robert used some elbow grease on Dirty Motorhome 97 and made it Clean.
-Intern Wilson used some elbow grease on Dirty Electric Car 32 and made it Clean.
-Intern Theodore washed and detailed Dirty Monster Truck 82 and made it Dirty.
-Intern Tom washed and detailed Dirty Pickup 7 and made it Clean.
-Intern Hugh used some elbow grease on Dirty Monster Truck 82 and made it Clean.
-Intern Willis chemically washed Dirty Motorhome 46 and made it Clean.
-Intern Robert used some elbow grease on Dirty Pickup 62 and made it Dirty.
-Intern Wilson used some elbow grease on Dirty Motorcycle 114 and made it Clean.
-Intern Theodore washed and detailed Dirty Collector Car 105 and made it Clean.
-Intern Tom washed and detailed Dirty Van 42 and made it Sparkling (earned $2370.70 bonus).
-Intern Hugh used some elbow grease on Dirty Performance Car 69 and made it Clean.
-Performance Car 69 became LIKE NEW from the elbow grease.
-Mechanic Andrew fixed Used Pickup 8 and made it Like New (earned $2469.04 bonus).
-Mechanic Newton tried to fix Broken Motorhome 100 and did not succeed.
-Mechanic Morris fixed Used Collector Car 49 and made it Like New (earned $1263.95 bonus).
-Mechanic George tried to fix Used Electric Car 85 and did not succeed.
-Mechanic Harley fixed Broken Collector Car 50 and made it Used (earned $1322.30 bonus).
-Mechanic Earnest tried to fix Used Pickup 62 and did not succeed.
-Mechanic Andrew fixed Used Motorhome 43 and made it Like New (earned $900.75 bonus).
-Mechanic Newton fixed Used Monster Truck 84 and made it Like New (earned $2854.56 bonus).
-Mechanic Morris tried to fix Used Motorhome 47 and did not succeed.
-Mechanic George fixed Used Electric Car 85 and made it Like New (earned $2776.24 bonus).
-Mechanic Harley tried to fix Used Pickup 7 and did not succeed.
-Mechanic Earnest fixed Broken Collector Car 103 and made it Used (earned $1131.80 bonus).
-Salesperson Mack attempted to sell Dirty Broken Regular Car 1 to Buyer for $19684.00 and did not succeed.
-Salesperson Marvin attempted to sell Dirty Broken Monster Truck 29 to Buyer for $44732.00 and did not succeed.
-Salesperson Mack sold Dirty Broken Electric Car, satellite radio 115 to Buyer for $34772.85 (earned $1655.85 bonus)
-Salesperson Edwin attempted to sell Dirty Like New Monster Truck 109 to Buyer for $97152.00 and did not succeed.
-Salesperson David sold Dirty Used Monster Truck, satellite radio 116 to Buyer for $47750.85 (earned $2273.85 bonus)
-Salesperson David sold Dirty Broken Monster Truck 79 to Buyer for $45477.00 (earned $2273.85 bonus)
-Driver Patrick is driving Motorcycle 22 in the race
-Driver Wilbur is driving Motorcycle 23 in the race
-Driver Nicholas is driving Motorcycle 24 in the race
-Driver Patrick placed 14 in the race.
-Driver Wilbur placed 10 in the race.
-Driver Nicholas placed 15 in the race.
-Driver Felix is driving Performance Car 67 in the race
-Driver Noah is driving Performance Car 69 in the race
-Driver Virgil is driving Performance Car 71 in the race
-Driver Felix placed 16 in the race and got injured!
-Performance Car 67 became damaged!
-Driver Noah placed 1 in the race! (earned $2114.16 bonus).
-Performance Car 69 won!
-Driver Virgil placed 14 in the race.
-Paid staff $12757.59 at Dealership North
-The North FNCD made $34772.85
-Paid staff $15659.30 at Dealership South
-The South FNCD made $93227.85
+Intern Guy used some elbow grease on Dirty Performance Car 17 and made it Clean.
+Intern Bert washed and detailed Dirty Electric Car 87 and made it Dirty.
+Intern Elijah chemically washed Dirty Performance Car 16 and made it Clean.
+Intern Christopher washed and detailed Dirty Performance Car 67 and made it Clean.
+Intern Reuben used some elbow grease on Dirty Van 39 and made it Dirty.
+Intern Oliver chemically washed Dirty Motorcycle 73 and made it Clean.
+Intern Guy used some elbow grease on Dirty Motorcycle 20 and made it Dirty.
+Intern Bert washed and detailed Dirty Collector Car 107 and made it Clean.
+Intern Elijah chemically washed Dirty Motorhome 44 and made it Clean.
+Intern Christopher washed and detailed Dirty Motorcycle 78 and made it Clean.
+Intern Reuben used some elbow grease on Dirty Motorcycle 19 and made it Clean.
+Intern Oliver chemically washed Dirty Pickup 64 and made it Clean.
+Mechanic Marshall fixed Broken Collector Car 50 and made it Used (earned $1262.80 bonus).
+Mechanic Matthew fixed Broken Monster Truck 81 and made it Used (earned $1686.40 bonus).
+Mechanic Hugh tried to fix Used Van 40 and did not succeed.
+Mechanic Dennis fixed Used Electric Car 88 and made it Like New (earned $1287.60 bonus).
+Mechanic Henry fixed Broken Performance Car 13 and made it Used (earned $1426.35 bonus).
+Mechanic Wiley fixed Broken Monster Truck 82 and made it Used (earned $2224.35 bonus).
+Mechanic Marshall fixed Broken Regular Car 2 and made it Used (earned $576.35 bonus).
+Mechanic Matthew fixed Broken Performance Car 67 and made it Used (earned $1365.85 bonus).
+Mechanic Hugh fixed Used Electric Car 34 and made it Like New (earned $1171.05 bonus).
+Mechanic Dennis fixed Used Regular Car 60 and made it Like New (earned $1304.08 bonus).
+Mechanic Henry fixed Used Regular Car 2 and made it Like New (earned $576.35 bonus).
+Mechanic Wiley fixed Used Pickup 61 and made it Like New (earned $2675.20 bonus).
+Salesperson Leo sold Clean Like New Performance Car, satellite radio 109 to Buyer for $23428.65 (earned $1115.65 bonus)
+Salesperson Leo attempted to sell Clean Broken Electric Car 36 to Buyer for $36960.00 and did not succeed.
+Driver Alonzo is driving Performance Car 13 in the race
+Driver Oscar is driving Performance Car 15 in the race
+Driver Lawrence is driving Performance Car 16 in the race
+Driver Alonzo placed 3 in the race! (earned $1426.35 bonus).
+Performance Car 13 won!
+Performance Car 15 became damaged!
+Driver Lawrence placed 5 in the race.
+Driver Jerry is driving Performance Car 67 in the race
+Driver Theodore is driving Performance Car 68 in the race
+Driver Ed is driving Performance Car 69 in the race
+Driver Jerry placed 11 in the race.
+Driver Theodore placed 5 in the race.
+Driver Ed placed 7 in the race.
+Paid staff $10499.55 at Dealership North
+The North FNCD made $23428.65
+Paid staff $13344.48 at Dealership South
+The South FNCD made $0.00
+Promoted Bert from Intern to Salesperson at Dealership South.
