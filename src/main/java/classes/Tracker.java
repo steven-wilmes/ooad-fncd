@@ -11,6 +11,8 @@ public class Tracker implements PropertyChangeListener {
     double totalStaff;
     double totalEarned;
     int day;
+    
+    // OO PATTERN: SINGLETON (EAGER)
     static Tracker trackerInstance = new Tracker();
     
     private Tracker(){}

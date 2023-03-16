@@ -628,6 +628,8 @@ public class Dealership extends Thread {
         Scanner scan = new Scanner(System.in);
         final Salesperson[] seller = {salespeople_.get(rng.nextInt(salespeople_.size()))};
         salespeople_.remove(seller[0]);
+        
+        // OO PATTERN: COMMAND
         HashMap<String, Command> commandMap = new HashMap<>();
         commandMap.put("switch", (n) -> {
             unlock.release();
@@ -679,6 +681,7 @@ public class Dealership extends Thread {
             return "Thank you for your purchase";
             
         });
+        
         
         lock.acquire();
         String usrIn = "";

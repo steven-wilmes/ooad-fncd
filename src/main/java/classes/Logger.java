@@ -20,6 +20,7 @@ public class Logger implements PropertyChangeListener {
     
     int currentDay = 1;
     
+    // OO PATTERN: SINGLETON (LAZY)
     static Logger loggerInstance;
     
     public static synchronized Logger getInstance(int day_) {

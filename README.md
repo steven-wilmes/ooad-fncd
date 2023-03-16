@@ -21,19 +21,15 @@ forgotten to include at all in our first draft.
 
 #### Changes from 3.1
 We had some changes on the UML Diagram between Project 3.1 and 3.2. Most were relatively minor with some implementation details concerning parameters and functions for Tracker and Logger and Dealership. We also added the WashBehavior subclasses. For Project 3.1 we had a decent idea with what had to be done and a good baseline to start with, so there were no major structural changes
-## OO Elements
 
-Inheritance - Dealership:158
+#### Changes from 4.1
+We had some minor changes on the UML Diagram in Project 4.2.
 
-Polymorphism - Dealership:314
+1. We added the `UISell(Vehicle, Scanner)` to `Salesperson`
+2. We move the static `names` and `stageNames` lists from the abstract classes to their respective factories to head off any threading issues
+3. We added a second `hireStaff()` method to `StaffFactory` to handle promoting interns
+4. Most notably, we converted `Dealership` to an implementation of `Thread`, and added the `run()` method
 
-Cohesion - Dealership:147
-
-Identity - Dealership:273
-
-Encapsulation - Dealership:365
-
-Abstraction - Vehicle:90
 
 ## File Structure
 
@@ -66,6 +62,7 @@ ooad-fncd
     │       │
     │       ├───classes
     │       │   │   Buyer.java
+    │       │   │   Command.java
     │       │   │   Dealership.java
     │       │   │   Logger.java
     │       │   │   Tracker.java
@@ -83,6 +80,7 @@ ooad-fncd
     │       │   │   │   Mechanic.java
     │       │   │   │   Salesperson.java
     │       │   │   │   Staff.java
+    │       │   │   │   StaffFactory.java
     │       │   │   │
     │       │   │   └───WashBehavior
     │       │   │           ChemicalWash.java
@@ -91,13 +89,17 @@ ooad-fncd
     │       │   │           WashBehavior.java
     │       │   │
     │       │   └───vehicles
+    │       │       │   CollectorCar.java
     │       │       │   ElectricCar.java
     │       │       │   MonsterTruck.java
     │       │       │   Motorcycle.java
+    │       │       │   Motorhome.java
     │       │       │   PerformanceCar.java
     │       │       │   Pickup.java
     │       │       │   RegularCar.java
+    │       │       │   Van.java
     │       │       │   Vehicle.java
+    │       │       │   VehicleFactory.java
     │       │       │
     │       │       └───addon
     │       │               AddOnDecorator.java
@@ -109,6 +111,8 @@ ooad-fncd
     │       └───enums
     │               Cleanliness.java
     │               Condition.java
+    │               StaffType.java
+    │               VehicleType.java
     │
     └───test
         └───java
