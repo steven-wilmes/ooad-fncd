@@ -21,6 +21,7 @@ public class ElbowGrease extends WashBehavior {
         
         switch (vehicle_.getCleanliness()) {
             case SPARKLING:
+                specialString = "Error: tried to wash an already SPARKLING vehicle";
                 main.Main.log("Error: tried to wash an already SPARKLING vehicle");
                 break;
             case CLEAN:

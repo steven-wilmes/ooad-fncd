@@ -1,13 +1,11 @@
-Driver Alonzo is driving Pickup 7 in the race
-Driver Oscar is driving Pickup 8 in the race
-Driver Lawrence is driving Pickup 10 in the race
-Driver Alonzo placed 14 in the race.
-Driver Oscar placed 15 in the race.
-Pickup 10 became damaged!
-Driver Theodore is driving The Destroyer (Monster Truck 80) in the race
-Driver Ed is driving Cyborg (Monster Truck 81) in the race
-Driver Russell is driving Blacksmith (Monster Truck 84) in the race
-Driver Theodore placed 2 in the race! (earned $2866.48 bonus).
-Monster Truck 80 won!
-Driver Ed placed 8 in the race.
-Monster Truck 84 became damaged!
+Driver Philip is driving Performance Car 14 in the race
+Driver Eli is driving Performance Car 16 in the race
+Driver Horace placed 8 in the race.
+Driver Philip placed 12 in the race.
+Performance Car 16 became damaged!
+Driver Willard is driving Pickup 62 in the race
+Driver Manuel is driving Pickup 64 in the race
+Driver Floyd is driving Pickup 65 in the race
+Driver Willard placed 13 in the race.
+Driver Manuel placed 11 in the race.
+Driver Floyd placed 15 in the race.

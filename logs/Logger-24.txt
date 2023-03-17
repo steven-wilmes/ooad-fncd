@@ -1,38 +1,38 @@
-Intern Dan chemically washed Clean Monster Truck 25 and made it Sparkling (earned $3602.60 bonus).
-Intern Oliver chemically washed Dirty Monster Truck 165 and made it Clean.
-Monster Truck 165 became BROKEN from the chemical wash.
-Intern Leon chemically washed Clean Regular Car 2 and made it Clean.
-Intern Archie used some elbow grease on Clean Collector Car 106 and made it Clean.
-Intern James washed and detailed Clean Motorcycle 23 and made it Clean.
-Intern Richard washed and detailed Clean Van 95 and made it Clean.
-Intern Dan chemically washed Clean Performance Car 18 and made it Clean.
-Intern Oliver chemically washed Clean Collector Car 106 and made it Clean.
-Intern Leon chemically washed Clean Collector Car 52 and made it Sparkling (earned $1289.25 bonus).
-Intern Archie used some elbow grease on Clean Regular Car 57 and made it Clean.
-Intern James washed and detailed Clean Monster Truck 27 and made it Sparkling (earned $2654.96 bonus).
-Intern Richard washed and detailed Clean Motorcycle 75 and made it Sparkling (earned $1472.00 bonus).
-Mechanic Dennis fixed Broken Monster Truck 165 and made it Used (earned $2333.50 bonus).
-Mechanic Christopher fixed Used Monster Truck 165 and made it Like New (earned $2333.50 bonus).
-Salesperson Clinton attempted to sell Clean Like New Monster Truck 140 to Buyer for $176883.75 and did not succeed.
-Salesperson Elijah sold Clean Like New Monster Truck 140 to Buyer for $176883.75 (earned $3773.52 bonus)
-Salesperson Elijah attempted to sell Clean Like New Pickup 10 to Buyer for $104452.73 and did not succeed.
-Driver Alonzo is driving Performance Car 13 in the race
-Driver Oscar is driving Performance Car 15 in the race
-Driver Lawrence is driving Performance Car 17 in the race
-Driver Alonzo placed 8 in the race.
-Driver Oscar placed 14 in the race.
-Driver Lawrence placed 19 in the race and got injured!
-Performance Car 17 became damaged!
-Driver Theodore is driving Motorcycle 73 in the race
-Driver Ed is driving Motorcycle 74 in the race
-Driver Russell is driving Motorcycle 75 in the race
-Driver Theodore placed 17 in the race and got injured!
-Motorcycle 73 became damaged!
-Driver Ed placed 2 in the race! (earned $1182.70 bonus).
+Intern Harry used some elbow grease on Clean Performance Car 13 and made it Clean.
+Intern Owen chemically washed Clean Regular Car 59 and made it Clean.
+Intern Franklin used some elbow grease on Clean Van 39 and made it Clean.
+Intern Ross used some elbow grease on Clean Performance Car 72 and made it Clean.
+Intern Winfield chemically washed Clean Van 42 and made it Sparkling (earned $794.80 bonus).
+Intern Arthur used some elbow grease on Clean Monster Truck 145 and made it Clean.
+Monster Truck 145 became LIKE NEW from the elbow grease.
+Intern Harry used some elbow grease on Clean Van 39 and made it Dirty.
+Intern Owen chemically washed Clean Motorcycle 110 and made it Clean.
+Intern Franklin used some elbow grease on Dirty Van 39 and made it Clean.
+Intern Ross used some elbow grease on Clean Van 96 and made it Sparkling (earned $884.56 bonus).
+Intern Winfield chemically washed Clean Performance Car 17 and made it Sparkling (earned $1749.25 bonus).
+Intern Arthur used some elbow grease on Clean Collector Car 107 and made it Clean.
+Mechanic Alex tried to fix Broken Performance Car 167 and did not succeed.
+Mechanic Willis fixed Broken Performance Car 167 and made it Used (earned $1761.45 bonus).
+Mechanic Jesse fixed Used Performance Car 167 and made it Like New (earned $1761.45 bonus).
+Salesperson Earl sold Clean Like New Performance Car 14 to Buyer for $101070.00 (earned $2156.16 bonus)
+Salesperson Earl attempted to sell Clean Like New Motorhome 47 to Buyer for $91616.25 and did not succeed.
+Salesperson Luther sold Clean Like New Collector Car 108 to Buyer for $85500.00 (earned $2280.00 bonus)
+Salesperson Luther attempted to sell Clean Like New Monster Truck 161 to Buyer for $84661.88 and did not succeed.
+Driver Horace is driving Pickup 7 in the race
+Driver Philip is driving Pickup 9 in the race
+Driver Eli is driving Pickup 10 in the race
+Driver Horace placed 11 in the race.
+Driver Philip placed 20 in the race and got injured!
+Pickup 9 became damaged!
+Driver Eli placed 9 in the race.
+Driver Willard is driving Motorcycle 73 in the race
+Driver Manuel is driving Motorcycle 74 in the race
+Driver Floyd is driving Motorcycle 76 in the race
+Driver Willard placed 6 in the race.
+Driver Manuel placed 3 in the race! (earned $747.90 bonus).
 Motorcycle 74 won!
-Driver Russell placed 4 in the race.
-Paid staff $14093.33 at Dealership North
-The North FNCD made $176883.75
-Paid staff $10360.00 at Dealership South
-The South FNCD made $0.00
-Promoted Archie from Intern to Mechanic at Dealership South.
+Driver Floyd placed 8 in the race.
+Paid staff $11084.11 at Dealership North
+The North FNCD made $101070.00
+Paid staff $7510.56 at Dealership South
+The South FNCD made $85500.00

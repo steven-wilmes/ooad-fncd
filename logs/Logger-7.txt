@@ -1,9 +1,14 @@
-Driver Alonzo placed 15 in the race.
-Performance Car 16 became damaged!
-Driver Lawrence placed 11 in the race.
-Driver Jerry is driving Motorcycle 73 in the race
-Driver Theodore is driving Motorcycle 74 in the race
-Driver Ed is driving Motorcycle 75 in the race
-Driver Jerry placed 6 in the race.
-Driver Theodore placed 4 in the race.
-Driver Ed placed 10 in the race.
+Driver Sylvester is driving Madusa (Monster Truck 26) in the race
+Driver Jose is driving King Krunch (Monster Truck 27) in the race
+Driver Horace is driving The Destroyer (Monster Truck 28) in the race
+Driver Sylvester placed 18 in the race and got injured!
+Monster Truck 26 became damaged!
+Driver Jose placed 20 in the race and got injured!
+Monster Truck 27 became damaged!
+Driver Horace placed 5 in the race.
+Driver Willard is driving Pickup 61 in the race
+Driver Manuel is driving Pickup 62 in the race
+Driver Floyd is driving Pickup 63 in the race
+Driver Willard placed 14 in the race.
+Driver Manuel placed 13 in the race.
+Pickup 63 became damaged!

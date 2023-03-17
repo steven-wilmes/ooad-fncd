@@ -16,4 +16,5 @@ public class DealershipTest {
     public void testCreation() {
         assertEquals(12, testDealership.getStaffMembers().size());
     }
+
 }

@@ -55,4 +55,5 @@ public class Driver extends Staff {
     public Boolean getInjured() {
         return isInjured;
     }
+    public int getWins() {return wins;}
 }

@@ -1,31 +1,36 @@
-Intern Dan chemically washed Dirty Van 41 and made it Clean.
-Intern Oliver chemically washed Dirty Performance Car 70 and made it Clean.
-Intern Leon chemically washed Clean Van 39 and made it Clean.
-Intern Timothy used some elbow grease on Clean Monster Truck 176 and made it Clean.
-Intern James washed and detailed Clean Van 40 and made it Clean.
-Intern Hiram used some elbow grease on Clean Performance Car 69 and made it Clean.
-Intern Dan chemically washed Clean Van 40 and made it Sparkling (earned $1667.92 bonus).
-Intern Oliver chemically washed Clean Motorhome 100 and made it Sparkling (earned $1710.60 bonus).
-Intern Leon chemically washed Clean Monster Truck 166 and made it Clean.
-Intern Timothy used some elbow grease on Clean Monster Truck 80 and made it Clean.
-Intern James washed and detailed Clean Motorcycle 22 and made it Clean.
-Intern Hiram used some elbow grease on Clean Collector Car 105 and made it Clean.
-Collector Car 105 became LIKE NEW from the elbow grease.
-Salesperson Elijah sold Clean Like New Monster Truck 175 to Buyer for $63120.00 (earned $2524.80 bonus)
-Driver Russell is driving The Destroyer (Monster Truck 80) in the race
-Driver Pearl is driving Cyborg (Monster Truck 81) in the race
-Driver Carl is driving USA-1 (Monster Truck 119) in the race
-Driver Russell placed 11 in the race.
-Driver Pearl placed 13 in the race.
-Driver Carl placed 2 in the race! (earned $1658.05 bonus).
-Monster Truck 119 won!
-Driver Alonzo is driving Performance Car 13 in the race
-Driver Oscar is driving Performance Car 15 in the race
-Driver Marion is driving Performance Car 17 in the race
-Driver Alonzo placed 9 in the race.
-Driver Oscar placed 13 in the race.
-Driver Marion placed 10 in the race.
-Paid staff $5982.60 at Dealership South
+Intern Simon used some elbow grease on Clean Pickup 7 and made it Dirty.
+Intern Owen chemically washed Dirty Pickup 179 and made it Dirty.
+Pickup 179 became BROKEN from the chemical wash.
+Intern Hugh washed and detailed Dirty Pickup 7 and made it Clean.
+Intern Arthur used some elbow grease on Dirty Electric Car 86 and made it Clean.
+Electric Car 86 became LIKE NEW from the elbow grease.
+Intern Edgar used some elbow grease on Clean Regular Car 4 and made it Clean.
+Intern Ben chemically washed Dirty Pickup 179 and made it Clean.
+Intern Simon used some elbow grease on Clean Motorcycle 19 and made it Clean.
+Intern Owen chemically washed Clean Performance Car 128 and made it Clean.
+Intern Hugh washed and detailed Clean Electric Car 34 and made it Sparkling (earned $2160.00 bonus).
+Intern Arthur used some elbow grease on Clean Motorcycle 78 and made it Clean.
+Intern Edgar used some elbow grease on Clean Electric Car 31 and made it Clean.
+Electric Car 31 became LIKE NEW from the elbow grease.
+Intern Ben chemically washed Clean Motorhome 97 and made it Sparkling (earned $1084.60 bonus).
+Mechanic Emmett tried to fix Broken Pickup 179 and did not succeed.
+Mechanic Phillip fixed Broken Pickup 179 and made it Used (earned $1120.60 bonus).
+Mechanic Ross fixed Used Pickup 179 and made it Like New (earned $1120.60 bonus).
+Salesperson Franklin sold Clean Like New Pickup 173 to Buyer for $78942.00 (earned $3157.68 bonus)
+Driver Willard is driving Pickup 62 in the race
+Driver Manuel is driving Pickup 64 in the race
+Driver Floyd is driving Pickup 66 in the race
+Driver Willard placed 6 in the race.
+Driver Manuel placed 14 in the race.
+Driver Floyd placed 8 in the race.
+Driver Horace is driving Performance Car 13 in the race
+Driver Eli is driving Performance Car 17 in the race
+Driver Percy is driving Performance Car 18 in the race
+Driver Horace placed 7 in the race.
+Driver Eli placed 8 in the race.
+Driver Percy placed 4 in the race.
+Paid staff $6172.80 at Dealership South
 The South FNCD made $0.00
-Paid staff $6965.72 at Dealership North
-The North FNCD made $63120.00
+Paid staff $8176.68 at Dealership North
+The North FNCD made $78942.00
+Promoted Hugh from Intern to Mechanic at Dealership North.

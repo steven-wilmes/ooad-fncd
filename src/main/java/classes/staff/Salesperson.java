@@ -2,7 +2,7 @@ package classes.staff;
 
 import classes.Buyer;
 import classes.observerData.Tuple;
-import classes.vehicles.Vehicle;
+import classes.vehicles.*;
 import classes.vehicles.addon.ExtendedWarranty;
 import classes.vehicles.addon.RoadRescueCoverage;
 import classes.vehicles.addon.SatelliteRadio;
@@ -103,7 +103,6 @@ public class Salesperson extends Staff {
                     toSell.getSalesPrice()));
             return new Tuple(toSell, false);
         }
-        
     }
     
     public boolean UISell(Vehicle toSell_, Scanner scan_) {

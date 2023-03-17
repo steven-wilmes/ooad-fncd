@@ -1,44 +1,45 @@
-Intern Guy used some elbow grease on Dirty Performance Car 17 and made it Clean.
-Intern Bert washed and detailed Dirty Electric Car 87 and made it Dirty.
-Intern Elijah chemically washed Dirty Performance Car 16 and made it Clean.
-Intern Christopher washed and detailed Dirty Performance Car 67 and made it Clean.
-Intern Reuben used some elbow grease on Dirty Van 39 and made it Dirty.
-Intern Oliver chemically washed Dirty Motorcycle 73 and made it Clean.
-Intern Guy used some elbow grease on Dirty Motorcycle 20 and made it Dirty.
-Intern Bert washed and detailed Dirty Collector Car 107 and made it Clean.
-Intern Elijah chemically washed Dirty Motorhome 44 and made it Clean.
-Intern Christopher washed and detailed Dirty Motorcycle 78 and made it Clean.
-Intern Reuben used some elbow grease on Dirty Motorcycle 19 and made it Clean.
-Intern Oliver chemically washed Dirty Pickup 64 and made it Clean.
-Mechanic Marshall fixed Broken Collector Car 50 and made it Used (earned $1262.80 bonus).
-Mechanic Matthew fixed Broken Monster Truck 81 and made it Used (earned $1686.40 bonus).
-Mechanic Hugh tried to fix Used Van 40 and did not succeed.
-Mechanic Dennis fixed Used Electric Car 88 and made it Like New (earned $1287.60 bonus).
-Mechanic Henry fixed Broken Performance Car 13 and made it Used (earned $1426.35 bonus).
-Mechanic Wiley fixed Broken Monster Truck 82 and made it Used (earned $2224.35 bonus).
-Mechanic Marshall fixed Broken Regular Car 2 and made it Used (earned $576.35 bonus).
-Mechanic Matthew fixed Broken Performance Car 67 and made it Used (earned $1365.85 bonus).
-Mechanic Hugh fixed Used Electric Car 34 and made it Like New (earned $1171.05 bonus).
-Mechanic Dennis fixed Used Regular Car 60 and made it Like New (earned $1304.08 bonus).
-Mechanic Henry fixed Used Regular Car 2 and made it Like New (earned $576.35 bonus).
-Mechanic Wiley fixed Used Pickup 61 and made it Like New (earned $2675.20 bonus).
-Salesperson Leo sold Clean Like New Performance Car, satellite radio 109 to Buyer for $23428.65 (earned $1115.65 bonus)
-Salesperson Leo attempted to sell Clean Broken Electric Car 36 to Buyer for $36960.00 and did not succeed.
-Driver Alonzo is driving Performance Car 13 in the race
-Driver Oscar is driving Performance Car 15 in the race
-Driver Lawrence is driving Performance Car 16 in the race
-Driver Alonzo placed 3 in the race! (earned $1426.35 bonus).
-Performance Car 13 won!
-Performance Car 15 became damaged!
-Driver Lawrence placed 5 in the race.
-Driver Jerry is driving Performance Car 67 in the race
-Driver Theodore is driving Performance Car 68 in the race
-Driver Ed is driving Performance Car 69 in the race
-Driver Jerry placed 11 in the race.
-Driver Theodore placed 5 in the race.
-Driver Ed placed 7 in the race.
-Paid staff $10499.55 at Dealership North
-The North FNCD made $23428.65
-Paid staff $13344.48 at Dealership South
-The South FNCD made $0.00
-Promoted Bert from Intern to Salesperson at Dealership South.
+Intern Willis used some elbow grease on Dirty Monster Truck 27 and made it Clean.
+Intern Phillip used some elbow grease on Dirty Electric Car 86 and made it Clean.
+Intern Raymond chemically washed Dirty Electric Car 35 and made it Clean.
+Intern Owen chemically washed Dirty Motorcycle 77 and made it Clean.
+Intern Harley chemically washed Dirty Regular Car 2 and made it Clean.
+Intern Ross used some elbow grease on Dirty Collector Car 107 and made it Clean.
+Intern Willis used some elbow grease on Dirty Electric Car 33 and made it Dirty.
+Intern Phillip used some elbow grease on Dirty Monster Truck 84 and made it Clean.
+Intern Raymond chemically washed Dirty Performance Car 14 and made it Clean.
+Intern Owen chemically washed Dirty Performance Car 69 and made it Sparkling (earned $2030.60 bonus).
+Intern Harley chemically washed Dirty Collector Car 50 and made it Dirty.
+Intern Ross used some elbow grease on Dirty Pickup 63 and made it Dirty.
+Mechanic Dan fixed Broken Performance Car 17 and made it Used (earned $1749.25 bonus).
+Mechanic Simon fixed Broken Motorhome 101 and made it Used (earned $1183.60 bonus).
+Mechanic Jerry fixed Used Electric Car 33 and made it Like New (earned $1833.76 bonus).
+Mechanic Emmett tried to fix Broken Pickup 62 and did not succeed.
+Mechanic Alex fixed Used Electric Car 31 and made it Like New (earned $1496.75 bonus).
+Mechanic Edward fixed Broken Performance Car 68 and made it Used (earned $1081.55 bonus).
+Mechanic Dan fixed Used Van 40 and made it Like New (earned $1594.72 bonus).
+Mechanic Simon fixed Used Motorcycle 77 and made it Like New (earned $817.55 bonus).
+Mechanic Jerry tried to fix Broken Van 42 and did not succeed.
+Mechanic Emmett fixed Used Van 94 and made it Like New (earned $939.12 bonus).
+Mechanic Alex tried to fix Broken Pickup 8 and did not succeed.
+Mechanic Edward fixed Broken Performance Car 67 and made it Used (earned $1929.55 bonus).
+Salesperson Wallace sold Sparkling Broken Monster Truck, satellite radio 116 to Buyer for $97889.40 (earned $4661.40 bonus)
+Salesperson Jay sold Dirty Used Pickup, extended warranty, satellite radio 118 to Buyer for $70404.39 (earned $1862.55 bonus)
+Salesperson Luther sold Dirty Like New Monster Truck, satellite radio 119 to Buyer for $101516.10 (earned $4834.10 bonus)
+Driver Sylvester is driving Performance Car 13 in the race
+Driver Jose is driving Performance Car 14 in the race
+Driver Horace is driving Performance Car 15 in the race
+Driver Sylvester placed 7 in the race.
+Driver Jose placed 12 in the race.
+Driver Horace placed 10 in the race.
+Driver Willard is driving Performance Car 67 in the race
+Driver Manuel is driving Performance Car 68 in the race
+Driver Virgil is driving Performance Car 69 in the race
+Driver Willard placed 8 in the race.
+Performance Car 68 became damaged!
+Driver Virgil placed 20 in the race and got injured!
+Performance Car 69 became damaged!
+Paid staff $15965.43 at Dealership North
+The North FNCD made $168293.79
+Promoted Harley from Intern to Salesperson at Dealership North.
+Paid staff $15636.07 at Dealership South
+The South FNCD made $101516.10

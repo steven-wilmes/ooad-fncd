@@ -1,13 +1,11 @@
-Driver Alonzo is driving Motorcycle 19 in the race
-Driver Oscar is driving Motorcycle 21 in the race
-Driver Lawrence is driving Motorcycle 22 in the race
-Motorcycle 19 became damaged!
-Driver Oscar placed 4 in the race.
-Driver Lawrence placed 2 in the race! (earned $1965.50 bonus).
-Motorcycle 22 won!
-Driver Jerry is driving Performance Car 67 in the race
-Driver Theodore is driving Performance Car 68 in the race
-Driver Ed is driving Performance Car 69 in the race
-Driver Jerry placed 14 in the race.
-Performance Car 68 became damaged!
-Driver Ed placed 12 in the race.
+Driver Philip is driving Performance Car 15 in the race
+Driver Horace placed 13 in the race.
+Driver Lawrence placed 17 in the race and got injured!
+Performance Car 14 became damaged!
+Performance Car 15 became damaged!
+Driver Willard is driving Blue Thunder (Monster Truck 81) in the race
+Driver Manuel is driving Batman (Monster Truck 83) in the race
+Driver Floyd is driving Monster Mutt Dalmatian (Monster Truck 84) in the race
+Driver Willard placed 8 in the race.
+Driver Manuel placed 13 in the race.
+Driver Floyd placed 10 in the race.
