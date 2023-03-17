@@ -25,11 +25,13 @@ We had some changes on the UML Diagram between Project 3.1 and 3.2. Most were re
 #### Changes from 4.1
 We had some minor changes on the UML Diagram in Project 4.2.
 
-1. We added the `UISell(Vehicle, Scanner)` to `Salesperson`
-2. We move the static `names` and `stageNames` lists from the abstract classes to their respective factories to head off any threading issues
+1. We added the `UISell(Vehicle, Scanner)` to `Salesperson```
+2. We move the static `names` and `stageNames` lists from the abstract classes to their resp``ective factories to head off any threading issues
 3. We added a second `hireStaff()` method to `StaffFactory` to handle promoting interns
 4. Most notably, we converted `Dealership` to an implementation of `Thread`, and added the `run()` method
 
+### Testing
+Testing was performed in the IDE by running each test class file, and results have been captured in the testOutputs pdf
 
 ## File Structure
 

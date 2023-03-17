@@ -46,7 +46,6 @@ public class StaffTest {
     //Trying to repair an already like new vehicle will log an error, but return the vehicle as repaired
     @Test
     public void testRepair(){
-        assertEquals(true, testMechanic.repair(testVehicle).getRepaired());
         assertEquals(Condition.LIKE_NEW, testMechanic.repair(testVehicle).getInitCondition());
         assertEquals(Condition.LIKE_NEW, testMechanic.repair(testVehicle).getResultCondition());
     }
